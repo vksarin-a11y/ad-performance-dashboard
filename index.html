@@ -170,7 +170,6 @@
     color:var(--ink-soft);
     margin-top:2px;
   }
-  .chart-legend .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:3px;}
   .m-delta.pos{color:var(--good);}
   .m-delta.neg{color:var(--bad);}
   .m-delta.flat{color:var(--ink-soft);}
@@ -226,7 +225,10 @@
 <div class="wrap">
   <p class="eyebrow">Live account ledger</p>
   <h1>Ad account performance</h1>
-  <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span></p>
+  <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span>
+    &middot; <span style="color:var(--accent);">&#9644;</span> this month &nbsp;
+    <span style="color:var(--ink-soft);">&#8901;&#8901;&#8901;</span> last month
+  </p>
 
   <div id="managers"></div>
 
@@ -325,14 +327,15 @@ function accountCard(a, cardId){
     metricBox('Phone calls', fmt(g.phone_calls, 0), pct.phone_calls),
   ].join('');
 
+  const daily = a.google.daily || { this_month: [], last_month: [] };
   const chartsHtml = [
-    miniChartCell('Spend', g.spend, prev.spend),
-    miniChartCell('Impr.', g.impressions, prev.impressions),
-    miniChartCell('Clicks', g.clicks, prev.clicks),
-    miniChartCell('Conv.', g.conversions, prev.conversions),
-    miniChartCell('CPC', g.cpc, prev.cpc),
-    miniChartCell('Cost/conv', g.cost_per_conversion, prev.cost_per_conversion),
-    miniChartCell('Calls', g.phone_calls, prev.phone_calls),
+    lineChartCell('Spend', daily, 'spend'),
+    lineChartCell('Impr.', daily, 'impressions'),
+    lineChartCell('Clicks', daily, 'clicks'),
+    lineChartCell('Conv.', daily, 'conversions'),
+    lineChartCell('CPC', daily, 'cpc'),
+    lineChartCell('Cost/conv', daily, 'cost_per_conversion'),
+    lineChartCell('Calls', daily, 'phone_calls'),
   ].join('');
 
   const campaigns = a.google.campaigns || [];
@@ -395,17 +398,64 @@ function metricBox(label, value, pctChange){
   );
 }
 
-function miniChartCell(label, current, previous){
-  current = current || 0;
-  previous = previous || 0;
-  const maxVal = Math.max(current, previous, 0.0001);
-  const hCur = Math.max(1, Math.round((current / maxVal) * 34));
-  const hPrev = Math.max(1, Math.round((previous / maxVal) * 34));
+function extractDailyValue(day, metricKey){
+  if(metricKey === 'cpc'){
+    return day.clicks ? (day.spend / day.clicks) : null;
+  }
+  if(metricKey === 'cost_per_conversion'){
+    return day.conversions ? (day.spend / day.conversions) : null;
+  }
+  return day[metricKey];
+}
+
+function lineChartCell(label, daily, metricKey){
+  const thisMonth = daily.this_month || [];
+  const lastMonth = daily.last_month || [];
+
+  const width = 150, height = 46, padX = 4, padY = 4;
+  const maxDay = Math.max(
+    1,
+    ...thisMonth.map(d => d.day),
+    ...lastMonth.map(d => d.day)
+  );
+
+  const toPoints = (series) => {
+    const pts = [];
+    series.forEach(d => {
+      const val = extractDailyValue(d, metricKey);
+      if(val === null || val === undefined) return;
+      const x = padX + ((d.day - 1) / Math.max(1, maxDay - 1)) * (width - padX * 2);
+      pts.push({ x, val });
+    });
+    return pts;
+  };
+
+  const curRaw = toPoints(thisMonth);
+  const prevRaw = toPoints(lastMonth);
+
+  if(curRaw.length === 0 && prevRaw.length === 0){
+    return `<div class="chart-cell"><div class="empty-state" style="font-size:10px;">no daily data yet</div><div class="chart-legend">${escapeHtml(label)}</div></div>`;
+  }
+
+  const maxVal = Math.max(1, ...curRaw.map(p => p.val), ...prevRaw.map(p => p.val));
+  const toY = (val) => height - padY - (val / maxVal) * (height - padY * 2);
+
+  const curPoints = curRaw.map(p => `${p.x.toFixed(1)},${toY(p.val).toFixed(1)}`).join(' ');
+  const prevPoints = prevRaw.map(p => `${p.x.toFixed(1)},${toY(p.val).toFixed(1)}`).join(' ');
+
+  let areaPoly = '';
+  if(curRaw.length > 1){
+    const baseline = height - padY;
+    areaPoly = curPoints + ` ${curRaw[curRaw.length-1].x.toFixed(1)},${baseline} ${curRaw[0].x.toFixed(1)},${baseline}`;
+  }
+
   const svg =
-    '<svg viewBox="0 0 56 40" width="100%" height="40" preserveAspectRatio="xMidYMax meet">' +
-    '<rect x="8" y="' + (36 - hCur) + '" width="16" height="' + hCur + '" rx="2" fill="var(--accent)"></rect>' +
-    '<rect x="32" y="' + (36 - hPrev) + '" width="16" height="' + hPrev + '" rx="2" fill="var(--hairline)"></rect>' +
+    `<svg viewBox="0 0 ${width} ${height}" width="100%" height="${height}" preserveAspectRatio="none">` +
+    (prevPoints ? `<polyline points="${prevPoints}" fill="none" stroke="var(--ink-soft)" stroke-width="1.2" stroke-dasharray="3,2"></polyline>` : '') +
+    (areaPoly ? `<polygon points="${areaPoly}" fill="var(--accent-soft)" opacity="0.6"></polygon>` : '') +
+    (curPoints ? `<polyline points="${curPoints}" fill="none" stroke="var(--accent)" stroke-width="1.6"></polyline>` : '') +
     '</svg>';
+
   return (
     '<div class="chart-cell">' +
     svg +
