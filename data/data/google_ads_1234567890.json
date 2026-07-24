@@ -1,0 +1,14 @@
+{
+  "account_id": "1234567890",
+  "account_name": "Acme Co",
+  "account_manager": "Jane Doe",
+  "platform": "google_ads",
+  "date_range": "LAST_7_DAYS",
+  "updated_at": "2026-07-23T09:00:00.000Z",
+  "metrics": {
+    "spend": 1842.37,
+    "impressions": 128400,
+    "clicks": 3120,
+    "conversions": 84
+  }
+}
