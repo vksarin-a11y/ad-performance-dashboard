@@ -49,7 +49,7 @@
     font-family:'Inter', system-ui, sans-serif;
     line-height:1.5;
   }
-  .wrap{max-width:1040px;margin:0 auto;padding:48px 24px 96px;}
+  .wrap{max-width:1240px;margin:0 auto;padding:48px 24px 96px;}
   .eyebrow{
     font-family:'IBM Plex Mono', monospace;
     font-size:12px;
@@ -67,30 +67,6 @@
   }
   .subhead{color:var(--ink-soft);font-size:14px;margin:0 0 40px;}
   .subhead span{font-family:'IBM Plex Mono', monospace;}
-
-  .totals{
-    display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap:1px;
-    background:var(--hairline);
-    border:1px solid var(--hairline);
-    border-radius:var(--radius);
-    overflow:hidden;
-    margin-bottom:48px;
-  }
-  .totals .cell{background:var(--paper-raised);padding:18px 20px;}
-  .totals .label{
-    font-size:11px;
-    letter-spacing:0.06em;
-    text-transform:uppercase;
-    color:var(--ink-soft);
-    margin-bottom:8px;
-  }
-  .totals .value{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:22px;
-    font-weight:500;
-  }
 
   .manager-group{margin-bottom:36px;}
   .manager-header{
@@ -159,27 +135,42 @@
 
   .metrics-grid{
     display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap:14px;
+    grid-template-columns:repeat(7, 1fr);
+    gap:10px;
     margin-top:14px;
   }
   .metric-box .m-label{
-    font-size:10px;
-    letter-spacing:0.05em;
+    font-size:9px;
+    letter-spacing:0.04em;
     text-transform:uppercase;
     color:var(--ink-soft);
     margin-bottom:3px;
+    white-space:nowrap;
   }
   .metric-box .m-value{
     font-family:'IBM Plex Mono', monospace;
-    font-size:15px;
+    font-size:14px;
     font-weight:500;
   }
   .metric-box .m-delta{
     font-family:'IBM Plex Mono', monospace;
-    font-size:11px;
+    font-size:10px;
     margin-top:2px;
   }
+  .metrics-chart-row{
+    display:grid;
+    grid-template-columns:repeat(7, 1fr);
+    gap:10px;
+    margin-top:12px;
+  }
+  .chart-cell{text-align:center;}
+  .chart-legend{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:9px;
+    color:var(--ink-soft);
+    margin-top:2px;
+  }
+  .chart-legend .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:3px;}
   .m-delta.pos{color:var(--good);}
   .m-delta.neg{color:var(--bad);}
   .m-delta.flat{color:var(--ink-soft);}
@@ -220,9 +211,13 @@
     color:var(--ink-soft);
   }
 
+  @media (max-width: 900px){
+    .metrics-grid{grid-template-columns:repeat(4,1fr);}
+    .metrics-chart-row{grid-template-columns:repeat(4,1fr);}
+  }
   @media (max-width: 720px){
-    .totals{grid-template-columns:repeat(2,1fr);}
     .metrics-grid{grid-template-columns:repeat(2,1fr);}
+    .metrics-chart-row{grid-template-columns:repeat(2,1fr);}
     .account-head{flex-direction:column;}
   }
 </style>
@@ -233,7 +228,6 @@
   <h1>Ad account performance</h1>
   <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span></p>
 
-  <div class="totals" id="totals"></div>
   <div id="managers"></div>
 
   <footer>
@@ -244,7 +238,6 @@
 <script>
 async function loadDashboard(){
   const managersEl = document.getElementById('managers');
-  const totalsEl = document.getElementById('totals');
 
   let manifest;
   try{
@@ -261,7 +254,6 @@ async function loadDashboard(){
     return { ...acc, google, meta };
   }));
 
-  renderTotals(accounts, totalsEl);
   renderManagerGroups(accounts, managersEl);
   setLastUpdated(accounts);
   attachExpandHandlers();
@@ -275,27 +267,6 @@ async function tryFetch(path){
   }catch(e){
     return null;
   }
-}
-
-function renderTotals(accounts, el){
-  const totals = accounts.reduce((sum, a) => {
-    if(a.google && a.google.metrics){
-      sum.spend += a.google.metrics.spend || 0;
-      sum.clicks += a.google.metrics.clicks || 0;
-      sum.conversions += a.google.metrics.conversions || 0;
-      sum.phoneCalls += a.google.metrics.phone_calls || 0;
-    }
-    return sum;
-  }, { spend: 0, clicks: 0, conversions: 0, phoneCalls: 0 });
-
-  const connected = accounts.filter(a => a.google).length;
-
-  el.innerHTML = `
-    <div class="cell"><div class="label">Total spend (MTD)</div><div class="value">$${fmt(totals.spend)}</div></div>
-    <div class="cell"><div class="label">Total clicks (MTD)</div><div class="value">${fmt(totals.clicks, 0)}</div></div>
-    <div class="cell"><div class="label">Total conversions (MTD)</div><div class="value">${fmt(totals.conversions, 0)}</div></div>
-    <div class="cell"><div class="label">Accounts reporting</div><div class="value">${connected} / ${accounts.length}</div></div>
-  `;
 }
 
 function renderManagerGroups(accounts, el){
@@ -354,6 +325,16 @@ function accountCard(a, cardId){
     metricBox('Phone calls', fmt(g.phone_calls, 0), pct.phone_calls),
   ].join('');
 
+  const chartsHtml = [
+    miniChartCell('Spend', g.spend, prev.spend),
+    miniChartCell('Impr.', g.impressions, prev.impressions),
+    miniChartCell('Clicks', g.clicks, prev.clicks),
+    miniChartCell('Conv.', g.conversions, prev.conversions),
+    miniChartCell('CPC', g.cpc, prev.cpc),
+    miniChartCell('Cost/conv', g.cost_per_conversion, prev.cost_per_conversion),
+    miniChartCell('Calls', g.phone_calls, prev.phone_calls),
+  ].join('');
+
   const campaigns = a.google.campaigns || [];
   const campaignRows = campaigns.map(c => `
     <tr>
@@ -390,6 +371,7 @@ function accountCard(a, cardId){
         </div>
       </div>
       <div class="metrics-grid">${metricsHtml}</div>
+      <div class="metrics-chart-row">${chartsHtml}</div>
       <div class="campaigns-panel">${campaignsTable}</div>
     </div>
   `;
@@ -409,6 +391,25 @@ function metricBox(label, value, pctChange){
     '<div class="m-label">' + label + '</div>' +
     '<div class="m-value">' + value + '</div>' +
     '<div class="m-delta-wrap">' + deltaHtml + '</div>' +
+    '</div>'
+  );
+}
+
+function miniChartCell(label, current, previous){
+  current = current || 0;
+  previous = previous || 0;
+  const maxVal = Math.max(current, previous, 0.0001);
+  const hCur = Math.max(1, Math.round((current / maxVal) * 34));
+  const hPrev = Math.max(1, Math.round((previous / maxVal) * 34));
+  const svg =
+    '<svg viewBox="0 0 56 40" width="100%" height="40" preserveAspectRatio="xMidYMax meet">' +
+    '<rect x="8" y="' + (36 - hCur) + '" width="16" height="' + hCur + '" rx="2" fill="var(--accent)"></rect>' +
+    '<rect x="32" y="' + (36 - hPrev) + '" width="16" height="' + hPrev + '" rx="2" fill="var(--hairline)"></rect>' +
+    '</svg>';
+  return (
+    '<div class="chart-cell">' +
+    svg +
+    '<div class="chart-legend">' + escapeHtml(label) + '</div>' +
     '</div>'
   );
 }
