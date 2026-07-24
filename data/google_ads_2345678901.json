@@ -1,0 +1,14 @@
+{
+  "account_id": "2345678901",
+  "account_name": "North Star Retail",
+  "account_manager": "Jane Doe",
+  "platform": "google_ads",
+  "date_range": "LAST_7_DAYS",
+  "updated_at": "2026-07-23T09:00:00.000Z",
+  "metrics": {
+    "spend": 3910.12,
+    "impressions": 241800,
+    "clicks": 5460,
+    "conversions": 201
+  }
+}
