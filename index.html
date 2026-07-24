@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper: #F6F6F3;
+    --paper-raised: #FFFFFF;
+    --ink: #1B1D1F;
+    --ink-soft: #5C5F63;
+    --hairline: #DEDDD6;
+    --accent: #2C6E8E;
+    --accent-soft: #E3EEF2;
+    --warn: #C97A2B;
+    --warn-soft: #FBF0E4;
+    --good: #4C7A3D;
+    --good-soft: #EAF1E6;
+    --bad: #B34A3C;
+    --bad-soft: #F8EAE7;
+    --radius: 6px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper: #17181A;
+      --paper-raised: #1F2123;
+      --ink: #EDEDEA;
+      --ink-soft: #9A9C9F;
+      --hairline: #33353A;
+      --accent: #7FB9D4;
+      --accent-soft: #223842;
+      --warn: #E0A45E;
+      --warn-soft: #3A2E1C;
+      --good: #8FC17E;
+      --good-soft: #223321;
+      --bad: #E08A7C;
+      --bad-soft: #3A211D;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', system-ui, sans-serif;
+    line-height:1.5;
+  }
+  .wrap{max-width:1040px;margin:0 auto;padding:48px 24px 96px;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin:0 0 6px;
+  }
+  h1{
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:600;
+    font-size:28px;
+    margin:0 0 4px;
+    letter-spacing:-0.01em;
+  }
+  .subhead{color:var(--ink-soft);font-size:14px;margin:0 0 40px;}
+  .subhead span{font-family:'IBM Plex Mono', monospace;}
+
+  .totals{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:1px;
+    background:var(--hairline);
+    border:1px solid var(--hairline);
+    border-radius:var(--radius);
+    overflow:hidden;
+    margin-bottom:48px;
+  }
+  .totals .cell{background:var(--paper-raised);padding:18px 20px;}
+  .totals .label{
+    font-size:11px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-bottom:8px;
+  }
+  .totals .value{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:22px;
+    font-weight:500;
+  }
+
+  .manager-group{margin-bottom:36px;}
+  .manager-header{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    border-bottom:1px solid var(--hairline);
+    padding-bottom:8px;
+    margin-bottom:2px;
+  }
+  .manager-name{
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:600;
+    font-size:16px;
+  }
+  .manager-total{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+
+  .account-card{
+    border-bottom:1px solid var(--hairline);
+    padding:16px 4px;
+    cursor:pointer;
+  }
+  .account-card:last-child{border-bottom:none;}
+  .account-card:hover{background:rgba(127,127,127,0.04);}
+
+  .account-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
+  }
+  .account-name-row{display:flex;align-items:center;gap:8px;}
+  .account-name{font-weight:500;font-size:15px;font-family:'Space Grotesk', sans-serif;}
+  .chevron{
+    font-family:'IBM Plex Mono', monospace;
+    color:var(--ink-soft);
+    font-size:12px;
+    transition:transform 0.15s ease;
+  }
+  .account-card.expanded .chevron{transform:rotate(90deg);}
+
+  .badges{display:flex;gap:6px;flex-shrink:0;}
+  .badge{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    padding:3px 8px;
+    border-radius:100px;
+    white-space:nowrap;
+  }
+  .badge.on{background:var(--accent-soft);color:var(--accent);}
+  .badge.off{background:var(--warn-soft);color:var(--warn);}
+
+  .recommendation{
+    font-size:12px;
+    margin-top:4px;
+    padding:4px 8px;
+    border-radius:4px;
+    display:inline-block;
+  }
+  .recommendation.flag{background:var(--warn-soft);color:var(--warn);}
+  .recommendation.ok{background:var(--good-soft);color:var(--good);}
+
+  .metrics-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:14px;
+    margin-top:14px;
+  }
+  .metric-box .m-label{
+    font-size:10px;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-bottom:3px;
+  }
+  .metric-box .m-value{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:15px;
+    font-weight:500;
+  }
+  .metric-box .m-delta{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    margin-top:2px;
+  }
+  .m-delta.pos{color:var(--good);}
+  .m-delta.neg{color:var(--bad);}
+  .m-delta.flat{color:var(--ink-soft);}
+
+  .empty-state{font-size:13px;color:var(--ink-soft);font-style:italic;}
+
+  .campaigns-panel{
+    display:none;
+    margin-top:16px;
+    border-top:1px dashed var(--hairline);
+    padding-top:12px;
+  }
+  .account-card.expanded .campaigns-panel{display:block;}
+  .campaign-table{width:100%;border-collapse:collapse;font-size:12px;}
+  .campaign-table th{
+    text-align:right;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    color:var(--ink-soft);
+    padding:4px 8px;
+    font-weight:400;
+  }
+  .campaign-table th:first-child, .campaign-table td:first-child{text-align:left;}
+  .campaign-table td{
+    text-align:right;
+    font-family:'IBM Plex Mono', monospace;
+    padding:6px 8px;
+    border-top:1px solid var(--hairline);
+  }
+  .campaign-table td:first-child{font-family:'Inter', sans-serif;}
+
+  footer{
+    margin-top:56px;
+    padding-top:20px;
+    border-top:1px solid var(--hairline);
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+
+  @media (max-width: 720px){
+    .totals{grid-template-columns:repeat(2,1fr);}
+    .metrics-grid{grid-template-columns:repeat(2,1fr);}
+    .account-head{flex-direction:column;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Live account ledger</p>
+  <h1>Ad account performance</h1>
+  <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span></p>
+
+  <div class="totals" id="totals"></div>
+  <div id="managers"></div>
+
+  <footer>
+    Data source: Google Ads (live). Meta not yet connected for accounts marked <span class="badge off" style="display:inline;">meta off</span> — add a Meta feed and its badge will flip automatically, no code changes needed. Click any account to see its campaign breakdown.
+  </footer>
+</div>
+
+<script>
+async function loadDashboard(){
+  const managersEl = document.getElementById('managers');
+  const totalsEl = document.getElementById('totals');
+
+  let manifest;
+  try{
+    const res = await fetch('data/accounts.json', { cache: 'no-store' });
+    manifest = await res.json();
+  }catch(e){
+    managersEl.innerHTML = '<p class="empty-state">Could not load data/accounts.json — check the file exists and is valid JSON.</p>';
+    return;
+  }
+
+  const accounts = await Promise.all(manifest.accounts.map(async (acc) => {
+    const google = acc.google_ads_id ? await tryFetch(`data/google_ads_${acc.google_ads_id}.json`) : null;
+    const meta = acc.meta_ad_account_id ? await tryFetch(`data/meta_${acc.meta_ad_account_id}.json`) : null;
+    return { ...acc, google, meta };
+  }));
+
+  renderTotals(accounts, totalsEl);
+  renderManagerGroups(accounts, managersEl);
+  setLastUpdated(accounts);
+  attachExpandHandlers();
+}
+
+async function tryFetch(path){
+  try{
+    const res = await fetch(path, { cache: 'no-store' });
+    if(!res.ok) return null;
+    return await res.json();
+  }catch(e){
+    return null;
+  }
+}
+
+function renderTotals(accounts, el){
+  const totals = accounts.reduce((sum, a) => {
+    if(a.google && a.google.metrics){
+      sum.spend += a.google.metrics.spend || 0;
+      sum.clicks += a.google.metrics.clicks || 0;
+      sum.conversions += a.google.metrics.conversions || 0;
+      sum.phoneCalls += a.google.metrics.phone_calls || 0;
+    }
+    return sum;
+  }, { spend: 0, clicks: 0, conversions: 0, phoneCalls: 0 });
+
+  const connected = accounts.filter(a => a.google).length;
+
+  el.innerHTML = `
+    <div class="cell"><div class="label">Total spend (MTD)</div><div class="value">$${fmt(totals.spend)}</div></div>
+    <div class="cell"><div class="label">Total clicks (MTD)</div><div class="value">${fmt(totals.clicks, 0)}</div></div>
+    <div class="cell"><div class="label">Total conversions (MTD)</div><div class="value">${fmt(totals.conversions, 0)}</div></div>
+    <div class="cell"><div class="label">Accounts reporting</div><div class="value">${connected} / ${accounts.length}</div></div>
+  `;
+}
+
+function renderManagerGroups(accounts, el){
+  const byManager = {};
+  accounts.forEach(a => {
+    (byManager[a.manager] = byManager[a.manager] || []).push(a);
+  });
+
+  el.innerHTML = Object.entries(byManager).map(([manager, accs], groupIdx) => {
+    const managerTotal = accs.reduce((s, a) => s + ((a.google && a.google.metrics.spend) || 0), 0);
+    const rows = accs.map((a, i) => accountCard(a, `${groupIdx}-${i}`)).join('');
+    return `
+      <div class="manager-group">
+        <div class="manager-header">
+          <div class="manager-name">${escapeHtml(manager)}</div>
+          <div class="manager-total">$${fmt(managerTotal)} managed (MTD)</div>
+        </div>
+        ${rows}
+      </div>
+    `;
+  }).join('');
+}
+
+function accountCard(a, cardId){
+  const g = a.google && a.google.metrics;
+
+  if(!g){
+    return `
+      <div class="account-card">
+        <div class="account-head">
+          <div>
+            <div class="account-name-row"><span class="account-name">${escapeHtml(a.name)}</span></div>
+            <div class="empty-state">No Google Ads data yet — waiting for first script run</div>
+          </div>
+          <div class="badges">
+            <span class="badge off">google off</span>
+            <span class="badge off">meta off</span>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  const prev = a.google.previous_month || {};
+  const pct = a.google.comparison_pct || {};
+  const rec = a.google.recommendation || '';
+  const recIsFlag = rec && !/^Performance is roughly in line/i.test(rec);
+
+  const metricsHtml = [
+    metricBox('Spend', '$' + fmt(g.spend), pct.spend),
+    metricBox('Impressions', fmt(g.impressions, 0), pct.impressions),
+    metricBox('Clicks', fmt(g.clicks, 0), pct.clicks),
+    metricBox('Conversions', fmt(g.conversions, 0), pct.conversions),
+    metricBoxRaw('CPC', '$' + fmt(g.cpc), prev.cpc != null ? ('was $' + fmt(prev.cpc)) : 'no prior data'),
+    metricBoxRaw('Cost / conversion', '$' + fmt(g.cost_per_conversion), prev.cost_per_conversion != null ? ('was $' + fmt(prev.cost_per_conversion)) : 'no prior data'),
+    metricBox('Phone calls', fmt(g.phone_calls, 0), pct.phone_calls),
+  ].join('');
+
+  const campaigns = a.google.campaigns || [];
+  const campaignRows = campaigns.map(c => `
+    <tr>
+      <td>${escapeHtml(c.name)}</td>
+      <td>$${fmt(c.spend)}</td>
+      <td>${fmt(c.impressions, 0)}</td>
+      <td>${fmt(c.clicks, 0)}</td>
+      <td>${fmt(c.conversions, 0)}</td>
+      <td>$${fmt(c.cpc)}</td>
+      <td>$${fmt(c.cost_per_conversion)}</td>
+      <td>${fmt(c.phone_calls, 0)}</td>
+    </tr>
+  `).join('');
+
+  const campaignsTable = campaigns.length ? (
+    '<table class="campaign-table"><thead><tr>' +
+    '<th>Campaign</th><th>Spend</th><th>Impr.</th><th>Clicks</th><th>Conv.</th><th>CPC</th><th>Cost/conv</th><th>Calls</th>' +
+    '</tr></thead><tbody>' + campaignRows + '</tbody></table>'
+  ) : '<p class="empty-state">No campaign-level data in this file yet.</p>';
+
+  return `
+    <div class="account-card" data-card-id="${cardId}">
+      <div class="account-head">
+        <div>
+          <div class="account-name-row">
+            <span class="chevron">&#9656;</span>
+            <span class="account-name">${escapeHtml(a.name)}</span>
+          </div>
+          ${rec ? ('<div class="recommendation ' + (recIsFlag ? 'flag' : 'ok') + '">' + escapeHtml(rec) + '</div>') : ''}
+        </div>
+        <div class="badges">
+          <span class="badge on">google on</span>
+          <span class="badge ${a.meta ? 'on' : 'off'}">meta ${a.meta ? 'on' : 'off'}</span>
+        </div>
+      </div>
+      <div class="metrics-grid">${metricsHtml}</div>
+      <div class="campaigns-panel">${campaignsTable}</div>
+    </div>
+  `;
+}
+
+function metricBox(label, value, pctChange){
+  let deltaHtml;
+  if(pctChange === null || pctChange === undefined){
+    deltaHtml = '<span class="m-delta flat">no prior month</span>';
+  } else {
+    const cls = pctChange > 0 ? 'pos' : (pctChange < 0 ? 'neg' : 'flat');
+    const sign = pctChange > 0 ? '+' : '';
+    deltaHtml = '<span class="m-delta ' + cls + '">' + sign + fmt(pctChange) + '% vs last month</span>';
+  }
+  return (
+    '<div class="metric-box">' +
+    '<div class="m-label">' + label + '</div>' +
+    '<div class="m-value">' + value + '</div>' +
+    '<div class="m-delta-wrap">' + deltaHtml + '</div>' +
+    '</div>'
+  );
+}
+
+function metricBoxRaw(label, value, note){
+  return (
+    '<div class="metric-box">' +
+    '<div class="m-label">' + label + '</div>' +
+    '<div class="m-value">' + value + '</div>' +
+    '<span class="m-delta flat">' + escapeHtml(note) + '</span>' +
+    '</div>'
+  );
+}
+
+function attachExpandHandlers(){
+  document.querySelectorAll('.account-card[data-card-id]').forEach(card => {
+    card.addEventListener('click', () => {
+      card.classList.toggle('expanded');
+    });
+  });
+}
+
+function setLastUpdated(accounts){
+  const dates = accounts.map(a => a.google && a.google.updated_at).filter(Boolean).sort();
+  const el = document.getElementById('last-updated');
+  if(dates.length){
+    const d = new Date(dates[dates.length - 1]);
+    el.textContent = d.toLocaleString();
+  } else {
+    el.textContent = 'no data yet';
+  }
+}
+
+function fmt(n, decimals){
+  if(decimals === undefined) decimals = 2;
+  return Number(n || 0).toLocaleString(undefined, { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+}
+function escapeHtml(s){
+  const div = document.createElement('div');
+  div.textContent = s;
+  return div.innerHTML;
+}
+
+loadDashboard();
+</script>
+</body>
+</html>
