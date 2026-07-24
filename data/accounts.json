@@ -1,0 +1,25 @@
+{
+  "accounts": [
+    {
+      "id": "acme-co",
+      "name": "Acme Co",
+      "manager": "Jane Doe",
+      "google_ads_id": "1234567890",
+      "meta_ad_account_id": null
+    },
+    {
+      "id": "north-star",
+      "name": "North Star Retail",
+      "manager": "Jane Doe",
+      "google_ads_id": "2345678901",
+      "meta_ad_account_id": "act_1122334455"
+    },
+    {
+      "id": "brightleaf",
+      "name": "Brightleaf Studio",
+      "manager": "Marcus Lee",
+      "google_ads_id": "3456789012",
+      "meta_ad_account_id": null
+    }
+  ]
+}
