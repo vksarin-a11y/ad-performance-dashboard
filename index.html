@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   :root{
     --paper: #F6F6F3;
@@ -157,18 +158,16 @@
     font-size:10px;
     margin-top:2px;
   }
-  .metrics-chart-row{
-    display:grid;
-    grid-template-columns:repeat(7, 1fr);
-    gap:10px;
-    margin-top:12px;
+  .chart-wrap{
+    margin-top:14px;
+    height:220px;
+    position:relative;
   }
-  .chart-cell{text-align:center;}
-  .chart-legend{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:9px;
+  .chart-note{
+    font-size:10px;
     color:var(--ink-soft);
-    margin-top:2px;
+    margin-top:4px;
+    font-style:italic;
   }
   .m-delta.pos{color:var(--good);}
   .m-delta.neg{color:var(--bad);}
@@ -212,11 +211,9 @@
 
   @media (max-width: 900px){
     .metrics-grid{grid-template-columns:repeat(4,1fr);}
-    .metrics-chart-row{grid-template-columns:repeat(4,1fr);}
   }
   @media (max-width: 720px){
     .metrics-grid{grid-template-columns:repeat(2,1fr);}
-    .metrics-chart-row{grid-template-columns:repeat(2,1fr);}
     .account-head{flex-direction:column;}
   }
 </style>
@@ -225,10 +222,7 @@
 <div class="wrap">
   <p class="eyebrow">Live account ledger</p>
   <h1>Ad account performance</h1>
-  <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span>
-    &middot; <span style="color:var(--accent);">&#9644;</span> this month &nbsp;
-    <span style="color:var(--ink-soft);">&#8901;&#8901;&#8901;</span> last month
-  </p>
+  <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span></p>
 
   <div id="managers"></div>
 
@@ -238,6 +232,8 @@
 </div>
 
 <script>
+const chartDataStore = {};
+
 async function loadDashboard(){
   const managersEl = document.getElementById('managers');
 
@@ -259,6 +255,7 @@ async function loadDashboard(){
   renderManagerGroups(accounts, managersEl);
   setLastUpdated(accounts);
   attachExpandHandlers();
+  instantiateCharts();
 }
 
 async function tryFetch(path){
@@ -328,15 +325,8 @@ function accountCard(a, cardId){
   ].join('');
 
   const daily = a.google.daily || { this_month: [], last_month: [] };
-  const chartsHtml = [
-    lineChartCell('Spend', daily, 'spend'),
-    lineChartCell('Impr.', daily, 'impressions'),
-    lineChartCell('Clicks', daily, 'clicks'),
-    lineChartCell('Conv.', daily, 'conversions'),
-    lineChartCell('CPC', daily, 'cpc'),
-    lineChartCell('Cost/conv', daily, 'cost_per_conversion'),
-    lineChartCell('Calls', daily, 'phone_calls'),
-  ].join('');
+  const hasDailyData = (daily.this_month && daily.this_month.length) || (daily.last_month && daily.last_month.length);
+  if(hasDailyData) chartDataStore[cardId] = daily;
 
   const campaigns = a.google.campaigns || [];
   const campaignRows = campaigns.map(c => `
@@ -374,7 +364,10 @@ function accountCard(a, cardId){
         </div>
       </div>
       <div class="metrics-grid">${metricsHtml}</div>
-      <div class="metrics-chart-row">${chartsHtml}</div>
+      <div class="chart-wrap">
+        ${hasDailyData ? `<canvas id="chart-${cardId}"></canvas>` : '<p class="empty-state">No daily data yet for this chart.</p>'}
+      </div>
+      <div class="chart-note">Values shown on a relative scale so spend, clicks, conversions and calls fit together — hover any point for the real number. Phone calls line will be flat if the account has no daily call data.</div>
       <div class="campaigns-panel">${campaignsTable}</div>
     </div>
   `;
@@ -398,70 +391,92 @@ function metricBox(label, value, pctChange){
   );
 }
 
-function extractDailyValue(day, metricKey){
-  if(metricKey === 'cpc'){
-    return day.clicks ? (day.spend / day.clicks) : null;
-  }
-  if(metricKey === 'cost_per_conversion'){
-    return day.conversions ? (day.spend / day.conversions) : null;
-  }
-  return day[metricKey];
+function cssVar(name){
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 }
 
-function lineChartCell(label, daily, metricKey){
+function instantiateCharts(){
+  Object.entries(chartDataStore).forEach(([cardId, daily]) => {
+    const canvas = document.getElementById('chart-' + cardId);
+    if(!canvas || typeof Chart === 'undefined') return;
+    buildCombinedChart(canvas, daily);
+  });
+}
+
+function buildCombinedChart(canvas, daily){
   const thisMonth = daily.this_month || [];
   const lastMonth = daily.last_month || [];
 
-  const width = 150, height = 46, padX = 4, padY = 4;
-  const maxDay = Math.max(
-    1,
-    ...thisMonth.map(d => d.day),
-    ...lastMonth.map(d => d.day)
-  );
+  const metricDefs = [
+    { key: 'spend', label: 'Spend', color: cssVar('--accent'), format: (v) => '$' + fmt(v) },
+    { key: 'clicks', label: 'Clicks', color: cssVar('--warn'), format: (v) => fmt(v, 0) },
+    { key: 'conversions', label: 'Conversions', color: cssVar('--good'), format: (v) => fmt(v, 0) },
+    { key: 'phone_calls', label: 'Phone calls', color: cssVar('--bad'), format: (v) => fmt(v, 0) },
+  ];
 
-  const toPoints = (series) => {
-    const pts = [];
-    series.forEach(d => {
-      const val = extractDailyValue(d, metricKey);
-      if(val === null || val === undefined) return;
-      const x = padX + ((d.day - 1) / Math.max(1, maxDay - 1)) * (width - padX * 2);
-      pts.push({ x, val });
+  const datasets = [];
+  metricDefs.forEach(def => {
+    const maxAcrossBoth = Math.max(
+      1,
+      ...thisMonth.map(d => d[def.key] || 0),
+      ...lastMonth.map(d => d[def.key] || 0)
+    );
+
+    [
+      { series: thisMonth, periodLabel: 'this month', dashed: false },
+      { series: lastMonth, periodLabel: 'last month', dashed: true },
+    ].forEach(period => {
+      const points = period.series.map(d => ({ x: d.day, y: ((d[def.key] || 0) / maxAcrossBoth) * 100 }));
+      const rawValues = period.series.map(d => d[def.key] || 0);
+      datasets.push({
+        label: def.label + ' (' + period.periodLabel + ')',
+        data: points,
+        borderColor: def.color,
+        backgroundColor: 'transparent',
+        borderDash: period.dashed ? [4, 3] : [],
+        borderWidth: period.dashed ? 1.5 : 2,
+        pointRadius: 0,
+        pointHoverRadius: 4,
+        tension: 0.3,
+        rawValues: rawValues,
+        formatFn: def.format,
+      });
     });
-    return pts;
-  };
+  });
 
-  const curRaw = toPoints(thisMonth);
-  const prevRaw = toPoints(lastMonth);
-
-  if(curRaw.length === 0 && prevRaw.length === 0){
-    return `<div class="chart-cell"><div class="empty-state" style="font-size:10px;">no daily data yet</div><div class="chart-legend">${escapeHtml(label)}</div></div>`;
-  }
-
-  const maxVal = Math.max(1, ...curRaw.map(p => p.val), ...prevRaw.map(p => p.val));
-  const toY = (val) => height - padY - (val / maxVal) * (height - padY * 2);
-
-  const curPoints = curRaw.map(p => `${p.x.toFixed(1)},${toY(p.val).toFixed(1)}`).join(' ');
-  const prevPoints = prevRaw.map(p => `${p.x.toFixed(1)},${toY(p.val).toFixed(1)}`).join(' ');
-
-  let areaPoly = '';
-  if(curRaw.length > 1){
-    const baseline = height - padY;
-    areaPoly = curPoints + ` ${curRaw[curRaw.length-1].x.toFixed(1)},${baseline} ${curRaw[0].x.toFixed(1)},${baseline}`;
-  }
-
-  const svg =
-    `<svg viewBox="0 0 ${width} ${height}" width="100%" height="${height}" preserveAspectRatio="none">` +
-    (prevPoints ? `<polyline points="${prevPoints}" fill="none" stroke="var(--ink-soft)" stroke-width="1.2" stroke-dasharray="3,2"></polyline>` : '') +
-    (areaPoly ? `<polygon points="${areaPoly}" fill="var(--accent-soft)" opacity="0.6"></polygon>` : '') +
-    (curPoints ? `<polyline points="${curPoints}" fill="none" stroke="var(--accent)" stroke-width="1.6"></polyline>` : '') +
-    '</svg>';
-
-  return (
-    '<div class="chart-cell">' +
-    svg +
-    '<div class="chart-legend">' + escapeHtml(label) + '</div>' +
-    '</div>'
-  );
+  new Chart(canvas, {
+    type: 'line',
+    data: { datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      scales: {
+        x: {
+          type: 'linear',
+          title: { display: true, text: 'Day of month', color: cssVar('--ink-soft') },
+          grid: { color: 'rgba(127,127,127,0.12)' },
+          ticks: { color: cssVar('--ink-soft'), font: { size: 10 } },
+        },
+        y: { display: false, min: 0, max: 110 },
+      },
+      plugins: {
+        legend: {
+          labels: { color: cssVar('--ink-soft'), boxWidth: 12, font: { size: 10 } },
+        },
+        tooltip: {
+          callbacks: {
+            title: (items) => 'Day ' + items[0].parsed.x,
+            label: (context) => {
+              const ds = context.dataset;
+              const raw = ds.rawValues[context.dataIndex];
+              return ds.label + ': ' + ds.formatFn(raw);
+            },
+          },
+        },
+      },
+    },
+  });
 }
 
 function metricBoxRaw(label, value, note){
