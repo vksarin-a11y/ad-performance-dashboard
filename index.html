@@ -163,6 +163,28 @@
     height:220px;
     position:relative;
   }
+  .chart-filters{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    margin-top:14px;
+    margin-bottom:8px;
+  }
+  .chart-filter-btn{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    padding:4px 10px;
+    border-radius:100px;
+    border:1px solid var(--hairline);
+    background:transparent;
+    color:var(--ink-soft);
+    cursor:pointer;
+  }
+  .chart-filter-btn.active{
+    background:var(--accent-soft);
+    border-color:var(--accent);
+    color:var(--accent);
+  }
   .chart-note{
     font-size:10px;
     color:var(--ink-soft);
@@ -364,10 +386,11 @@ function accountCard(a, cardId){
         </div>
       </div>
       <div class="metrics-grid">${metricsHtml}</div>
+      ${hasDailyData ? `<div class="chart-filters" data-filters-for="${cardId}"></div>` : ''}
       <div class="chart-wrap">
         ${hasDailyData ? `<canvas id="chart-${cardId}"></canvas>` : '<p class="empty-state">No daily data yet for this chart.</p>'}
       </div>
-      <div class="chart-note">Values shown on a relative scale so spend, clicks, conversions and calls fit together — hover any point for the real number. Phone calls line will be flat if the account has no daily call data.</div>
+      <div class="chart-note">Values shown on a relative scale so metrics fit together — hover any point for the real number. Use the filters above to isolate one metric group.</div>
       <div class="campaigns-panel">${campaignsTable}</div>
     </div>
   `;
@@ -399,7 +422,8 @@ function instantiateCharts(){
   Object.entries(chartDataStore).forEach(([cardId, daily]) => {
     const canvas = document.getElementById('chart-' + cardId);
     if(!canvas || typeof Chart === 'undefined') return;
-    buildCombinedChart(canvas, daily);
+    const chart = buildCombinedChart(canvas, daily);
+    wireFilterButtons(cardId, chart);
   });
 }
 
@@ -407,44 +431,59 @@ function buildCombinedChart(canvas, daily){
   const thisMonth = daily.this_month || [];
   const lastMonth = daily.last_month || [];
 
+  const spendThis = thisMonth.map(d => d.spend || 0);
+  const spendLast = lastMonth.map(d => d.spend || 0);
+  const clicksThis = thisMonth.map(d => d.clicks || 0);
+  const clicksLast = lastMonth.map(d => d.clicks || 0);
+  const convThis = thisMonth.map(d => d.conversions || 0);
+  const convLast = lastMonth.map(d => d.conversions || 0);
+  const callsThis = thisMonth.map(d => d.phone_calls || 0);
+  const callsLast = lastMonth.map(d => d.phone_calls || 0);
+
+  const divide = (num, den) => num.map((v, i) => (den[i] ? Math.round((v / den[i]) * 100) / 100 : 0));
+
   const metricDefs = [
-    { key: 'spend', label: 'Spend', color: cssVar('--accent'), format: (v) => '$' + fmt(v) },
-    { key: 'clicks', label: 'Clicks', color: cssVar('--warn'), format: (v) => fmt(v, 0) },
-    { key: 'conversions', label: 'Conversions', color: cssVar('--good'), format: (v) => fmt(v, 0) },
-    { key: 'phone_calls', label: 'Phone calls', color: cssVar('--bad'), format: (v) => fmt(v, 0) },
+    { key: 'spend', label: 'Spend', color: cssVar('--accent'),
+      thisSeries: spendThis, lastSeries: spendLast, format: (v) => '$' + fmt(v) },
+    { key: 'clicks', label: 'Clicks', color: cssVar('--warn'),
+      thisSeries: clicksThis, lastSeries: clicksLast, format: (v) => fmt(v, 0) },
+    { key: 'cpc', label: 'CPC', color: '#c98500',
+      thisSeries: divide(spendThis, clicksThis), lastSeries: divide(spendLast, clicksLast), format: (v) => '$' + v.toFixed(2) },
+    { key: 'conversions', label: 'Conversions', color: cssVar('--good'),
+      thisSeries: convThis, lastSeries: convLast, format: (v) => fmt(v, 0) },
+    { key: 'cost_per_conversion', label: 'Cost / conversion', color: '#d55181',
+      thisSeries: divide(spendThis, convThis), lastSeries: divide(spendLast, convLast), format: (v) => '$' + v.toFixed(2) },
+    { key: 'phone_calls', label: 'Phone calls', color: cssVar('--bad'),
+      thisSeries: callsThis, lastSeries: callsLast, format: (v) => fmt(v, 0) },
+    { key: 'cost_per_call', label: 'Cost / call', color: '#9085e9',
+      thisSeries: divide(spendThis, callsThis), lastSeries: divide(spendLast, callsLast), format: (v) => '$' + v.toFixed(2) },
   ];
 
   const datasets = [];
-  metricDefs.forEach(def => {
-    const maxAcrossBoth = Math.max(
-      1,
-      ...thisMonth.map(d => d[def.key] || 0),
-      ...lastMonth.map(d => d[def.key] || 0)
-    );
-
-    [
-      { series: thisMonth, periodLabel: 'this month', dashed: false },
-      { series: lastMonth, periodLabel: 'last month', dashed: true },
-    ].forEach(period => {
-      const points = period.series.map(d => ({ x: d.day, y: ((d[def.key] || 0) / maxAcrossBoth) * 100 }));
-      const rawValues = period.series.map(d => d[def.key] || 0);
+  ['this', 'last'].forEach(period => {
+    metricDefs.forEach(def => {
+      const series = period === 'this' ? def.thisSeries : def.lastSeries;
+      const sourceMonth = period === 'this' ? thisMonth : lastMonth;
+      const maxAcrossBoth = Math.max(1, ...def.thisSeries, ...def.lastSeries);
+      const points = sourceMonth.map((d, i) => ({ x: d.day, y: ((series[i] || 0) / maxAcrossBoth) * 100 }));
       datasets.push({
-        label: def.label + ' (' + period.periodLabel + ')',
+        label: def.label + (period === 'this' ? ' (this month)' : ' (last month)'),
+        metricKey: def.key,
         data: points,
         borderColor: def.color,
         backgroundColor: 'transparent',
-        borderDash: period.dashed ? [4, 3] : [],
-        borderWidth: period.dashed ? 1.5 : 2,
+        borderDash: period === 'last' ? [4, 3] : [],
+        borderWidth: period === 'last' ? 1.5 : 2,
         pointRadius: 0,
         pointHoverRadius: 4,
         tension: 0.3,
-        rawValues: rawValues,
+        rawValues: series,
         formatFn: def.format,
       });
     });
   });
 
-  new Chart(canvas, {
+  const chart = new Chart(canvas, {
     type: 'line',
     data: { datasets },
     options: {
@@ -476,6 +515,45 @@ function buildCombinedChart(canvas, daily){
         },
       },
     },
+  });
+
+  return chart;
+}
+
+const chartFilterGroups = {
+  all: ['spend', 'clicks', 'cpc', 'conversions', 'cost_per_conversion', 'phone_calls', 'cost_per_call'],
+  spend: ['spend'],
+  clicks: ['clicks', 'cpc'],
+  conversions: ['conversions', 'cost_per_conversion'],
+  phone_calls: ['phone_calls', 'cost_per_call'],
+};
+const chartFilterOptions = [
+  { key: 'all', label: 'All' },
+  { key: 'spend', label: 'Spend' },
+  { key: 'clicks', label: 'Clicks + CPC' },
+  { key: 'conversions', label: 'Conversions + cost/conv' },
+  { key: 'phone_calls', label: 'Calls + cost/call' },
+];
+
+function wireFilterButtons(cardId, chart){
+  const container = document.querySelector(`[data-filters-for="${cardId}"]`);
+  if(!container) return;
+
+  chartFilterOptions.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'chart-filter-btn' + (opt.key === 'all' ? ' active' : '');
+    btn.textContent = opt.label;
+    btn.dataset.key = opt.key;
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation(); // don't also toggle the campaigns panel
+      const activeKeys = chartFilterGroups[opt.key];
+      chart.data.datasets.forEach(ds => {
+        ds.hidden = !activeKeys.includes(ds.metricKey);
+      });
+      chart.update();
+      container.querySelectorAll('.chart-filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+    });
+    container.appendChild(btn);
   });
 }
 
