@@ -1,0 +1,251 @@
+{
+  "account_id": "126-354-2775",
+  "account_name": "Thornton Dental",
+  "account_manager": "Inthot",
+  "platform": "google_ads",
+  "period": {
+    "mtd_start": "20260701",
+    "mtd_end": "20260723",
+    "prev_month_start": "20260601",
+    "prev_month_end": "20260630"
+  },
+  "updated_at": "2026-07-24T08:10:48.500Z",
+  "metrics": {
+    "spend": 1877.13,
+    "impressions": 3842,
+    "clicks": 416,
+    "conversions": 155,
+    "phone_calls": 0,
+    "cpc": 4.51,
+    "cost_per_conversion": 12.11
+  },
+  "previous_month": {
+    "spend": 2401.13,
+    "impressions": 5155,
+    "clicks": 490,
+    "conversions": 152,
+    "phone_calls": 0,
+    "cpc": 4.9,
+    "cost_per_conversion": 15.8
+  },
+  "comparison_pct": {
+    "spend": -21.82,
+    "impressions": -25.47,
+    "clicks": -15.1,
+    "conversions": 1.97,
+    "phone_calls": null
+  },
+  "recommendation": "Performance is roughly in line with last month.",
+  "campaigns": [
+    {
+      "name": "2025-RB | General Search - Location",
+      "spend": 1205.51,
+      "impressions": 2304,
+      "clicks": 283,
+      "conversions": 127,
+      "phone_calls": 0,
+      "cpc": 4.26,
+      "cost_per_conversion": 9.49
+    },
+    {
+      "name": "2025-RB | Orthodontic",
+      "spend": 327.83,
+      "impressions": 867,
+      "clicks": 85,
+      "conversions": 24,
+      "phone_calls": 0,
+      "cpc": 3.86,
+      "cost_per_conversion": 13.66
+    },
+    {
+      "name": "2025-RB | Implants",
+      "spend": 173.59,
+      "impressions": 270,
+      "clicks": 21,
+      "conversions": 3,
+      "phone_calls": 0,
+      "cpc": 8.27,
+      "cost_per_conversion": 57.86
+    },
+    {
+      "name": "2025-RB | Veneers",
+      "spend": 170.21,
+      "impressions": 401,
+      "clicks": 27,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 6.3,
+      "cost_per_conversion": 170.21
+    },
+    {
+      "name": "Dentist Newcastle",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "*SLX - Mayfield Dental Care",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Thorton Dental - Calls",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Thornton - Dental Implants",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Thornton - Call Only (New)",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | General Search",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | Services",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | Invisalign",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | General Search - Location (10km)",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | General Search - Location 10KM",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | Implants | Maximize Conversion 1",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | Invisalign | Maximize Conversion 2",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | Orthodontic | Maximize Conversion 3",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | Veneers | Maximize Conversion 4",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | General Search - Location Excluded Newcastle",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | General Search - Location - Call Only",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "2025-RB | Implants (Lower CPA)",
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    }
+  ]
+}
