@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260701",
-    "mtd_end": "20260725",
+    "mtd_end": "20260726",
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-26T21:13:13.533Z",
+  "updated_at": "2026-07-27T21:13:15.603Z",
   "metrics": {
     "spend": 2038.38,
     "impressions": 4136,
     "clicks": 445,
-    "conversions": 164,
+    "conversions": 166,
     "phone_calls": 5,
     "cpc": 4.58,
-    "cost_per_conversion": 12.43
+    "cost_per_conversion": 12.28
   },
   "previous_month": {
     "spend": 2401.13,
@@ -32,7 +32,7 @@
     "spend": -15.11,
     "impressions": -19.77,
     "clicks": -9.18,
-    "conversions": 7.89,
+    "conversions": 9.21,
     "phone_calls": 0
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -42,20 +42,20 @@
       "spend": 1306.85,
       "impressions": 2442,
       "clicks": 299,
-      "conversions": 133,
+      "conversions": 134,
       "phone_calls": 3,
       "cpc": 4.37,
-      "cost_per_conversion": 9.83
+      "cost_per_conversion": 9.75
     },
     {
       "name": "2025-RB | Orthodontic",
       "spend": 362.58,
       "impressions": 975,
       "clicks": 94,
-      "conversions": 27,
+      "conversions": 28,
       "phone_calls": 2,
       "cpc": 3.86,
-      "cost_per_conversion": 13.43
+      "cost_per_conversion": 12.95
     },
     {
       "name": "2025-RB | Veneers",
@@ -395,10 +395,10 @@
         "spend": 88.95,
         "impressions": 228,
         "clicks": 26,
-        "conversions": 5,
+        "conversions": 6,
         "phone_calls": 0,
         "cpc": 3.42,
-        "cost_per_conversion": 17.79
+        "cost_per_conversion": 14.82
       },
       {
         "day": 18,
@@ -455,10 +455,10 @@
         "spend": 83.69,
         "impressions": 141,
         "clicks": 17,
-        "conversions": 7,
+        "conversions": 8,
         "phone_calls": 0,
         "cpc": 4.92,
-        "cost_per_conversion": 11.96
+        "cost_per_conversion": 10.46
       },
       {
         "day": 25,
