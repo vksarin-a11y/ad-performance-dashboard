@@ -9,10 +9,10 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-28T08:07:44.753Z",
+  "updated_at": "2026-07-28T09:08:13.438Z",
   "metrics": {
     "spend": 2624.53,
-    "impressions": 39818,
+    "impressions": 39817,
     "clicks": 1930,
     "conversions": 152,
     "phone_calls": 0,
@@ -80,7 +80,7 @@
     {
       "name": "Display | Retargeting | Mitcham",
       "spend": 269.31,
-      "impressions": 6907,
+      "impressions": 6906,
       "clicks": 410,
       "conversions": 4,
       "phone_calls": 0,
@@ -193,7 +193,7 @@
       {
         "day": 8,
         "spend": 105.17,
-        "impressions": 737,
+        "impressions": 736,
         "clicks": 82,
         "conversions": 13,
         "phone_calls": 0,
