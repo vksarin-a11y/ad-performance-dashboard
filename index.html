@@ -158,8 +158,26 @@
     font-size:10px;
     margin-top:2px;
   }
-  .chart-wrap{
+  .m-delta.pos{color:var(--good);}
+  .m-delta.neg{color:var(--bad);}
+  .m-delta.flat{color:var(--ink-soft);}
+
+  .chart-toggle-btn{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    padding:4px 10px;
+    border-radius:100px;
+    border:1px solid var(--hairline);
+    background:transparent;
+    color:var(--ink-soft);
+    cursor:pointer;
     margin-top:14px;
+  }
+  .chart-section{display:none;}
+  .account-card.chart-open .chart-section{display:block;}
+
+  .chart-wrap{
+    margin-top:16px;
     height:220px;
     position:relative;
   }
@@ -167,7 +185,7 @@
     display:flex;
     flex-wrap:wrap;
     gap:6px;
-    margin-top:14px;
+    margin-top:16px;
     margin-bottom:8px;
   }
   .chart-filter-btn{
@@ -191,9 +209,6 @@
     margin-top:4px;
     font-style:italic;
   }
-  .m-delta.pos{color:var(--good);}
-  .m-delta.neg{color:var(--bad);}
-  .m-delta.flat{color:var(--ink-soft);}
 
   .empty-state{font-size:13px;color:var(--ink-soft);font-style:italic;}
 
@@ -238,6 +253,25 @@
     .metrics-grid{grid-template-columns:repeat(2,1fr);}
     .account-head{flex-direction:column;}
   }
+
+  .search-box{
+    width:100%;
+    max-width:360px;
+    padding:9px 14px;
+    margin-bottom:32px;
+    font-family:'Inter', sans-serif;
+    font-size:13px;
+    color:var(--ink);
+    background:var(--paper-raised);
+    border:1px solid var(--hairline);
+    border-radius:100px;
+    outline:none;
+  }
+  .search-box:focus{border-color:var(--accent);}
+  .search-box::placeholder{color:var(--ink-soft);}
+
+  .manager-group.hidden-by-search,
+  .account-card.hidden-by-search{display:none;}
 </style>
 </head>
 <body>
@@ -245,6 +279,8 @@
   <p class="eyebrow">Live account ledger</p>
   <h1>Ad account performance</h1>
   <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span></p>
+
+  <input type="text" id="accountSearch" class="search-box" placeholder="Search accounts by name…">
 
   <div id="managers"></div>
 
@@ -277,7 +313,50 @@ async function loadDashboard(){
   renderManagerGroups(accounts, managersEl);
   setLastUpdated(accounts);
   attachExpandHandlers();
-  instantiateCharts();
+  wireChartToggles();
+  wireSearch();
+}
+
+const builtCharts = {};
+
+function wireChartToggles(){
+  document.querySelectorAll('[data-chart-toggle]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation(); // don't also toggle the campaigns panel
+      const cardId = btn.dataset.chartToggle;
+      const card = btn.closest('.account-card');
+      const isOpen = card.classList.toggle('chart-open');
+      btn.textContent = isOpen ? 'Hide chart' : 'Show chart';
+
+      if(isOpen && !builtCharts[cardId]){
+        const canvas = document.getElementById('chart-' + cardId);
+        const daily = chartDataStore[cardId];
+        if(canvas && daily && typeof Chart !== 'undefined'){
+          const chart = buildCombinedChart(canvas, daily);
+          wireFilterButtons(cardId, chart);
+          builtCharts[cardId] = true;
+        }
+      }
+    });
+  });
+}
+
+function wireSearch(){
+  const input = document.getElementById('accountSearch');
+  if(!input) return;
+  input.addEventListener('input', () => {
+    const query = input.value.trim().toLowerCase();
+    document.querySelectorAll('.manager-group').forEach(group => {
+      let anyVisible = false;
+      group.querySelectorAll('.account-card').forEach(card => {
+        const name = card.dataset.accountName || '';
+        const matches = !query || name.includes(query);
+        card.classList.toggle('hidden-by-search', !matches);
+        if(matches) anyVisible = true;
+      });
+      group.classList.toggle('hidden-by-search', !anyVisible);
+    });
+  });
 }
 
 async function tryFetch(path){
@@ -297,8 +376,13 @@ function renderManagerGroups(accounts, el){
   });
 
   el.innerHTML = Object.entries(byManager).map(([manager, accs], groupIdx) => {
+    const sortedAccs = accs.slice().sort((x, y) => {
+      const sx = accountSortRank(x), sy = accountSortRank(y);
+      if(sx.tier !== sy.tier) return sx.tier - sy.tier;
+      return sy.spend - sx.spend;
+    });
     const managerTotal = accs.reduce((s, a) => s + ((a.google && a.google.metrics.spend) || 0), 0);
-    const rows = accs.map((a, i) => accountCard(a, `${groupIdx}-${i}`)).join('');
+    const rows = sortedAccs.map((a, i) => accountCard(a, `${groupIdx}-${i}`)).join('');
     return `
       <div class="manager-group">
         <div class="manager-header">
@@ -311,12 +395,20 @@ function renderManagerGroups(accounts, el){
   }).join('');
 }
 
+// Flagged accounts first, then by spend descending, accounts with no data yet go last
+function accountSortRank(a){
+  if(!a.google) return { tier: 2, spend: 0 };
+  const rec = a.google.recommendation || '';
+  const flagged = rec && !/^Performance is roughly in line/i.test(rec);
+  return { tier: flagged ? 0 : 1, spend: (a.google.metrics && a.google.metrics.spend) || 0 };
+}
+
 function accountCard(a, cardId){
   const g = a.google && a.google.metrics;
 
   if(!g){
     return `
-      <div class="account-card">
+      <div class="account-card" data-account-name="${escapeHtml(a.name.toLowerCase())}">
         <div class="account-head">
           <div>
             <div class="account-name-row"><span class="account-name">${escapeHtml(a.name)}</span></div>
@@ -331,10 +423,10 @@ function accountCard(a, cardId){
     `;
   }
 
-  const prev = a.google.previous_month || {};
-  const pct = a.google.comparison_pct || {};
   const rec = a.google.recommendation || '';
   const recIsFlag = rec && !/^Performance is roughly in line/i.test(rec);
+  const prev = a.google.previous_month || {};
+  const pct = a.google.comparison_pct || {};
 
   const metricsHtml = [
     metricBox('Spend', '$' + fmt(g.spend), pct.spend),
@@ -371,7 +463,7 @@ function accountCard(a, cardId){
   ) : '<p class="empty-state">No campaign-level data in this file yet.</p>';
 
   return `
-    <div class="account-card" data-card-id="${cardId}">
+    <div class="account-card" data-card-id="${cardId}" data-account-name="${escapeHtml(a.name.toLowerCase())}">
       <div class="account-head">
         <div>
           <div class="account-name-row">
@@ -386,11 +478,14 @@ function accountCard(a, cardId){
         </div>
       </div>
       <div class="metrics-grid">${metricsHtml}</div>
-      ${hasDailyData ? `<div class="chart-filters" data-filters-for="${cardId}"></div>` : ''}
-      <div class="chart-wrap">
-        ${hasDailyData ? `<canvas id="chart-${cardId}"></canvas>` : '<p class="empty-state">No daily data yet for this chart.</p>'}
+      ${hasDailyData ? `<button class="chart-toggle-btn" data-chart-toggle="${cardId}">Show chart</button>` : ''}
+      <div class="chart-section" data-chart-section="${cardId}">
+        ${hasDailyData ? `<div class="chart-filters" data-filters-for="${cardId}"></div>` : ''}
+        <div class="chart-wrap">
+          ${hasDailyData ? `<canvas id="chart-${cardId}"></canvas>` : '<p class="empty-state">No daily data yet for this chart.</p>'}
+        </div>
+        <div class="chart-note">Hover any point on the chart for the real number. Use the filters above to isolate one metric group.</div>
       </div>
-      <div class="chart-note">Values shown on a relative scale so metrics fit together — hover any point for the real number. Use the filters above to isolate one metric group.</div>
       <div class="campaigns-panel">${campaignsTable}</div>
     </div>
   `;
@@ -414,17 +509,18 @@ function metricBox(label, value, pctChange){
   );
 }
 
-function cssVar(name){
-  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+function metricBoxRaw(label, value, note){
+  return (
+    '<div class="metric-box">' +
+    '<div class="m-label">' + label + '</div>' +
+    '<div class="m-value">' + value + '</div>' +
+    '<span class="m-delta flat">' + escapeHtml(note) + '</span>' +
+    '</div>'
+  );
 }
 
-function instantiateCharts(){
-  Object.entries(chartDataStore).forEach(([cardId, daily]) => {
-    const canvas = document.getElementById('chart-' + cardId);
-    if(!canvas || typeof Chart === 'undefined') return;
-    const chart = buildCombinedChart(canvas, daily);
-    wireFilterButtons(cardId, chart);
-  });
+function cssVar(name){
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 }
 
 function buildCombinedChart(canvas, daily){
@@ -500,9 +596,7 @@ function buildCombinedChart(canvas, daily){
         y: { display: false, min: 0, max: 110 },
       },
       plugins: {
-        legend: {
-          labels: { color: cssVar('--ink-soft'), boxWidth: 12, font: { size: 10 } },
-        },
+        legend: { display: false },
         tooltip: {
           callbacks: {
             title: (items) => 'Day ' + items[0].parsed.x,
@@ -535,6 +629,16 @@ const chartFilterOptions = [
   { key: 'phone_calls', label: 'Calls + cost/call' },
 ];
 
+const metricColors = {
+  spend: cssVar('--accent'),
+  clicks: cssVar('--warn'),
+  cpc: '#c98500',
+  conversions: cssVar('--good'),
+  cost_per_conversion: '#d55181',
+  phone_calls: cssVar('--bad'),
+  cost_per_call: '#9085e9',
+};
+
 function wireFilterButtons(cardId, chart){
   const container = document.querySelector(`[data-filters-for="${cardId}"]`);
   if(!container) return;
@@ -542,8 +646,13 @@ function wireFilterButtons(cardId, chart){
   chartFilterOptions.forEach(opt => {
     const btn = document.createElement('button');
     btn.className = 'chart-filter-btn' + (opt.key === 'all' ? ' active' : '');
-    btn.textContent = opt.label;
     btn.dataset.key = opt.key;
+
+    const dots = opt.key === 'all' ? '' : chartFilterGroups[opt.key].map(k =>
+      `<span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:${metricColors[k]};margin-right:3px;"></span>`
+    ).join('');
+    btn.innerHTML = dots + escapeHtml(opt.label);
+
     btn.addEventListener('click', (e) => {
       e.stopPropagation(); // don't also toggle the campaigns panel
       const activeKeys = chartFilterGroups[opt.key];
@@ -555,16 +664,6 @@ function wireFilterButtons(cardId, chart){
     });
     container.appendChild(btn);
   });
-}
-
-function metricBoxRaw(label, value, note){
-  return (
-    '<div class="metric-box">' +
-    '<div class="m-label">' + label + '</div>' +
-    '<div class="m-value">' + value + '</div>' +
-    '<span class="m-delta flat">' + escapeHtml(note) + '</span>' +
-    '</div>'
-  );
 }
 
 function attachExpandHandlers(){
