@@ -42,6 +42,50 @@
       --bad-soft: #3A211D;
     }
   }
+  /* Explicit theme choice always wins over the OS setting above */
+  :root[data-theme="light"]{
+    --paper: #F6F6F3;
+    --paper-raised: #FFFFFF;
+    --ink: #1B1D1F;
+    --ink-soft: #5C5F63;
+    --hairline: #DEDDD6;
+    --accent: #2C6E8E;
+    --accent-soft: #E3EEF2;
+    --warn: #C97A2B;
+    --warn-soft: #FBF0E4;
+    --good: #4C7A3D;
+    --good-soft: #EAF1E6;
+    --bad: #B34A3C;
+    --bad-soft: #F8EAE7;
+  }
+  :root[data-theme="dark"]{
+    --paper: #17181A;
+    --paper-raised: #1F2123;
+    --ink: #EDEDEA;
+    --ink-soft: #9A9C9F;
+    --hairline: #33353A;
+    --accent: #7FB9D4;
+    --accent-soft: #223842;
+    --warn: #E0A45E;
+    --warn-soft: #3A2E1C;
+    --good: #8FC17E;
+    --good-soft: #223321;
+    --bad: #E08A7C;
+    --bad-soft: #3A211D;
+  }
+  .theme-toggle-btn{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    padding:6px 14px;
+    border-radius:100px;
+    border:1px solid var(--hairline);
+    background:var(--paper-raised);
+    color:var(--ink-soft);
+    cursor:pointer;
+    position:absolute;
+    top:48px;
+    right:24px;
+  }
   *{box-sizing:border-box;}
   body{
     margin:0;
@@ -50,7 +94,7 @@
     font-family:'Inter', system-ui, sans-serif;
     line-height:1.5;
   }
-  .wrap{max-width:1240px;margin:0 auto;padding:48px 24px 96px;}
+  .wrap{max-width:1240px;margin:0 auto;padding:48px 24px 96px;position:relative;}
   .eyebrow{
     font-family:'IBM Plex Mono', monospace;
     font-size:12px;
@@ -276,6 +320,7 @@
 </head>
 <body>
 <div class="wrap">
+  <button id="themeToggle" class="theme-toggle-btn">Dark mode</button>
   <p class="eyebrow">Live account ledger</p>
   <h1>Ad account performance</h1>
   <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span></p>
@@ -695,7 +740,31 @@ function escapeHtml(s){
   return div.innerHTML;
 }
 
+initTheme();
 loadDashboard();
+
+function initTheme(){
+  const saved = localStorage.getItem('dashboard-theme'); // 'light' or 'dark', absent = follow OS setting
+  if(saved){
+    document.documentElement.setAttribute('data-theme', saved);
+  }
+  updateToggleLabel();
+
+  document.getElementById('themeToggle').addEventListener('click', () => {
+    const osIsDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const current = document.documentElement.getAttribute('data-theme') || (osIsDark ? 'dark' : 'light');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('dashboard-theme', next);
+    updateToggleLabel();
+  });
+}
+
+function updateToggleLabel(){
+  const osIsDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const current = document.documentElement.getAttribute('data-theme') || (osIsDark ? 'dark' : 'light');
+  document.getElementById('themeToggle').textContent = current === 'dark' ? 'Light mode' : 'Dark mode';
+}
 </script>
 </body>
 </html>
