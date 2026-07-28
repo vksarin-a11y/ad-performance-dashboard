@@ -9,10 +9,10 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-28T22:08:10.370Z",
+  "updated_at": "2026-07-28T23:08:10.175Z",
   "metrics": {
     "spend": 2605.98,
-    "impressions": 39566,
+    "impressions": 39552,
     "clicks": 1918,
     "conversions": 152,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -15.9,
-    "impressions": 40.17,
+    "impressions": 40.12,
     "clicks": 68.84,
     "conversions": 508,
     "phone_calls": null
@@ -90,7 +90,7 @@
     {
       "name": "Display | Retargeting | Melbournce CBD",
       "spend": 263.72,
-      "impressions": 6900,
+      "impressions": 6897,
       "clicks": 384,
       "conversions": 1,
       "phone_calls": 0,
@@ -100,7 +100,7 @@
     {
       "name": "Display | Retargeting | Kilsyth",
       "spend": 261.3,
-      "impressions": 11625,
+      "impressions": 11614,
       "clicks": 467,
       "conversions": 19,
       "phone_calls": 0,
@@ -123,7 +123,7 @@
       {
         "day": 1,
         "spend": 110.14,
-        "impressions": 1156,
+        "impressions": 1154,
         "clicks": 83,
         "conversions": 2,
         "phone_calls": 0,
@@ -143,7 +143,7 @@
       {
         "day": 3,
         "spend": 119.78,
-        "impressions": 915,
+        "impressions": 912,
         "clicks": 62,
         "conversions": 0,
         "phone_calls": 0,
@@ -163,7 +163,7 @@
       {
         "day": 5,
         "spend": 117.74,
-        "impressions": 1082,
+        "impressions": 1081,
         "clicks": 93,
         "conversions": 8,
         "phone_calls": 0,
@@ -173,7 +173,7 @@
       {
         "day": 6,
         "spend": 127.24,
-        "impressions": 715,
+        "impressions": 714,
         "clicks": 72,
         "conversions": 11,
         "phone_calls": 0,
@@ -183,7 +183,7 @@
       {
         "day": 7,
         "spend": 66.17,
-        "impressions": 938,
+        "impressions": 934,
         "clicks": 78,
         "conversions": 7,
         "phone_calls": 0,
@@ -193,7 +193,7 @@
       {
         "day": 8,
         "spend": 102.85,
-        "impressions": 723,
+        "impressions": 721,
         "clicks": 80,
         "conversions": 13,
         "phone_calls": 0,
@@ -223,7 +223,7 @@
       {
         "day": 11,
         "spend": 69.93,
-        "impressions": 1982,
+        "impressions": 1981,
         "clicks": 95,
         "conversions": 9,
         "phone_calls": 0,
