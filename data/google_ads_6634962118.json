@@ -5,187 +5,77 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260701",
-    "mtd_end": "20260726",
+    "mtd_end": "20260727",
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-28T01:27:34.708Z",
+  "updated_at": "2026-07-28T07:31:09.098Z",
   "metrics": {
-    "spend": 271.7,
-    "impressions": 238,
-    "clicks": 37,
-    "conversions": 6,
+    "spend": 1119.79,
+    "impressions": 9801,
+    "clicks": 193,
+    "conversions": 36,
     "phone_calls": 1,
-    "cpc": 7.34,
-    "cost_per_conversion": 45.28
+    "cpc": 5.8,
+    "cost_per_conversion": 31.11
   },
   "previous_month": {
-    "spend": 503.68,
-    "impressions": 370,
-    "clicks": 78,
-    "conversions": 18,
+    "spend": 1208.13,
+    "impressions": 5351,
+    "clicks": 181,
+    "conversions": 48,
     "phone_calls": 3,
-    "cpc": 6.46,
-    "cost_per_conversion": 27.98
+    "cpc": 6.67,
+    "cost_per_conversion": 25.17
   },
   "comparison_pct": {
-    "spend": -46.06,
-    "impressions": -35.68,
-    "clicks": -52.56,
-    "conversions": -66.67,
+    "spend": -7.31,
+    "impressions": 83.16,
+    "clicks": 6.63,
+    "conversions": -25,
     "phone_calls": -66.67
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
+      "name": "RB - PMax | Family Dentistry",
+      "spend": 474.73,
+      "impressions": 3139,
+      "clicks": 60,
+      "conversions": 16,
+      "phone_calls": 0,
+      "cpc": 7.91,
+      "cost_per_conversion": 29.67
+    },
+    {
+      "name": "RB - Pmax  | Services",
+      "spend": 354.47,
+      "impressions": 6377,
+      "clicks": 90,
+      "conversions": 12,
+      "phone_calls": 1,
+      "cpc": 3.94,
+      "cost_per_conversion": 29.54
+    },
+    {
       "name": "RB - Search | General Dentistry (new)",
-      "spend": 147.85,
-      "impressions": 154,
-      "clicks": 21,
+      "spend": 153.3,
+      "impressions": 162,
+      "clicks": 23,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 7.04,
-      "cost_per_conversion": 73.92
+      "cpc": 6.67,
+      "cost_per_conversion": 76.65
     },
     {
       "name": "RB - Emergency Dentistry",
-      "spend": 123.85,
-      "impressions": 84,
-      "clicks": 16,
-      "conversions": 4,
+      "spend": 137.31,
+      "impressions": 123,
+      "clicks": 20,
+      "conversions": 6,
       "phone_calls": 0,
-      "cpc": 7.74,
-      "cost_per_conversion": 30.96
-    },
-    {
-      "name": "Dental",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Call Only",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Search | Tooth Extractions (March)",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "Dental Implants - Call Only",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "DSA - General",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Emergency Call only",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Search | General Dentistry",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Search | Wisdom Teeth Removal",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB -  General Dentistry (New)",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - General Dentistry (Dec2024)  General Dentistry",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Search | General Dentistry (Testing)",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Search | Call Campaign (Feb)",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Emergency Dentistry (Testing)",
-      "spend": 0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 0,
-      "cost_per_conversion": 0
+      "cpc": 6.87,
+      "cost_per_conversion": 22.89
     }
   ],
   "daily": {
@@ -409,6 +299,16 @@
         "phone_calls": 0,
         "cpc": 6,
         "cost_per_conversion": 0
+      },
+      {
+        "day": 27,
+        "spend": 56.21,
+        "impressions": 193,
+        "clicks": 12,
+        "conversions": 3,
+        "phone_calls": 0,
+        "cpc": 4.68,
+        "cost_per_conversion": 18.74
       }
     ],
     "last_month": [
