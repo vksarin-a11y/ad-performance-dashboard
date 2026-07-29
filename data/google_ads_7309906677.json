@@ -1,0 +1,699 @@
+{
+  "account_id": "730-990-6677",
+  "account_name": "Feet Unique",
+  "account_manager": "Pisey",
+  "platform": "google_ads",
+  "period": {
+    "mtd_start": "20260701",
+    "mtd_end": "20260727",
+    "prev_month_start": "20260601",
+    "prev_month_end": "20260630"
+  },
+  "updated_at": "2026-07-29T01:18:27.419Z",
+  "metrics": {
+    "spend": 7250.59,
+    "impressions": 124020,
+    "clicks": 3134,
+    "conversions": 289,
+    "phone_calls": 0,
+    "cpc": 2.31,
+    "cost_per_conversion": 25.09
+  },
+  "previous_month": {
+    "spend": 6346.2,
+    "impressions": 107015,
+    "clicks": 2990,
+    "conversions": 336,
+    "phone_calls": 0,
+    "cpc": 2.12,
+    "cost_per_conversion": 18.89
+  },
+  "comparison_pct": {
+    "spend": 14.25,
+    "impressions": 15.89,
+    "clicks": 4.82,
+    "conversions": -13.99,
+    "phone_calls": null
+  },
+  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
+  "campaigns": [
+    {
+      "name": "PMax - Smart Shopping - Denmark",
+      "spend": 3587.31,
+      "impressions": 39704,
+      "clicks": 1226,
+      "conversions": 111,
+      "phone_calls": 0,
+      "cpc": 2.93,
+      "cost_per_conversion": 32.32
+    },
+    {
+      "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
+      "spend": 1278.11,
+      "impressions": 29087,
+      "clicks": 447,
+      "conversions": 42,
+      "phone_calls": 0,
+      "cpc": 2.86,
+      "cost_per_conversion": 30.43
+    },
+    {
+      "name": "PMax: Smart Shopping - Netherlands",
+      "spend": 768.35,
+      "impressions": 23981,
+      "clicks": 536,
+      "conversions": 50,
+      "phone_calls": 0,
+      "cpc": 1.43,
+      "cost_per_conversion": 15.37
+    },
+    {
+      "name": "PMax: Smart Shopping - Sweden",
+      "spend": 761.11,
+      "impressions": 9181,
+      "clicks": 423,
+      "conversions": 48,
+      "phone_calls": 0,
+      "cpc": 1.8,
+      "cost_per_conversion": 15.86
+    },
+    {
+      "name": "PMax - Smart Shopping - Germany",
+      "spend": 312.71,
+      "impressions": 8419,
+      "clicks": 188,
+      "conversions": 11,
+      "phone_calls": 0,
+      "cpc": 1.66,
+      "cost_per_conversion": 28.43
+    },
+    {
+      "name": "Feetunique.fr",
+      "spend": 208.77,
+      "impressions": 1858,
+      "clicks": 96,
+      "conversions": 5,
+      "phone_calls": 0,
+      "cpc": 2.17,
+      "cost_per_conversion": 41.75
+    },
+    {
+      "name": "PMax: Smart Shopping - FR",
+      "spend": 199.86,
+      "impressions": 9836,
+      "clicks": 156,
+      "conversions": 9,
+      "phone_calls": 0,
+      "cpc": 1.28,
+      "cost_per_conversion": 22.21
+    },
+    {
+      "name": "PMax: Smart Shopping - Norway",
+      "spend": 134.35,
+      "impressions": 1954,
+      "clicks": 62,
+      "conversions": 13,
+      "phone_calls": 0,
+      "cpc": 2.17,
+      "cost_per_conversion": 10.33
+    }
+  ],
+  "daily": {
+    "this_month": [
+      {
+        "day": 1,
+        "spend": 292.78,
+        "impressions": 5146,
+        "clicks": 138,
+        "conversions": 13,
+        "phone_calls": 0,
+        "cpc": 2.12,
+        "cost_per_conversion": 22.52
+      },
+      {
+        "day": 2,
+        "spend": 227.36,
+        "impressions": 4971,
+        "clicks": 103,
+        "conversions": 9,
+        "phone_calls": 0,
+        "cpc": 2.21,
+        "cost_per_conversion": 25.26
+      },
+      {
+        "day": 3,
+        "spend": 332.06,
+        "impressions": 4797,
+        "clicks": 111,
+        "conversions": 9,
+        "phone_calls": 0,
+        "cpc": 2.99,
+        "cost_per_conversion": 36.9
+      },
+      {
+        "day": 4,
+        "spend": 304.69,
+        "impressions": 4084,
+        "clicks": 120,
+        "conversions": 8,
+        "phone_calls": 0,
+        "cpc": 2.54,
+        "cost_per_conversion": 38.09
+      },
+      {
+        "day": 5,
+        "spend": 321.68,
+        "impressions": 4353,
+        "clicks": 123,
+        "conversions": 17,
+        "phone_calls": 0,
+        "cpc": 2.62,
+        "cost_per_conversion": 18.92
+      },
+      {
+        "day": 6,
+        "spend": 332,
+        "impressions": 4009,
+        "clicks": 130,
+        "conversions": 15,
+        "phone_calls": 0,
+        "cpc": 2.55,
+        "cost_per_conversion": 22.13
+      },
+      {
+        "day": 7,
+        "spend": 250.78,
+        "impressions": 3802,
+        "clicks": 93,
+        "conversions": 10,
+        "phone_calls": 0,
+        "cpc": 2.7,
+        "cost_per_conversion": 25.08
+      },
+      {
+        "day": 8,
+        "spend": 271.84,
+        "impressions": 5424,
+        "clicks": 118,
+        "conversions": 11,
+        "phone_calls": 0,
+        "cpc": 2.3,
+        "cost_per_conversion": 24.71
+      },
+      {
+        "day": 9,
+        "spend": 268.6,
+        "impressions": 4834,
+        "clicks": 102,
+        "conversions": 8,
+        "phone_calls": 0,
+        "cpc": 2.63,
+        "cost_per_conversion": 33.57
+      },
+      {
+        "day": 10,
+        "spend": 220.68,
+        "impressions": 3525,
+        "clicks": 109,
+        "conversions": 12,
+        "phone_calls": 0,
+        "cpc": 2.02,
+        "cost_per_conversion": 18.39
+      },
+      {
+        "day": 11,
+        "spend": 211.71,
+        "impressions": 4814,
+        "clicks": 114,
+        "conversions": 4,
+        "phone_calls": 0,
+        "cpc": 1.86,
+        "cost_per_conversion": 52.93
+      },
+      {
+        "day": 12,
+        "spend": 151,
+        "impressions": 3943,
+        "clicks": 67,
+        "conversions": 6,
+        "phone_calls": 0,
+        "cpc": 2.25,
+        "cost_per_conversion": 25.17
+      },
+      {
+        "day": 13,
+        "spend": 237.12,
+        "impressions": 4678,
+        "clicks": 127,
+        "conversions": 7,
+        "phone_calls": 0,
+        "cpc": 1.87,
+        "cost_per_conversion": 33.87
+      },
+      {
+        "day": 14,
+        "spend": 173.08,
+        "impressions": 4387,
+        "clicks": 74,
+        "conversions": 12,
+        "phone_calls": 0,
+        "cpc": 2.34,
+        "cost_per_conversion": 14.42
+      },
+      {
+        "day": 15,
+        "spend": 228.63,
+        "impressions": 5141,
+        "clicks": 91,
+        "conversions": 6,
+        "phone_calls": 0,
+        "cpc": 2.51,
+        "cost_per_conversion": 38.1
+      },
+      {
+        "day": 16,
+        "spend": 149.2,
+        "impressions": 3598,
+        "clicks": 71,
+        "conversions": 6,
+        "phone_calls": 0,
+        "cpc": 2.1,
+        "cost_per_conversion": 24.87
+      },
+      {
+        "day": 17,
+        "spend": 171.96,
+        "impressions": 3968,
+        "clicks": 84,
+        "conversions": 7,
+        "phone_calls": 0,
+        "cpc": 2.05,
+        "cost_per_conversion": 24.57
+      },
+      {
+        "day": 18,
+        "spend": 205.63,
+        "impressions": 3416,
+        "clicks": 96,
+        "conversions": 7,
+        "phone_calls": 0,
+        "cpc": 2.14,
+        "cost_per_conversion": 29.38
+      },
+      {
+        "day": 19,
+        "spend": 216.68,
+        "impressions": 3343,
+        "clicks": 100,
+        "conversions": 5,
+        "phone_calls": 0,
+        "cpc": 2.17,
+        "cost_per_conversion": 43.34
+      },
+      {
+        "day": 20,
+        "spend": 316.72,
+        "impressions": 4174,
+        "clicks": 149,
+        "conversions": 21,
+        "phone_calls": 0,
+        "cpc": 2.13,
+        "cost_per_conversion": 15.08
+      },
+      {
+        "day": 21,
+        "spend": 249.03,
+        "impressions": 3750,
+        "clicks": 90,
+        "conversions": 10,
+        "phone_calls": 0,
+        "cpc": 2.77,
+        "cost_per_conversion": 24.9
+      },
+      {
+        "day": 22,
+        "spend": 381.17,
+        "impressions": 4733,
+        "clicks": 147,
+        "conversions": 15,
+        "phone_calls": 0,
+        "cpc": 2.59,
+        "cost_per_conversion": 25.41
+      },
+      {
+        "day": 23,
+        "spend": 318.41,
+        "impressions": 5305,
+        "clicks": 126,
+        "conversions": 8,
+        "phone_calls": 0,
+        "cpc": 2.53,
+        "cost_per_conversion": 39.8
+      },
+      {
+        "day": 24,
+        "spend": 278.83,
+        "impressions": 4855,
+        "clicks": 125,
+        "conversions": 14,
+        "phone_calls": 0,
+        "cpc": 2.23,
+        "cost_per_conversion": 19.92
+      },
+      {
+        "day": 25,
+        "spend": 339.11,
+        "impressions": 5599,
+        "clicks": 146,
+        "conversions": 16,
+        "phone_calls": 0,
+        "cpc": 2.32,
+        "cost_per_conversion": 21.19
+      },
+      {
+        "day": 26,
+        "spend": 389.61,
+        "impressions": 6125,
+        "clicks": 182,
+        "conversions": 15,
+        "phone_calls": 0,
+        "cpc": 2.14,
+        "cost_per_conversion": 25.97
+      },
+      {
+        "day": 27,
+        "spend": 410.23,
+        "impressions": 7246,
+        "clicks": 198,
+        "conversions": 18,
+        "phone_calls": 0,
+        "cpc": 2.07,
+        "cost_per_conversion": 22.79
+      }
+    ],
+    "last_month": [
+      {
+        "day": 1,
+        "spend": 248.79,
+        "impressions": 3287,
+        "clicks": 109,
+        "conversions": 17,
+        "phone_calls": 0,
+        "cpc": 2.28,
+        "cost_per_conversion": 14.63
+      },
+      {
+        "day": 2,
+        "spend": 208.28,
+        "impressions": 2862,
+        "clicks": 93,
+        "conversions": 14,
+        "phone_calls": 0,
+        "cpc": 2.24,
+        "cost_per_conversion": 14.88
+      },
+      {
+        "day": 3,
+        "spend": 256.11,
+        "impressions": 3993,
+        "clicks": 122,
+        "conversions": 12,
+        "phone_calls": 0,
+        "cpc": 2.1,
+        "cost_per_conversion": 21.34
+      },
+      {
+        "day": 4,
+        "spend": 240.99,
+        "impressions": 2462,
+        "clicks": 108,
+        "conversions": 13,
+        "phone_calls": 0,
+        "cpc": 2.23,
+        "cost_per_conversion": 18.54
+      },
+      {
+        "day": 5,
+        "spend": 231.49,
+        "impressions": 3108,
+        "clicks": 102,
+        "conversions": 9,
+        "phone_calls": 0,
+        "cpc": 2.27,
+        "cost_per_conversion": 25.72
+      },
+      {
+        "day": 6,
+        "spend": 220.68,
+        "impressions": 4419,
+        "clicks": 113,
+        "conversions": 8,
+        "phone_calls": 0,
+        "cpc": 1.95,
+        "cost_per_conversion": 27.59
+      },
+      {
+        "day": 7,
+        "spend": 243.97,
+        "impressions": 3464,
+        "clicks": 113,
+        "conversions": 14,
+        "phone_calls": 0,
+        "cpc": 2.16,
+        "cost_per_conversion": 17.43
+      },
+      {
+        "day": 8,
+        "spend": 241.38,
+        "impressions": 3726,
+        "clicks": 122,
+        "conversions": 18,
+        "phone_calls": 0,
+        "cpc": 1.98,
+        "cost_per_conversion": 13.41
+      },
+      {
+        "day": 9,
+        "spend": 239.68,
+        "impressions": 3769,
+        "clicks": 130,
+        "conversions": 19,
+        "phone_calls": 0,
+        "cpc": 1.84,
+        "cost_per_conversion": 12.61
+      },
+      {
+        "day": 10,
+        "spend": 259,
+        "impressions": 4290,
+        "clicks": 136,
+        "conversions": 22,
+        "phone_calls": 0,
+        "cpc": 1.9,
+        "cost_per_conversion": 11.77
+      },
+      {
+        "day": 11,
+        "spend": 246.31,
+        "impressions": 4477,
+        "clicks": 115,
+        "conversions": 9,
+        "phone_calls": 0,
+        "cpc": 2.14,
+        "cost_per_conversion": 27.37
+      },
+      {
+        "day": 12,
+        "spend": 186.79,
+        "impressions": 3918,
+        "clicks": 91,
+        "conversions": 9,
+        "phone_calls": 0,
+        "cpc": 2.05,
+        "cost_per_conversion": 20.75
+      },
+      {
+        "day": 13,
+        "spend": 282.21,
+        "impressions": 4748,
+        "clicks": 150,
+        "conversions": 17,
+        "phone_calls": 0,
+        "cpc": 1.88,
+        "cost_per_conversion": 16.6
+      },
+      {
+        "day": 14,
+        "spend": 253.94,
+        "impressions": 5015,
+        "clicks": 135,
+        "conversions": 15,
+        "phone_calls": 0,
+        "cpc": 1.88,
+        "cost_per_conversion": 16.93
+      },
+      {
+        "day": 15,
+        "spend": 247.23,
+        "impressions": 4867,
+        "clicks": 122,
+        "conversions": 12,
+        "phone_calls": 0,
+        "cpc": 2.03,
+        "cost_per_conversion": 20.6
+      },
+      {
+        "day": 16,
+        "spend": 243.43,
+        "impressions": 3680,
+        "clicks": 126,
+        "conversions": 11,
+        "phone_calls": 0,
+        "cpc": 1.93,
+        "cost_per_conversion": 22.13
+      },
+      {
+        "day": 17,
+        "spend": 256.5,
+        "impressions": 4190,
+        "clicks": 128,
+        "conversions": 7,
+        "phone_calls": 0,
+        "cpc": 2,
+        "cost_per_conversion": 36.64
+      },
+      {
+        "day": 18,
+        "spend": 237.92,
+        "impressions": 3029,
+        "clicks": 105,
+        "conversions": 15,
+        "phone_calls": 0,
+        "cpc": 2.27,
+        "cost_per_conversion": 15.86
+      },
+      {
+        "day": 19,
+        "spend": 174.22,
+        "impressions": 2808,
+        "clicks": 81,
+        "conversions": 7,
+        "phone_calls": 0,
+        "cpc": 2.15,
+        "cost_per_conversion": 24.89
+      },
+      {
+        "day": 20,
+        "spend": 174.45,
+        "impressions": 3126,
+        "clicks": 75,
+        "conversions": 5,
+        "phone_calls": 0,
+        "cpc": 2.33,
+        "cost_per_conversion": 34.89
+      },
+      {
+        "day": 21,
+        "spend": 214.52,
+        "impressions": 3288,
+        "clicks": 82,
+        "conversions": 10,
+        "phone_calls": 0,
+        "cpc": 2.62,
+        "cost_per_conversion": 21.45
+      },
+      {
+        "day": 22,
+        "spend": 202.12,
+        "impressions": 2861,
+        "clicks": 89,
+        "conversions": 8,
+        "phone_calls": 0,
+        "cpc": 2.27,
+        "cost_per_conversion": 25.27
+      },
+      {
+        "day": 23,
+        "spend": 172,
+        "impressions": 2619,
+        "clicks": 79,
+        "conversions": 3,
+        "phone_calls": 0,
+        "cpc": 2.18,
+        "cost_per_conversion": 57.33
+      },
+      {
+        "day": 24,
+        "spend": 158.75,
+        "impressions": 4571,
+        "clicks": 76,
+        "conversions": 11,
+        "phone_calls": 0,
+        "cpc": 2.09,
+        "cost_per_conversion": 14.43
+      },
+      {
+        "day": 25,
+        "spend": 183.81,
+        "impressions": 3876,
+        "clicks": 67,
+        "conversions": 6,
+        "phone_calls": 0,
+        "cpc": 2.74,
+        "cost_per_conversion": 30.63
+      },
+      {
+        "day": 26,
+        "spend": 114.48,
+        "impressions": 2034,
+        "clicks": 55,
+        "conversions": 6,
+        "phone_calls": 0,
+        "cpc": 2.08,
+        "cost_per_conversion": 19.08
+      },
+      {
+        "day": 27,
+        "spend": 99.17,
+        "impressions": 2040,
+        "clicks": 45,
+        "conversions": 3,
+        "phone_calls": 0,
+        "cpc": 2.2,
+        "cost_per_conversion": 33.06
+      },
+      {
+        "day": 28,
+        "spend": 161.57,
+        "impressions": 2978,
+        "clicks": 72,
+        "conversions": 12,
+        "phone_calls": 0,
+        "cpc": 2.24,
+        "cost_per_conversion": 13.46
+      },
+      {
+        "day": 29,
+        "spend": 219.24,
+        "impressions": 3484,
+        "clicks": 83,
+        "conversions": 14,
+        "phone_calls": 0,
+        "cpc": 2.64,
+        "cost_per_conversion": 15.66
+      },
+      {
+        "day": 30,
+        "spend": 127.17,
+        "impressions": 4026,
+        "clicks": 66,
+        "conversions": 10,
+        "phone_calls": 0,
+        "cpc": 1.93,
+        "cost_per_conversion": 12.72
+      }
+    ],
+    "mtd_phone_calls": 0,
+    "prev_month_phone_calls": 0
+  }
+}
