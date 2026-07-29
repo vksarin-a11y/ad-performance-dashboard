@@ -9,15 +9,15 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-29T11:32:20.247Z",
+  "updated_at": "2026-07-29T12:32:20.345Z",
   "metrics": {
     "spend": 13161.15,
     "impressions": 72287,
     "clicks": 3852,
-    "conversions": 260.59,
+    "conversions": 260.66,
     "phone_calls": 0,
     "cpc": 3.42,
-    "cost_per_conversion": 50.51
+    "cost_per_conversion": 50.49
   },
   "previous_month": {
     "spend": 14383.16,
@@ -32,7 +32,7 @@
     "spend": -8.5,
     "impressions": 7.87,
     "clicks": -5.17,
-    "conversions": -20.47,
+    "conversions": -20.45,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -82,10 +82,10 @@
       "spend": 1648.98,
       "impressions": 5514,
       "clicks": 446,
-      "conversions": 23.17,
+      "conversions": 23.24,
       "phone_calls": 0,
       "cpc": 3.7,
-      "cost_per_conversion": 71.17
+      "cost_per_conversion": 70.96
     },
     {
       "name": "ARCG  | Performance Max",
@@ -325,10 +325,10 @@
         "spend": 477.99,
         "impressions": 2114,
         "clicks": 159,
-        "conversions": 9.99,
+        "conversions": 10.04,
         "phone_calls": 0,
         "cpc": 3.01,
-        "cost_per_conversion": 47.83
+        "cost_per_conversion": 47.62
       },
       {
         "day": 24,
@@ -365,10 +365,10 @@
         "spend": 597.38,
         "impressions": 2742,
         "clicks": 187,
-        "conversions": 15.37,
+        "conversions": 15.39,
         "phone_calls": 0,
         "cpc": 3.19,
-        "cost_per_conversion": 38.88
+        "cost_per_conversion": 38.82
       },
       {
         "day": 28,
