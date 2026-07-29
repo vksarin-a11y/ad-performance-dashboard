@@ -9,15 +9,15 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-29T12:20:21.680Z",
+  "updated_at": "2026-07-29T13:20:21.657Z",
   "metrics": {
-    "spend": 1638.19,
-    "impressions": 54041,
-    "clicks": 1020,
+    "spend": 1634.61,
+    "impressions": 54040,
+    "clicks": 1019,
     "conversions": 58,
     "phone_calls": 6,
-    "cpc": 1.61,
-    "cost_per_conversion": 28.24
+    "cpc": 1.6,
+    "cost_per_conversion": 28.18
   },
   "previous_month": {
     "spend": 1809.3,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.8
   },
   "comparison_pct": {
-    "spend": -9.46,
-    "impressions": 63.8,
-    "clicks": 30.6,
+    "spend": -9.66,
+    "impressions": 63.79,
+    "clicks": 30.47,
     "conversions": -30.12,
     "phone_calls": 20
   },
@@ -49,13 +49,13 @@
     },
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 533.47,
-      "impressions": 40444,
-      "clicks": 543,
+      "spend": 529.89,
+      "impressions": 40443,
+      "clicks": 542,
       "conversions": 27,
       "phone_calls": 0,
       "cpc": 0.98,
-      "cost_per_conversion": 19.76
+      "cost_per_conversion": 19.63
     },
     {
       "name": "Search | Brampton",
@@ -262,18 +262,18 @@
       },
       {
         "day": 27,
-        "spend": 123.24,
+        "spend": 119.66,
         "impressions": 7538,
-        "clicks": 94,
+        "clicks": 93,
         "conversions": 7,
         "phone_calls": 0,
-        "cpc": 1.31,
-        "cost_per_conversion": 17.61
+        "cpc": 1.29,
+        "cost_per_conversion": 17.09
       },
       {
         "day": 28,
         "spend": 93.73,
-        "impressions": 4927,
+        "impressions": 4926,
         "clicks": 77,
         "conversions": 3,
         "phone_calls": 1,
