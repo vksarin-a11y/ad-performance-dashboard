@@ -9,15 +9,15 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-29T08:08:12.284Z",
+  "updated_at": "2026-07-29T09:08:09.935Z",
   "metrics": {
-    "spend": 2743.01,
+    "spend": 2742.61,
     "impressions": 42384,
-    "clicks": 1986,
+    "clicks": 1984,
     "conversions": 152,
     "phone_calls": 0,
     "cpc": 1.38,
-    "cost_per_conversion": 18.05
+    "cost_per_conversion": 18.04
   },
   "previous_month": {
     "spend": 3098.85,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 123.95
   },
   "comparison_pct": {
-    "spend": -11.48,
+    "spend": -11.5,
     "impressions": 50.15,
-    "clicks": 74.82,
+    "clicks": 74.65,
     "conversions": 508,
     "phone_calls": null
   },
@@ -99,13 +99,13 @@
     },
     {
       "name": "Display | Retargeting | Kilsyth",
-      "spend": 270.82,
+      "spend": 270.41,
       "impressions": 12702,
-      "clicks": 488,
+      "clicks": 486,
       "conversions": 19,
       "phone_calls": 0,
-      "cpc": 0.55,
-      "cost_per_conversion": 14.25
+      "cpc": 0.56,
+      "cost_per_conversion": 14.23
     },
     {
       "name": "Search | Kilsyth Lead Generation",
@@ -372,13 +372,13 @@
       },
       {
         "day": 26,
-        "spend": 122.53,
+        "spend": 122.13,
         "impressions": 802,
-        "clicks": 55,
+        "clicks": 53,
         "conversions": 2,
         "phone_calls": 0,
-        "cpc": 2.23,
-        "cost_per_conversion": 61.27
+        "cpc": 2.3,
+        "cost_per_conversion": 61.07
       },
       {
         "day": 27,
