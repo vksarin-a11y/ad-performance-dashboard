@@ -9,15 +9,15 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-29T05:32:20.081Z",
+  "updated_at": "2026-07-29T06:32:20.964Z",
   "metrics": {
-    "spend": 13160.59,
-    "impressions": 72286,
-    "clicks": 3851,
+    "spend": 13161.15,
+    "impressions": 72287,
+    "clicks": 3852,
     "conversions": 258.59,
     "phone_calls": 0,
     "cpc": 3.42,
-    "cost_per_conversion": 50.89
+    "cost_per_conversion": 50.9
   },
   "previous_month": {
     "spend": 14383.16,
@@ -31,7 +31,7 @@
   "comparison_pct": {
     "spend": -8.5,
     "impressions": 7.87,
-    "clicks": -5.19,
+    "clicks": -5.17,
     "conversions": -21.08,
     "phone_calls": null
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "Bundle | Performance Max",
-      "spend": 3638.39,
+      "spend": 3638.95,
       "impressions": 15665,
-      "clicks": 1218,
+      "clicks": 1219,
       "conversions": 66.04,
       "phone_calls": 0,
       "cpc": 2.99,
-      "cost_per_conversion": 55.09
+      "cost_per_conversion": 55.1
     },
     {
       "name": "RSA | Performance Max",
@@ -90,7 +90,7 @@
     {
       "name": "ARCG  | Performance Max",
       "spend": 924.09,
-      "impressions": 10257,
+      "impressions": 10258,
       "clicks": 200,
       "conversions": 10.91,
       "phone_calls": 0,
@@ -332,13 +332,13 @@
       },
       {
         "day": 24,
-        "spend": 399.14,
+        "spend": 399.7,
         "impressions": 2128,
-        "clicks": 117,
+        "clicks": 118,
         "conversions": 6.22,
         "phone_calls": 0,
-        "cpc": 3.41,
-        "cost_per_conversion": 64.19
+        "cpc": 3.39,
+        "cost_per_conversion": 64.28
       },
       {
         "day": 25,
@@ -373,7 +373,7 @@
       {
         "day": 28,
         "spend": 413.6,
-        "impressions": 2333,
+        "impressions": 2334,
         "clicks": 133,
         "conversions": 12.23,
         "phone_calls": 0,
