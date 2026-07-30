@@ -9,15 +9,15 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-30T22:20:24.030Z",
+  "updated_at": "2026-07-30T23:20:21.494Z",
   "metrics": {
-    "spend": 1801.01,
+    "spend": 1804.83,
     "impressions": 62196,
-    "clicks": 1175,
+    "clicks": 1176,
     "conversions": 62,
     "phone_calls": 6,
     "cpc": 1.53,
-    "cost_per_conversion": 29.05
+    "cost_per_conversion": 29.11
   },
   "previous_month": {
     "spend": 1809.3,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.8
   },
   "comparison_pct": {
-    "spend": -0.46,
+    "spend": -0.25,
     "impressions": 88.51,
-    "clicks": 50.45,
+    "clicks": 50.58,
     "conversions": -25.3,
     "phone_calls": 20
   },
@@ -59,13 +59,13 @@
     },
     {
       "name": "Search | Brampton",
-      "spend": 391.39,
+      "spend": 395.21,
       "impressions": 726,
-      "clicks": 93,
+      "clicks": 94,
       "conversions": 3,
       "phone_calls": 3,
-      "cpc": 4.21,
-      "cost_per_conversion": 130.46
+      "cpc": 4.2,
+      "cost_per_conversion": 131.74
     },
     {
       "name": "Search | Hamilton",
@@ -282,13 +282,13 @@
       },
       {
         "day": 29,
-        "spend": 168.52,
+        "spend": 172.34,
         "impressions": 8157,
-        "clicks": 157,
+        "clicks": 158,
         "conversions": 4,
         "phone_calls": 0,
-        "cpc": 1.07,
-        "cost_per_conversion": 42.13
+        "cpc": 1.09,
+        "cost_per_conversion": 43.09
       }
     ],
     "last_month": [
