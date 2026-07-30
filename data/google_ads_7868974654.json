@@ -9,11 +9,11 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-30T12:32:19.969Z",
+  "updated_at": "2026-07-30T13:32:20.082Z",
   "metrics": {
     "spend": 13539.38,
     "impressions": 74676,
-    "clicks": 3999,
+    "clicks": 3998,
     "conversions": 266.48,
     "phone_calls": 0,
     "cpc": 3.39,
@@ -31,7 +31,7 @@
   "comparison_pct": {
     "spend": -5.87,
     "impressions": 11.43,
-    "clicks": -1.55,
+    "clicks": -1.58,
     "conversions": -18.67,
     "phone_calls": null
   },
@@ -91,10 +91,10 @@
       "name": "ARCG  | Performance Max",
       "spend": 949.08,
       "impressions": 10630,
-      "clicks": 209,
+      "clicks": 208,
       "conversions": 10.91,
       "phone_calls": 0,
-      "cpc": 4.54,
+      "cpc": 4.56,
       "cost_per_conversion": 86.97
     }
   ],
@@ -354,10 +354,10 @@
         "day": 26,
         "spend": 572.72,
         "impressions": 3405,
-        "clicks": 156,
+        "clicks": 155,
         "conversions": 3.13,
         "phone_calls": 0,
-        "cpc": 3.67,
+        "cpc": 3.69,
         "cost_per_conversion": 183.12
       },
       {
