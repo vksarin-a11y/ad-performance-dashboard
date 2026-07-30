@@ -9,10 +9,10 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-30T21:20:20.767Z",
+  "updated_at": "2026-07-30T22:20:24.030Z",
   "metrics": {
     "spend": 1801.01,
-    "impressions": 62197,
+    "impressions": 62196,
     "clicks": 1175,
     "conversions": 62,
     "phone_calls": 6,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -0.46,
-    "impressions": 88.52,
+    "impressions": 88.51,
     "clicks": 50.45,
     "conversions": -25.3,
     "phone_calls": 20
@@ -60,7 +60,7 @@
     {
       "name": "Search | Brampton",
       "spend": 391.39,
-      "impressions": 727,
+      "impressions": 726,
       "clicks": 93,
       "conversions": 3,
       "phone_calls": 3,
@@ -263,7 +263,7 @@
       {
         "day": 27,
         "spend": 117.54,
-        "impressions": 7538,
+        "impressions": 7537,
         "clicks": 92,
         "conversions": 7,
         "phone_calls": 0,
