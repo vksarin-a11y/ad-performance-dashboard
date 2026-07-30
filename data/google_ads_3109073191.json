@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260701",
-    "mtd_end": "20260728",
+    "mtd_end": "20260729",
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-30T03:57:02.339Z",
+  "updated_at": "2026-07-30T04:57:01.810Z",
   "metrics": {
-    "spend": 1885.16,
-    "impressions": 6805,
-    "clicks": 315,
-    "conversions": 25,
+    "spend": 1924.75,
+    "impressions": 6906,
+    "clicks": 321,
+    "conversions": 26,
     "phone_calls": 2,
-    "cpc": 5.98,
-    "cost_per_conversion": 75.41
+    "cpc": 6,
+    "cost_per_conversion": 74.03
   },
   "previous_month": {
     "spend": 1968.45,
@@ -29,23 +29,23 @@
     "cost_per_conversion": 123.03
   },
   "comparison_pct": {
-    "spend": -4.23,
-    "impressions": 82.98,
-    "clicks": 40.63,
-    "conversions": 56.25,
+    "spend": -2.22,
+    "impressions": 85.7,
+    "clicks": 43.3,
+    "conversions": 62.5,
     "phone_calls": 100
   },
   "recommendation": "Performance is roughly in line with last month.",
   "campaigns": [
     {
       "name": "RB - Search | Emergency",
-      "spend": 826.17,
-      "impressions": 1003,
-      "clicks": 88,
+      "spend": 855.8,
+      "impressions": 1028,
+      "clicks": 91,
       "conversions": 8.83,
       "phone_calls": 2,
-      "cpc": 9.39,
-      "cost_per_conversion": 93.53
+      "cpc": 9.4,
+      "cost_per_conversion": 96.88
     },
     {
       "name": "RB - Search | General Dentistry (Target CPA)",
@@ -59,23 +59,23 @@
     },
     {
       "name": "RB - Pmax | General Dentistry (New)",
-      "spend": 325.76,
-      "impressions": 4141,
-      "clicks": 140,
-      "conversions": 13,
+      "spend": 331.45,
+      "impressions": 4216,
+      "clicks": 142,
+      "conversions": 14,
       "phone_calls": 0,
       "cpc": 2.33,
-      "cost_per_conversion": 25.06
+      "cost_per_conversion": 23.68
     },
     {
       "name": "RB - Search | General Dentistry",
-      "spend": 293.82,
-      "impressions": 755,
-      "clicks": 40,
+      "spend": 298.09,
+      "impressions": 756,
+      "clicks": 41,
       "conversions": 1.17,
       "phone_calls": 0,
-      "cpc": 7.35,
-      "cost_per_conversion": 251.84
+      "cpc": 7.27,
+      "cost_per_conversion": 255.5
     },
     {
       "name": "RB - Search | Emergency (New)",
@@ -289,6 +289,16 @@
         "phone_calls": 0,
         "cpc": 5.37,
         "cost_per_conversion": 34.93
+      },
+      {
+        "day": 29,
+        "spend": 39.59,
+        "impressions": 101,
+        "clicks": 6,
+        "conversions": 1,
+        "phone_calls": 0,
+        "cpc": 6.6,
+        "cost_per_conversion": 39.59
       }
     ],
     "last_month": [
