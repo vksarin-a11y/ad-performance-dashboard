@@ -9,10 +9,10 @@
     "prev_month_start": "20260601",
     "prev_month_end": "20260630"
   },
-  "updated_at": "2026-07-31T06:08:09.522Z",
+  "updated_at": "2026-07-31T07:08:09.462Z",
   "metrics": {
     "spend": 2992.73,
-    "impressions": 45861,
+    "impressions": 45862,
     "clicks": 2103,
     "conversions": 154,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -3.42,
-    "impressions": 62.47,
+    "impressions": 62.48,
     "clicks": 85.12,
     "conversions": 516,
     "phone_calls": null
@@ -90,7 +90,7 @@
     {
       "name": "Display | Retargeting | Melbournce CBD",
       "spend": 296.24,
-      "impressions": 8287,
+      "impressions": 8288,
       "clicks": 432,
       "conversions": 2,
       "phone_calls": 0,
@@ -403,7 +403,7 @@
       {
         "day": 29,
         "spend": 153.3,
-        "impressions": 2719,
+        "impressions": 2720,
         "clicks": 69,
         "conversions": 1,
         "phone_calls": 0,
