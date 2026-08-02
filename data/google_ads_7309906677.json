@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260731",
+    "mtd_end": "20260801",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-02T03:20:43.496Z",
+  "updated_at": "2026-08-02T04:20:44.192Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "conversions": 0,
+    "spend": 302.35,
+    "impressions": 4567,
+    "clicks": 133,
+    "conversions": 13,
     "phone_calls": 0,
-    "cpc": 0,
-    "cost_per_conversion": 0
+    "cpc": 2.27,
+    "cost_per_conversion": 23.26
   },
   "previous_month": {
     "spend": 8351.18,
@@ -29,16 +29,108 @@
     "cost_per_conversion": 25.31
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
-    "conversions": -100,
+    "spend": -96.38,
+    "impressions": -96.86,
+    "clicks": -96.35,
+    "conversions": -96.06,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "campaigns": [
+    {
+      "name": "PMax - Smart Shopping - Denmark",
+      "spend": 131.72,
+      "impressions": 1655,
+      "clicks": 46,
+      "conversions": 4,
+      "phone_calls": 0,
+      "cpc": 2.86,
+      "cost_per_conversion": 32.93
+    },
+    {
+      "name": "PMax: Smart Shopping - Netherlands",
+      "spend": 54.57,
+      "impressions": 855,
+      "clicks": 34,
+      "conversions": 4,
+      "phone_calls": 0,
+      "cpc": 1.6,
+      "cost_per_conversion": 13.64
+    },
+    {
+      "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
+      "spend": 49.36,
+      "impressions": 1059,
+      "clicks": 17,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 2.9,
+      "cost_per_conversion": 49.36
+    },
+    {
+      "name": "PMax: Smart Shopping - Sweden",
+      "spend": 28.47,
+      "impressions": 278,
+      "clicks": 13,
+      "conversions": 2,
+      "phone_calls": 0,
+      "cpc": 2.19,
+      "cost_per_conversion": 14.23
+    },
+    {
+      "name": "Feetunique.fr",
+      "spend": 23.05,
+      "impressions": 86,
+      "clicks": 10,
+      "conversions": 2,
+      "phone_calls": 0,
+      "cpc": 2.31,
+      "cost_per_conversion": 11.53
+    },
+    {
+      "name": "PMax: Smart Shopping - FR",
+      "spend": 6,
+      "impressions": 384,
+      "clicks": 8,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0.75,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "PMax: Smart Shopping - Norway",
+      "spend": 5.12,
+      "impressions": 35,
+      "clicks": 2,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 2.56,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "PMax - Smart Shopping - Germany",
+      "spend": 4.05,
+      "impressions": 215,
+      "clicks": 3,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 1.35,
+      "cost_per_conversion": 0
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 1,
+        "spend": 302.35,
+        "impressions": 4567,
+        "clicks": 133,
+        "conversions": 13,
+        "phone_calls": 0,
+        "cpc": 2.27,
+        "cost_per_conversion": 23.26
+      }
+    ],
     "last_month": [
       {
         "day": 1,
