@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-02T10:20:43.685Z",
+  "updated_at": "2026-08-02T11:20:44.767Z",
   "metrics": {
     "spend": 306.68,
     "impressions": 4567,
     "clicks": 135,
-    "conversions": 13,
+    "conversions": 14,
     "phone_calls": 0,
     "cpc": 2.27,
-    "cost_per_conversion": 23.59
+    "cost_per_conversion": 21.91
   },
   "previous_month": {
     "spend": 8351.18,
@@ -32,7 +32,7 @@
     "spend": -96.33,
     "impressions": -96.86,
     "clicks": -96.29,
-    "conversions": -96.06,
+    "conversions": -95.76,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -72,10 +72,10 @@
       "spend": 28.47,
       "impressions": 278,
       "clicks": 13,
-      "conversions": 2,
+      "conversions": 3,
       "phone_calls": 0,
       "cpc": 2.19,
-      "cost_per_conversion": 14.23
+      "cost_per_conversion": 9.49
     },
     {
       "name": "Feetunique.fr",
@@ -125,10 +125,10 @@
         "spend": 306.68,
         "impressions": 4567,
         "clicks": 135,
-        "conversions": 13,
+        "conversions": 14,
         "phone_calls": 0,
         "cpc": 2.27,
-        "cost_per_conversion": 23.59
+        "cost_per_conversion": 21.91
       }
     ],
     "last_month": [
