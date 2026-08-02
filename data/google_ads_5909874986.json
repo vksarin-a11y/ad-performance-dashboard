@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260731",
+    "mtd_end": "20260801",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-02T03:08:10.280Z",
+  "updated_at": "2026-08-02T04:08:09.134Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "conversions": 0,
+    "spend": 125.56,
+    "impressions": 1656,
+    "clicks": 54,
+    "conversions": 1,
     "phone_calls": 0,
-    "cpc": 0,
-    "cost_per_conversion": 0
+    "cpc": 2.33,
+    "cost_per_conversion": 125.56
   },
   "previous_month": {
     "spend": 3051.41,
@@ -29,16 +29,108 @@
     "cost_per_conversion": 19.69
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
-    "conversions": -100,
+    "spend": -95.89,
+    "impressions": -96.55,
+    "clicks": -97.5,
+    "conversions": -99.35,
     "phone_calls": null
   },
-  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
+  "campaigns": [
+    {
+      "name": "Search | Highett Lead Generation",
+      "spend": 34.1,
+      "impressions": 2,
+      "clicks": 2,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 17.05,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Search | Kilsyth Lead Generation",
+      "spend": 29.1,
+      "impressions": 20,
+      "clicks": 1,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 29.1,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Search | Melbourne CBD Lead Generation",
+      "spend": 18.28,
+      "impressions": 81,
+      "clicks": 7,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 2.61,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Display | Retargeting | Melbournce CBD",
+      "spend": 12.05,
+      "impressions": 302,
+      "clicks": 7,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 1.72,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Display | Retargeting | Mitcham",
+      "spend": 10.9,
+      "impressions": 96,
+      "clicks": 8,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 1.36,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Display | Retargeting | Highett",
+      "spend": 10.49,
+      "impressions": 798,
+      "clicks": 20,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0.52,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Display | Retargeting | Kilsyth",
+      "spend": 9.49,
+      "impressions": 340,
+      "clicks": 8,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 1.19,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Search | Mitcham Lead Generation",
+      "spend": 1.15,
+      "impressions": 17,
+      "clicks": 1,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 1.15,
+      "cost_per_conversion": 1.15
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 1,
+        "spend": 125.56,
+        "impressions": 1656,
+        "clicks": 54,
+        "conversions": 1,
+        "phone_calls": 0,
+        "cpc": 2.33,
+        "cost_per_conversion": 125.56
+      }
+    ],
     "last_month": [
       {
         "day": 1,
