@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260801",
+    "mtd_end": "20260802",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-03T03:08:09.651Z",
+  "updated_at": "2026-08-03T04:08:11.346Z",
   "metrics": {
-    "spend": 125.56,
-    "impressions": 1656,
-    "clicks": 54,
+    "spend": 242.29,
+    "impressions": 3179,
+    "clicks": 106,
     "conversions": 1,
     "phone_calls": 0,
-    "cpc": 2.33,
-    "cost_per_conversion": 125.56
+    "cpc": 2.29,
+    "cost_per_conversion": 242.29
   },
   "previous_month": {
     "spend": 3051.41,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 19.69
   },
   "comparison_pct": {
-    "spend": -95.89,
-    "impressions": -96.55,
-    "clicks": -97.5,
+    "spend": -92.06,
+    "impressions": -93.38,
+    "clicks": -95.1,
     "conversions": -99.35,
     "phone_calls": null
   },
@@ -39,18 +39,38 @@
   "campaigns": [
     {
       "name": "Search | Highett Lead Generation",
-      "spend": 34.1,
-      "impressions": 2,
-      "clicks": 2,
+      "spend": 50.02,
+      "impressions": 10,
+      "clicks": 4,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 17.05,
+      "cpc": 12.51,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Search | Mitcham Lead Generation",
+      "spend": 38.58,
+      "impressions": 35,
+      "clicks": 5,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 7.72,
+      "cost_per_conversion": 38.58
+    },
+    {
+      "name": "Search | Melbourne CBD Lead Generation",
+      "spend": 37.92,
+      "impressions": 176,
+      "clicks": 12,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 3.16,
       "cost_per_conversion": 0
     },
     {
       "name": "Search | Kilsyth Lead Generation",
       "spend": 29.1,
-      "impressions": 20,
+      "impressions": 34,
       "clicks": 1,
       "conversions": 0,
       "phone_calls": 0,
@@ -58,64 +78,44 @@
       "cost_per_conversion": 0
     },
     {
-      "name": "Search | Melbourne CBD Lead Generation",
-      "spend": 18.28,
-      "impressions": 81,
-      "clicks": 7,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 2.61,
-      "cost_per_conversion": 0
-    },
-    {
       "name": "Display | Retargeting | Melbournce CBD",
-      "spend": 12.05,
-      "impressions": 302,
-      "clicks": 7,
+      "spend": 22.02,
+      "impressions": 502,
+      "clicks": 12,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 1.72,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "Display | Retargeting | Mitcham",
-      "spend": 10.9,
-      "impressions": 96,
-      "clicks": 8,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 1.36,
+      "cpc": 1.84,
       "cost_per_conversion": 0
     },
     {
       "name": "Display | Retargeting | Highett",
-      "spend": 10.49,
-      "impressions": 798,
-      "clicks": 20,
+      "spend": 21.91,
+      "impressions": 1728,
+      "clicks": 39,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 0.52,
+      "cpc": 0.56,
       "cost_per_conversion": 0
     },
     {
       "name": "Display | Retargeting | Kilsyth",
-      "spend": 9.49,
-      "impressions": 340,
-      "clicks": 8,
+      "spend": 21.5,
+      "impressions": 549,
+      "clicks": 19,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 1.19,
+      "cpc": 1.13,
       "cost_per_conversion": 0
     },
     {
-      "name": "Search | Mitcham Lead Generation",
-      "spend": 1.15,
-      "impressions": 17,
-      "clicks": 1,
-      "conversions": 1,
+      "name": "Display | Retargeting | Mitcham",
+      "spend": 21.24,
+      "impressions": 145,
+      "clicks": 14,
+      "conversions": 0,
       "phone_calls": 0,
-      "cpc": 1.15,
-      "cost_per_conversion": 1.15
+      "cpc": 1.52,
+      "cost_per_conversion": 0
     }
   ],
   "daily": {
@@ -129,6 +129,16 @@
         "phone_calls": 0,
         "cpc": 2.33,
         "cost_per_conversion": 125.56
+      },
+      {
+        "day": 2,
+        "spend": 116.73,
+        "impressions": 1523,
+        "clicks": 52,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 2.24,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
