@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-04T16:32:19.588Z",
+  "updated_at": "2026-08-04T17:32:23.753Z",
   "metrics": {
     "spend": 1272.8,
     "impressions": 7212,
     "clicks": 382,
-    "conversions": 23.76,
+    "conversions": 24.76,
     "phone_calls": 0,
     "cpc": 3.33,
-    "cost_per_conversion": 53.57
+    "cost_per_conversion": 51.41
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -91.16,
     "impressions": -90.86,
     "clicks": -90.99,
-    "conversions": -91.91,
+    "conversions": -91.57,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -52,10 +52,10 @@
       "spend": 318.95,
       "impressions": 1370,
       "clicks": 117,
-      "conversions": 7.42,
+      "conversions": 8.42,
       "phone_calls": 0,
       "cpc": 2.73,
-      "cost_per_conversion": 43.01
+      "cost_per_conversion": 37.9
     },
     {
       "name": "RCG | Search | Target CPA",
@@ -105,10 +105,10 @@
         "spend": 422.16,
         "impressions": 2593,
         "clicks": 107,
-        "conversions": 6.86,
+        "conversions": 7.86,
         "phone_calls": 0,
         "cpc": 3.95,
-        "cost_per_conversion": 61.53
+        "cost_per_conversion": 53.7
       },
       {
         "day": 2,
