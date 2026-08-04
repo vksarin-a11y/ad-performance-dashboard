@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260802",
+    "mtd_end": "20260803",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-04T03:57:01.377Z",
+  "updated_at": "2026-08-04T04:57:01.704Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "conversions": 0,
+    "spend": 91.44,
+    "impressions": 173,
+    "clicks": 13,
+    "conversions": 2,
     "phone_calls": 0,
-    "cpc": 0,
-    "cost_per_conversion": 0
+    "cpc": 7.03,
+    "cost_per_conversion": 45.72
   },
   "previous_month": {
     "spend": 1986.56,
@@ -29,16 +29,58 @@
     "cost_per_conversion": 73.58
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
-    "conversions": -100,
+    "spend": -95.4,
+    "impressions": -97.56,
+    "clicks": -96.14,
+    "conversions": -92.59,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "campaigns": [
+    {
+      "name": "RB - Search | General Dentistry",
+      "spend": 52.36,
+      "impressions": 103,
+      "clicks": 5,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 10.47,
+      "cost_per_conversion": 52.36
+    },
+    {
+      "name": "RB - Search | Emergency",
+      "spend": 33.35,
+      "impressions": 34,
+      "clicks": 6,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 5.56,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB - Pmax | General Dentistry (New)",
+      "spend": 5.73,
+      "impressions": 36,
+      "clicks": 2,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 2.86,
+      "cost_per_conversion": 5.73
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 3,
+        "spend": 91.44,
+        "impressions": 173,
+        "clicks": 13,
+        "conversions": 2,
+        "phone_calls": 0,
+        "cpc": 7.03,
+        "cost_per_conversion": 45.72
+      }
+    ],
     "last_month": [
       {
         "day": 1,
