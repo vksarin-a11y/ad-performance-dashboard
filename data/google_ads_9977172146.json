@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260802",
+    "mtd_end": "20260803",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-04T03:44:25.681Z",
+  "updated_at": "2026-08-04T04:44:25.517Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "conversions": 0,
+    "spend": 229.28,
+    "impressions": 466,
+    "clicks": 52,
+    "conversions": 1,
     "phone_calls": 0,
-    "cpc": 0,
-    "cost_per_conversion": 0
+    "cpc": 4.41,
+    "cost_per_conversion": 229.28
   },
   "previous_month": {
     "spend": 3491.99,
@@ -29,16 +29,78 @@
     "cost_per_conversion": 49.89
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
-    "conversions": -100,
+    "spend": -93.43,
+    "impressions": -93.7,
+    "clicks": -94.88,
+    "conversions": -98.57,
     "phone_calls": -100
   },
-  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
+  "campaigns": [
+    {
+      "name": "RB - Search l Dental Location",
+      "spend": 55.08,
+      "impressions": 60,
+      "clicks": 3,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 18.36,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB - Search l Dental Check Up & Clean",
+      "spend": 50.09,
+      "impressions": 212,
+      "clicks": 7,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 7.16,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB - Search l Dental Implants",
+      "spend": 45.91,
+      "impressions": 92,
+      "clicks": 25,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 1.84,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB -  Search l Dental Crowns (New)",
+      "spend": 41.41,
+      "impressions": 76,
+      "clicks": 13,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 3.19,
+      "cost_per_conversion": 41.41
+    },
+    {
+      "name": "RB - Emergency (New)",
+      "spend": 36.79,
+      "impressions": 26,
+      "clicks": 4,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 9.2,
+      "cost_per_conversion": 0
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 3,
+        "spend": 229.28,
+        "impressions": 466,
+        "clicks": 52,
+        "conversions": 1,
+        "phone_calls": 0,
+        "cpc": 4.41,
+        "cost_per_conversion": 229.28
+      }
+    ],
     "last_month": [
       {
         "day": 1,
