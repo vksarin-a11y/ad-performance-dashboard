@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-04T17:20:22.618Z",
+  "updated_at": "2026-08-04T18:20:22.220Z",
   "metrics": {
-    "spend": 75.2,
-    "impressions": 5201,
-    "clicks": 81,
+    "spend": 75.34,
+    "impressions": 5203,
+    "clicks": 82,
     "conversions": 1,
     "phone_calls": 0,
-    "cpc": 0.93,
-    "cost_per_conversion": 75.2
+    "cpc": 0.92,
+    "cost_per_conversion": 75.34
   },
   "previous_month": {
     "spend": 1974.93,
@@ -31,7 +31,7 @@
   "comparison_pct": {
     "spend": -96.19,
     "impressions": -92.63,
-    "clicks": -93.69,
+    "clicks": -93.61,
     "conversions": -98.44,
     "phone_calls": -100
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 35.87,
-      "impressions": 4568,
-      "clicks": 64,
+      "spend": 36.02,
+      "impressions": 4570,
+      "clicks": 65,
       "conversions": 1,
       "phone_calls": 0,
-      "cpc": 0.56,
-      "cost_per_conversion": 35.87
+      "cpc": 0.55,
+      "cost_per_conversion": 36.02
     },
     {
       "name": "Search | Hamilton",
@@ -82,13 +82,13 @@
     "this_month": [
       {
         "day": 3,
-        "spend": 75.2,
-        "impressions": 5201,
-        "clicks": 81,
+        "spend": 75.34,
+        "impressions": 5203,
+        "clicks": 82,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 0.93,
-        "cost_per_conversion": 75.2
+        "cpc": 0.92,
+        "cost_per_conversion": 75.34
       }
     ],
     "last_month": [
