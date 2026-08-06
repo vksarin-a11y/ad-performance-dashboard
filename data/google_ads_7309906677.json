@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-06T14:20:47.041Z",
+  "updated_at": "2026-08-06T15:20:57.003Z",
   "metrics": {
     "spend": 1560.54,
     "impressions": 23136,
     "clicks": 674,
-    "conversions": 81,
+    "conversions": 83,
     "phone_calls": 0,
     "cpc": 2.32,
-    "cost_per_conversion": 19.27
+    "cost_per_conversion": 18.8
   },
   "previous_month": {
     "spend": 8351.18,
@@ -32,7 +32,7 @@
     "spend": -81.31,
     "impressions": -84.12,
     "clicks": -81.48,
-    "conversions": -75.53,
+    "conversions": -74.92,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 788.74,
       "impressions": 9773,
       "clicks": 280,
-      "conversions": 37,
+      "conversions": 38,
       "phone_calls": 0,
       "cpc": 2.82,
-      "cost_per_conversion": 21.32
+      "cost_per_conversion": 20.76
     },
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
@@ -72,10 +72,10 @@
       "spend": 159.52,
       "impressions": 1656,
       "clicks": 78,
-      "conversions": 15,
+      "conversions": 16,
       "phone_calls": 0,
       "cpc": 2.05,
-      "cost_per_conversion": 10.63
+      "cost_per_conversion": 9.97
     },
     {
       "name": "Feetunique.fr",
@@ -145,20 +145,20 @@
         "spend": 316.8,
         "impressions": 4881,
         "clicks": 134,
-        "conversions": 11,
+        "conversions": 12,
         "phone_calls": 0,
         "cpc": 2.36,
-        "cost_per_conversion": 28.8
+        "cost_per_conversion": 26.4
       },
       {
         "day": 4,
         "spend": 290.89,
         "impressions": 4533,
         "clicks": 129,
-        "conversions": 24,
+        "conversions": 25,
         "phone_calls": 0,
         "cpc": 2.25,
-        "cost_per_conversion": 12.12
+        "cost_per_conversion": 11.64
       },
       {
         "day": 5,
