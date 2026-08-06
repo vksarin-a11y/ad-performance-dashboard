@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-05T23:32:19.732Z",
+  "updated_at": "2026-08-06T00:32:19.443Z",
   "metrics": {
     "spend": 1724.37,
     "impressions": 9703,
     "clicks": 513,
-    "conversions": 30.96,
+    "conversions": 31.96,
     "phone_calls": 0,
     "cpc": 3.36,
-    "cost_per_conversion": 55.7
+    "cost_per_conversion": 53.95
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -88.02,
     "impressions": -87.7,
     "clicks": -87.9,
-    "conversions": -89.5,
+    "conversions": -89.16,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -72,10 +72,10 @@
       "spend": 221.08,
       "impressions": 1309,
       "clicks": 58,
-      "conversions": 4,
+      "conversions": 5,
       "phone_calls": 0,
       "cpc": 3.81,
-      "cost_per_conversion": 55.27
+      "cost_per_conversion": 44.22
     },
     {
       "name": "RSA | Search | Target CPA",
@@ -105,10 +105,10 @@
         "spend": 422.16,
         "impressions": 2593,
         "clicks": 107,
-        "conversions": 8.47,
+        "conversions": 9.47,
         "phone_calls": 0,
         "cpc": 3.95,
-        "cost_per_conversion": 49.86
+        "cost_per_conversion": 44.59
       },
       {
         "day": 2,
