@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-07T09:20:22.952Z",
+  "updated_at": "2026-08-07T10:20:21.619Z",
   "metrics": {
     "spend": 431.71,
     "impressions": 31813,
     "clicks": 590,
-    "conversions": 12,
+    "conversions": 14,
     "phone_calls": 0,
     "cpc": 0.73,
-    "cost_per_conversion": 35.98
+    "cost_per_conversion": 30.84
   },
   "previous_month": {
     "spend": 1974.93,
@@ -32,7 +32,7 @@
     "spend": -78.14,
     "impressions": -54.92,
     "clicks": -54.01,
-    "conversions": -81.25,
+    "conversions": -78.12,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 168.02,
       "impressions": 25940,
       "clicks": 435,
-      "conversions": 7,
+      "conversions": 9,
       "phone_calls": 0,
       "cpc": 0.39,
-      "cost_per_conversion": 24
+      "cost_per_conversion": 18.67
     },
     {
       "name": "P.Max - Mississauga",
@@ -115,10 +115,10 @@
         "spend": 132.73,
         "impressions": 9114,
         "clicks": 190,
-        "conversions": 3,
+        "conversions": 5,
         "phone_calls": 0,
         "cpc": 0.7,
-        "cost_per_conversion": 44.24
+        "cost_per_conversion": 26.55
       }
     ],
     "last_month": [
