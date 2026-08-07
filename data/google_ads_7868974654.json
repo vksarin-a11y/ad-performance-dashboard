@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-07T08:32:19.517Z",
+  "updated_at": "2026-08-07T09:32:21.325Z",
   "metrics": {
     "spend": 2582.74,
     "impressions": 14141,
     "clicks": 779,
-    "conversions": 42.54,
+    "conversions": 43.54,
     "phone_calls": 0,
     "cpc": 3.32,
-    "cost_per_conversion": 60.71
+    "cost_per_conversion": 59.32
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -82.06,
     "impressions": -82.07,
     "clicks": -81.63,
-    "conversions": -85.72,
+    "conversions": -85.39,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -72,10 +72,10 @@
       "spend": 343.45,
       "impressions": 1765,
       "clicks": 94,
-      "conversions": 8.68,
+      "conversions": 9.68,
       "phone_calls": 0,
       "cpc": 3.65,
-      "cost_per_conversion": 39.56
+      "cost_per_conversion": 35.47
     },
     {
       "name": "RSA | Search | Target CPA",
@@ -155,10 +155,10 @@
         "spend": 408.43,
         "impressions": 2279,
         "clicks": 134,
-        "conversions": 2,
+        "conversions": 3,
         "phone_calls": 0,
         "cpc": 3.05,
-        "cost_per_conversion": 204.21
+        "cost_per_conversion": 136.14
       }
     ],
     "last_month": [
