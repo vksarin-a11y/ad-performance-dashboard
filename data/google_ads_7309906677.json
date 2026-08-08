@@ -9,10 +9,10 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-08T08:20:44.204Z",
+  "updated_at": "2026-08-08T09:20:44.733Z",
   "metrics": {
     "spend": 2152.17,
-    "impressions": 31571,
+    "impressions": 31570,
     "clicks": 962,
     "conversions": 102,
     "phone_calls": 0,
@@ -60,7 +60,7 @@
     {
       "name": "PMax: Smart Shopping - Netherlands",
       "spend": 249.63,
-      "impressions": 5422,
+      "impressions": 5421,
       "clicks": 178,
       "conversions": 19,
       "phone_calls": 0,
@@ -133,7 +133,7 @@
       {
         "day": 2,
         "spend": 293.47,
-        "impressions": 4143,
+        "impressions": 4142,
         "clicks": 118,
         "conversions": 16,
         "phone_calls": 0,
