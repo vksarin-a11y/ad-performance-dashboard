@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260807",
+    "mtd_end": "20260808",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-09T03:08:11.541Z",
+  "updated_at": "2026-08-09T04:08:09.771Z",
   "metrics": {
-    "spend": 641.12,
-    "impressions": 5217,
-    "clicks": 209,
-    "conversions": 6,
+    "spend": 737.01,
+    "impressions": 5315,
+    "clicks": 220,
+    "conversions": 7,
     "phone_calls": 0,
-    "cpc": 3.07,
-    "cost_per_conversion": 106.85
+    "cpc": 3.35,
+    "cost_per_conversion": 105.29
   },
   "previous_month": {
     "spend": 3051.41,
@@ -29,52 +29,52 @@
     "cost_per_conversion": 19.69
   },
   "comparison_pct": {
-    "spend": -78.99,
-    "impressions": -89.14,
-    "clicks": -90.34,
-    "conversions": -96.13,
+    "spend": -75.85,
+    "impressions": -88.94,
+    "clicks": -89.83,
+    "conversions": -95.48,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
-      "name": "Search | Mitcham Lead Generation",
-      "spend": 150.17,
-      "impressions": 118,
-      "clicks": 17,
-      "conversions": 1,
-      "phone_calls": 0,
-      "cpc": 8.83,
-      "cost_per_conversion": 150.17
-    },
-    {
-      "name": "Search | Melbourne CBD Lead Generation",
-      "spend": 139.88,
-      "impressions": 446,
-      "clicks": 49,
-      "conversions": 5,
-      "phone_calls": 0,
-      "cpc": 2.85,
-      "cost_per_conversion": 27.98
-    },
-    {
       "name": "Search | Kilsyth Lead Generation",
-      "spend": 131.35,
-      "impressions": 155,
-      "clicks": 8,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 16.42,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "Search | Highett Lead Generation",
-      "spend": 95.11,
-      "impressions": 94,
+      "spend": 169.43,
+      "impressions": 169,
       "clicks": 9,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 10.57,
+      "cpc": 18.83,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "Search | Mitcham Lead Generation",
+      "spend": 167.11,
+      "impressions": 156,
+      "clicks": 21,
+      "conversions": 2,
+      "phone_calls": 0,
+      "cpc": 7.96,
+      "cost_per_conversion": 83.56
+    },
+    {
+      "name": "Search | Melbourne CBD Lead Generation",
+      "spend": 147.55,
+      "impressions": 478,
+      "clicks": 53,
+      "conversions": 5,
+      "phone_calls": 0,
+      "cpc": 2.78,
+      "cost_per_conversion": 29.51
+    },
+    {
+      "name": "Search | Highett Lead Generation",
+      "spend": 128.31,
+      "impressions": 108,
+      "clicks": 11,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 11.66,
       "cost_per_conversion": 0
     },
     {
@@ -189,6 +189,16 @@
         "phone_calls": 0,
         "cpc": 4.86,
         "cost_per_conversion": 53.47
+      },
+      {
+        "day": 8,
+        "spend": 95.89,
+        "impressions": 98,
+        "clicks": 11,
+        "conversions": 1,
+        "phone_calls": 0,
+        "cpc": 8.72,
+        "cost_per_conversion": 95.89
       }
     ],
     "last_month": [
