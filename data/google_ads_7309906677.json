@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-09T17:20:44.930Z",
+  "updated_at": "2026-08-09T18:20:45.225Z",
   "metrics": {
     "spend": 2467.25,
     "impressions": 35874,
     "clicks": 1124,
-    "conversions": 103,
+    "conversions": 104,
     "phone_calls": 0,
     "cpc": 2.2,
-    "cost_per_conversion": 23.95
+    "cost_per_conversion": 23.72
   },
   "previous_month": {
     "spend": 8351.18,
@@ -32,7 +32,7 @@
     "spend": -70.46,
     "impressions": -75.37,
     "clicks": -69.12,
-    "conversions": -68.88,
+    "conversions": -68.58,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 1237.95,
       "impressions": 14290,
       "clicks": 471,
-      "conversions": 47,
+      "conversions": 48,
       "phone_calls": 0,
       "cpc": 2.63,
-      "cost_per_conversion": 26.34
+      "cost_per_conversion": 25.79
     },
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
@@ -145,10 +145,10 @@
         "spend": 316.8,
         "impressions": 4881,
         "clicks": 134,
-        "conversions": 12,
+        "conversions": 13,
         "phone_calls": 0,
         "cpc": 2.36,
-        "cost_per_conversion": 26.4
+        "cost_per_conversion": 24.37
       },
       {
         "day": 4,
