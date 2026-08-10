@@ -86,6 +86,21 @@
     top:48px;
     right:24px;
   }
+  .compare-toggle-btn{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    padding:6px 14px;
+    border-radius:100px;
+    border:1px solid var(--hairline);
+    background:var(--paper-raised);
+    color:var(--ink-soft);
+    cursor:pointer;
+    position:absolute;
+    top:84px;
+    right:24px;
+    max-width:200px;
+    text-align:right;
+  }
   *{box-sizing:border-box;}
   body{
     margin:0;
@@ -321,9 +336,10 @@
 <body>
 <div class="wrap">
   <button id="themeToggle" class="theme-toggle-btn">Dark mode</button>
+  <button id="compareToggle" class="compare-toggle-btn">Compare: full month</button>
   <p class="eyebrow">Live account ledger</p>
   <h1>Ad account performance</h1>
-  <p class="subhead">Month-to-date vs last month &middot; last refreshed <span id="last-updated">—</span></p>
+  <p class="subhead">Month-to-date vs <span id="compareLabel">last month</span> &middot; last refreshed <span id="last-updated">—</span></p>
 
   <input type="text" id="accountSearch" class="search-box" placeholder="Search accounts by name…">
 
@@ -336,6 +352,8 @@
 
 <script>
 const chartDataStore = {};
+let cachedAccounts = null;
+let compareMode = localStorage.getItem('dashboard-compare-mode') || 'full'; // 'full' or 'same_period'
 
 async function loadDashboard(){
   const managersEl = document.getElementById('managers');
@@ -355,11 +373,19 @@ async function loadDashboard(){
     return { ...acc, google, meta };
   }));
 
+  cachedAccounts = accounts;
+  renderAll(accounts);
+  wireSearch();
+}
+
+function renderAll(accounts){
+  const managersEl = document.getElementById('managers');
   renderManagerGroups(accounts, managersEl);
   setLastUpdated(accounts);
   attachExpandHandlers();
+  Object.keys(builtCharts).forEach(k => delete builtCharts[k]); // DOM was rebuilt, old chart instances are gone
   wireChartToggles();
-  wireSearch();
+  applySearchFilter();
 }
 
 const builtCharts = {};
@@ -388,19 +414,24 @@ function wireChartToggles(){
 
 function wireSearch(){
   const input = document.getElementById('accountSearch');
+  if(!input || input.dataset.wired) return;
+  input.dataset.wired = 'true';
+  input.addEventListener('input', applySearchFilter);
+}
+
+function applySearchFilter(){
+  const input = document.getElementById('accountSearch');
   if(!input) return;
-  input.addEventListener('input', () => {
-    const query = input.value.trim().toLowerCase();
-    document.querySelectorAll('.manager-group').forEach(group => {
-      let anyVisible = false;
-      group.querySelectorAll('.account-card').forEach(card => {
-        const name = card.dataset.accountName || '';
-        const matches = !query || name.includes(query);
-        card.classList.toggle('hidden-by-search', !matches);
-        if(matches) anyVisible = true;
-      });
-      group.classList.toggle('hidden-by-search', !anyVisible);
+  const query = input.value.trim().toLowerCase();
+  document.querySelectorAll('.manager-group').forEach(group => {
+    let anyVisible = false;
+    group.querySelectorAll('.account-card').forEach(card => {
+      const name = card.dataset.accountName || '';
+      const matches = !query || name.includes(query);
+      card.classList.toggle('hidden-by-search', !matches);
+      if(matches) anyVisible = true;
     });
+    group.classList.toggle('hidden-by-search', !anyVisible);
   });
 }
 
@@ -470,17 +501,16 @@ function accountCard(a, cardId){
 
   const rec = a.google.recommendation || '';
   const recIsFlag = rec && !/^Performance is roughly in line/i.test(rec);
-  const prev = a.google.previous_month || {};
-  const pct = a.google.comparison_pct || {};
+  const { previousMonth: prev, comparisonPct: pct, basisLabel } = getComparisonBasis(a);
 
   const metricsHtml = [
-    metricBox('Spend', '$' + fmt(g.spend), pct.spend),
-    metricBox('Impressions', fmt(g.impressions, 0), pct.impressions),
-    metricBox('Clicks', fmt(g.clicks, 0), pct.clicks),
-    metricBox('Conversions', fmt(g.conversions, 0), pct.conversions),
+    metricBox('Spend', '$' + fmt(g.spend), pct.spend, basisLabel),
+    metricBox('Impressions', fmt(g.impressions, 0), pct.impressions, basisLabel),
+    metricBox('Clicks', fmt(g.clicks, 0), pct.clicks, basisLabel),
+    metricBox('Conversions', fmt(g.conversions, 0), pct.conversions, basisLabel),
     metricBoxRaw('CPC', '$' + fmt(g.cpc), prev.cpc != null ? ('was $' + fmt(prev.cpc)) : 'no prior data'),
     metricBoxRaw('Cost / conversion', '$' + fmt(g.cost_per_conversion), prev.cost_per_conversion != null ? ('was $' + fmt(prev.cost_per_conversion)) : 'no prior data'),
-    metricBox('Phone calls', fmt(g.phone_calls, 0), pct.phone_calls),
+    metricBox('Phone calls', fmt(g.phone_calls, 0), pct.phone_calls, basisLabel),
   ].join('');
 
   const daily = a.google.daily || { this_month: [], last_month: [] };
@@ -536,14 +566,72 @@ function accountCard(a, cardId){
   `;
 }
 
-function metricBox(label, value, pctChange){
+// Returns {previousMonth, comparisonPct, basisLabel} depending on the current compareMode.
+// 'same_period' is computed client-side from daily data we already have — no extra fetch needed.
+function getComparisonBasis(a){
+  const metrics = a.google.metrics;
+
+  if(compareMode === 'same_period'){
+    const daily = a.google.daily;
+    if(daily && daily.this_month && daily.this_month.length && daily.last_month && daily.last_month.length){
+      const n = daily.this_month.length;
+      const subset = daily.last_month.filter(d => d.day <= n);
+      if(subset.length){
+        const totals = subset.reduce((acc, d) => {
+          acc.spend += d.spend || 0;
+          acc.impressions += d.impressions || 0;
+          acc.clicks += d.clicks || 0;
+          acc.conversions += d.conversions || 0;
+          acc.phone_calls += d.phone_calls || 0;
+          return acc;
+        }, { spend: 0, impressions: 0, clicks: 0, conversions: 0, phone_calls: 0 });
+
+        const previousMonth = {
+          spend: round2(totals.spend),
+          impressions: totals.impressions,
+          clicks: totals.clicks,
+          conversions: round2(totals.conversions),
+          phone_calls: totals.phone_calls,
+          cpc: totals.clicks ? round2(totals.spend / totals.clicks) : 0,
+          cost_per_conversion: totals.conversions ? round2(totals.spend / totals.conversions) : 0,
+        };
+        const comparisonPct = {
+          spend: pctChangeClient(metrics.spend, previousMonth.spend),
+          impressions: pctChangeClient(metrics.impressions, previousMonth.impressions),
+          clicks: pctChangeClient(metrics.clicks, previousMonth.clicks),
+          conversions: pctChangeClient(metrics.conversions, previousMonth.conversions),
+          phone_calls: pctChangeClient(metrics.phone_calls, previousMonth.phone_calls),
+        };
+        return { previousMonth, comparisonPct, basisLabel: 'first ' + n + ' days last month' };
+      }
+    }
+    // Not enough daily data to do a same-period comparison for this account — fall back to full month below.
+  }
+
+  return {
+    previousMonth: a.google.previous_month || {},
+    comparisonPct: a.google.comparison_pct || {},
+    basisLabel: 'last month',
+  };
+}
+
+function pctChangeClient(current, previous){
+  if(!previous) return null;
+  return Math.round(((current - previous) / previous) * 1000) / 10;
+}
+function round2(n){
+  return Math.round((n || 0) * 100) / 100;
+}
+
+function metricBox(label, value, pctChange, basisLabel){
+  basisLabel = basisLabel || 'last month';
   let deltaHtml;
   if(pctChange === null || pctChange === undefined){
-    deltaHtml = '<span class="m-delta flat">no prior month</span>';
+    deltaHtml = '<span class="m-delta flat">no prior data</span>';
   } else {
     const cls = pctChange > 0 ? 'pos' : (pctChange < 0 ? 'neg' : 'flat');
     const sign = pctChange > 0 ? '+' : '';
-    deltaHtml = '<span class="m-delta ' + cls + '">' + sign + fmt(pctChange) + '% vs last month</span>';
+    deltaHtml = '<span class="m-delta ' + cls + '">' + sign + fmt(pctChange) + '% vs ' + escapeHtml(basisLabel) + '</span>';
   }
   return (
     '<div class="metric-box">' +
@@ -741,7 +829,30 @@ function escapeHtml(s){
 }
 
 initTheme();
+initCompareToggle();
 loadDashboard();
+
+function initCompareToggle(){
+  updateCompareLabel();
+  document.getElementById('compareToggle').addEventListener('click', () => {
+    compareMode = compareMode === 'full' ? 'same_period' : 'full';
+    localStorage.setItem('dashboard-compare-mode', compareMode);
+    updateCompareLabel();
+    if(cachedAccounts) renderAll(cachedAccounts);
+  });
+}
+
+function updateCompareLabel(){
+  const btn = document.getElementById('compareToggle');
+  const labelSpan = document.getElementById('compareLabel');
+  if(compareMode === 'same_period'){
+    btn.textContent = 'Compare: same period';
+    labelSpan.textContent = 'same period last month';
+  } else {
+    btn.textContent = 'Compare: full month';
+    labelSpan.textContent = 'last month';
+  }
+}
 
 function initTheme(){
   const saved = localStorage.getItem('dashboard-theme'); // 'light' or 'dark', absent = follow OS setting
