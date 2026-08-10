@@ -1,0 +1,46 @@
+{
+  "account_id": "740-436-0266",
+  "account_name": "Bondi Breastfeeding",
+  "account_manager": "Pisey",
+  "platform": "google_ads",
+  "period": {
+    "mtd_start": "20260801",
+    "mtd_end": "20260809",
+    "prev_month_start": "20260701",
+    "prev_month_end": "20260731"
+  },
+  "updated_at": "2026-08-10T16:06:16.097Z",
+  "metrics": {
+    "spend": 0,
+    "impressions": 0,
+    "clicks": 0,
+    "conversions": 0,
+    "phone_calls": 0,
+    "cpc": 0,
+    "cost_per_conversion": 0
+  },
+  "previous_month": {
+    "spend": 0,
+    "impressions": 0,
+    "clicks": 0,
+    "conversions": 0,
+    "phone_calls": 0,
+    "cpc": 0,
+    "cost_per_conversion": 0
+  },
+  "comparison_pct": {
+    "spend": null,
+    "impressions": null,
+    "clicks": null,
+    "conversions": null,
+    "phone_calls": null
+  },
+  "recommendation": "Performance is roughly in line with last month.",
+  "campaigns": [],
+  "daily": {
+    "this_month": [],
+    "last_month": [],
+    "mtd_phone_calls": 0,
+    "prev_month_phone_calls": 0
+  }
+}
