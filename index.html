@@ -193,6 +193,61 @@
   .recommendation.flag{background:var(--warn-soft);color:var(--warn);}
   .recommendation.ok{background:var(--good-soft);color:var(--good);}
 
+  .budget-section{margin-top:14px;}
+  .budget-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:6px;
+  }
+  .budget-label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+  }
+  .budget-status{
+    font-size:11px;
+    padding:3px 8px;
+    border-radius:4px;
+    display:inline-block;
+  }
+  .budget-status.good{background:var(--good-soft);color:var(--good);}
+  .budget-status.warn{background:var(--warn-soft);color:var(--warn);}
+  .budget-status.bad{background:var(--bad-soft);color:var(--bad);}
+
+  .budget-bar{
+    position:relative;
+    height:8px;
+    background:var(--hairline);
+    border-radius:4px;
+    overflow:visible;
+  }
+  .budget-bar-fill{
+    height:100%;
+    background:var(--accent);
+    border-radius:4px;
+    transition:width 0.2s ease;
+  }
+  .budget-bar-fill.over{background:var(--bad);}
+  .budget-bar-marker{
+    position:absolute;
+    top:-3px;
+    width:2px;
+    height:14px;
+    background:var(--ink);
+    opacity:0.5;
+  }
+  .budget-meta{
+    display:flex;
+    justify-content:space-between;
+    font-size:11px;
+    color:var(--ink-soft);
+    margin-top:6px;
+    font-family:'IBM Plex Mono', monospace;
+    flex-wrap:wrap;
+    gap:6px;
+  }
+
   .metrics-grid{
     display:grid;
     grid-template-columns:repeat(7, 1fr);
@@ -499,8 +554,6 @@ function accountCard(a, cardId){
     `;
   }
 
-  const rec = a.google.recommendation || '';
-  const recIsFlag = rec && !/^Performance is roughly in line/i.test(rec);
   const { previousMonth: prev, comparisonPct: pct, basisLabel } = getComparisonBasis(a);
 
   const metricsHtml = [
@@ -545,7 +598,6 @@ function accountCard(a, cardId){
             <span class="chevron">&#9656;</span>
             <span class="account-name">${escapeHtml(a.name)}</span>
           </div>
-          ${rec ? ('<div class="recommendation ' + (recIsFlag ? 'flag' : 'ok') + '">' + escapeHtml(rec) + '</div>') : ''}
         </div>
         <div class="badges">
           <span class="badge on">google on</span>
@@ -553,6 +605,7 @@ function accountCard(a, cardId){
         </div>
       </div>
       <div class="metrics-grid">${metricsHtml}</div>
+      ${renderBudgetSection(a)}
       ${hasDailyData ? `<button class="chart-toggle-btn" data-chart-toggle="${cardId}">Show chart</button>` : ''}
       <div class="chart-section" data-chart-section="${cardId}">
         ${hasDailyData ? `<div class="chart-filters" data-filters-for="${cardId}"></div>` : ''}
@@ -623,6 +676,102 @@ function pctChangeClient(current, previous){
 }
 function round2(n){
   return Math.round((n || 0) * 100) / 100;
+}
+
+// Budget tracking — uses monthly_budget and optional non_running_days from accounts.json.
+// non_running_days is a list of weekday numbers (0=Sun..6=Sat) the account doesn't spend on,
+// e.g. [0,6] for an account that pauses on weekends. Omit it if the account runs every day.
+function getMonthDaysInfo(){
+  const today = new Date();
+  const year = today.getFullYear(), month = today.getMonth();
+  const totalDaysInMonth = new Date(year, month + 1, 0).getDate();
+  return { year, month, totalDaysInMonth };
+}
+
+function countRunningDays(year, month, startDay, endDay, nonRunningDays){
+  let count = 0;
+  for(let d = startDay; d <= endDay; d++){
+    const weekday = new Date(year, month, d).getDay();
+    if(!nonRunningDays.includes(weekday)) count++;
+  }
+  return count;
+}
+
+function computeBudgetStatus(a){
+  const budget = a.monthly_budget;
+  if(!budget || !a.google || !a.google.metrics) return null;
+
+  const daily = a.google.daily || {};
+  const elapsedDays = (daily.this_month && daily.this_month.length) || 0;
+  if(!elapsedDays) return null;
+
+  const nonRunningDays = a.non_running_days || [];
+  const { year, month, totalDaysInMonth } = getMonthDaysInfo();
+
+  const elapsedRunningDays = countRunningDays(year, month, 1, elapsedDays, nonRunningDays);
+  const totalRunningDays = countRunningDays(year, month, 1, totalDaysInMonth, nonRunningDays);
+  const remainingRunningDays = Math.max(0, totalRunningDays - elapsedRunningDays);
+
+  const spend = a.google.metrics.spend || 0;
+  const idealPaceSpend = totalRunningDays ? budget * (elapsedRunningDays / totalRunningDays) : 0;
+  const paceDiffPct = idealPaceSpend ? ((spend - idealPaceSpend) / idealPaceSpend) * 100 : null;
+
+  const remainingBudget = budget - spend;
+  const suggestedDailySpend = remainingRunningDays > 0 ? (remainingBudget / remainingRunningDays) : null;
+
+  let status, statusClass;
+  if(spend > budget){
+    status = 'Over budget';
+    statusClass = 'bad';
+  } else if(paceDiffPct !== null && paceDiffPct > 15){
+    status = 'Ahead of pace';
+    statusClass = 'warn';
+  } else if(paceDiffPct !== null && paceDiffPct < -15){
+    status = 'Behind pace';
+    statusClass = 'warn';
+  } else {
+    status = 'On track';
+    statusClass = 'good';
+  }
+
+  return {
+    budget, spend, remainingBudget, remainingRunningDays, suggestedDailySpend,
+    progressPct: Math.min(100, (spend / budget) * 100),
+    idealPct: Math.min(100, (idealPaceSpend / budget) * 100),
+    status, statusClass,
+  };
+}
+
+function renderBudgetSection(a){
+  const b = computeBudgetStatus(a);
+  if(!b) return '';
+
+  const overBudget = b.spend > b.budget;
+  let dailyTargetText;
+  if(b.remainingRunningDays > 0){
+    dailyTargetText = b.suggestedDailySpend >= 0
+      ? ('$' + fmt(b.suggestedDailySpend) + '/day for the remaining ' + b.remainingRunningDays + ' running day' + (b.remainingRunningDays === 1 ? '' : 's'))
+      : ('Budget already used up — ' + b.remainingRunningDays + ' running day' + (b.remainingRunningDays === 1 ? '' : 's') + ' left with no room to spend');
+  } else {
+    dailyTargetText = 'No running days left this month';
+  }
+
+  return `
+    <div class="budget-section">
+      <div class="budget-head">
+        <span class="budget-label">Budget: $${fmt(b.budget, 0)} this month</span>
+        <span class="budget-status ${b.statusClass}">${escapeHtml(b.status)}</span>
+      </div>
+      <div class="budget-bar">
+        <div class="budget-bar-fill ${overBudget ? 'over' : ''}" style="width:${b.progressPct}%;"></div>
+        <div class="budget-bar-marker" style="left:${b.idealPct}%;" title="Ideal pace so far"></div>
+      </div>
+      <div class="budget-meta">
+        <span>$${fmt(b.spend)} of $${fmt(b.budget, 0)} spent (${fmt(b.progressPct, 0)}%)</span>
+        <span>${dailyTargetText}</span>
+      </div>
+    </div>
+  `;
 }
 
 function metricBox(label, value, pctChange, basisLabel){
