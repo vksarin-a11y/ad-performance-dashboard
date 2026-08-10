@@ -575,7 +575,9 @@ function getComparisonBasis(a){
     const daily = a.google.daily;
     if(daily && daily.this_month && daily.this_month.length && daily.last_month && daily.last_month.length){
       const n = daily.this_month.length;
-      const subset = daily.last_month.filter(d => d.day <= n);
+      // The N days immediately before this period started — i.e. the tail end of last month,
+      // not the first N days of last month. Matches how Google Ads' own "previous period" works.
+      const subset = daily.last_month.slice(-n);
       if(subset.length){
         const totals = subset.reduce((acc, d) => {
           acc.spend += d.spend || 0;
@@ -602,7 +604,7 @@ function getComparisonBasis(a){
           conversions: pctChangeClient(metrics.conversions, previousMonth.conversions),
           phone_calls: pctChangeClient(metrics.phone_calls, previousMonth.phone_calls),
         };
-        return { previousMonth, comparisonPct, basisLabel: 'first ' + n + ' days last month' };
+        return { previousMonth, comparisonPct, basisLabel: 'previous ' + n + ' days' };
       }
     }
     // Not enough daily data to do a same-period comparison for this account — fall back to full month below.
@@ -846,8 +848,8 @@ function updateCompareLabel(){
   const btn = document.getElementById('compareToggle');
   const labelSpan = document.getElementById('compareLabel');
   if(compareMode === 'same_period'){
-    btn.textContent = 'Compare: same period';
-    labelSpan.textContent = 'same period last month';
+    btn.textContent = 'Compare: previous period';
+    labelSpan.textContent = 'previous period';
   } else {
     btn.textContent = 'Compare: full month';
     labelSpan.textContent = 'last month';
