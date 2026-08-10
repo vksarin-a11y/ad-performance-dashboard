@@ -9,7 +9,7 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-10T08:44:25.505Z",
+  "updated_at": "2026-08-10T09:44:24.961Z",
   "metrics": {
     "spend": 1091.07,
     "impressions": 1838,
@@ -48,7 +48,7 @@
       "cost_per_conversion": 49.21
     },
     {
-      "name": "RB - Search l Dental Location",
+      "name": "RB - Search l Dental Location (New)",
       "spend": 226.04,
       "impressions": 249,
       "clicks": 15,
@@ -68,7 +68,7 @@
       "cost_per_conversion": 61.92
     },
     {
-      "name": "RB - Search l Dental Implants",
+      "name": "RB - Search l Dental Implants (New)",
       "spend": 181.09,
       "impressions": 396,
       "clicks": 89,
