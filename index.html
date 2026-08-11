@@ -697,8 +697,23 @@ function countRunningDays(year, month, startDay, endDay, nonRunningDays){
   return count;
 }
 
+// monthly_budget can be a plain number (same budget every month) or an object
+// keyed by "YYYY-MM" (e.g. {"2026-07": 900, "2026-08": 950}) so future months
+// can be filled in ahead of time without editing this file monthly.
+function getBudgetForCurrentMonth(a){
+  const mb = a.monthly_budget;
+  if(mb == null) return null;
+  if(typeof mb === 'number') return mb;
+  if(typeof mb === 'object'){
+    const now = new Date();
+    const key = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0');
+    return mb[key] != null ? mb[key] : null;
+  }
+  return null;
+}
+
 function computeBudgetStatus(a){
-  const budget = a.monthly_budget;
+  const budget = getBudgetForCurrentMonth(a);
   if(!budget || !a.google || !a.google.metrics) return null;
 
   const daily = a.google.daily || {};
