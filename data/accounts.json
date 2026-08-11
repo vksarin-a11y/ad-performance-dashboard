@@ -45,6 +45,7 @@
       "manager": "Bank",
       "google_ads_id": "9977172146",
       "meta_ad_account_id": null,
+      "monthly_budget": {
         "2026-08": 3500,
         "2026-09": 3500,
         "2026-10": 3500,
@@ -74,6 +75,7 @@
       "manager": "Bank",
       "google_ads_id": "3109073191",
       "meta_ad_account_id": null,
+      "monthly_budget": {
         "2026-08": 2000,
         "2026-09": 2000,
         "2026-10": 2000,
