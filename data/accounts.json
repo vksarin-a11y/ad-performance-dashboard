@@ -30,8 +30,14 @@
       "manager": "Bank",
       "google_ads_id": "6634962118",
       "meta_ad_account_id": null,
-      "monthly_budget": {},
-      "non_running_days": []
+      "monthly_budget": {
+        "2026-08": 1300,
+        "2026-09": 1300,
+        "2026-10": 1300,
+        "2026-11": 1300,
+        "2026-12": 1300
+      },
+      "non_running_days": [0]
     },
     {
       "id": "ria-family-dental",
@@ -39,8 +45,13 @@
       "manager": "Bank",
       "google_ads_id": "9977172146",
       "meta_ad_account_id": null,
-      "monthly_budget": {},
-      "non_running_days": []
+        "2026-08": 3500,
+        "2026-09": 3500,
+        "2026-10": 3500,
+        "2026-11": 3500,
+        "2026-12": 3500
+      },
+      "non_running_days": [0,7]
     },
     {
       "id": "passion-family-dental-north-lakes",
@@ -48,8 +59,14 @@
       "manager": "Bank",
       "google_ads_id": "5192710495",
       "meta_ad_account_id": null,
-      "monthly_budget": {},
-      "non_running_days": []
+      "monthly_budget": {
+        "2026-08": 1500,
+        "2026-09": 1500,
+        "2026-10": 1500,
+        "2026-11": 1500,
+        "2026-12": 1500
+      },
+      "non_running_days": [0,7]
     },
     {
       "id": "captivate-dental",
@@ -57,8 +74,13 @@
       "manager": "Bank",
       "google_ads_id": "3109073191",
       "meta_ad_account_id": null,
-      "monthly_budget": {},
-      "non_running_days": []
+        "2026-08": 2000,
+        "2026-09": 2000,
+        "2026-10": 2000,
+        "2026-11": 2000,
+        "2026-12": 2000
+      },
+      "non_running_days": [0,7]
     },
     {
       "id": "deckmaster",
@@ -66,8 +88,10 @@
       "manager": "Pisey",
       "google_ads_id": "2375305521",
       "meta_ad_account_id": null,
-      "monthly_budget": {},
-      "non_running_days": []
+      "monthly_budget": {
+        "2026-08": 6000,
+      },
+      "non_running_days": [0,7]
     },
     {
       "id": "feet-unique",
@@ -84,8 +108,14 @@
       "manager": "Pisey",
       "google_ads_id": "1423775044",
       "meta_ad_account_id": null,
-      "monthly_budget": {},
-      "non_running_days": []
+      "monthly_budget": {
+        "2026-08": 6000,
+        "2026-09": 6000,
+        "2026-10": 6000,
+        "2026-11": 6000,
+        "2026-12": 6000
+      },
+      "non_running_days": [0]
     },
     {
       "id": "bondi-breastfeeding",
@@ -93,7 +123,12 @@
       "manager": "Pisey",
       "google_ads_id": "7404360266",
       "meta_ad_account_id": null,
-      "monthly_budget": {},
+      "monthly_budget": {
+        "2026-09": 1000,
+        "2026-10": 1000,
+        "2026-11": 1000,
+        "2026-12": 1000
+      },
       "non_running_days": []
     },
     {
