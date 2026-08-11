@@ -52,7 +52,7 @@
         "2026-11": 3500,
         "2026-12": 3500
       },
-      "non_running_days": [0,7]
+      "non_running_days": [0,6]
     },
     {
       "id": "passion-family-dental-north-lakes",
@@ -67,7 +67,7 @@
         "2026-11": 1500,
         "2026-12": 1500
       },
-      "non_running_days": [0,7]
+      "non_running_days": [0,6]
     },
     {
       "id": "captivate-dental",
@@ -82,7 +82,7 @@
         "2026-11": 2000,
         "2026-12": 2000
       },
-      "non_running_days": [0,7]
+      "non_running_days": [0,6]
     },
     {
       "id": "deckmaster",
@@ -91,9 +91,9 @@
       "google_ads_id": "2375305521",
       "meta_ad_account_id": null,
       "monthly_budget": {
-        "2026-08": 6000,
+        "2026-08": 6000
       },
-      "non_running_days": [0,7]
+      "non_running_days": [0,6]
     },
     {
       "id": "feet-unique",
