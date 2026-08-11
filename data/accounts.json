@@ -6,8 +6,14 @@
       "manager": "Inthot",
       "google_ads_id": "1263542775",
       "meta_ad_account_id": null,
-      "monthly_budget": {},
-      "non_running_days": []
+      "monthly_budget": {
+        "2026-08": 2500,
+        "2026-09": 2500,
+        "2026-10": 2500,
+        "2026-11": 2500,
+        "2026-12": 2500,
+      },
+      "non_running_days": [0]
     },
     {
       "id": "iconinteriors",
