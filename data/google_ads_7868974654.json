@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-12T07:32:21.057Z",
+  "updated_at": "2026-08-12T08:32:19.080Z",
   "metrics": {
     "spend": 4930.22,
     "impressions": 30564,
     "clicks": 1495,
-    "conversions": 101.48,
+    "conversions": 103.48,
     "phone_calls": 0,
     "cpc": 3.3,
-    "cost_per_conversion": 48.58
+    "cost_per_conversion": 47.64
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -65.76,
     "impressions": -61.25,
     "clicks": -64.75,
-    "conversions": -66.4,
+    "conversions": -65.74,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -72,20 +72,20 @@
       "spend": 675.38,
       "impressions": 1166,
       "clicks": 162,
-      "conversions": 20.9,
+      "conversions": 21.9,
       "phone_calls": 0,
       "cpc": 4.17,
-      "cost_per_conversion": 32.32
+      "cost_per_conversion": 30.84
     },
     {
       "name": "RSA | Search | Target CPA",
       "spend": 603.09,
       "impressions": 2098,
       "clicks": 151,
-      "conversions": 11.92,
+      "conversions": 12.92,
       "phone_calls": 0,
       "cpc": 3.99,
-      "cost_per_conversion": 50.58
+      "cost_per_conversion": 46.67
     },
     {
       "name": "ARCG  | Performance Max",
@@ -155,10 +155,10 @@
         "spend": 408.43,
         "impressions": 2279,
         "clicks": 134,
-        "conversions": 4,
+        "conversions": 5,
         "phone_calls": 0,
         "cpc": 3.05,
-        "cost_per_conversion": 102.11
+        "cost_per_conversion": 81.69
       },
       {
         "day": 7,
@@ -195,10 +195,10 @@
         "spend": 657.91,
         "impressions": 3944,
         "clicks": 194,
-        "conversions": 13.97,
+        "conversions": 14.97,
         "phone_calls": 0,
         "cpc": 3.39,
-        "cost_per_conversion": 47.11
+        "cost_per_conversion": 43.96
       },
       {
         "day": 11,
