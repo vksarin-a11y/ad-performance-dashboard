@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-12T17:21:13.021Z",
+  "updated_at": "2026-08-12T18:21:12.304Z",
   "metrics": {
-    "spend": 1517.64,
+    "spend": 1517.24,
     "impressions": 21020,
-    "clicks": 437,
+    "clicks": 436,
     "conversions": 38,
     "phone_calls": 3,
-    "cpc": 3.47,
-    "cost_per_conversion": 39.94
+    "cpc": 3.48,
+    "cost_per_conversion": 39.93
   },
   "previous_month": {
     "spend": 5866.39,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 41.02
   },
   "comparison_pct": {
-    "spend": -74.13,
+    "spend": -74.14,
     "impressions": -68.19,
-    "clicks": -72.6,
+    "clicks": -72.66,
     "conversions": -73.43,
     "phone_calls": -72.73
   },
@@ -49,13 +49,13 @@
     },
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 301.16,
+      "spend": 300.76,
       "impressions": 4713,
-      "clicks": 115,
+      "clicks": 114,
       "conversions": 15.5,
       "phone_calls": 0,
-      "cpc": 2.62,
-      "cost_per_conversion": 19.43
+      "cpc": 2.64,
+      "cost_per_conversion": 19.4
     },
     {
       "name": "RB - Dental Emergency",
@@ -182,13 +182,13 @@
       },
       {
         "day": 11,
-        "spend": 207.83,
+        "spend": 207.43,
         "impressions": 4633,
-        "clicks": 104,
+        "clicks": 103,
         "conversions": 10,
         "phone_calls": 0,
-        "cpc": 2,
-        "cost_per_conversion": 20.78
+        "cpc": 2.01,
+        "cost_per_conversion": 20.74
       }
     ],
     "last_month": [
