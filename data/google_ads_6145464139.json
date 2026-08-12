@@ -9,30 +9,30 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-12T18:04:07.696Z",
+  "updated_at": "2026-08-12T19:04:07.786Z",
   "metrics": {
     "spend": 1164.9,
     "impressions": 12759,
     "clicks": 391,
-    "conversions": 48,
+    "conversions": 49,
     "phone_calls": 0,
     "cpc": 2.98,
-    "cost_per_conversion": 24.27
+    "cost_per_conversion": 23.77
   },
   "previous_month": {
     "spend": 3315.54,
     "impressions": 23791,
     "clicks": 937,
-    "conversions": 132.84,
+    "conversions": 133.84,
     "phone_calls": 0,
     "cpc": 3.54,
-    "cost_per_conversion": 24.96
+    "cost_per_conversion": 24.77
   },
   "comparison_pct": {
     "spend": -64.87,
     "impressions": -46.37,
     "clicks": -58.27,
-    "conversions": -63.87,
+    "conversions": -63.39,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -62,10 +62,10 @@
       "spend": 218.88,
       "impressions": 792,
       "clicks": 56,
-      "conversions": 4,
+      "conversions": 5,
       "phone_calls": 0,
       "cpc": 3.91,
-      "cost_per_conversion": 54.72
+      "cost_per_conversion": 43.78
     },
     {
       "name": "AICG | Search | Branded",
@@ -95,10 +95,10 @@
         "spend": 68.89,
         "impressions": 273,
         "clicks": 20,
-        "conversions": 2,
+        "conversions": 3,
         "phone_calls": 0,
         "cpc": 3.44,
-        "cost_per_conversion": 34.44
+        "cost_per_conversion": 22.96
       },
       {
         "day": 2,
@@ -337,10 +337,10 @@
         "spend": 126.78,
         "impressions": 499,
         "clicks": 38,
-        "conversions": 10.5,
+        "conversions": 11.5,
         "phone_calls": 0,
         "cpc": 3.34,
-        "cost_per_conversion": 12.07
+        "cost_per_conversion": 11.02
       },
       {
         "day": 15,
