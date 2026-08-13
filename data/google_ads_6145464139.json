@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-13T13:04:08.041Z",
+  "updated_at": "2026-08-13T14:04:09.060Z",
   "metrics": {
     "spend": 1315.78,
     "impressions": 15521,
     "clicks": 430,
-    "conversions": 56,
+    "conversions": 57,
     "phone_calls": 0,
     "cpc": 3.06,
-    "cost_per_conversion": 23.5
+    "cost_per_conversion": 23.08
   },
   "previous_month": {
     "spend": 3315.54,
@@ -32,7 +32,7 @@
     "spend": -60.31,
     "impressions": -34.76,
     "clicks": -54.11,
-    "conversions": -58.47,
+    "conversions": -57.73,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -52,10 +52,10 @@
       "spend": 328.19,
       "impressions": 11851,
       "clicks": 114,
-      "conversions": 2,
+      "conversions": 3,
       "phone_calls": 0,
       "cpc": 2.88,
-      "cost_per_conversion": 164.09
+      "cost_per_conversion": 109.4
     },
     {
       "name": "AICG | Search | What is Clinical Governance",
@@ -205,10 +205,10 @@
         "spend": 150.88,
         "impressions": 2762,
         "clicks": 39,
-        "conversions": 7,
+        "conversions": 8,
         "phone_calls": 0,
         "cpc": 3.87,
-        "cost_per_conversion": 21.55
+        "cost_per_conversion": 18.86
       }
     ],
     "last_month": [
