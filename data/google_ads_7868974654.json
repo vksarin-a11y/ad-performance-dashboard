@@ -9,7 +9,7 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-13T07:32:19.440Z",
+  "updated_at": "2026-08-13T08:32:18.717Z",
   "metrics": {
     "spend": 5425.49,
     "impressions": 33498,
@@ -42,10 +42,10 @@
       "spend": 1461.96,
       "impressions": 12649,
       "clicks": 509,
-      "conversions": 33.92,
+      "conversions": 34.92,
       "phone_calls": 0,
       "cpc": 2.87,
-      "cost_per_conversion": 43.1
+      "cost_per_conversion": 41.86
     },
     {
       "name": "Bundle | Performance Max",
@@ -62,10 +62,10 @@
       "spend": 832.81,
       "impressions": 3713,
       "clicks": 221,
-      "conversions": 26.35,
+      "conversions": 25.35,
       "phone_calls": 0,
       "cpc": 3.77,
-      "cost_per_conversion": 31.61
+      "cost_per_conversion": 32.85
     },
     {
       "name": "RCG | Search | Target CPA",
