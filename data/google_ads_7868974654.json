@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-13T00:32:19.471Z",
+  "updated_at": "2026-08-13T01:32:19.666Z",
   "metrics": {
     "spend": 4930.22,
     "impressions": 30564,
     "clicks": 1495,
-    "conversions": 108.48,
+    "conversions": 109.48,
     "phone_calls": 0,
     "cpc": 3.3,
-    "cost_per_conversion": 45.45
+    "cost_per_conversion": 45.03
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -65.76,
     "impressions": -61.25,
     "clicks": -64.75,
-    "conversions": -64.08,
+    "conversions": -63.75,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 1353.42,
       "impressions": 11559,
       "clicks": 464,
-      "conversions": 25.92,
+      "conversions": 26.92,
       "phone_calls": 0,
       "cpc": 2.92,
-      "cost_per_conversion": 52.21
+      "cost_per_conversion": 50.27
     },
     {
       "name": "Bundle | Performance Max",
@@ -185,10 +185,10 @@
         "spend": 479.55,
         "impressions": 4100,
         "clicks": 133,
-        "conversions": 12.97,
+        "conversions": 13.97,
         "phone_calls": 0,
         "cpc": 3.61,
-        "cost_per_conversion": 36.99
+        "cost_per_conversion": 34.34
       },
       {
         "day": 10,
