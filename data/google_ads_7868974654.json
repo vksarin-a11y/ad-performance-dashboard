@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-13T08:32:18.717Z",
+  "updated_at": "2026-08-13T09:32:20.135Z",
   "metrics": {
     "spend": 5425.49,
-    "impressions": 33498,
+    "impressions": 33499,
     "clicks": 1656,
-    "conversions": 127.48,
+    "conversions": 128.48,
     "phone_calls": 0,
     "cpc": 3.28,
-    "cost_per_conversion": 42.56
+    "cost_per_conversion": 42.23
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -62.32,
     "impressions": -57.53,
     "clicks": -60.95,
-    "conversions": -57.93,
+    "conversions": -57.6,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,15 +42,15 @@
       "spend": 1461.96,
       "impressions": 12649,
       "clicks": 509,
-      "conversions": 34.92,
+      "conversions": 35.42,
       "phone_calls": 0,
       "cpc": 2.87,
-      "cost_per_conversion": 41.86
+      "cost_per_conversion": 41.27
     },
     {
       "name": "Bundle | Performance Max",
       "spend": 1393.36,
-      "impressions": 9713,
+      "impressions": 9714,
       "clicks": 496,
       "conversions": 26.86,
       "phone_calls": 0,
@@ -62,10 +62,10 @@
       "spend": 832.81,
       "impressions": 3713,
       "clicks": 221,
-      "conversions": 25.35,
+      "conversions": 25.85,
       "phone_calls": 0,
       "cpc": 3.77,
-      "cost_per_conversion": 32.85
+      "cost_per_conversion": 32.22
     },
     {
       "name": "RCG | Search | Target CPA",
@@ -195,15 +195,15 @@
         "spend": 657.91,
         "impressions": 3944,
         "clicks": 194,
-        "conversions": 17.97,
+        "conversions": 18.97,
         "phone_calls": 0,
         "cpc": 3.39,
-        "cost_per_conversion": 36.62
+        "cost_per_conversion": 34.69
       },
       {
         "day": 11,
         "spend": 427.43,
-        "impressions": 2465,
+        "impressions": 2466,
         "clicks": 156,
         "conversions": 11,
         "phone_calls": 0,
