@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-13T11:20:45.461Z",
+  "updated_at": "2026-08-13T12:20:44.978Z",
   "metrics": {
     "spend": 3639.17,
     "impressions": 53000,
     "clicks": 1688,
-    "conversions": 138,
+    "conversions": 140,
     "phone_calls": 0,
     "cpc": 2.16,
-    "cost_per_conversion": 26.37
+    "cost_per_conversion": 25.99
   },
   "previous_month": {
     "spend": 8351.18,
@@ -32,7 +32,7 @@
     "spend": -56.42,
     "impressions": -63.62,
     "clicks": -53.63,
-    "conversions": -58.31,
+    "conversions": -57.7,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 1743.7,
       "impressions": 19485,
       "clicks": 691,
-      "conversions": 67,
+      "conversions": 68,
       "phone_calls": 0,
       "cpc": 2.52,
-      "cost_per_conversion": 26.03
+      "cost_per_conversion": 25.64
     },
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
@@ -72,10 +72,10 @@
       "spend": 406.94,
       "impressions": 4792,
       "clicks": 196,
-      "conversions": 21,
+      "conversions": 22,
       "phone_calls": 0,
       "cpc": 2.08,
-      "cost_per_conversion": 19.38
+      "cost_per_conversion": 18.5
     },
     {
       "name": "PMax: Smart Shopping - Norway",
@@ -225,20 +225,20 @@
         "spend": 281.03,
         "impressions": 3847,
         "clicks": 131,
-        "conversions": 10,
+        "conversions": 11,
         "phone_calls": 0,
         "cpc": 2.15,
-        "cost_per_conversion": 28.1
+        "cost_per_conversion": 25.55
       },
       {
         "day": 12,
         "spend": 187.21,
         "impressions": 3830,
         "clicks": 95,
-        "conversions": 6,
+        "conversions": 7,
         "phone_calls": 0,
         "cpc": 1.97,
-        "cost_per_conversion": 31.2
+        "cost_per_conversion": 26.74
       }
     ],
     "last_month": [
