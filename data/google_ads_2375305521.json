@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260812",
+    "mtd_end": "20260813",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-14T03:20:21.899Z",
+  "updated_at": "2026-08-14T04:20:22.179Z",
   "metrics": {
-    "spend": 861.5,
-    "impressions": 45807,
-    "clicks": 822,
-    "conversions": 29,
+    "spend": 989.05,
+    "impressions": 48249,
+    "clicks": 889,
+    "conversions": 37,
     "phone_calls": 2,
-    "cpc": 1.05,
-    "cost_per_conversion": 29.71
+    "cpc": 1.11,
+    "cost_per_conversion": 26.73
   },
   "previous_month": {
     "spend": 1974.93,
@@ -29,38 +29,38 @@
     "cost_per_conversion": 30.86
   },
   "comparison_pct": {
-    "spend": -56.38,
-    "impressions": -35.09,
-    "clicks": -35.93,
-    "conversions": -54.69,
+    "spend": -49.92,
+    "impressions": -31.63,
+    "clicks": -30.71,
+    "conversions": -42.19,
     "phone_calls": -75
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
-      "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 331.44,
-      "impressions": 36905,
-      "clicks": 561,
+      "name": "P.Max - Mississauga",
+      "spend": 389.5,
+      "impressions": 8967,
+      "clicks": 245,
       "conversions": 17,
       "phone_calls": 1,
-      "cpc": 0.59,
-      "cost_per_conversion": 19.5
+      "cpc": 1.59,
+      "cost_per_conversion": 22.91
     },
     {
-      "name": "P.Max - Mississauga",
-      "spend": 329.5,
-      "impressions": 8357,
-      "clicks": 223,
-      "conversions": 11,
+      "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
+      "spend": 379.17,
+      "impressions": 38688,
+      "clicks": 604,
+      "conversions": 18,
       "phone_calls": 1,
-      "cpc": 1.48,
-      "cost_per_conversion": 29.95
+      "cpc": 0.63,
+      "cost_per_conversion": 21.07
     },
     {
       "name": "Search | Hamilton",
       "spend": 121.67,
-      "impressions": 268,
+      "impressions": 281,
       "clicks": 20,
       "conversions": 0,
       "phone_calls": 0,
@@ -69,13 +69,13 @@
     },
     {
       "name": "Search | Brampton",
-      "spend": 78.89,
-      "impressions": 277,
-      "clicks": 18,
-      "conversions": 1,
+      "spend": 98.71,
+      "impressions": 313,
+      "clicks": 20,
+      "conversions": 2,
       "phone_calls": 0,
-      "cpc": 4.38,
-      "cost_per_conversion": 78.89
+      "cpc": 4.94,
+      "cost_per_conversion": 49.35
     }
   ],
   "daily": {
@@ -159,6 +159,16 @@
         "phone_calls": 0,
         "cpc": 1.85,
         "cost_per_conversion": 28.2
+      },
+      {
+        "day": 13,
+        "spend": 127.55,
+        "impressions": 2442,
+        "clicks": 67,
+        "conversions": 8,
+        "phone_calls": 0,
+        "cpc": 1.9,
+        "cost_per_conversion": 15.94
       }
     ],
     "last_month": [
