@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260812",
+    "mtd_end": "20260813",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-14T03:57:01.184Z",
+  "updated_at": "2026-08-14T04:57:01.475Z",
   "metrics": {
-    "spend": 947.06,
-    "impressions": 4162,
-    "clicks": 187,
+    "spend": 1002.94,
+    "impressions": 4710,
+    "clicks": 206,
     "conversions": 10,
-    "phone_calls": 0,
-    "cpc": 5.06,
-    "cost_per_conversion": 94.71
+    "phone_calls": 1,
+    "cpc": 4.87,
+    "cost_per_conversion": 100.29
   },
   "previous_month": {
     "spend": 1986.56,
@@ -29,43 +29,43 @@
     "cost_per_conversion": 73.58
   },
   "comparison_pct": {
-    "spend": -52.33,
-    "impressions": -41.23,
-    "clicks": -44.51,
+    "spend": -49.51,
+    "impressions": -33.49,
+    "clicks": -38.87,
     "conversions": -62.96,
-    "phone_calls": -100
+    "phone_calls": -50
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
       "name": "RB - Search | General Dentistry",
-      "spend": 356.67,
-      "impressions": 691,
-      "clicks": 36,
+      "spend": 384.8,
+      "impressions": 737,
+      "clicks": 40,
       "conversions": 2,
-      "phone_calls": 0,
-      "cpc": 9.91,
-      "cost_per_conversion": 178.34
+      "phone_calls": 1,
+      "cpc": 9.62,
+      "cost_per_conversion": 192.4
     },
     {
       "name": "RB - Search | Emergency",
-      "spend": 318.2,
-      "impressions": 720,
-      "clicks": 33,
+      "spend": 330.3,
+      "impressions": 740,
+      "clicks": 34,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 9.64,
-      "cost_per_conversion": 159.1
+      "cpc": 9.71,
+      "cost_per_conversion": 165.15
     },
     {
       "name": "RB - Pmax | General Dentistry (New)",
-      "spend": 272.19,
-      "impressions": 2751,
-      "clicks": 118,
+      "spend": 287.85,
+      "impressions": 3233,
+      "clicks": 132,
       "conversions": 6,
       "phone_calls": 0,
-      "cpc": 2.31,
-      "cost_per_conversion": 45.37
+      "cpc": 2.18,
+      "cost_per_conversion": 47.97
     }
   ],
   "daily": {
@@ -149,6 +149,16 @@
         "phone_calls": 0,
         "cpc": 6.72,
         "cost_per_conversion": 36.95
+      },
+      {
+        "day": 13,
+        "spend": 55.88,
+        "impressions": 548,
+        "clicks": 19,
+        "conversions": 0,
+        "phone_calls": 1,
+        "cpc": 2.94,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
@@ -383,7 +393,7 @@
         "cost_per_conversion": 0
       }
     ],
-    "mtd_phone_calls": 0,
+    "mtd_phone_calls": 1,
     "prev_month_phone_calls": 2
   }
 }
