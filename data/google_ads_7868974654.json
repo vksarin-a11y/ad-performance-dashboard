@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260812",
+    "mtd_end": "20260813",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-14T03:32:19.969Z",
+  "updated_at": "2026-08-14T04:32:19.320Z",
   "metrics": {
-    "spend": 5425.49,
-    "impressions": 33498,
-    "clicks": 1655,
-    "conversions": 131.48,
+    "spend": 6028.28,
+    "impressions": 36537,
+    "clicks": 1827,
+    "conversions": 139.48,
     "phone_calls": 0,
-    "cpc": 3.28,
-    "cost_per_conversion": 41.26
+    "cpc": 3.3,
+    "cost_per_conversion": 43.22
   },
   "previous_month": {
     "spend": 14397.95,
@@ -29,73 +29,83 @@
     "cost_per_conversion": 47.52
   },
   "comparison_pct": {
-    "spend": -62.32,
-    "impressions": -57.53,
-    "clicks": -60.98,
-    "conversions": -56.61,
+    "spend": -58.13,
+    "impressions": -53.68,
+    "clicks": -56.92,
+    "conversions": -53.97,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "RSA | Performance Max",
-      "spend": 1461.96,
-      "impressions": 12649,
-      "clicks": 508,
-      "conversions": 37.42,
+      "spend": 1600.18,
+      "impressions": 13416,
+      "clicks": 553,
+      "conversions": 38.42,
       "phone_calls": 0,
-      "cpc": 2.88,
-      "cost_per_conversion": 39.06
+      "cpc": 2.89,
+      "cost_per_conversion": 41.65
     },
     {
       "name": "Bundle | Performance Max",
-      "spend": 1393.36,
-      "impressions": 9713,
-      "clicks": 496,
-      "conversions": 26.86,
+      "spend": 1569.94,
+      "impressions": 10735,
+      "clicks": 556,
+      "conversions": 27.86,
       "phone_calls": 0,
-      "cpc": 2.81,
-      "cost_per_conversion": 51.88
+      "cpc": 2.82,
+      "cost_per_conversion": 56.36
     },
     {
       "name": "RCG | Performance Max",
-      "spend": 832.81,
-      "impressions": 3713,
-      "clicks": 221,
-      "conversions": 25.85,
+      "spend": 919.87,
+      "impressions": 3866,
+      "clicks": 243,
+      "conversions": 26.85,
       "phone_calls": 0,
-      "cpc": 3.77,
-      "cost_per_conversion": 32.22
+      "cpc": 3.79,
+      "cost_per_conversion": 34.26
     },
     {
       "name": "RCG | Search | Target CPA",
-      "spend": 725.23,
-      "impressions": 1195,
-      "clicks": 166,
-      "conversions": 21.9,
+      "spend": 777.16,
+      "impressions": 1269,
+      "clicks": 180,
+      "conversions": 23.9,
       "phone_calls": 0,
-      "cpc": 4.37,
-      "cost_per_conversion": 33.12
+      "cpc": 4.32,
+      "cost_per_conversion": 32.52
     },
     {
       "name": "RSA | Search | Target CPA",
-      "spend": 670.65,
-      "impressions": 2305,
-      "clicks": 173,
-      "conversions": 14.42,
+      "spend": 737.39,
+      "impressions": 2577,
+      "clicks": 190,
+      "conversions": 17.42,
       "phone_calls": 0,
       "cpc": 3.88,
-      "cost_per_conversion": 46.5
+      "cost_per_conversion": 42.32
     },
     {
       "name": "ARCG  | Performance Max",
-      "spend": 341.46,
-      "impressions": 3923,
-      "clicks": 91,
+      "spend": 408.94,
+      "impressions": 4295,
+      "clicks": 102,
       "conversions": 5.03,
       "phone_calls": 0,
-      "cpc": 3.75,
-      "cost_per_conversion": 67.95
+      "cpc": 4.01,
+      "cost_per_conversion": 81.37
+    },
+    {
+      "name": "Search | RSA | NSW (Old campaign)",
+      "spend": 14.79,
+      "impressions": 379,
+      "clicks": 3,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 4.93,
+      "cost_per_conversion": 0
     }
   ],
   "daily": {
@@ -219,6 +229,16 @@
         "phone_calls": 0,
         "cpc": 3.08,
         "cost_per_conversion": 29.13
+      },
+      {
+        "day": 13,
+        "spend": 602.79,
+        "impressions": 3039,
+        "clicks": 172,
+        "conversions": 8,
+        "phone_calls": 0,
+        "cpc": 3.5,
+        "cost_per_conversion": 75.35
       }
     ],
     "last_month": [
