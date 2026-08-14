@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-14T15:20:45.535Z",
+  "updated_at": "2026-08-14T16:20:45.637Z",
   "metrics": {
-    "spend": 3771.06,
+    "spend": 3774.61,
     "impressions": 56615,
-    "clicks": 1766,
+    "clicks": 1767,
     "conversions": 145,
     "phone_calls": 0,
     "cpc": 2.14,
-    "cost_per_conversion": 26.01
+    "cost_per_conversion": 26.03
   },
   "previous_month": {
     "spend": 8351.18,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 25.23
   },
   "comparison_pct": {
-    "spend": -54.84,
+    "spend": -54.8,
     "impressions": -61.13,
-    "clicks": -51.48,
+    "clicks": -51.46,
     "conversions": -56.19,
     "phone_calls": null
   },
@@ -79,13 +79,13 @@
     },
     {
       "name": "PMax: Smart Shopping - Norway",
-      "spend": 187.06,
+      "spend": 190.6,
       "impressions": 919,
-      "clicks": 73,
+      "clicks": 74,
       "conversions": 4,
       "phone_calls": 0,
-      "cpc": 2.56,
-      "cost_per_conversion": 46.76
+      "cpc": 2.58,
+      "cost_per_conversion": 47.65
     },
     {
       "name": "Feetunique.fr",
@@ -242,13 +242,13 @@
       },
       {
         "day": 13,
-        "spend": 131.89,
+        "spend": 135.44,
         "impressions": 3617,
-        "clicks": 78,
+        "clicks": 79,
         "conversions": 5,
         "phone_calls": 0,
-        "cpc": 1.69,
-        "cost_per_conversion": 26.38
+        "cpc": 1.71,
+        "cost_per_conversion": 27.09
       }
     ],
     "last_month": [
