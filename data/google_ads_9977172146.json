@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-14T21:44:26.492Z",
+  "updated_at": "2026-08-14T22:44:25.493Z",
   "metrics": {
-    "spend": 1745.79,
+    "spend": 1747.33,
     "impressions": 3122,
-    "clicks": 359,
+    "clicks": 361,
     "conversions": 26,
     "phone_calls": 0,
-    "cpc": 4.86,
-    "cost_per_conversion": 67.15
+    "cpc": 4.84,
+    "cost_per_conversion": 67.21
   },
   "previous_month": {
     "spend": 3491.99,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 49.89
   },
   "comparison_pct": {
-    "spend": -50.01,
+    "spend": -49.96,
     "impressions": -57.78,
-    "clicks": -64.67,
+    "clicks": -64.47,
     "conversions": -62.86,
     "phone_calls": -100
   },
@@ -69,13 +69,13 @@
     },
     {
       "name": "RB - Search l Dental Implants (New)",
-      "spend": 286.38,
+      "spend": 287.92,
       "impressions": 538,
-      "clicks": 136,
+      "clicks": 138,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 2.11,
-      "cost_per_conversion": 143.19
+      "cpc": 2.09,
+      "cost_per_conversion": 143.96
     },
     {
       "name": "RB - Emergency (New)",
@@ -142,13 +142,13 @@
       },
       {
         "day": 7,
-        "spend": 167.3,
+        "spend": 168.84,
         "impressions": 324,
-        "clicks": 24,
+        "clicks": 26,
         "conversions": 4,
         "phone_calls": 0,
-        "cpc": 6.97,
-        "cost_per_conversion": 41.82
+        "cpc": 6.49,
+        "cost_per_conversion": 42.21
       },
       {
         "day": 10,
