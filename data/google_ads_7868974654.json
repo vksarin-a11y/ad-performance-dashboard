@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-16T01:32:19.521Z",
+  "updated_at": "2026-08-16T02:32:19.208Z",
   "metrics": {
     "spend": 6489.76,
     "impressions": 38671,
     "clicks": 1975,
-    "conversions": 156.65,
+    "conversions": 158.65,
     "phone_calls": 0,
     "cpc": 3.29,
-    "cost_per_conversion": 41.43
+    "cost_per_conversion": 40.91
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -54.93,
     "impressions": -50.98,
     "clicks": -53.43,
-    "conversions": -48.47,
+    "conversions": -47.81,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 1710.69,
       "impressions": 14178,
       "clicks": 600,
-      "conversions": 43.61,
+      "conversions": 44.61,
       "phone_calls": 0,
       "cpc": 2.85,
-      "cost_per_conversion": 39.23
+      "cost_per_conversion": 38.35
     },
     {
       "name": "Bundle | Performance Max",
@@ -62,10 +62,10 @@
       "spend": 965.91,
       "impressions": 3958,
       "clicks": 251,
-      "conversions": 28.79,
+      "conversions": 29.79,
       "phone_calls": 0,
       "cpc": 3.85,
-      "cost_per_conversion": 33.55
+      "cost_per_conversion": 32.43
     },
     {
       "name": "RCG | Search | Target CPA",
@@ -115,10 +115,10 @@
         "spend": 422.16,
         "impressions": 2593,
         "clicks": 107,
-        "conversions": 9.47,
+        "conversions": 10.47,
         "phone_calls": 0,
         "cpc": 3.95,
-        "cost_per_conversion": 44.59
+        "cost_per_conversion": 40.33
       },
       {
         "day": 2,
@@ -185,10 +185,10 @@
         "spend": 386.15,
         "impressions": 3540,
         "clicks": 119,
-        "conversions": 10,
+        "conversions": 11,
         "phone_calls": 0,
         "cpc": 3.24,
-        "cost_per_conversion": 38.62
+        "cost_per_conversion": 35.1
       },
       {
         "day": 9,
