@@ -9,10 +9,10 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-17T10:57:01.474Z",
+  "updated_at": "2026-08-17T11:57:01.164Z",
   "metrics": {
     "spend": 1057.85,
-    "impressions": 5242,
+    "impressions": 5241,
     "clicks": 223,
     "conversions": 12,
     "phone_calls": 1,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -46.75,
-    "impressions": -25.98,
+    "impressions": -26,
     "clicks": -33.83,
     "conversions": -55.56,
     "phone_calls": -50
@@ -50,7 +50,7 @@
     {
       "name": "RB - Pmax | General Dentistry (New)",
       "spend": 339.2,
-      "impressions": 3713,
+      "impressions": 3712,
       "clicks": 148,
       "conversions": 8,
       "phone_calls": 0,
@@ -163,7 +163,7 @@
       {
         "day": 14,
         "spend": 54.91,
-        "impressions": 532,
+        "impressions": 531,
         "clicks": 17,
         "conversions": 2,
         "phone_calls": 0,
