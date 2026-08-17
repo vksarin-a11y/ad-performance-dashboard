@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-17T01:21:13.233Z",
+  "updated_at": "2026-08-17T01:49:53.906Z",
   "metrics": {
-    "spend": 2254.27,
-    "impressions": 30496,
-    "clicks": 683,
+    "spend": 2248.61,
+    "impressions": 30486,
+    "clicks": 676,
     "conversions": 54,
     "phone_calls": 3,
-    "cpc": 3.3,
-    "cost_per_conversion": 41.75
+    "cpc": 3.33,
+    "cost_per_conversion": 41.64
   },
   "previous_month": {
     "spend": 5866.39,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 40.74
   },
   "comparison_pct": {
-    "spend": -61.57,
-    "impressions": -53.84,
-    "clicks": -57.18,
+    "spend": -61.67,
+    "impressions": -53.86,
+    "clicks": -57.62,
     "conversions": -62.5,
     "phone_calls": -72.73
   },
@@ -49,13 +49,13 @@
     },
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 465.89,
-      "impressions": 5588,
-      "clicks": 147,
+      "spend": 463.21,
+      "impressions": 5585,
+      "clicks": 145,
       "conversions": 17.5,
       "phone_calls": 0,
-      "cpc": 3.17,
-      "cost_per_conversion": 26.62
+      "cpc": 3.19,
+      "cost_per_conversion": 26.47
     },
     {
       "name": "RB - Dental Emergency",
@@ -79,13 +79,13 @@
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 147.71,
-      "impressions": 21968,
-      "clicks": 387,
+      "spend": 144.72,
+      "impressions": 21961,
+      "clicks": 382,
       "conversions": 8,
       "phone_calls": 0,
       "cpc": 0.38,
-      "cost_per_conversion": 18.46
+      "cost_per_conversion": 18.09
     },
     {
       "name": "RB - Call Only Campaign",
@@ -112,13 +112,13 @@
       },
       {
         "day": 3,
-        "spend": 226.22,
-        "impressions": 3699,
-        "clicks": 90,
+        "spend": 224.86,
+        "impressions": 3693,
+        "clicks": 89,
         "conversions": 4,
         "phone_calls": 0,
-        "cpc": 2.51,
-        "cost_per_conversion": 56.55
+        "cpc": 2.53,
+        "cost_per_conversion": 56.21
       },
       {
         "day": 4,
@@ -152,13 +152,13 @@
       },
       {
         "day": 7,
-        "spend": 183.57,
+        "spend": 181.37,
         "impressions": 2632,
-        "clicks": 48,
+        "clicks": 46,
         "conversions": 3,
         "phone_calls": 0,
-        "cpc": 3.82,
-        "cost_per_conversion": 61.19
+        "cpc": 3.94,
+        "cost_per_conversion": 60.46
       },
       {
         "day": 8,
@@ -173,7 +173,7 @@
       {
         "day": 10,
         "spend": 229.53,
-        "impressions": 5119,
+        "impressions": 5118,
         "clicks": 86,
         "conversions": 6,
         "phone_calls": 2,
@@ -182,13 +182,13 @@
       },
       {
         "day": 11,
-        "spend": 207.43,
-        "impressions": 4633,
-        "clicks": 103,
+        "spend": 205.33,
+        "impressions": 4630,
+        "clicks": 99,
         "conversions": 10,
         "phone_calls": 0,
-        "cpc": 2.01,
-        "cost_per_conversion": 20.74
+        "cpc": 2.07,
+        "cost_per_conversion": 20.53
       },
       {
         "day": 12,
