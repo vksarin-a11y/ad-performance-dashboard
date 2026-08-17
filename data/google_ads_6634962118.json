@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260815",
+    "mtd_end": "20260816",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-17T01:56:06.171Z",
+  "updated_at": "2026-08-17T20:27:55.655Z",
   "metrics": {
-    "spend": 751.47,
+    "spend": 748.93,
     "impressions": 11542,
-    "clicks": 134,
+    "clicks": 133,
     "conversions": 24,
     "phone_calls": 0,
-    "cpc": 5.61,
-    "cost_per_conversion": 31.31
+    "cpc": 5.63,
+    "cost_per_conversion": 31.21
   },
   "previous_month": {
     "spend": 1275.58,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 31.11
   },
   "comparison_pct": {
-    "spend": -41.09,
+    "spend": -41.29,
     "impressions": 1.42,
-    "clicks": -40.44,
+    "clicks": -40.89,
     "conversions": -41.46,
     "phone_calls": -100
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "RB - Search | General Dentistry (new)",
-      "spend": 236.2,
+      "spend": 233.66,
       "impressions": 347,
-      "clicks": 31,
+      "clicks": 30,
       "conversions": 6,
       "phone_calls": 0,
-      "cpc": 7.62,
-      "cost_per_conversion": 39.37
+      "cpc": 7.79,
+      "cost_per_conversion": 38.94
     },
     {
       "name": "RB - PMax | Family Dentistry",
@@ -182,13 +182,13 @@
       },
       {
         "day": 13,
-        "spend": 60.93,
+        "spend": 58.39,
         "impressions": 2041,
-        "clicks": 13,
+        "clicks": 12,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 4.69,
-        "cost_per_conversion": 60.93
+        "cpc": 4.87,
+        "cost_per_conversion": 58.39
       },
       {
         "day": 14,
