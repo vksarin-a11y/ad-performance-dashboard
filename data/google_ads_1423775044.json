@@ -9,10 +9,10 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-17T07:21:12.718Z",
+  "updated_at": "2026-08-17T08:21:11.813Z",
   "metrics": {
     "spend": 2242.87,
-    "impressions": 30326,
+    "impressions": 30325,
     "clicks": 665,
     "conversions": 54,
     "phone_calls": 3,
@@ -80,7 +80,7 @@
     {
       "name": "P.Max - Invisalign (Update)",
       "spend": 141.21,
-      "impressions": 21853,
+      "impressions": 21852,
       "clicks": 376,
       "conversions": 8,
       "phone_calls": 0,
@@ -173,7 +173,7 @@
       {
         "day": 10,
         "spend": 229.01,
-        "impressions": 5108,
+        "impressions": 5107,
         "clicks": 85,
         "conversions": 6,
         "phone_calls": 2,
