@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-17T01:04:07.333Z",
+  "updated_at": "2026-08-17T01:58:13.283Z",
   "metrics": {
     "spend": 1635.4,
     "impressions": 22950,
     "clicks": 554,
-    "conversions": 66.72,
+    "conversions": 67.72,
     "phone_calls": 0,
     "cpc": 2.95,
-    "cost_per_conversion": 24.51
+    "cost_per_conversion": 24.15
   },
   "previous_month": {
     "spend": 3315.54,
@@ -32,7 +32,7 @@
     "spend": -50.67,
     "impressions": -3.53,
     "clicks": -40.88,
-    "conversions": -51.24,
+    "conversions": -50.51,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -72,10 +72,10 @@
       "spend": 234.77,
       "impressions": 403,
       "clicks": 160,
-      "conversions": 53.72,
+      "conversions": 54.72,
       "phone_calls": 0,
       "cpc": 1.47,
-      "cost_per_conversion": 4.37
+      "cost_per_conversion": 4.29
     },
     {
       "name": "AICG | Display | Retargeting",
@@ -195,10 +195,10 @@
         "spend": 121.34,
         "impressions": 664,
         "clicks": 40,
-        "conversions": 16,
+        "conversions": 17,
         "phone_calls": 0,
         "cpc": 3.03,
-        "cost_per_conversion": 7.58
+        "cost_per_conversion": 7.14
       },
       {
         "day": 12,
