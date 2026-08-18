@@ -9,10 +9,10 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-18T08:32:18.757Z",
+  "updated_at": "2026-08-18T09:32:19.210Z",
   "metrics": {
-    "spend": 8058.36,
-    "impressions": 46627,
+    "spend": 8058.25,
+    "impressions": 46626,
     "clicks": 2429,
     "conversions": 183.81,
     "phone_calls": 0,
@@ -39,8 +39,8 @@
   "campaigns": [
     {
       "name": "Bundle | Performance Max",
-      "spend": 2139.45,
-      "impressions": 13658,
+      "spend": 2139.34,
+      "impressions": 13657,
       "clicks": 731,
       "conversions": 37.16,
       "phone_calls": 0,
@@ -272,13 +272,13 @@
       },
       {
         "day": 17,
-        "spend": 753.15,
-        "impressions": 2774,
+        "spend": 753.04,
+        "impressions": 2773,
         "clicks": 195,
         "conversions": 8.28,
         "phone_calls": 0,
         "cpc": 3.86,
-        "cost_per_conversion": 90.96
+        "cost_per_conversion": 90.95
       }
     ],
     "last_month": [
