@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-19T07:32:20.135Z",
+  "updated_at": "2026-08-19T08:32:21.022Z",
   "metrics": {
     "spend": 8494.16,
     "impressions": 48705,
     "clicks": 2599,
-    "conversions": 192.48,
+    "conversions": 192.6,
     "phone_calls": 0,
     "cpc": 3.27,
-    "cost_per_conversion": 44.13
+    "cost_per_conversion": 44.1
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -41,
     "impressions": -38.26,
     "clicks": -38.72,
-    "conversions": -37.51,
+    "conversions": -37.47,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -52,10 +52,10 @@
       "spend": 2179.09,
       "impressions": 17171,
       "clicks": 778,
-      "conversions": 50.58,
+      "conversions": 50.64,
       "phone_calls": 0,
       "cpc": 2.8,
-      "cost_per_conversion": 43.08
+      "cost_per_conversion": 43.03
     },
     {
       "name": "RCG | Performance Max",
@@ -72,10 +72,10 @@
       "spend": 1056.76,
       "impressions": 3192,
       "clicks": 266,
-      "conversions": 22.42,
+      "conversions": 22.48,
       "phone_calls": 0,
       "cpc": 3.97,
-      "cost_per_conversion": 47.13
+      "cost_per_conversion": 47
     },
     {
       "name": "RCG | Search | Target CPA",
@@ -195,10 +195,10 @@
         "spend": 479.55,
         "impressions": 4100,
         "clicks": 133,
-        "conversions": 13.97,
+        "conversions": 14.03,
         "phone_calls": 0,
         "cpc": 3.61,
-        "cost_per_conversion": 34.34
+        "cost_per_conversion": 34.19
       },
       {
         "day": 10,
@@ -265,10 +265,10 @@
         "spend": 436.06,
         "impressions": 2714,
         "clicks": 133,
-        "conversions": 5.72,
+        "conversions": 5.78,
         "phone_calls": 0,
         "cpc": 3.28,
-        "cost_per_conversion": 76.19
+        "cost_per_conversion": 75.39
       },
       {
         "day": 17,
