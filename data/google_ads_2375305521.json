@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-19T09:20:21.590Z",
+  "updated_at": "2026-08-19T10:20:21.566Z",
   "metrics": {
-    "spend": 1204.03,
+    "spend": 1195.57,
     "impressions": 51398,
-    "clicks": 989,
-    "conversions": 47,
+    "clicks": 987,
+    "conversions": 46,
     "phone_calls": 2,
-    "cpc": 1.22,
-    "cost_per_conversion": 25.62
+    "cpc": 1.21,
+    "cost_per_conversion": 25.99
   },
   "previous_month": {
     "spend": 1974.93,
@@ -29,23 +29,23 @@
     "cost_per_conversion": 30.86
   },
   "comparison_pct": {
-    "spend": -39.03,
+    "spend": -39.46,
     "impressions": -27.17,
-    "clicks": -22.92,
-    "conversions": -26.56,
+    "clicks": -23.07,
+    "conversions": -28.12,
     "phone_calls": -75
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "P.Max - Mississauga",
-      "spend": 497.34,
+      "spend": 488.88,
       "impressions": 10386,
-      "clicks": 300,
-      "conversions": 23,
+      "clicks": 298,
+      "conversions": 22,
       "phone_calls": 1,
-      "cpc": 1.66,
-      "cost_per_conversion": 21.62
+      "cpc": 1.64,
+      "cost_per_conversion": 22.22
     },
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
@@ -172,23 +172,23 @@
       },
       {
         "day": 14,
-        "spend": 62.32,
+        "spend": 55.02,
         "impressions": 876,
-        "clicks": 24,
+        "clicks": 23,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 2.6,
-        "cost_per_conversion": 62.32
+        "cpc": 2.39,
+        "cost_per_conversion": 55.02
       },
       {
         "day": 17,
-        "spend": 54.64,
+        "spend": 53.48,
         "impressions": 815,
-        "clicks": 34,
-        "conversions": 2,
+        "clicks": 33,
+        "conversions": 1,
         "phone_calls": 0,
-        "cpc": 1.61,
-        "cost_per_conversion": 27.32
+        "cpc": 1.62,
+        "cost_per_conversion": 53.48
       },
       {
         "day": 18,
