@@ -5,77 +5,77 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260817",
+    "mtd_end": "20260818",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-18T20:27:55.609Z",
+  "updated_at": "2026-08-19T20:27:56.604Z",
   "metrics": {
-    "spend": 825.55,
-    "impressions": 12167,
-    "clicks": 145,
+    "spend": 865.25,
+    "impressions": 13160,
+    "clicks": 150,
     "conversions": 29,
     "phone_calls": 0,
-    "cpc": 5.69,
-    "cost_per_conversion": 28.47
+    "cpc": 5.77,
+    "cost_per_conversion": 29.84
   },
   "previous_month": {
     "spend": 1275.58,
     "impressions": 11380,
     "clicks": 225,
-    "conversions": 41,
+    "conversions": 42,
     "phone_calls": 1,
     "cpc": 5.67,
-    "cost_per_conversion": 31.11
+    "cost_per_conversion": 30.37
   },
   "comparison_pct": {
-    "spend": -35.28,
-    "impressions": 6.92,
-    "clicks": -35.56,
-    "conversions": -29.27,
+    "spend": -32.17,
+    "impressions": 15.64,
+    "clicks": -33.33,
+    "conversions": -30.95,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "RB - Search | General Dentistry (new)",
-      "spend": 248.37,
-      "impressions": 363,
-      "clicks": 34,
+      "spend": 259.66,
+      "impressions": 387,
+      "clicks": 36,
       "conversions": 7,
       "phone_calls": 0,
-      "cpc": 7.31,
-      "cost_per_conversion": 35.48
+      "cpc": 7.21,
+      "cost_per_conversion": 37.09
     },
     {
       "name": "RB - PMax | Family Dentistry",
-      "spend": 238.87,
-      "impressions": 7224,
-      "clicks": 34,
+      "spend": 258.6,
+      "impressions": 8159,
+      "clicks": 36,
       "conversions": 11,
       "phone_calls": 0,
-      "cpc": 7.03,
-      "cost_per_conversion": 21.72
+      "cpc": 7.18,
+      "cost_per_conversion": 23.51
     },
     {
       "name": "RB - Emergency Dentistry",
-      "spend": 187.85,
-      "impressions": 365,
-      "clicks": 40,
+      "spend": 196.47,
+      "impressions": 391,
+      "clicks": 41,
       "conversions": 8,
       "phone_calls": 0,
-      "cpc": 4.7,
-      "cost_per_conversion": 23.48
+      "cpc": 4.79,
+      "cost_per_conversion": 24.56
     },
     {
       "name": "RB - Pmax  | Services",
-      "spend": 150.47,
-      "impressions": 4215,
+      "spend": 150.54,
+      "impressions": 4223,
       "clicks": 37,
       "conversions": 3,
       "phone_calls": 0,
       "cpc": 4.07,
-      "cost_per_conversion": 50.16
+      "cost_per_conversion": 50.18
     }
   ],
   "daily": {
@@ -219,6 +219,16 @@
         "phone_calls": 0,
         "cpc": 6.39,
         "cost_per_conversion": 15.33
+      },
+      {
+        "day": 18,
+        "spend": 39.7,
+        "impressions": 993,
+        "clicks": 5,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 7.94,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
@@ -487,10 +497,10 @@
         "spend": 32.99,
         "impressions": 222,
         "clicks": 6,
-        "conversions": 2,
+        "conversions": 3,
         "phone_calls": 0,
         "cpc": 5.5,
-        "cost_per_conversion": 16.5
+        "cost_per_conversion": 11
       }
     ],
     "mtd_phone_calls": 0,
