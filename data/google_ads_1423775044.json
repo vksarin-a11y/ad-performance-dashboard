@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-20T19:21:13.424Z",
+  "updated_at": "2026-08-20T20:21:13.418Z",
   "metrics": {
-    "spend": 3014.85,
+    "spend": 3016.43,
     "impressions": 43229,
-    "clicks": 1102,
+    "clicks": 1104,
     "conversions": 67,
     "phone_calls": 3,
-    "cpc": 2.74,
-    "cost_per_conversion": 45
+    "cpc": 2.73,
+    "cost_per_conversion": 45.02
   },
   "previous_month": {
     "spend": 5866.39,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 40.18
   },
   "comparison_pct": {
-    "spend": -48.61,
+    "spend": -48.58,
     "impressions": -34.57,
-    "clicks": -30.91,
+    "clicks": -30.78,
     "conversions": -54.11,
     "phone_calls": -72.73
   },
@@ -59,13 +59,13 @@
     },
     {
       "name": "RB - Same Day Crowns",
-      "spend": 563.16,
+      "spend": 564.74,
       "impressions": 1248,
-      "clicks": 71,
+      "clicks": 73,
       "conversions": 10,
       "phone_calls": 0,
-      "cpc": 7.93,
-      "cost_per_conversion": 56.32
+      "cpc": 7.74,
+      "cost_per_conversion": 56.47
     },
     {
       "name": "RB - Dental Emergency",
@@ -182,13 +182,13 @@
       },
       {
         "day": 11,
-        "spend": 203.46,
+        "spend": 205.04,
         "impressions": 4563,
-        "clicks": 94,
+        "clicks": 96,
         "conversions": 10,
         "phone_calls": 0,
-        "cpc": 2.16,
-        "cost_per_conversion": 20.35
+        "cpc": 2.14,
+        "cost_per_conversion": 20.5
       },
       {
         "day": 12,
