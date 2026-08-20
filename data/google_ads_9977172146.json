@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-20T20:44:26.079Z",
+  "updated_at": "2026-08-20T21:44:25.640Z",
   "metrics": {
-    "spend": 2637.53,
+    "spend": 2639.36,
     "impressions": 4198,
-    "clicks": 555,
+    "clicks": 556,
     "conversions": 41,
     "phone_calls": 0,
     "cpc": 4.75,
-    "cost_per_conversion": 64.33
+    "cost_per_conversion": 64.37
   },
   "previous_month": {
     "spend": 3491.99,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 49.89
   },
   "comparison_pct": {
-    "spend": -24.47,
+    "spend": -24.42,
     "impressions": -43.23,
-    "clicks": -45.37,
+    "clicks": -45.28,
     "conversions": -41.43,
     "phone_calls": -100
   },
@@ -89,13 +89,13 @@
     },
     {
       "name": "RB - Search l Dental Implants (10Aug)",
-      "spend": 86.84,
+      "spend": 88.67,
       "impressions": 180,
-      "clicks": 73,
+      "clicks": 74,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 1.19,
-      "cost_per_conversion": 43.42
+      "cpc": 1.2,
+      "cost_per_conversion": 44.34
     }
   ],
   "daily": {
@@ -162,13 +162,13 @@
       },
       {
         "day": 11,
-        "spend": 154.57,
+        "spend": 156.4,
         "impressions": 324,
-        "clicks": 42,
+        "clicks": 43,
         "conversions": 5,
         "phone_calls": 0,
-        "cpc": 3.68,
-        "cost_per_conversion": 30.91
+        "cpc": 3.64,
+        "cost_per_conversion": 31.28
       },
       {
         "day": 12,
