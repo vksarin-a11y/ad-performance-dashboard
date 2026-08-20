@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-19T23:32:20.208Z",
+  "updated_at": "2026-08-20T00:32:19.907Z",
   "metrics": {
     "spend": 8494.02,
     "impressions": 48690,
     "clicks": 2599,
-    "conversions": 193.6,
+    "conversions": 195.6,
     "phone_calls": 0,
     "cpc": 3.27,
-    "cost_per_conversion": 43.87
+    "cost_per_conversion": 43.43
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -41.01,
     "impressions": -38.27,
     "clicks": -38.72,
-    "conversions": -37.14,
+    "conversions": -36.49,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -62,20 +62,20 @@
       "spend": 1287.38,
       "impressions": 5970,
       "clicks": 338,
-      "conversions": 36.7,
+      "conversions": 37.7,
       "phone_calls": 0,
       "cpc": 3.81,
-      "cost_per_conversion": 35.08
+      "cost_per_conversion": 34.15
     },
     {
       "name": "RSA | Search | Target CPA",
       "spend": 1056.76,
       "impressions": 3192,
       "clicks": 266,
-      "conversions": 22.48,
+      "conversions": 23.48,
       "phone_calls": 0,
       "cpc": 3.97,
-      "cost_per_conversion": 47
+      "cost_per_conversion": 45
     },
     {
       "name": "RCG | Search | Target CPA",
@@ -235,10 +235,10 @@
         "spend": 602.79,
         "impressions": 3038,
         "clicks": 172,
-        "conversions": 14.95,
+        "conversions": 15.95,
         "phone_calls": 0,
         "cpc": 3.5,
-        "cost_per_conversion": 40.33
+        "cost_per_conversion": 37.8
       },
       {
         "day": 14,
@@ -285,10 +285,10 @@
         "spend": 435.91,
         "impressions": 2079,
         "clicks": 170,
-        "conversions": 7.67,
+        "conversions": 8.67,
         "phone_calls": 0,
         "cpc": 2.56,
-        "cost_per_conversion": 56.86
+        "cost_per_conversion": 50.3
       }
     ],
     "last_month": [
