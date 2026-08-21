@@ -9,14 +9,14 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-21T11:21:12.578Z",
+  "updated_at": "2026-08-21T12:21:12.434Z",
   "metrics": {
-    "spend": 3227.13,
+    "spend": 3226.99,
     "impressions": 47809,
-    "clicks": 1254,
+    "clicks": 1253,
     "conversions": 72,
     "phone_calls": 3,
-    "cpc": 2.57,
+    "cpc": 2.58,
     "cost_per_conversion": 44.82
   },
   "previous_month": {
@@ -31,7 +31,7 @@
   "comparison_pct": {
     "spend": -44.99,
     "impressions": -27.64,
-    "clicks": -21.38,
+    "clicks": -21.44,
     "conversions": -50.68,
     "phone_calls": -72.73
   },
@@ -79,13 +79,13 @@
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 228.05,
+      "spend": 227.91,
       "impressions": 35274,
-      "clicks": 817,
+      "clicks": 816,
       "conversions": 9,
       "phone_calls": 0,
       "cpc": 0.28,
-      "cost_per_conversion": 25.34
+      "cost_per_conversion": 25.32
     },
     {
       "name": "RB - Call Only Campaign",
@@ -232,13 +232,13 @@
       },
       {
         "day": 17,
-        "spend": 227.4,
+        "spend": 227.26,
         "impressions": 4070,
-        "clicks": 110,
+        "clicks": 109,
         "conversions": 4,
         "phone_calls": 0,
-        "cpc": 2.07,
-        "cost_per_conversion": 56.85
+        "cpc": 2.08,
+        "cost_per_conversion": 56.82
       },
       {
         "day": 18,
