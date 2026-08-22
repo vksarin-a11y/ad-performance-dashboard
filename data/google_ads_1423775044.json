@@ -9,10 +9,10 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-22T04:21:12.825Z",
+  "updated_at": "2026-08-22T05:21:13.416Z",
   "metrics": {
     "spend": 3632.81,
-    "impressions": 53803,
+    "impressions": 53801,
     "clicks": 1407,
     "conversions": 82,
     "phone_calls": 3,
@@ -60,7 +60,7 @@
     {
       "name": "RB - Dental Emergency",
       "spend": 674.14,
-      "impressions": 1087,
+      "impressions": 1085,
       "clicks": 37,
       "conversions": 10,
       "phone_calls": 0,
@@ -283,7 +283,7 @@
       {
         "day": 21,
         "spend": 407.22,
-        "impressions": 5994,
+        "impressions": 5992,
         "clicks": 162,
         "conversions": 10,
         "phone_calls": 0,
