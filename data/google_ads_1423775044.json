@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-22T08:21:11.815Z",
+  "updated_at": "2026-08-22T09:21:13.091Z",
   "metrics": {
-    "spend": 3632.81,
-    "impressions": 53801,
-    "clicks": 1407,
+    "spend": 3630.75,
+    "impressions": 53800,
+    "clicks": 1393,
     "conversions": 82,
     "phone_calls": 3,
-    "cpc": 2.58,
-    "cost_per_conversion": 44.3
+    "cpc": 2.61,
+    "cost_per_conversion": 44.28
   },
   "previous_month": {
     "spend": 5866.39,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 40.18
   },
   "comparison_pct": {
-    "spend": -38.07,
+    "spend": -38.11,
     "impressions": -18.57,
-    "clicks": -11.79,
+    "clicks": -12.66,
     "conversions": -43.84,
     "phone_calls": -72.73
   },
@@ -79,13 +79,13 @@
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 250.84,
-      "impressions": 40431,
-      "clicks": 936,
+      "spend": 248.77,
+      "impressions": 40430,
+      "clicks": 922,
       "conversions": 12,
       "phone_calls": 0,
       "cpc": 0.27,
-      "cost_per_conversion": 20.9
+      "cost_per_conversion": 20.73
     },
     {
       "name": "RB - Call Only Campaign",
@@ -252,23 +252,23 @@
       },
       {
         "day": 18,
-        "spend": 343.14,
+        "spend": 341.35,
         "impressions": 4152,
-        "clicks": 171,
+        "clicks": 160,
         "conversions": 4,
         "phone_calls": 0,
-        "cpc": 2.01,
-        "cost_per_conversion": 85.79
+        "cpc": 2.13,
+        "cost_per_conversion": 85.34
       },
       {
         "day": 19,
-        "spend": 201.18,
+        "spend": 200.91,
         "impressions": 4675,
-        "clicks": 154,
+        "clicks": 151,
         "conversions": 4,
         "phone_calls": 0,
-        "cpc": 1.31,
-        "cost_per_conversion": 50.28
+        "cpc": 1.33,
+        "cost_per_conversion": 50.21
       },
       {
         "day": 20,
@@ -283,7 +283,7 @@
       {
         "day": 21,
         "spend": 407.22,
-        "impressions": 5992,
+        "impressions": 5991,
         "clicks": 162,
         "conversions": 10,
         "phone_calls": 0,
