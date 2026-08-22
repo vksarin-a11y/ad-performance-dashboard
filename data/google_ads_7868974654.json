@@ -9,10 +9,10 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-22T18:32:19.958Z",
+  "updated_at": "2026-08-22T19:32:18.905Z",
   "metrics": {
     "spend": 9840.11,
-    "impressions": 56661,
+    "impressions": 56659,
     "clicks": 3093,
     "conversions": 233.43,
     "phone_calls": 0,
@@ -100,7 +100,7 @@
     {
       "name": "Search | RSA | NSW (Old campaign)",
       "spend": 126.28,
-      "impressions": 1282,
+      "impressions": 1280,
       "clicks": 58,
       "conversions": 4,
       "phone_calls": 0,
@@ -263,7 +263,7 @@
       {
         "day": 16,
         "spend": 435.95,
-        "impressions": 2701,
+        "impressions": 2699,
         "clicks": 133,
         "conversions": 6.78,
         "phone_calls": 0,
