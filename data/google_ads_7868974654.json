@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-22T21:32:20.432Z",
+  "updated_at": "2026-08-22T22:32:20.637Z",
   "metrics": {
     "spend": 9840.11,
     "impressions": 56659,
     "clicks": 3093,
-    "conversions": 234.43,
+    "conversions": 235.43,
     "phone_calls": 0,
     "cpc": 3.18,
-    "cost_per_conversion": 41.97
+    "cost_per_conversion": 41.8
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -31.66,
     "impressions": -28.17,
     "clicks": -27.07,
-    "conversions": -24.14,
+    "conversions": -23.82,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 2658.35,
       "impressions": 16762,
       "clicks": 922,
-      "conversions": 51.14,
+      "conversions": 52.14,
       "phone_calls": 0,
       "cpc": 2.88,
-      "cost_per_conversion": 51.99
+      "cost_per_conversion": 50.99
     },
     {
       "name": "RSA | Performance Max",
@@ -155,10 +155,10 @@
         "spend": 449.94,
         "impressions": 2159,
         "clicks": 132,
-        "conversions": 8.65,
+        "conversions": 9.15,
         "phone_calls": 0,
         "cpc": 3.41,
-        "cost_per_conversion": 52.01
+        "cost_per_conversion": 49.17
       },
       {
         "day": 6,
@@ -195,20 +195,20 @@
         "spend": 479.55,
         "impressions": 4100,
         "clicks": 133,
-        "conversions": 14.03,
+        "conversions": 14.28,
         "phone_calls": 0,
         "cpc": 3.61,
-        "cost_per_conversion": 34.19
+        "cost_per_conversion": 33.59
       },
       {
         "day": 10,
         "spend": 657.91,
         "impressions": 3944,
         "clicks": 193,
-        "conversions": 20.66,
+        "conversions": 20.91,
         "phone_calls": 0,
         "cpc": 3.41,
-        "cost_per_conversion": 31.85
+        "cost_per_conversion": 31.47
       },
       {
         "day": 11,
