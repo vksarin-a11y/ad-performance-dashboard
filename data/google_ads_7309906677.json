@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-22T08:20:44.719Z",
+  "updated_at": "2026-08-22T09:20:45.707Z",
   "metrics": {
     "spend": 5335.93,
     "impressions": 86581,
     "clicks": 2517,
-    "conversions": 244,
+    "conversions": 245,
     "phone_calls": 0,
     "cpc": 2.12,
-    "cost_per_conversion": 21.87
+    "cost_per_conversion": 21.78
   },
   "previous_month": {
     "spend": 8351.18,
@@ -32,7 +32,7 @@
     "spend": -36.11,
     "impressions": -40.56,
     "clicks": -30.85,
-    "conversions": -26.51,
+    "conversions": -26.2,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -72,10 +72,10 @@
       "spend": 610.3,
       "impressions": 7376,
       "clicks": 306,
-      "conversions": 41,
+      "conversions": 42,
       "phone_calls": 0,
       "cpc": 1.99,
-      "cost_per_conversion": 14.89
+      "cost_per_conversion": 14.53
     },
     {
       "name": "PMax: Smart Shopping - Norway",
@@ -315,10 +315,10 @@
         "spend": 231.98,
         "impressions": 3375,
         "clicks": 98,
-        "conversions": 11,
+        "conversions": 12,
         "phone_calls": 0,
         "cpc": 2.37,
-        "cost_per_conversion": 21.09
+        "cost_per_conversion": 19.33
       },
       {
         "day": 21,
