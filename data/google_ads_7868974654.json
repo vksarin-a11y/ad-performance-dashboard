@@ -9,10 +9,10 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-23T15:32:18.913Z",
+  "updated_at": "2026-08-23T16:32:19.917Z",
   "metrics": {
     "spend": 10171.28,
-    "impressions": 58724,
+    "impressions": 58720,
     "clicks": 3194,
     "conversions": 240.55,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -29.36,
-    "impressions": -25.55,
+    "impressions": -25.56,
     "clicks": -24.69,
     "conversions": -22.16,
     "phone_calls": null
@@ -60,7 +60,7 @@
     {
       "name": "RCG | Performance Max",
       "spend": 1505.66,
-      "impressions": 8031,
+      "impressions": 8027,
       "clicks": 413,
       "conversions": 46.74,
       "phone_calls": 0,
@@ -303,7 +303,7 @@
       {
         "day": 20,
         "spend": 441.75,
-        "impressions": 3030,
+        "impressions": 3026,
         "clicks": 181,
         "conversions": 10.49,
         "phone_calls": 0,
