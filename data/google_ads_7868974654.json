@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-23T09:32:20.241Z",
+  "updated_at": "2026-08-23T10:32:20.111Z",
   "metrics": {
     "spend": 10171.86,
     "impressions": 58725,
     "clicks": 3195,
-    "conversions": 240.63,
+    "conversions": 240.55,
     "phone_calls": 0,
     "cpc": 3.18,
-    "cost_per_conversion": 42.27
+    "cost_per_conversion": 42.29
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -29.35,
     "impressions": -25.55,
     "clicks": -24.66,
-    "conversions": -22.14,
+    "conversions": -22.16,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -92,10 +92,10 @@
       "spend": 704.68,
       "impressions": 6130,
       "clicks": 184,
-      "conversions": 7.25,
+      "conversions": 7.17,
       "phone_calls": 0,
       "cpc": 3.83,
-      "cost_per_conversion": 97.21
+      "cost_per_conversion": 98.32
     },
     {
       "name": "Search | RSA | NSW (Old campaign)",
@@ -235,10 +235,10 @@
         "spend": 602.79,
         "impressions": 3038,
         "clicks": 172,
-        "conversions": 17.11,
+        "conversions": 17.03,
         "phone_calls": 0,
         "cpc": 3.5,
-        "cost_per_conversion": 35.23
+        "cost_per_conversion": 35.4
       },
       {
         "day": 14,
