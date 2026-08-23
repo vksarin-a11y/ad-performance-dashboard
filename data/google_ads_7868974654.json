@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-23T07:32:21.046Z",
+  "updated_at": "2026-08-23T08:32:19.243Z",
   "metrics": {
     "spend": 10171.86,
     "impressions": 58725,
     "clicks": 3195,
-    "conversions": 240.43,
+    "conversions": 240.67,
     "phone_calls": 0,
     "cpc": 3.18,
-    "cost_per_conversion": 42.31
+    "cost_per_conversion": 42.26
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -29.35,
     "impressions": -25.55,
     "clicks": -24.66,
-    "conversions": -22.2,
+    "conversions": -22.13,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -62,10 +62,10 @@
       "spend": 1506.24,
       "impressions": 8032,
       "clicks": 414,
-      "conversions": 46.7,
+      "conversions": 46.78,
       "phone_calls": 0,
       "cpc": 3.64,
-      "cost_per_conversion": 32.25
+      "cost_per_conversion": 32.2
     },
     {
       "name": "RCG | Search | Target CPA",
@@ -92,10 +92,10 @@
       "spend": 704.68,
       "impressions": 6130,
       "clicks": 184,
-      "conversions": 7.09,
+      "conversions": 7.25,
       "phone_calls": 0,
       "cpc": 3.83,
-      "cost_per_conversion": 99.46
+      "cost_per_conversion": 97.21
     },
     {
       "name": "Search | RSA | NSW (Old campaign)",
@@ -235,10 +235,10 @@
         "spend": 602.79,
         "impressions": 3038,
         "clicks": 172,
-        "conversions": 16.95,
+        "conversions": 17.11,
         "phone_calls": 0,
         "cpc": 3.5,
-        "cost_per_conversion": 35.57
+        "cost_per_conversion": 35.23
       },
       {
         "day": 14,
@@ -305,10 +305,10 @@
         "spend": 442.29,
         "impressions": 3030,
         "clicks": 182,
-        "conversions": 10.45,
+        "conversions": 10.53,
         "phone_calls": 0,
         "cpc": 2.43,
-        "cost_per_conversion": 42.34
+        "cost_per_conversion": 42.01
       },
       {
         "day": 21,
