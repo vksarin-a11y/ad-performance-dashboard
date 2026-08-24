@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260822",
+    "mtd_end": "20260823",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-24T03:21:12.528Z",
+  "updated_at": "2026-08-24T04:21:12.714Z",
   "metrics": {
     "spend": 3733.04,
     "impressions": 56171,
     "clicks": 1447,
-    "conversions": 88,
+    "conversions": 89,
     "phone_calls": 3,
     "cpc": 2.58,
-    "cost_per_conversion": 42.42
+    "cost_per_conversion": 41.94
   },
   "previous_month": {
     "spend": 5866.39,
@@ -32,7 +32,7 @@
     "spend": -36.37,
     "impressions": -14.99,
     "clicks": -9.28,
-    "conversions": -39.73,
+    "conversions": -39.04,
     "phone_calls": -72.73
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -62,10 +62,10 @@
       "spend": 722.2,
       "impressions": 1152,
       "clicks": 40,
-      "conversions": 12,
+      "conversions": 13,
       "phone_calls": 0,
       "cpc": 18.05,
-      "cost_per_conversion": 60.18
+      "cost_per_conversion": 55.55
     },
     {
       "name": "RB - Same Day Crowns",
@@ -285,10 +285,10 @@
         "spend": 407.22,
         "impressions": 5991,
         "clicks": 162,
-        "conversions": 10,
+        "conversions": 11,
         "phone_calls": 0,
         "cpc": 2.51,
-        "cost_per_conversion": 40.73
+        "cost_per_conversion": 37.02
       },
       {
         "day": 22,
