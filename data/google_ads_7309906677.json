@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-24T09:20:45.757Z",
+  "updated_at": "2026-08-24T10:20:44.283Z",
   "metrics": {
-    "spend": 5942.48,
-    "impressions": 97351,
-    "clicks": 2817,
+    "spend": 5940.4,
+    "impressions": 97350,
+    "clicks": 2816,
     "conversions": 278,
     "phone_calls": 0,
     "cpc": 2.11,
-    "cost_per_conversion": 21.38
+    "cost_per_conversion": 21.37
   },
   "previous_month": {
     "spend": 8351.18,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 25.15
   },
   "comparison_pct": {
-    "spend": -28.84,
+    "spend": -28.87,
     "impressions": -33.17,
-    "clicks": -22.61,
+    "clicks": -22.64,
     "conversions": -16.27,
     "phone_calls": null
   },
@@ -79,13 +79,13 @@
     },
     {
       "name": "PMax: Smart Shopping - Norway",
-      "spend": 277.97,
+      "spend": 275.9,
       "impressions": 1478,
-      "clicks": 106,
+      "clicks": 105,
       "conversions": 10,
       "phone_calls": 0,
-      "cpc": 2.62,
-      "cost_per_conversion": 27.8
+      "cpc": 2.63,
+      "cost_per_conversion": 27.59
     },
     {
       "name": "Feetunique.fr",
@@ -100,7 +100,7 @@
     {
       "name": "PMax: Smart Shopping - FR",
       "spend": 154.24,
-      "impressions": 8779,
+      "impressions": 8778,
       "clicks": 141,
       "conversions": 7,
       "phone_calls": 0,
@@ -272,8 +272,8 @@
       },
       {
         "day": 16,
-        "spend": 240.99,
-        "impressions": 3965,
+        "spend": 240.98,
+        "impressions": 3964,
         "clicks": 108,
         "conversions": 16,
         "phone_calls": 0,
@@ -342,13 +342,13 @@
       },
       {
         "day": 23,
-        "spend": 313.17,
+        "spend": 311.1,
         "impressions": 5640,
-        "clicks": 155,
+        "clicks": 154,
         "conversions": 19,
         "phone_calls": 0,
         "cpc": 2.02,
-        "cost_per_conversion": 16.48
+        "cost_per_conversion": 16.37
       }
     ],
     "last_month": [
