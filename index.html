@@ -23,6 +23,9 @@
     --good-soft: #EAF1E6;
     --bad: #B34A3C;
     --bad-soft: #F8EAE7;
+    --tint-good: #CFE7C1;
+    --tint-warn: #F2D6A0;
+    --tint-bad: #EFC3BB;
     --radius: 6px;
   }
   @media (prefers-color-scheme: dark){
@@ -40,6 +43,9 @@
       --good-soft: #223321;
       --bad: #E08A7C;
       --bad-soft: #3A211D;
+      --tint-good: #2E4A28;
+      --tint-warn: #4A3819;
+      --tint-bad: #4A2620;
     }
   }
   /* Explicit theme choice always wins over the OS setting above */
@@ -57,6 +63,9 @@
     --good-soft: #EAF1E6;
     --bad: #B34A3C;
     --bad-soft: #F8EAE7;
+    --tint-good: #CFE7C1;
+    --tint-warn: #F2D6A0;
+    --tint-bad: #EFC3BB;
   }
   :root[data-theme="dark"]{
     --paper: #17181A;
@@ -72,6 +81,9 @@
     --good-soft: #223321;
     --bad: #E08A7C;
     --bad-soft: #3A211D;
+    --tint-good: #2E4A28;
+    --tint-warn: #4A3819;
+    --tint-bad: #4A2620;
   }
   .theme-toggle-btn{
     font-family:'IBM Plex Mono', monospace;
@@ -160,9 +172,9 @@
   .account-card:last-child{margin-bottom:0;}
   .account-card:hover{border-color:var(--ink-soft);}
 
-  .account-card.tint-good{background:var(--good-soft);border-color:var(--good);}
-  .account-card.tint-warn{background:var(--warn-soft);border-color:var(--warn);}
-  .account-card.tint-bad{background:var(--bad-soft);border-color:var(--bad);}
+  .account-card.tint-good{background:var(--tint-good);border-color:var(--good);}
+  .account-card.tint-warn{background:var(--tint-warn);border-color:var(--warn);}
+  .account-card.tint-bad{background:var(--tint-bad);border-color:var(--bad);}
 
   .conversion-status{
     font-family:'IBM Plex Mono', monospace;
