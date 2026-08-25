@@ -149,12 +149,31 @@
   }
 
   .account-card{
-    border-bottom:1px solid var(--hairline);
-    padding:16px 4px;
+    border:1px solid var(--hairline);
+    border-radius:12px;
+    padding:16px 20px;
+    margin-bottom:12px;
     cursor:pointer;
+    background:var(--paper-raised);
+    transition:border-color 0.15s ease;
   }
-  .account-card:last-child{border-bottom:none;}
-  .account-card:hover{background:rgba(127,127,127,0.04);}
+  .account-card:last-child{margin-bottom:0;}
+  .account-card:hover{border-color:var(--ink-soft);}
+
+  .account-card.tint-good{background:var(--good-soft);border-color:var(--good);}
+  .account-card.tint-warn{background:var(--warn-soft);border-color:var(--warn);}
+  .account-card.tint-bad{background:var(--bad-soft);border-color:var(--bad);}
+
+  .conversion-status{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    padding:3px 8px;
+    border-radius:100px;
+    white-space:nowrap;
+  }
+  .conversion-status.good{background:var(--good);color:var(--paper-raised);}
+  .conversion-status.warn{background:var(--warn);color:var(--paper-raised);}
+  .conversion-status.bad{background:var(--bad);color:var(--paper-raised);}
 
   .account-head{
     display:flex;
@@ -534,6 +553,24 @@ function accountSortRank(a){
   return { tier: flagged ? 0 : 1, spend: (a.google.metrics && a.google.metrics.spend) || 0 };
 }
 
+// Green/orange/red based on how this period's conversions compare to the baseline
+// (whichever comparison basis is currently selected — full month or previous period).
+// No prior data to compare against => no status (card stays neutral).
+function computeConversionStatus(a){
+  const g = a.google.metrics;
+  const { previousMonth: prev } = getComparisonBasis(a);
+  const baseline = prev.conversions;
+  if(!baseline) return null;
+
+  const ratio = g.conversions / baseline;
+  let statusClass;
+  if(ratio < 0.5) statusClass = 'bad';
+  else if(ratio < 0.9) statusClass = 'warn';
+  else statusClass = 'good';
+
+  return { statusClass, ratio, current: g.conversions, baseline };
+}
+
 function accountCard(a, cardId){
   const g = a.google && a.google.metrics;
 
@@ -555,6 +592,7 @@ function accountCard(a, cardId){
   }
 
   const { previousMonth: prev, comparisonPct: pct, basisLabel } = getComparisonBasis(a);
+  const convStatus = computeConversionStatus(a);
 
   const metricsHtml = [
     metricBox('Spend', '$' + fmt(g.spend), pct.spend, basisLabel),
@@ -591,7 +629,7 @@ function accountCard(a, cardId){
   ) : '<p class="empty-state">No campaign-level data in this file yet.</p>';
 
   return `
-    <div class="account-card" data-card-id="${cardId}" data-account-name="${escapeHtml(a.name.toLowerCase())}">
+    <div class="account-card ${convStatus ? 'tint-' + convStatus.statusClass : ''}" data-card-id="${cardId}" data-account-name="${escapeHtml(a.name.toLowerCase())}">
       <div class="account-head">
         <div>
           <div class="account-name-row">
@@ -600,6 +638,7 @@ function accountCard(a, cardId){
           </div>
         </div>
         <div class="badges">
+          ${convStatus ? `<span class="conversion-status ${convStatus.statusClass}">${fmt(convStatus.current, 0)}/${fmt(convStatus.baseline, 0)} conv &middot; ${fmt(convStatus.ratio * 100, 0)}%</span>` : ''}
           <span class="badge on">google on</span>
           <span class="badge ${a.meta ? 'on' : 'off'}">meta ${a.meta ? 'on' : 'off'}</span>
         </div>
