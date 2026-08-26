@@ -9,30 +9,30 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-26T11:04:07.965Z",
+  "updated_at": "2026-08-26T12:04:08.114Z",
   "metrics": {
     "spend": 2587.97,
     "impressions": 45490,
     "clicks": 921,
-    "conversions": 128.9,
+    "conversions": 129.9,
     "phone_calls": 0,
     "cpc": 2.81,
-    "cost_per_conversion": 20.08
+    "cost_per_conversion": 19.92
   },
   "previous_month": {
     "spend": 3315.54,
     "impressions": 23791,
     "clicks": 937,
-    "conversions": 147.83,
+    "conversions": 148.83,
     "phone_calls": 0,
     "cpc": 3.54,
-    "cost_per_conversion": 22.43
+    "cost_per_conversion": 22.28
   },
   "comparison_pct": {
     "spend": -21.94,
     "impressions": 91.21,
     "clicks": -1.71,
-    "conversions": -12.81,
+    "conversions": -12.72,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -72,10 +72,10 @@
       "spend": 405.28,
       "impressions": 747,
       "clicks": 282,
-      "conversions": 93.9,
+      "conversions": 94.9,
       "phone_calls": 0,
       "cpc": 1.44,
-      "cost_per_conversion": 4.32
+      "cost_per_conversion": 4.27
     },
     {
       "name": "AICG | Search | Education & Membership (Old)",
@@ -325,10 +325,10 @@
         "spend": 53.93,
         "impressions": 257,
         "clicks": 23,
-        "conversions": 11,
+        "conversions": 12,
         "phone_calls": 0,
         "cpc": 2.34,
-        "cost_per_conversion": 4.9
+        "cost_per_conversion": 4.49
       },
       {
         "day": 24,
@@ -597,10 +597,10 @@
         "spend": 59.47,
         "impressions": 1117,
         "clicks": 18,
-        "conversions": 10.95,
+        "conversions": 11.95,
         "phone_calls": 0,
         "cpc": 3.3,
-        "cost_per_conversion": 5.43
+        "cost_per_conversion": 4.97
       },
       {
         "day": 26,
