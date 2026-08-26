@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260824",
+    "mtd_end": "20260825",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-26T03:20:23.226Z",
+  "updated_at": "2026-08-26T04:20:22.429Z",
   "metrics": {
-    "spend": 1582.44,
-    "impressions": 64242,
-    "clicks": 1232,
-    "conversions": 63,
+    "spend": 1663.16,
+    "impressions": 66333,
+    "clicks": 1279,
+    "conversions": 64,
     "phone_calls": 3,
-    "cpc": 1.28,
-    "cost_per_conversion": 25.12
+    "cpc": 1.3,
+    "cost_per_conversion": 25.99
   },
   "previous_month": {
     "spend": 1974.93,
@@ -29,43 +29,43 @@
     "cost_per_conversion": 30.86
   },
   "comparison_pct": {
-    "spend": -19.87,
-    "impressions": -8.97,
-    "clicks": -3.98,
-    "conversions": -1.56,
+    "spend": -15.79,
+    "impressions": -6,
+    "clicks": -0.31,
+    "conversions": 0,
     "phone_calls": -62.5
   },
   "recommendation": "Performance is roughly in line with last month.",
   "campaigns": [
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 655.12,
-      "impressions": 51971,
-      "clicks": 835,
-      "conversions": 31,
+      "spend": 713.03,
+      "impressions": 53850,
+      "clicks": 876,
+      "conversions": 32,
       "phone_calls": 1,
-      "cpc": 0.78,
-      "cost_per_conversion": 21.13
+      "cpc": 0.81,
+      "cost_per_conversion": 22.28
     },
     {
       "name": "P.Max - Mississauga",
-      "spend": 573.58,
-      "impressions": 11278,
-      "clicks": 330,
+      "spend": 579.98,
+      "impressions": 11371,
+      "clicks": 333,
       "conversions": 29,
       "phone_calls": 2,
       "cpc": 1.74,
-      "cost_per_conversion": 19.78
+      "cost_per_conversion": 20
     },
     {
       "name": "Search | Brampton",
-      "spend": 207.19,
-      "impressions": 637,
-      "clicks": 41,
+      "spend": 223.59,
+      "impressions": 756,
+      "clicks": 44,
       "conversions": 3,
       "phone_calls": 0,
-      "cpc": 5.05,
-      "cost_per_conversion": 69.06
+      "cpc": 5.08,
+      "cost_per_conversion": 74.53
     },
     {
       "name": "Search | Hamilton",
@@ -239,6 +239,16 @@
         "phone_calls": 1,
         "cpc": 0.74,
         "cost_per_conversion": 42.76
+      },
+      {
+        "day": 25,
+        "spend": 80.72,
+        "impressions": 2091,
+        "clicks": 47,
+        "conversions": 1,
+        "phone_calls": 0,
+        "cpc": 1.72,
+        "cost_per_conversion": 80.72
       }
     ],
     "last_month": [
