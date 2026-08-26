@@ -9,12 +9,12 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-26T12:04:08.114Z",
+  "updated_at": "2026-08-26T13:04:08.169Z",
   "metrics": {
     "spend": 2587.97,
     "impressions": 45490,
     "clicks": 921,
-    "conversions": 129.9,
+    "conversions": 129.91,
     "phone_calls": 0,
     "cpc": 2.81,
     "cost_per_conversion": 19.92
@@ -32,7 +32,7 @@
     "spend": -21.94,
     "impressions": 91.21,
     "clicks": -1.71,
-    "conversions": -12.72,
+    "conversions": -12.71,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -82,10 +82,10 @@
       "spend": 91.98,
       "impressions": 83,
       "clicks": 15,
-      "conversions": 8,
+      "conversions": 8.01,
       "phone_calls": 0,
       "cpc": 6.13,
-      "cost_per_conversion": 11.5
+      "cost_per_conversion": 11.49
     },
     {
       "name": "AICG | Display | Retargeting",
@@ -295,10 +295,10 @@
         "spend": 106.78,
         "impressions": 2946,
         "clicks": 51,
-        "conversions": 11.5,
+        "conversions": 11.51,
         "phone_calls": 0,
         "cpc": 2.09,
-        "cost_per_conversion": 9.29
+        "cost_per_conversion": 9.28
       },
       {
         "day": 21,
