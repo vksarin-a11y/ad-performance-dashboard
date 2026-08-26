@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-26T09:04:07.735Z",
+  "updated_at": "2026-08-26T10:04:08.384Z",
   "metrics": {
-    "spend": 2587.99,
-    "impressions": 45491,
+    "spend": 2587.97,
+    "impressions": 45490,
     "clicks": 921,
-    "conversions": 126.9,
+    "conversions": 128.9,
     "phone_calls": 0,
     "cpc": 2.81,
-    "cost_per_conversion": 20.39
+    "cost_per_conversion": 20.08
   },
   "previous_month": {
     "spend": 3315.54,
@@ -32,7 +32,7 @@
     "spend": -21.94,
     "impressions": 91.21,
     "clicks": -1.71,
-    "conversions": -14.16,
+    "conversions": -12.81,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -49,8 +49,8 @@
     },
     {
       "name": "AICG | P.Max | Combined",
-      "spend": 711.06,
-      "impressions": 39577,
+      "spend": 711.04,
+      "impressions": 39576,
       "clicks": 313,
       "conversions": 11,
       "phone_calls": 0,
@@ -72,20 +72,20 @@
       "spend": 405.28,
       "impressions": 747,
       "clicks": 282,
-      "conversions": 92.9,
+      "conversions": 93.9,
       "phone_calls": 0,
       "cpc": 1.44,
-      "cost_per_conversion": 4.36
+      "cost_per_conversion": 4.32
     },
     {
       "name": "AICG | Search | Education & Membership (Old)",
       "spend": 91.98,
       "impressions": 83,
       "clicks": 15,
-      "conversions": 7,
+      "conversions": 8,
       "phone_calls": 0,
       "cpc": 6.13,
-      "cost_per_conversion": 13.14
+      "cost_per_conversion": 11.5
     },
     {
       "name": "AICG | Display | Retargeting",
@@ -272,13 +272,13 @@
       },
       {
         "day": 18,
-        "spend": 119.33,
-        "impressions": 5498,
+        "spend": 119.31,
+        "impressions": 5497,
         "clicks": 57,
         "conversions": 6,
         "phone_calls": 0,
         "cpc": 2.09,
-        "cost_per_conversion": 19.89
+        "cost_per_conversion": 19.88
       },
       {
         "day": 19,
@@ -295,10 +295,10 @@
         "spend": 106.78,
         "impressions": 2946,
         "clicks": 51,
-        "conversions": 10.5,
+        "conversions": 11.5,
         "phone_calls": 0,
         "cpc": 2.09,
-        "cost_per_conversion": 10.17
+        "cost_per_conversion": 9.29
       },
       {
         "day": 21,
@@ -325,10 +325,10 @@
         "spend": 53.93,
         "impressions": 257,
         "clicks": 23,
-        "conversions": 10,
+        "conversions": 11,
         "phone_calls": 0,
         "cpc": 2.34,
-        "cost_per_conversion": 5.39
+        "cost_per_conversion": 4.9
       },
       {
         "day": 24,
