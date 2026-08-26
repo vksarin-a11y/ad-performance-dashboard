@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-26T06:02:49.812Z",
+  "updated_at": "2026-08-26T07:02:48.452Z",
   "metrics": {
     "spend": 1331.15,
     "impressions": 6002,
     "clicks": 266,
-    "conversions": 50,
+    "conversions": 51,
     "phone_calls": 0,
     "cpc": 5,
-    "cost_per_conversion": 26.62
+    "cost_per_conversion": 26.1
   },
   "previous_month": {
     "spend": 1462.01,
@@ -32,7 +32,7 @@
     "spend": -8.95,
     "impressions": -34.34,
     "clicks": -10.44,
-    "conversions": -28.57,
+    "conversions": -27.14,
     "phone_calls": -100
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -62,10 +62,10 @@
       "spend": 218.21,
       "impressions": 1554,
       "clicks": 42,
-      "conversions": 9,
+      "conversions": 10,
       "phone_calls": 0,
       "cpc": 5.2,
-      "cost_per_conversion": 24.25
+      "cost_per_conversion": 21.82
     },
     {
       "name": "RB - PMax | Kids Dentistry",
@@ -255,10 +255,10 @@
         "spend": 67.74,
         "impressions": 171,
         "clicks": 16,
-        "conversions": 0,
+        "conversions": 1,
         "phone_calls": 0,
         "cpc": 4.23,
-        "cost_per_conversion": 0
+        "cost_per_conversion": 67.74
       }
     ],
     "last_month": [
