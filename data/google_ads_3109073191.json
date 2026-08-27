@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260825",
+    "mtd_end": "20260826",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-27T03:57:02.128Z",
+  "updated_at": "2026-08-27T04:57:01.065Z",
   "metrics": {
-    "spend": 1785.95,
-    "impressions": 9600,
-    "clicks": 380,
+    "spend": 1862.15,
+    "impressions": 12486,
+    "clicks": 411,
     "conversions": 21,
     "phone_calls": 3,
-    "cpc": 4.7,
-    "cost_per_conversion": 85.05
+    "cpc": 4.53,
+    "cost_per_conversion": 88.67
   },
   "previous_month": {
     "spend": 1986.56,
@@ -29,52 +29,52 @@
     "cost_per_conversion": 73.58
   },
   "comparison_pct": {
-    "spend": -10.1,
-    "impressions": 35.55,
-    "clicks": 12.76,
+    "spend": -6.26,
+    "impressions": 76.31,
+    "clicks": 21.96,
     "conversions": -22.22,
     "phone_calls": 50
   },
-  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
+  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
-      "name": "RB - Search | Emergency",
-      "spend": 586.18,
-      "impressions": 1335,
-      "clicks": 55,
-      "conversions": 3,
-      "phone_calls": 0,
-      "cpc": 10.66,
-      "cost_per_conversion": 195.39
-    },
-    {
       "name": "RB - Pmax | General Dentistry (New)",
-      "spend": 579.32,
-      "impressions": 6939,
-      "clicks": 256,
+      "spend": 609.75,
+      "impressions": 9662,
+      "clicks": 279,
       "conversions": 14,
       "phone_calls": 0,
-      "cpc": 2.26,
-      "cost_per_conversion": 41.38
+      "cpc": 2.19,
+      "cost_per_conversion": 43.55
+    },
+    {
+      "name": "RB - Search | Emergency",
+      "spend": 608.06,
+      "impressions": 1350,
+      "clicks": 57,
+      "conversions": 3,
+      "phone_calls": 0,
+      "cpc": 10.67,
+      "cost_per_conversion": 202.69
     },
     {
       "name": "RB - Search | General Dentistry",
-      "spend": 574.98,
-      "impressions": 1233,
-      "clicks": 65,
+      "spend": 583.98,
+      "impressions": 1252,
+      "clicks": 68,
       "conversions": 4,
       "phone_calls": 2,
-      "cpc": 8.85,
-      "cost_per_conversion": 143.74
+      "cpc": 8.59,
+      "cost_per_conversion": 145.99
     },
     {
       "name": "RB - Search | General Dentistry (Target CPA- 18 Aug)",
-      "spend": 45.49,
-      "impressions": 93,
-      "clicks": 4,
+      "spend": 60.37,
+      "impressions": 222,
+      "clicks": 7,
       "conversions": 0,
       "phone_calls": 1,
-      "cpc": 11.37,
+      "cpc": 8.62,
       "cost_per_conversion": 0
     }
   ],
@@ -248,6 +248,16 @@
         "conversions": 0,
         "phone_calls": 1,
         "cpc": 3.38,
+        "cost_per_conversion": 0
+      },
+      {
+        "day": 26,
+        "spend": 76.2,
+        "impressions": 2886,
+        "clicks": 31,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 2.46,
         "cost_per_conversion": 0
       }
     ],
