@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-28T07:21:13.741Z",
+  "updated_at": "2026-08-28T08:21:13.485Z",
   "metrics": {
     "spend": 5164.16,
     "impressions": 92253,
     "clicks": 2018,
-    "conversions": 114,
+    "conversions": 118,
     "phone_calls": 5,
     "cpc": 2.56,
-    "cost_per_conversion": 45.3
+    "cost_per_conversion": 43.76
   },
   "previous_month": {
     "spend": 5866.39,
@@ -32,10 +32,10 @@
     "spend": -11.97,
     "impressions": 39.62,
     "clicks": 26.52,
-    "conversions": -22.45,
+    "conversions": -19.73,
     "phone_calls": -54.55
   },
-  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
+  "recommendation": "Performance is roughly in line with last month.",
   "campaigns": [
     {
       "name": "P.Max - General Dentistry (Update)",
@@ -102,10 +102,10 @@
       "spend": 175.22,
       "impressions": 171,
       "clicks": 10,
-      "conversions": 6,
+      "conversions": 10,
       "phone_calls": 0,
       "cpc": 17.52,
-      "cost_per_conversion": 29.2
+      "cost_per_conversion": 17.52
     }
   ],
   "daily": {
@@ -335,10 +335,10 @@
         "spend": 248.6,
         "impressions": 11216,
         "clicks": 167,
-        "conversions": 6,
+        "conversions": 10,
         "phone_calls": 0,
         "cpc": 1.49,
-        "cost_per_conversion": 41.43
+        "cost_per_conversion": 24.86
       }
     ],
     "last_month": [
