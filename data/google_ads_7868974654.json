@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-29T12:32:19.897Z",
+  "updated_at": "2026-08-29T13:32:19.826Z",
   "metrics": {
     "spend": 13050.01,
-    "impressions": 71325,
+    "impressions": 71324,
     "clicks": 4041,
-    "conversions": 322.43,
+    "conversions": 323.43,
     "phone_calls": 0,
     "cpc": 3.23,
-    "cost_per_conversion": 40.47
+    "cost_per_conversion": 40.35
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -9.36,
     "impressions": -9.58,
     "clicks": -4.72,
-    "conversions": 4.33,
+    "conversions": 4.65,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -62,10 +62,10 @@
       "spend": 1867.42,
       "impressions": 9936,
       "clicks": 513,
-      "conversions": 56.78,
+      "conversions": 57.78,
       "phone_calls": 0,
       "cpc": 3.64,
-      "cost_per_conversion": 32.89
+      "cost_per_conversion": 32.32
     },
     {
       "name": "RCG | Search | Target CPA",
@@ -90,7 +90,7 @@
     {
       "name": "ARCG  | Performance Max",
       "spend": 901.87,
-      "impressions": 6953,
+      "impressions": 6952,
       "clicks": 229,
       "conversions": 9.67,
       "phone_calls": 0,
@@ -145,10 +145,10 @@
         "spend": 451.57,
         "impressions": 2491,
         "clicks": 131,
-        "conversions": 6.03,
+        "conversions": 7.03,
         "phone_calls": 0,
         "cpc": 3.45,
-        "cost_per_conversion": 74.83
+        "cost_per_conversion": 64.19
       },
       {
         "day": 5,
@@ -383,7 +383,7 @@
       {
         "day": 28,
         "spend": 436.54,
-        "impressions": 1988,
+        "impressions": 1987,
         "clicks": 123,
         "conversions": 8,
         "phone_calls": 0,
