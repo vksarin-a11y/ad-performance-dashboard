@@ -9,15 +9,15 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-29T06:32:21.002Z",
+  "updated_at": "2026-08-29T07:32:19.230Z",
   "metrics": {
     "spend": 13050.01,
-    "impressions": 71328,
+    "impressions": 71327,
     "clicks": 4041,
-    "conversions": 316.43,
+    "conversions": 317.43,
     "phone_calls": 0,
     "cpc": 3.23,
-    "cost_per_conversion": 41.24
+    "cost_per_conversion": 41.11
   },
   "previous_month": {
     "spend": 14397.95,
@@ -32,7 +32,7 @@
     "spend": -9.36,
     "impressions": -9.58,
     "clicks": -4.72,
-    "conversions": 2.39,
+    "conversions": 2.71,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -50,7 +50,7 @@
     {
       "name": "RSA | Performance Max",
       "spend": 3232.45,
-      "impressions": 23629,
+      "impressions": 23628,
       "clicks": 1147,
       "conversions": 75.65,
       "phone_calls": 0,
@@ -72,10 +72,10 @@
       "spend": 1742.62,
       "impressions": 3029,
       "clicks": 438,
-      "conversions": 59.1,
+      "conversions": 60.1,
       "phone_calls": 0,
       "cpc": 3.98,
-      "cost_per_conversion": 29.48
+      "cost_per_conversion": 28.99
     },
     {
       "name": "RSA | Search | Target CPA",
@@ -383,12 +383,12 @@
       {
         "day": 28,
         "spend": 436.54,
-        "impressions": 1990,
+        "impressions": 1989,
         "clicks": 123,
-        "conversions": 7,
+        "conversions": 8,
         "phone_calls": 0,
         "cpc": 3.55,
-        "cost_per_conversion": 62.36
+        "cost_per_conversion": 54.57
       }
     ],
     "last_month": [
