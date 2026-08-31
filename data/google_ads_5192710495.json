@@ -5,11 +5,11 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260801",
-    "mtd_end": "20260829",
+    "mtd_end": "20260830",
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-31T03:02:49.681Z",
+  "updated_at": "2026-08-31T04:02:49.090Z",
   "metrics": {
     "spend": 1434.24,
     "impressions": 6759,
@@ -45,7 +45,7 @@
       "conversions": 31,
       "phone_calls": 0,
       "cpc": 5.87,
-      "cost_per_conversion": 23.48
+      "cost_per_conversion": 23.47
     },
     {
       "name": "RB - PMax | Services",
@@ -158,7 +158,7 @@
         "conversions": 4,
         "phone_calls": 0,
         "cpc": 4.83,
-        "cost_per_conversion": 25.35
+        "cost_per_conversion": 25.34
       },
       {
         "day": 12,
