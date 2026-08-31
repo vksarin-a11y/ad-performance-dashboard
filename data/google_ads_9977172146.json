@@ -9,10 +9,10 @@
     "prev_month_start": "20260701",
     "prev_month_end": "20260731"
   },
-  "updated_at": "2026-08-31T11:44:25.471Z",
+  "updated_at": "2026-08-31T12:44:25.474Z",
   "metrics": {
     "spend": 3481.75,
-    "impressions": 5874,
+    "impressions": 5873,
     "clicks": 735,
     "conversions": 61,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -0.29,
-    "impressions": -20.57,
+    "impressions": -20.58,
     "clicks": -27.66,
     "conversions": -12.86,
     "phone_calls": -100
@@ -90,7 +90,7 @@
     {
       "name": "RB - Search l Dental Implants (10Aug)",
       "spend": 151.02,
-      "impressions": 347,
+      "impressions": 346,
       "clicks": 131,
       "conversions": 4,
       "phone_calls": 0,
@@ -273,7 +273,7 @@
       {
         "day": 26,
         "spend": 120.17,
-        "impressions": 122,
+        "impressions": 121,
         "clicks": 22,
         "conversions": 4,
         "phone_calls": 0,
