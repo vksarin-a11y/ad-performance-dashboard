@@ -4,12 +4,12 @@
   "account_manager": "Pisey",
   "platform": "google_ads",
   "period": {
-    "mtd_start": "20260801",
-    "mtd_end": "20260830",
-    "prev_month_start": "20260701",
-    "prev_month_end": "20260731"
+    "mtd_start": "20260901",
+    "mtd_end": "20260831",
+    "prev_month_start": "20260801",
+    "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-01T03:06:33.335Z",
+  "updated_at": "2026-09-01T04:06:32.750Z",
   "metrics": {
     "spend": 0,
     "impressions": 0,
