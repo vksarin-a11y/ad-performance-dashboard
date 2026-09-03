@@ -9,10 +9,10 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-03T11:21:12.524Z",
+  "updated_at": "2026-09-03T12:21:12.887Z",
   "metrics": {
     "spend": 435.3,
-    "impressions": 3969,
+    "impressions": 3968,
     "clicks": 89,
     "conversions": 4,
     "phone_calls": 0,
@@ -50,7 +50,7 @@
     {
       "name": "P.Max - General Dentistry (Update)",
       "spend": 93.47,
-      "impressions": 1186,
+      "impressions": 1185,
       "clicks": 30,
       "conversions": 4,
       "phone_calls": 0,
@@ -113,7 +113,7 @@
       {
         "day": 2,
         "spend": 294.33,
-        "impressions": 2273,
+        "impressions": 2272,
         "clicks": 47,
         "conversions": 4,
         "phone_calls": 0,
