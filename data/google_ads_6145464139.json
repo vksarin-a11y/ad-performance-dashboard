@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-04T05:04:08.429Z",
+  "updated_at": "2026-09-04T06:04:07.935Z",
   "metrics": {
     "spend": 383.5,
     "impressions": 1065,
     "clicks": 115,
-    "conversions": 4,
+    "conversions": 5,
     "phone_calls": 0,
     "cpc": 3.33,
-    "cost_per_conversion": 95.88
+    "cost_per_conversion": 76.7
   },
   "previous_month": {
     "spend": 3168.98,
@@ -32,7 +32,7 @@
     "spend": -87.9,
     "impressions": -97.86,
     "clicks": -89.5,
-    "conversions": -97.4,
+    "conversions": -96.75,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -72,10 +72,10 @@
       "spend": 49.65,
       "impressions": 151,
       "clicks": 48,
-      "conversions": 1,
+      "conversions": 2,
       "phone_calls": 0,
       "cpc": 1.03,
-      "cost_per_conversion": 49.65
+      "cost_per_conversion": 24.83
     }
   ],
   "daily": {
@@ -105,10 +105,10 @@
         "spend": 83.9,
         "impressions": 347,
         "clicks": 36,
-        "conversions": 0,
+        "conversions": 1,
         "phone_calls": 0,
         "cpc": 2.33,
-        "cost_per_conversion": 0
+        "cost_per_conversion": 83.9
       }
     ],
     "last_month": [
