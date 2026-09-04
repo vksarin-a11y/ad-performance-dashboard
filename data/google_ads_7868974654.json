@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260902",
+    "mtd_end": "20260903",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-04T03:32:20.011Z",
+  "updated_at": "2026-09-04T04:32:19.768Z",
   "metrics": {
-    "spend": 1202.17,
-    "impressions": 3967,
-    "clicks": 320,
-    "conversions": 26,
+    "spend": 1713.95,
+    "impressions": 6265,
+    "clicks": 463,
+    "conversions": 39,
     "phone_calls": 0,
-    "cpc": 3.76,
-    "cost_per_conversion": 46.24
+    "cpc": 3.7,
+    "cost_per_conversion": 43.95
   },
   "previous_month": {
     "spend": 14484.72,
@@ -29,73 +29,73 @@
     "cost_per_conversion": 38.89
   },
   "comparison_pct": {
-    "spend": -91.7,
-    "impressions": -94.91,
-    "clicks": -92.81,
-    "conversions": -93.02,
+    "spend": -88.17,
+    "impressions": -91.96,
+    "clicks": -89.6,
+    "conversions": -89.53,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
-      "name": "Bundle | Performance Max",
-      "spend": 268.87,
-      "impressions": 1293,
-      "clicks": 84,
-      "conversions": 1,
+      "name": "RSA | Search | Target CPA",
+      "spend": 382.73,
+      "impressions": 1512,
+      "clicks": 101,
+      "conversions": 9.5,
       "phone_calls": 0,
-      "cpc": 3.2,
-      "cost_per_conversion": 268.87
+      "cpc": 3.79,
+      "cost_per_conversion": 40.29
     },
     {
       "name": "RSA | Performance Max",
-      "spend": 252.89,
-      "impressions": 763,
-      "clicks": 68,
-      "conversions": 5,
+      "spend": 379.03,
+      "impressions": 1247,
+      "clicks": 101,
+      "conversions": 8.5,
       "phone_calls": 0,
-      "cpc": 3.72,
-      "cost_per_conversion": 50.58
+      "cpc": 3.75,
+      "cost_per_conversion": 44.59
     },
     {
-      "name": "RSA | Search | Target CPA",
-      "spend": 246.69,
-      "impressions": 727,
-      "clicks": 59,
-      "conversions": 5,
+      "name": "Bundle | Performance Max",
+      "spend": 356.3,
+      "impressions": 1819,
+      "clicks": 113,
+      "conversions": 2.33,
       "phone_calls": 0,
-      "cpc": 4.18,
-      "cost_per_conversion": 49.34
+      "cpc": 3.15,
+      "cost_per_conversion": 152.7
     },
     {
       "name": "RCG | Performance Max",
-      "spend": 212.61,
-      "impressions": 621,
-      "clicks": 49,
-      "conversions": 6.5,
+      "spend": 274.54,
+      "impressions": 926,
+      "clicks": 64,
+      "conversions": 8.17,
       "phone_calls": 0,
-      "cpc": 4.34,
-      "cost_per_conversion": 32.71
+      "cpc": 4.29,
+      "cost_per_conversion": 33.62
     },
     {
       "name": "RCG | Search | Target CPA",
-      "spend": 159.07,
-      "impressions": 272,
-      "clicks": 46,
-      "conversions": 7,
+      "spend": 226.81,
+      "impressions": 440,
+      "clicks": 64,
+      "conversions": 9,
       "phone_calls": 0,
-      "cpc": 3.46,
-      "cost_per_conversion": 22.72
+      "cpc": 3.54,
+      "cost_per_conversion": 25.2
     },
     {
       "name": "ARCG  | Performance Max",
-      "spend": 62.05,
-      "impressions": 291,
-      "clicks": 14,
+      "spend": 94.55,
+      "impressions": 321,
+      "clicks": 20,
       "conversions": 1.5,
       "phone_calls": 0,
-      "cpc": 4.43,
-      "cost_per_conversion": 41.36
+      "cpc": 4.73,
+      "cost_per_conversion": 63.03
     }
   ],
   "daily": {
@@ -119,6 +119,16 @@
         "phone_calls": 0,
         "cpc": 3.92,
         "cost_per_conversion": 49.04
+      },
+      {
+        "day": 3,
+        "spend": 511.78,
+        "impressions": 2298,
+        "clicks": 143,
+        "conversions": 13,
+        "phone_calls": 0,
+        "cpc": 3.58,
+        "cost_per_conversion": 39.37
       }
     ],
     "last_month": [
