@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-05T13:21:13.393Z",
+  "updated_at": "2026-09-05T14:21:11.999Z",
   "metrics": {
-    "spend": 966.56,
-    "impressions": 8530,
-    "clicks": 214,
+    "spend": 965.83,
+    "impressions": 8528,
+    "clicks": 213,
     "conversions": 9,
     "phone_calls": 0,
-    "cpc": 4.52,
-    "cost_per_conversion": 107.4
+    "cpc": 4.53,
+    "cost_per_conversion": 107.31
   },
   "previous_month": {
     "spend": 5877.25,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 43.22
   },
   "comparison_pct": {
-    "spend": -83.55,
+    "spend": -83.57,
     "impressions": -92.15,
-    "clicks": -90.55,
+    "clicks": -90.6,
     "conversions": -93.38,
     "phone_calls": -100
   },
@@ -59,13 +59,13 @@
     },
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 214.82,
-      "impressions": 3716,
-      "clicks": 93,
+      "spend": 214.1,
+      "impressions": 3714,
+      "clicks": 92,
       "conversions": 4,
       "phone_calls": 0,
-      "cpc": 2.31,
-      "cost_per_conversion": 53.71
+      "cpc": 2.33,
+      "cost_per_conversion": 53.52
     },
     {
       "name": "RB - Same Day Crowns",
@@ -132,13 +132,13 @@
       },
       {
         "day": 4,
-        "spend": 258.06,
-        "impressions": 3427,
-        "clicks": 88,
+        "spend": 257.33,
+        "impressions": 3425,
+        "clicks": 87,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 2.93,
-        "cost_per_conversion": 258.06
+        "cpc": 2.96,
+        "cost_per_conversion": 257.33
       }
     ],
     "last_month": [
