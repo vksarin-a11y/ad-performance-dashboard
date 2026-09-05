@@ -9,7 +9,7 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-05T00:20:44.962Z",
+  "updated_at": "2026-09-05T01:20:46.277Z",
   "metrics": {
     "spend": 845.11,
     "impressions": 16525,
@@ -23,16 +23,16 @@
     "spend": 7749.29,
     "impressions": 135844,
     "clicks": 3765,
-    "conversions": 376,
+    "conversions": 377,
     "phone_calls": 0,
     "cpc": 2.06,
-    "cost_per_conversion": 20.61
+    "cost_per_conversion": 20.56
   },
   "comparison_pct": {
     "spend": -89.09,
     "impressions": -87.84,
     "clicks": -89.43,
-    "conversions": -88.03,
+    "conversions": -88.06,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -457,10 +457,10 @@
         "spend": 249.42,
         "impressions": 5428,
         "clicks": 146,
-        "conversions": 6,
+        "conversions": 7,
         "phone_calls": 0,
         "cpc": 1.71,
-        "cost_per_conversion": 41.57
+        "cost_per_conversion": 35.63
       }
     ],
     "mtd_phone_calls": 0,
