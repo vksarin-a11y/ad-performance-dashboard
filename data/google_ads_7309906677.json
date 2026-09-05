@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-05T09:20:44.222Z",
+  "updated_at": "2026-09-05T10:20:45.369Z",
   "metrics": {
     "spend": 1096.23,
     "impressions": 21023,
     "clicks": 502,
-    "conversions": 54,
+    "conversions": 55,
     "phone_calls": 0,
     "cpc": 2.18,
-    "cost_per_conversion": 20.3
+    "cost_per_conversion": 19.93
   },
   "previous_month": {
     "spend": 7749.29,
@@ -32,7 +32,7 @@
     "spend": -85.85,
     "impressions": -84.52,
     "clicks": -86.67,
-    "conversions": -85.68,
+    "conversions": -85.41,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 489.1,
       "impressions": 6936,
       "clicks": 219,
-      "conversions": 25,
+      "conversions": 26,
       "phone_calls": 0,
       "cpc": 2.23,
-      "cost_per_conversion": 19.56
+      "cost_per_conversion": 18.81
     },
     {
       "name": "PMax: Smart Shopping - Netherlands",
@@ -145,10 +145,10 @@
         "spend": 267.86,
         "impressions": 5435,
         "clicks": 123,
-        "conversions": 15,
+        "conversions": 16,
         "phone_calls": 0,
         "cpc": 2.18,
-        "cost_per_conversion": 17.86
+        "cost_per_conversion": 16.74
       },
       {
         "day": 4,
