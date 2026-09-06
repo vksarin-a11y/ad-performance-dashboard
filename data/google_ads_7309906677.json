@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-06T10:20:43.792Z",
+  "updated_at": "2026-09-06T11:20:45.563Z",
   "metrics": {
-    "spend": 1353.87,
+    "spend": 1354.74,
     "impressions": 26912,
-    "clicks": 639,
-    "conversions": 70,
+    "clicks": 640,
+    "conversions": 72,
     "phone_calls": 0,
     "cpc": 2.12,
-    "cost_per_conversion": 19.34
+    "cost_per_conversion": 18.82
   },
   "previous_month": {
     "spend": 7749.29,
@@ -29,10 +29,10 @@
     "cost_per_conversion": 20.45
   },
   "comparison_pct": {
-    "spend": -82.53,
+    "spend": -82.52,
     "impressions": -80.19,
-    "clicks": -83.03,
-    "conversions": -81.53,
+    "clicks": -83,
+    "conversions": -81,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 608.97,
       "impressions": 8613,
       "clicks": 281,
-      "conversions": 35,
+      "conversions": 36,
       "phone_calls": 0,
       "cpc": 2.17,
-      "cost_per_conversion": 17.4
+      "cost_per_conversion": 16.92
     },
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
@@ -59,13 +59,13 @@
     },
     {
       "name": "PMax: Smart Shopping - Netherlands",
-      "spend": 258.98,
+      "spend": 259.85,
       "impressions": 7730,
-      "clicks": 159,
-      "conversions": 16,
+      "clicks": 160,
+      "conversions": 17,
       "phone_calls": 0,
-      "cpc": 1.63,
-      "cost_per_conversion": 16.19
+      "cpc": 1.62,
+      "cost_per_conversion": 15.29
     },
     {
       "name": "PMax: Smart Shopping - Sweden",
@@ -162,13 +162,13 @@
       },
       {
         "day": 5,
-        "spend": 257.64,
+        "spend": 258.51,
         "impressions": 5889,
-        "clicks": 137,
-        "conversions": 14,
+        "clicks": 138,
+        "conversions": 16,
         "phone_calls": 0,
-        "cpc": 1.88,
-        "cost_per_conversion": 18.4
+        "cpc": 1.87,
+        "cost_per_conversion": 16.16
       }
     ],
     "last_month": [
