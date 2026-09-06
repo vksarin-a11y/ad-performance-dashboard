@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-06T10:32:18.859Z",
+  "updated_at": "2026-09-06T11:32:19.703Z",
   "metrics": {
-    "spend": 2626.76,
+    "spend": 2625.06,
     "impressions": 10747,
-    "clicks": 735,
+    "clicks": 734,
     "conversions": 58,
     "phone_calls": 0,
-    "cpc": 3.57,
-    "cost_per_conversion": 45.29
+    "cpc": 3.58,
+    "cost_per_conversion": 45.26
   },
   "previous_month": {
     "spend": 14484.72,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 38.17
   },
   "comparison_pct": {
-    "spend": -81.87,
+    "spend": -81.88,
     "impressions": -86.21,
-    "clicks": -83.49,
+    "clicks": -83.51,
     "conversions": -84.71,
     "phone_calls": null
   },
@@ -59,13 +59,13 @@
     },
     {
       "name": "Bundle | Performance Max",
-      "spend": 527.27,
+      "spend": 525.57,
       "impressions": 2928,
-      "clicks": 175,
+      "clicks": 174,
       "conversions": 4.67,
       "phone_calls": 0,
-      "cpc": 3.01,
-      "cost_per_conversion": 112.99
+      "cpc": 3.02,
+      "cost_per_conversion": 112.62
     },
     {
       "name": "RCG | Performance Max",
@@ -132,13 +132,13 @@
       },
       {
         "day": 4,
-        "spend": 434.84,
+        "spend": 433.14,
         "impressions": 2175,
-        "clicks": 141,
+        "clicks": 140,
         "conversions": 6.83,
         "phone_calls": 0,
-        "cpc": 3.08,
-        "cost_per_conversion": 63.64
+        "cpc": 3.09,
+        "cost_per_conversion": 63.39
       },
       {
         "day": 5,
