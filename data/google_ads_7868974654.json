@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-09T16:32:23.897Z",
+  "updated_at": "2026-09-09T17:32:19.385Z",
   "metrics": {
     "spend": 4456.71,
     "impressions": 17624,
     "clicks": 1190,
-    "conversions": 94.12,
+    "conversions": 94.11,
     "phone_calls": 0,
     "cpc": 3.75,
-    "cost_per_conversion": 47.35
+    "cost_per_conversion": 47.36
   },
   "previous_month": {
     "spend": 14484.72,
@@ -32,7 +32,7 @@
     "spend": -69.23,
     "impressions": -77.39,
     "clicks": -73.27,
-    "conversions": -75.4,
+    "conversions": -75.41,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -52,10 +52,10 @@
       "spend": 889.8,
       "impressions": 3676,
       "clicks": 232,
-      "conversions": 17.76,
+      "conversions": 17.75,
       "phone_calls": 0,
       "cpc": 3.84,
-      "cost_per_conversion": 50.1
+      "cost_per_conversion": 50.12
     },
     {
       "name": "Bundle | Performance Max",
@@ -175,10 +175,10 @@
         "spend": 656.19,
         "impressions": 2012,
         "clicks": 153,
-        "conversions": 12.33,
+        "conversions": 12.32,
         "phone_calls": 0,
         "cpc": 4.29,
-        "cost_per_conversion": 53.24
+        "cost_per_conversion": 53.26
       }
     ],
     "last_month": [
