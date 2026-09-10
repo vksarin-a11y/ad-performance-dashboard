@@ -9,10 +9,10 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-10T11:21:12.918Z",
+  "updated_at": "2026-09-10T12:21:13.245Z",
   "metrics": {
     "spend": 1747.9,
-    "impressions": 32897,
+    "impressions": 32885,
     "clicks": 610,
     "conversions": 29,
     "phone_calls": 1,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -70.26,
-    "impressions": -69.73,
+    "impressions": -69.74,
     "clicks": -73.07,
     "conversions": -78.83,
     "phone_calls": -83.33
@@ -40,7 +40,7 @@
     {
       "name": "P.Max - General Dentistry (Update)",
       "spend": 452.22,
-      "impressions": 18860,
+      "impressions": 18859,
       "clicks": 321,
       "conversions": 17,
       "phone_calls": 0,
@@ -90,7 +90,7 @@
     {
       "name": "P.Max - Invisalign (Update)",
       "spend": 92.88,
-      "impressions": 12426,
+      "impressions": 12415,
       "clicks": 209,
       "conversions": 1,
       "phone_calls": 0,
@@ -153,7 +153,7 @@
       {
         "day": 7,
         "spend": 329.59,
-        "impressions": 8318,
+        "impressions": 8317,
         "clicks": 150,
         "conversions": 10,
         "phone_calls": 1,
@@ -173,7 +173,7 @@
       {
         "day": 9,
         "spend": 123.1,
-        "impressions": 6125,
+        "impressions": 6114,
         "clicks": 103,
         "conversions": 2,
         "phone_calls": 0,
