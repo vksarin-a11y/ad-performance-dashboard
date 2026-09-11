@@ -9,10 +9,10 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-11T10:02:48.633Z",
+  "updated_at": "2026-09-11T11:02:48.151Z",
   "metrics": {
     "spend": 641.26,
-    "impressions": 3977,
+    "impressions": 3976,
     "clicks": 146,
     "conversions": 24,
     "phone_calls": 1,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -56.59,
-    "impressions": -43.44,
+    "impressions": -43.46,
     "clicks": -51.97,
     "conversions": -61.9,
     "phone_calls": 0
@@ -40,7 +40,7 @@
     {
       "name": "RB - Brand & General Dentistry",
       "spend": 320.06,
-      "impressions": 512,
+      "impressions": 511,
       "clicks": 45,
       "conversions": 11,
       "phone_calls": 1,
@@ -163,7 +163,7 @@
       {
         "day": 10,
         "spend": 72.46,
-        "impressions": 355,
+        "impressions": 354,
         "clicks": 17,
         "conversions": 2,
         "phone_calls": 0,
