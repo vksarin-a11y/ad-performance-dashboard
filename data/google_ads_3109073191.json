@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260909",
+    "mtd_end": "20260910",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-11T03:57:02.049Z",
+  "updated_at": "2026-09-11T04:57:00.762Z",
   "metrics": {
-    "spend": 758.19,
-    "impressions": 8638,
-    "clicks": 142,
+    "spend": 790.09,
+    "impressions": 9333,
+    "clicks": 155,
     "conversions": 16,
     "phone_calls": 5,
-    "cpc": 5.34,
-    "cost_per_conversion": 47.39
+    "cpc": 5.1,
+    "cost_per_conversion": 49.38
   },
   "previous_month": {
     "spend": 1971.85,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 85.73
   },
   "comparison_pct": {
-    "spend": -61.55,
-    "impressions": -46.56,
-    "clicks": -69.33,
+    "spend": -59.93,
+    "impressions": -42.26,
+    "clicks": -66.52,
     "conversions": -30.43,
     "phone_calls": 66.67
   },
@@ -39,38 +39,38 @@
   "campaigns": [
     {
       "name": "RB - Search | General Dentistry",
-      "spend": 409.11,
-      "impressions": 1110,
-      "clicks": 52,
+      "spend": 425.58,
+      "impressions": 1276,
+      "clicks": 55,
       "conversions": 9,
       "phone_calls": 5,
-      "cpc": 7.87,
-      "cost_per_conversion": 45.46
+      "cpc": 7.74,
+      "cost_per_conversion": 47.29
     },
     {
       "name": "RB - Search | Emergency Dentistry",
-      "spend": 244.4,
-      "impressions": 356,
-      "clicks": 20,
+      "spend": 255.8,
+      "impressions": 431,
+      "clicks": 22,
       "conversions": 6,
       "phone_calls": 0,
-      "cpc": 12.22,
-      "cost_per_conversion": 40.73
+      "cpc": 11.63,
+      "cost_per_conversion": 42.63
     },
     {
       "name": "RB - Pmax | General Dentistry (New)",
-      "spend": 92.52,
-      "impressions": 7165,
-      "clicks": 69,
+      "spend": 96.55,
+      "impressions": 7618,
+      "clicks": 77,
       "conversions": 1,
       "phone_calls": 0,
-      "cpc": 1.34,
-      "cost_per_conversion": 92.52
+      "cpc": 1.25,
+      "cost_per_conversion": 96.55
     },
     {
       "name": "RB - Search | Emergency Dentistry Test Target CPA",
       "spend": 12.17,
-      "impressions": 7,
+      "impressions": 8,
       "clicks": 1,
       "conversions": 0,
       "phone_calls": 0,
@@ -149,6 +149,16 @@
         "phone_calls": 1,
         "cpc": 5.94,
         "cost_per_conversion": 74.27
+      },
+      {
+        "day": 10,
+        "spend": 31.9,
+        "impressions": 695,
+        "clicks": 13,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 2.45,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
