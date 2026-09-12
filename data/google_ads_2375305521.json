@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-12T11:20:21.304Z",
+  "updated_at": "2026-09-12T12:20:23.376Z",
   "metrics": {
-    "spend": 830.73,
+    "spend": 828.83,
     "impressions": 26846,
-    "clicks": 479,
+    "clicks": 478,
     "conversions": 46,
     "phone_calls": 0,
     "cpc": 1.73,
-    "cost_per_conversion": 18.06
+    "cost_per_conversion": 18.02
   },
   "previous_month": {
     "spend": 2006.3,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 24.77
   },
   "comparison_pct": {
-    "spend": -58.59,
+    "spend": -58.69,
     "impressions": -68.68,
-    "clicks": -70.56,
+    "clicks": -70.62,
     "conversions": -43.21,
     "phone_calls": -100
   },
@@ -49,13 +49,13 @@
     },
     {
       "name": "P.Max - Mississauga",
-      "spend": 310.5,
+      "spend": 308.6,
       "impressions": 6870,
-      "clicks": 154,
+      "clicks": 153,
       "conversions": 15,
       "phone_calls": 0,
       "cpc": 2.02,
-      "cost_per_conversion": 20.7
+      "cost_per_conversion": 20.57
     },
     {
       "name": "Search | Brampton",
@@ -142,13 +142,13 @@
       },
       {
         "day": 10,
-        "spend": 80.78,
+        "spend": 78.88,
         "impressions": 1415,
-        "clicks": 39,
+        "clicks": 38,
         "conversions": 5,
         "phone_calls": 0,
-        "cpc": 2.07,
-        "cost_per_conversion": 16.16
+        "cpc": 2.08,
+        "cost_per_conversion": 15.78
       },
       {
         "day": 11,
