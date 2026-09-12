@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-12T00:20:21.836Z",
+  "updated_at": "2026-09-12T01:20:22.170Z",
   "metrics": {
     "spend": 752.3,
     "impressions": 25323,
     "clicks": 440,
-    "conversions": 43,
+    "conversions": 44,
     "phone_calls": 0,
     "cpc": 1.71,
-    "cost_per_conversion": 17.5
+    "cost_per_conversion": 17.1
   },
   "previous_month": {
     "spend": 2006.3,
@@ -32,7 +32,7 @@
     "spend": -62.5,
     "impressions": -70.45,
     "clicks": -72.96,
-    "conversions": -46.91,
+    "conversions": -45.68,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -52,10 +52,10 @@
       "spend": 277.33,
       "impressions": 6083,
       "clicks": 135,
-      "conversions": 13,
+      "conversions": 14,
       "phone_calls": 0,
       "cpc": 2.05,
-      "cost_per_conversion": 21.33
+      "cost_per_conversion": 19.81
     },
     {
       "name": "Search | Brampton",
@@ -125,10 +125,10 @@
         "spend": 71.59,
         "impressions": 1697,
         "clicks": 50,
-        "conversions": 5,
+        "conversions": 6,
         "phone_calls": 0,
         "cpc": 1.43,
-        "cost_per_conversion": 14.32
+        "cost_per_conversion": 11.93
       },
       {
         "day": 9,
