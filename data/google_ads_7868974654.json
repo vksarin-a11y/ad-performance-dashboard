@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-14T10:32:18.667Z",
+  "updated_at": "2026-09-14T11:32:18.931Z",
   "metrics": {
     "spend": 7692.44,
     "impressions": 27810,
     "clicks": 1942,
-    "conversions": 148.18,
+    "conversions": 148.07,
     "phone_calls": 0,
     "cpc": 3.96,
-    "cost_per_conversion": 51.91
+    "cost_per_conversion": 51.95
   },
   "previous_month": {
     "spend": 14484.72,
@@ -32,7 +32,7 @@
     "spend": -46.89,
     "impressions": -64.32,
     "clicks": -56.38,
-    "conversions": -61.68,
+    "conversions": -61.71,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -72,10 +72,10 @@
       "spend": 1367.32,
       "impressions": 5013,
       "clicks": 296,
-      "conversions": 25.85,
+      "conversions": 25.74,
       "phone_calls": 0,
       "cpc": 4.62,
-      "cost_per_conversion": 52.9
+      "cost_per_conversion": 53.12
     },
     {
       "name": "RCG | Search | Target CPA",
@@ -155,10 +155,10 @@
         "spend": 477.97,
         "impressions": 2309,
         "clicks": 131,
-        "conversions": 9,
+        "conversions": 8.97,
         "phone_calls": 0,
         "cpc": 3.65,
-        "cost_per_conversion": 53.08
+        "cost_per_conversion": 53.26
       },
       {
         "day": 6,
@@ -235,10 +235,10 @@
         "spend": 480.76,
         "impressions": 2559,
         "clicks": 132,
-        "conversions": 2.73,
+        "conversions": 2.65,
         "phone_calls": 0,
         "cpc": 3.64,
-        "cost_per_conversion": 176.09
+        "cost_per_conversion": 181.18
       }
     ],
     "last_month": [
