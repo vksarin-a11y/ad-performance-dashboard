@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-14T00:32:19.672Z",
+  "updated_at": "2026-09-14T01:32:19.922Z",
   "metrics": {
     "spend": 7211.68,
     "impressions": 25252,
     "clicks": 1810,
-    "conversions": 143.25,
+    "conversions": 143.36,
     "phone_calls": 0,
     "cpc": 3.98,
-    "cost_per_conversion": 50.34
+    "cost_per_conversion": 50.3
   },
   "previous_month": {
     "spend": 14484.72,
@@ -32,7 +32,7 @@
     "spend": -50.21,
     "impressions": -67.6,
     "clicks": -59.34,
-    "conversions": -62.95,
+    "conversions": -62.92,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 1685.43,
       "impressions": 6207,
       "clicks": 430,
-      "conversions": 39.34,
+      "conversions": 39.41,
       "phone_calls": 0,
       "cpc": 3.92,
-      "cost_per_conversion": 42.84
+      "cost_per_conversion": 42.77
     },
     {
       "name": "Bundle | Performance Max",
@@ -92,10 +92,10 @@
       "spend": 377.46,
       "impressions": 1763,
       "clicks": 100,
-      "conversions": 5.5,
+      "conversions": 5.54,
       "phone_calls": 0,
       "cpc": 3.77,
-      "cost_per_conversion": 68.63
+      "cost_per_conversion": 68.11
     },
     {
       "name": "RSA | Search | Target CPA Test Maximum Conv Bid",
@@ -175,10 +175,10 @@
         "spend": 769.33,
         "impressions": 2473,
         "clicks": 177,
-        "conversions": 19.19,
+        "conversions": 19.26,
         "phone_calls": 0,
         "cpc": 4.35,
-        "cost_per_conversion": 40.08
+        "cost_per_conversion": 39.94
       },
       {
         "day": 8,
@@ -205,10 +205,10 @@
         "spend": 680.39,
         "impressions": 1634,
         "clicks": 135,
-        "conversions": 5.55,
+        "conversions": 5.59,
         "phone_calls": 0,
         "cpc": 5.04,
-        "cost_per_conversion": 122.62
+        "cost_per_conversion": 121.69
       },
       {
         "day": 11,
