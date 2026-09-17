@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-17T10:32:45.135Z",
+  "updated_at": "2026-09-17T11:32:43.657Z",
   "metrics": {
-    "spend": 1096.74,
+    "spend": 1091.68,
     "impressions": 2556,
-    "clicks": 198,
+    "clicks": 197,
     "conversions": 53,
     "phone_calls": 3,
     "cpc": 5.54,
-    "cost_per_conversion": 20.69
+    "cost_per_conversion": 20.6
   },
   "previous_month": {
     "spend": 2404.41,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 13.28
   },
   "comparison_pct": {
-    "spend": -54.39,
+    "spend": -54.6,
     "impressions": -48.14,
-    "clicks": -63.06,
+    "clicks": -63.25,
     "conversions": -70.72,
     "phone_calls": -66.67
   },
@@ -48,16 +48,6 @@
       "cost_per_conversion": 16.34
     },
     {
-      "name": "2025-RB | Implants",
-      "spend": 172.52,
-      "impressions": 618,
-      "clicks": 39,
-      "conversions": 2,
-      "phone_calls": 0,
-      "cpc": 4.42,
-      "cost_per_conversion": 86.26
-    },
-    {
       "name": "2025-RB | Veneers",
       "spend": 167.84,
       "impressions": 341,
@@ -66,6 +56,16 @@
       "phone_calls": 0,
       "cpc": 6.46,
       "cost_per_conversion": 41.96
+    },
+    {
+      "name": "2025-RB | Implants",
+      "spend": 167.46,
+      "impressions": 618,
+      "clicks": 38,
+      "conversions": 2,
+      "phone_calls": 0,
+      "cpc": 4.41,
+      "cost_per_conversion": 83.73
     },
     {
       "name": "2025-RB | Orthodontic",
@@ -372,13 +372,13 @@
       },
       {
         "day": 15,
-        "spend": 74.46,
+        "spend": 69.4,
         "impressions": 213,
-        "clicks": 17,
+        "clicks": 16,
         "conversions": 2,
         "phone_calls": 0,
-        "cpc": 4.38,
-        "cost_per_conversion": 37.23
+        "cpc": 4.34,
+        "cost_per_conversion": 34.7
       },
       {
         "day": 16,
