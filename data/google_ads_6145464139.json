@@ -9,14 +9,14 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-17T10:04:07.342Z",
+  "updated_at": "2026-09-17T11:04:08.727Z",
   "metrics": {
     "spend": 1731.43,
     "impressions": 10320,
-    "clicks": 531,
+    "clicks": 530,
     "conversions": 71.86,
     "phone_calls": 0,
-    "cpc": 3.26,
+    "cpc": 3.27,
     "cost_per_conversion": 24.09
   },
   "previous_month": {
@@ -31,7 +31,7 @@
   "comparison_pct": {
     "spend": -45.36,
     "impressions": -79.28,
-    "clicks": -51.51,
+    "clicks": -51.6,
     "conversions": -54.99,
     "phone_calls": null
   },
@@ -41,10 +41,10 @@
       "name": "AICG | P.Max | Combined",
       "spend": 492.71,
       "impressions": 8109,
-      "clicks": 144,
+      "clicks": 143,
       "conversions": 4,
       "phone_calls": 0,
-      "cpc": 3.42,
+      "cpc": 3.45,
       "cost_per_conversion": 123.18
     },
     {
@@ -174,10 +174,10 @@
         "day": 9,
         "spend": 84.52,
         "impressions": 404,
-        "clicks": 30,
+        "clicks": 29,
         "conversions": 0,
         "phone_calls": 0,
-        "cpc": 2.82,
+        "cpc": 2.91,
         "cost_per_conversion": 0
       },
       {
