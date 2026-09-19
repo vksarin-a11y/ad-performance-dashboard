@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260917",
+    "mtd_end": "20260918",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-19T03:20:22.062Z",
+  "updated_at": "2026-09-19T04:20:20.637Z",
   "metrics": {
-    "spend": 1043.74,
-    "impressions": 32997,
-    "clicks": 584,
-    "conversions": 58,
+    "spend": 1093.88,
+    "impressions": 33838,
+    "clicks": 606,
+    "conversions": 60,
     "phone_calls": 0,
-    "cpc": 1.79,
-    "cost_per_conversion": 18
+    "cpc": 1.81,
+    "cost_per_conversion": 18.23
   },
   "previous_month": {
     "spend": 2006.3,
@@ -29,33 +29,33 @@
     "cost_per_conversion": 24.77
   },
   "comparison_pct": {
-    "spend": -47.98,
-    "impressions": -61.5,
-    "clicks": -64.11,
-    "conversions": -28.4,
+    "spend": -45.48,
+    "impressions": -60.52,
+    "clicks": -62.75,
+    "conversions": -25.93,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 476.73,
-      "impressions": 24081,
-      "clicks": 365,
-      "conversions": 39,
+      "spend": 499.05,
+      "impressions": 24491,
+      "clicks": 378,
+      "conversions": 40,
       "phone_calls": 0,
-      "cpc": 1.31,
-      "cost_per_conversion": 12.22
+      "cpc": 1.32,
+      "cost_per_conversion": 12.48
     },
     {
       "name": "P.Max - Mississauga",
-      "spend": 404.88,
-      "impressions": 8477,
-      "clicks": 187,
-      "conversions": 19,
+      "spend": 432.69,
+      "impressions": 8908,
+      "clicks": 196,
+      "conversions": 20,
       "phone_calls": 0,
-      "cpc": 2.17,
-      "cost_per_conversion": 21.31
+      "cpc": 2.21,
+      "cost_per_conversion": 21.63
     },
     {
       "name": "Search | Brampton",
@@ -199,6 +199,16 @@
         "phone_calls": 0,
         "cpc": 2.62,
         "cost_per_conversion": 15.7
+      },
+      {
+        "day": 18,
+        "spend": 50.14,
+        "impressions": 841,
+        "clicks": 22,
+        "conversions": 2,
+        "phone_calls": 0,
+        "cpc": 2.28,
+        "cost_per_conversion": 25.07
       }
     ],
     "last_month": [
