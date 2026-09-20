@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-20T08:21:13.446Z",
+  "updated_at": "2026-09-20T09:21:13.972Z",
   "metrics": {
     "spend": 3525.56,
-    "impressions": 61299,
+    "impressions": 61298,
     "clicks": 1134,
-    "conversions": 90,
+    "conversions": 91,
     "phone_calls": 8,
     "cpc": 3.11,
-    "cost_per_conversion": 39.17
+    "cost_per_conversion": 38.74
   },
   "previous_month": {
     "spend": 5877.25,
@@ -32,7 +32,7 @@
     "spend": -40.01,
     "impressions": -43.6,
     "clicks": -49.93,
-    "conversions": -34.78,
+    "conversions": -34.06,
     "phone_calls": 33.33
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -52,10 +52,10 @@
       "spend": 967.22,
       "impressions": 31310,
       "clicks": 574,
-      "conversions": 45,
+      "conversions": 46,
       "phone_calls": 0,
       "cpc": 1.69,
-      "cost_per_conversion": 21.49
+      "cost_per_conversion": 21.03
     },
     {
       "name": "RB - Dental Emergency",
@@ -90,7 +90,7 @@
     {
       "name": "P.Max - Invisalign (Update)",
       "spend": 228.59,
-      "impressions": 26673,
+      "impressions": 26672,
       "clicks": 391,
       "conversions": 15,
       "phone_calls": 1,
@@ -263,12 +263,12 @@
       {
         "day": 17,
         "spend": 276.61,
-        "impressions": 3189,
+        "impressions": 3188,
         "clicks": 78,
-        "conversions": 10,
+        "conversions": 11,
         "phone_calls": 2,
         "cpc": 3.55,
-        "cost_per_conversion": 27.66
+        "cost_per_conversion": 25.15
       },
       {
         "day": 18,
