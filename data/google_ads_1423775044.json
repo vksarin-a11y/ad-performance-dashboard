@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260918",
+    "mtd_end": "20260919",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-20T03:21:12.392Z",
+  "updated_at": "2026-09-20T04:21:11.934Z",
   "metrics": {
-    "spend": 3406.84,
-    "impressions": 58332,
-    "clicks": 1089,
-    "conversions": 83,
-    "phone_calls": 7,
-    "cpc": 3.13,
-    "cost_per_conversion": 41.05
+    "spend": 3525.85,
+    "impressions": 61301,
+    "clicks": 1135,
+    "conversions": 90,
+    "phone_calls": 8,
+    "cpc": 3.11,
+    "cost_per_conversion": 39.18
   },
   "previous_month": {
     "spend": 5877.25,
@@ -29,38 +29,38 @@
     "cost_per_conversion": 42.59
   },
   "comparison_pct": {
-    "spend": -42.03,
-    "impressions": -46.33,
-    "clicks": -51.92,
-    "conversions": -39.86,
-    "phone_calls": 16.67
+    "spend": -40.01,
+    "impressions": -43.59,
+    "clicks": -49.89,
+    "conversions": -34.78,
+    "phone_calls": 33.33
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "RB - General Dentistry",
-      "spend": 980.7,
-      "impressions": 967,
-      "clicks": 59,
-      "conversions": 14,
+      "spend": 1006.57,
+      "impressions": 1008,
+      "clicks": 60,
+      "conversions": 15,
       "phone_calls": 0,
-      "cpc": 16.62,
-      "cost_per_conversion": 70.05
+      "cpc": 16.78,
+      "cost_per_conversion": 67.1
     },
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 937.79,
-      "impressions": 30795,
-      "clicks": 558,
-      "conversions": 41,
+      "spend": 967.22,
+      "impressions": 31310,
+      "clicks": 574,
+      "conversions": 45,
       "phone_calls": 0,
-      "cpc": 1.68,
-      "cost_per_conversion": 22.87
+      "cpc": 1.69,
+      "cost_per_conversion": 21.49
     },
     {
       "name": "RB - Dental Emergency",
       "spend": 512.14,
-      "impressions": 763,
+      "impressions": 765,
       "clicks": 19,
       "conversions": 1,
       "phone_calls": 0,
@@ -70,7 +70,7 @@
     {
       "name": "RB - Same Day Crowns",
       "spend": 511.06,
-      "impressions": 1141,
+      "impressions": 1142,
       "clicks": 65,
       "conversions": 7,
       "phone_calls": 0,
@@ -79,23 +79,23 @@
     },
     {
       "name": "RB - Call Only Campaign",
-      "spend": 222.71,
-      "impressions": 239,
-      "clicks": 19,
-      "conversions": 6,
-      "phone_calls": 6,
-      "cpc": 11.72,
-      "cost_per_conversion": 37.12
+      "spend": 269.15,
+      "impressions": 244,
+      "clicks": 20,
+      "conversions": 7,
+      "phone_calls": 7,
+      "cpc": 13.46,
+      "cost_per_conversion": 38.45
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 212.22,
-      "impressions": 24288,
-      "clicks": 365,
-      "conversions": 14,
+      "spend": 228.88,
+      "impressions": 26675,
+      "clicks": 392,
+      "conversions": 15,
       "phone_calls": 1,
       "cpc": 0.58,
-      "cost_per_conversion": 15.16
+      "cost_per_conversion": 15.26
     },
     {
       "name": "RB - Dental Emergency Target CPA",
@@ -109,12 +109,12 @@
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 13.76,
-      "impressions": 131,
-      "clicks": 3,
+      "spend": 14.36,
+      "impressions": 149,
+      "clicks": 4,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 4.59,
+      "cpc": 3.59,
       "cost_per_conversion": 0
     }
   ],
@@ -279,6 +279,16 @@
         "phone_calls": 1,
         "cpc": 2.39,
         "cost_per_conversion": 18.73
+      },
+      {
+        "day": 19,
+        "spend": 119.01,
+        "impressions": 2969,
+        "clicks": 46,
+        "conversions": 7,
+        "phone_calls": 1,
+        "cpc": 2.59,
+        "cost_per_conversion": 17
       }
     ],
     "last_month": [
@@ -543,7 +553,7 @@
         "cost_per_conversion": 21.15
       }
     ],
-    "mtd_phone_calls": 7,
+    "mtd_phone_calls": 8,
     "prev_month_phone_calls": 6
   }
 }
