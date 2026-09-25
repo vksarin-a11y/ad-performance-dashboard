@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260923",
+    "mtd_end": "20260924",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-25T03:20:20.463Z",
+  "updated_at": "2026-09-25T04:20:21.872Z",
   "metrics": {
-    "spend": 1170.85,
-    "impressions": 35665,
-    "clicks": 641,
-    "conversions": 63,
+    "spend": 1196.53,
+    "impressions": 35985,
+    "clicks": 653,
+    "conversions": 65,
     "phone_calls": 0,
     "cpc": 1.83,
-    "cost_per_conversion": 18.58
+    "cost_per_conversion": 18.41
   },
   "previous_month": {
     "spend": 2006.3,
@@ -29,33 +29,33 @@
     "cost_per_conversion": 24.77
   },
   "comparison_pct": {
-    "spend": -41.64,
-    "impressions": -58.39,
-    "clicks": -60.6,
-    "conversions": -22.22,
+    "spend": -40.36,
+    "impressions": -58.01,
+    "clicks": -59.86,
+    "conversions": -19.75,
     "phone_calls": -100
   },
-  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
+  "recommendation": "Spend is well behind last month's pace ? check budget caps or disapproved ads.",
   "campaigns": [
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 542.78,
-      "impressions": 25786,
-      "clicks": 403,
-      "conversions": 42,
+      "spend": 556.14,
+      "impressions": 26006,
+      "clicks": 412,
+      "conversions": 43,
       "phone_calls": 0,
       "cpc": 1.35,
-      "cost_per_conversion": 12.92
+      "cost_per_conversion": 12.93
     },
     {
       "name": "P.Max - Mississauga",
-      "spend": 465.93,
-      "impressions": 9440,
-      "clicks": 206,
-      "conversions": 21,
+      "spend": 478.26,
+      "impressions": 9540,
+      "clicks": 209,
+      "conversions": 22,
       "phone_calls": 0,
-      "cpc": 2.26,
-      "cost_per_conversion": 22.19
+      "cpc": 2.29,
+      "cost_per_conversion": 21.74
     },
     {
       "name": "Search | Brampton",
@@ -239,6 +239,16 @@
         "phone_calls": 0,
         "cpc": 2,
         "cost_per_conversion": 17.99
+      },
+      {
+        "day": 24,
+        "spend": 25.68,
+        "impressions": 320,
+        "clicks": 12,
+        "conversions": 2,
+        "phone_calls": 0,
+        "cpc": 2.14,
+        "cost_per_conversion": 12.84
       }
     ],
     "last_month": [
