@@ -9,11 +9,11 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-25T05:20:44.888Z",
+  "updated_at": "2026-09-25T06:20:46.060Z",
   "metrics": {
-    "spend": 7039.52,
+    "spend": 7040.27,
     "impressions": 122634,
-    "clicks": 3395,
+    "clicks": 3396,
     "conversions": 369,
     "phone_calls": 0,
     "cpc": 2.07,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 20.29
   },
   "comparison_pct": {
-    "spend": -9.16,
+    "spend": -9.15,
     "impressions": -9.72,
-    "clicks": -9.83,
+    "clicks": -9.8,
     "conversions": -3.4,
     "phone_calls": null
   },
@@ -59,13 +59,13 @@
     },
     {
       "name": "PMax: Smart Shopping - Netherlands",
-      "spend": 1097.68,
+      "spend": 1098.43,
       "impressions": 28987,
-      "clicks": 769,
+      "clicks": 770,
       "conversions": 77,
       "phone_calls": 0,
       "cpc": 1.43,
-      "cost_per_conversion": 14.26
+      "cost_per_conversion": 14.27
     },
     {
       "name": "PMax: Smart Shopping - Sweden",
@@ -352,13 +352,13 @@
       },
       {
         "day": 24,
-        "spend": 255.65,
+        "spend": 256.4,
         "impressions": 3681,
-        "clicks": 122,
+        "clicks": 123,
         "conversions": 17,
         "phone_calls": 0,
-        "cpc": 2.1,
-        "cost_per_conversion": 15.04
+        "cpc": 2.08,
+        "cost_per_conversion": 15.08
       }
     ],
     "last_month": [
