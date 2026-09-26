@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260924",
+    "mtd_end": "20260925",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-26T03:32:44.902Z",
+  "updated_at": "2026-09-26T04:32:44.166Z",
   "metrics": {
-    "spend": 1780.47,
-    "impressions": 3827,
-    "clicks": 322,
-    "conversions": 97,
+    "spend": 1967.83,
+    "impressions": 4146,
+    "clicks": 352,
+    "conversions": 111,
     "phone_calls": 5,
-    "cpc": 5.53,
-    "cost_per_conversion": 18.36
+    "cpc": 5.59,
+    "cost_per_conversion": 17.73
   },
   "previous_month": {
     "spend": 2404.41,
@@ -29,28 +29,28 @@
     "cost_per_conversion": 13.28
   },
   "comparison_pct": {
-    "spend": -25.95,
-    "impressions": -22.36,
-    "clicks": -39.93,
-    "conversions": -46.41,
+    "spend": -18.16,
+    "impressions": -15.89,
+    "clicks": -34.33,
+    "conversions": -38.67,
     "phone_calls": -44.44
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
       "name": "2025-RB | General Search - Location",
-      "spend": 1109.76,
-      "impressions": 1865,
-      "clicks": 187,
-      "conversions": 67,
+      "spend": 1288.87,
+      "impressions": 2119,
+      "clicks": 213,
+      "conversions": 80,
       "phone_calls": 3,
-      "cpc": 5.93,
-      "cost_per_conversion": 16.56
+      "cpc": 6.05,
+      "cost_per_conversion": 16.11
     },
     {
       "name": "2025-RB | Veneers",
       "spend": 239.02,
-      "impressions": 437,
+      "impressions": 450,
       "clicks": 39,
       "conversions": 7,
       "phone_calls": 0,
@@ -59,23 +59,23 @@
     },
     {
       "name": "2025-RB | Implants",
-      "spend": 232.03,
-      "impressions": 779,
-      "clicks": 54,
+      "spend": 237.26,
+      "impressions": 813,
+      "clicks": 57,
       "conversions": 9,
       "phone_calls": 0,
-      "cpc": 4.3,
-      "cost_per_conversion": 25.78
+      "cpc": 4.16,
+      "cost_per_conversion": 26.36
     },
     {
       "name": "2025-RB | Orthodontic",
-      "spend": 199.65,
-      "impressions": 746,
-      "clicks": 42,
-      "conversions": 14,
+      "spend": 202.67,
+      "impressions": 764,
+      "clicks": 43,
+      "conversions": 15,
       "phone_calls": 2,
-      "cpc": 4.75,
-      "cost_per_conversion": 14.26
+      "cpc": 4.71,
+      "cost_per_conversion": 13.51
     },
     {
       "name": "Dentist Newcastle",
@@ -459,6 +459,16 @@
         "phone_calls": 0,
         "cpc": 5.71,
         "cost_per_conversion": 13.32
+      },
+      {
+        "day": 25,
+        "spend": 187.36,
+        "impressions": 319,
+        "clicks": 30,
+        "conversions": 14,
+        "phone_calls": 0,
+        "cpc": 6.25,
+        "cost_per_conversion": 13.38
       }
     ],
     "last_month": [
