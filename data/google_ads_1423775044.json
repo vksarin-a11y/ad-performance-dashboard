@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260924",
+    "mtd_end": "20260925",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-26T03:21:12.685Z",
+  "updated_at": "2026-09-26T04:21:13.006Z",
   "metrics": {
-    "spend": 4621.36,
-    "impressions": 68763,
-    "clicks": 1356,
-    "conversions": 126,
+    "spend": 4862.38,
+    "impressions": 70909,
+    "clicks": 1411,
+    "conversions": 130,
     "phone_calls": 10,
-    "cpc": 3.41,
-    "cost_per_conversion": 36.68
+    "cpc": 3.45,
+    "cost_per_conversion": 37.4
   },
   "previous_month": {
     "spend": 5877.25,
@@ -29,68 +29,68 @@
     "cost_per_conversion": 42.59
   },
   "comparison_pct": {
-    "spend": -21.37,
-    "impressions": -36.73,
-    "clicks": -40.13,
-    "conversions": -8.7,
+    "spend": -17.27,
+    "impressions": -34.75,
+    "clicks": -37.7,
+    "conversions": -5.8,
     "phone_calls": 66.67
   },
   "recommendation": "CPC has risen more than 25% vs last month ? review keyword competition and bids.",
   "campaigns": [
     {
       "name": "RB - General Dentistry",
-      "spend": 1384.17,
-      "impressions": 1551,
-      "clicks": 93,
-      "conversions": 32,
+      "spend": 1454.47,
+      "impressions": 1599,
+      "clicks": 97,
+      "conversions": 34,
       "phone_calls": 0,
-      "cpc": 14.88,
-      "cost_per_conversion": 43.26
+      "cpc": 14.99,
+      "cost_per_conversion": 42.78
     },
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 1274.71,
-      "impressions": 36343,
-      "clicks": 721,
-      "conversions": 56,
+      "spend": 1314.85,
+      "impressions": 36893,
+      "clicks": 738,
+      "conversions": 57,
       "phone_calls": 0,
-      "cpc": 1.77,
-      "cost_per_conversion": 22.76
+      "cpc": 1.78,
+      "cost_per_conversion": 23.07
     },
     {
       "name": "RB - Same Day Crowns",
-      "spend": 690.63,
-      "impressions": 1355,
-      "clicks": 81,
-      "conversions": 8,
+      "spend": 750.18,
+      "impressions": 1438,
+      "clicks": 92,
+      "conversions": 9,
       "phone_calls": 0,
-      "cpc": 8.53,
-      "cost_per_conversion": 86.33
+      "cpc": 8.15,
+      "cost_per_conversion": 83.35
     },
     {
       "name": "RB - Dental Emergency",
-      "spend": 512.14,
-      "impressions": 791,
-      "clicks": 19,
+      "spend": 522.08,
+      "impressions": 799,
+      "clicks": 20,
       "conversions": 1,
       "phone_calls": 0,
-      "cpc": 26.95,
-      "cost_per_conversion": 512.14
+      "cpc": 26.1,
+      "cost_per_conversion": 522.08
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 329.23,
-      "impressions": 27756,
-      "clicks": 402,
+      "spend": 381.08,
+      "impressions": 28993,
+      "clicks": 421,
       "conversions": 17,
       "phone_calls": 1,
-      "cpc": 0.82,
-      "cost_per_conversion": 19.37
+      "cpc": 0.91,
+      "cost_per_conversion": 22.42
     },
     {
       "name": "RB - Call Only Campaign",
       "spend": 305.85,
-      "impressions": 295,
+      "impressions": 300,
       "clicks": 22,
       "conversions": 8,
       "phone_calls": 9,
@@ -99,13 +99,13 @@
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 108.16,
-      "impressions": 664,
-      "clicks": 17,
+      "spend": 117.4,
+      "impressions": 879,
+      "clicks": 20,
       "conversions": 4,
       "phone_calls": 0,
-      "cpc": 6.36,
-      "cost_per_conversion": 27.04
+      "cpc": 5.87,
+      "cost_per_conversion": 29.35
     },
     {
       "name": "RB - Dental Emergency Target CPA",
@@ -329,6 +329,16 @@
         "phone_calls": 0,
         "cpc": 5.49,
         "cost_per_conversion": 41.54
+      },
+      {
+        "day": 25,
+        "spend": 241.02,
+        "impressions": 2146,
+        "clicks": 55,
+        "conversions": 4,
+        "phone_calls": 0,
+        "cpc": 4.38,
+        "cost_per_conversion": 60.26
       }
     ],
     "last_month": [
