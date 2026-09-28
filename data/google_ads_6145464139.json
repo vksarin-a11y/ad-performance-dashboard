@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260926",
+    "mtd_end": "20260927",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-28T03:04:07.447Z",
+  "updated_at": "2026-09-28T04:04:07.939Z",
   "metrics": {
-    "spend": 2459.73,
-    "impressions": 15114,
-    "clicks": 749,
-    "conversions": 104.31,
+    "spend": 2509.61,
+    "impressions": 15503,
+    "clicks": 758,
+    "conversions": 105.31,
     "phone_calls": 2,
-    "cpc": 3.28,
-    "cost_per_conversion": 23.58
+    "cpc": 3.31,
+    "cost_per_conversion": 23.83
   },
   "previous_month": {
     "spend": 3168.98,
@@ -29,29 +29,29 @@
     "cost_per_conversion": 19.27
   },
   "comparison_pct": {
-    "spend": -22.38,
-    "impressions": -69.65,
-    "clicks": -31.6,
-    "conversions": -36.58,
+    "spend": -20.81,
+    "impressions": -68.87,
+    "clicks": -30.78,
+    "conversions": -35.97,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
       "name": "AICG | P.Max | Combined",
-      "spend": 829.96,
-      "impressions": 12207,
-      "clicks": 233,
-      "conversions": 7,
+      "spend": 879.82,
+      "impressions": 12575,
+      "clicks": 241,
+      "conversions": 8,
       "phone_calls": 2,
-      "cpc": 3.56,
-      "cost_per_conversion": 118.57
+      "cpc": 3.65,
+      "cost_per_conversion": 109.98
     },
     {
       "name": "AICG | Search | Branded",
-      "spend": 710.04,
-      "impressions": 870,
-      "clicks": 303,
+      "spend": 710.06,
+      "impressions": 878,
+      "clicks": 304,
       "conversions": 78.83,
       "phone_calls": 0,
       "cpc": 2.34,
@@ -70,7 +70,7 @@
     {
       "name": "AICG | Search | Education & Membership",
       "spend": 274.23,
-      "impressions": 359,
+      "impressions": 372,
       "clicks": 40,
       "conversions": 0.5,
       "phone_calls": 0,
@@ -349,6 +349,16 @@
         "phone_calls": 0,
         "cpc": 2.51,
         "cost_per_conversion": 15.07
+      },
+      {
+        "day": 27,
+        "spend": 49.88,
+        "impressions": 389,
+        "clicks": 9,
+        "conversions": 1,
+        "phone_calls": 0,
+        "cpc": 5.54,
+        "cost_per_conversion": 49.88
       }
     ],
     "last_month": [
