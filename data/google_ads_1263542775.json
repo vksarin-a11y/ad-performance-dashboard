@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-28T08:32:46.596Z",
+  "updated_at": "2026-09-28T09:32:44.620Z",
   "metrics": {
     "spend": 2100.33,
     "impressions": 4415,
     "clicks": 377,
-    "conversions": 119,
+    "conversions": 120,
     "phone_calls": 5,
     "cpc": 5.57,
-    "cost_per_conversion": 17.65
+    "cost_per_conversion": 17.5
   },
   "previous_month": {
     "spend": 2404.41,
@@ -32,7 +32,7 @@
     "spend": -12.65,
     "impressions": -10.43,
     "clicks": -29.66,
-    "conversions": -34.25,
+    "conversions": -33.7,
     "phone_calls": -44.44
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 1399.63,
       "impressions": 2325,
       "clicks": 229,
-      "conversions": 84,
+      "conversions": 85,
       "phone_calls": 3,
       "cpc": 6.11,
-      "cost_per_conversion": 16.66
+      "cost_per_conversion": 16.47
     },
     {
       "name": "2025-RB | Veneers",
@@ -415,10 +415,10 @@
         "spend": 72.91,
         "impressions": 123,
         "clicks": 14,
-        "conversions": 10,
+        "conversions": 11,
         "phone_calls": 0,
         "cpc": 5.21,
-        "cost_per_conversion": 7.29
+        "cost_per_conversion": 6.63
       },
       {
         "day": 21,
