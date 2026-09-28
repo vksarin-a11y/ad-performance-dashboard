@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-28T02:32:20.340Z",
+  "updated_at": "2026-09-28T03:32:18.810Z",
   "metrics": {
     "spend": 16598.23,
     "impressions": 125024,
     "clicks": 4304,
-    "conversions": 321.11,
+    "conversions": 321.22,
     "phone_calls": 0,
     "cpc": 3.86,
-    "cost_per_conversion": 51.69
+    "cost_per_conversion": 51.67
   },
   "previous_month": {
     "spend": 14484.72,
@@ -32,7 +32,7 @@
     "spend": 14.59,
     "impressions": 60.4,
     "clicks": -3.32,
-    "conversions": -18.72,
+    "conversions": -18.69,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -52,10 +52,10 @@
       "spend": 3406.91,
       "impressions": 79862,
       "clicks": 1181,
-      "conversions": 48.07,
+      "conversions": 48.18,
       "phone_calls": 0,
       "cpc": 2.88,
-      "cost_per_conversion": 70.87
+      "cost_per_conversion": 70.71
     },
     {
       "name": "RCG | Performance Max",
@@ -265,10 +265,10 @@
         "spend": 676.55,
         "impressions": 2822,
         "clicks": 196,
-        "conversions": 12.39,
+        "conversions": 12.5,
         "phone_calls": 0,
         "cpc": 3.45,
-        "cost_per_conversion": 54.61
+        "cost_per_conversion": 54.13
       },
       {
         "day": 16,
