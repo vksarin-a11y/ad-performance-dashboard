@@ -9,15 +9,15 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-29T07:32:47.465Z",
+  "updated_at": "2026-09-29T08:32:46.673Z",
   "metrics": {
     "spend": 2293.22,
     "impressions": 4890,
     "clicks": 411,
-    "conversions": 127,
+    "conversions": 128,
     "phone_calls": 5,
     "cpc": 5.58,
-    "cost_per_conversion": 18.06
+    "cost_per_conversion": 17.92
   },
   "previous_month": {
     "spend": 2404.41,
@@ -32,7 +32,7 @@
     "spend": -4.62,
     "impressions": -0.79,
     "clicks": -23.32,
-    "conversions": -29.83,
+    "conversions": -29.28,
     "phone_calls": -44.44
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 1546.62,
       "impressions": 2625,
       "clicks": 252,
-      "conversions": 92,
+      "conversions": 93,
       "phone_calls": 3,
       "cpc": 6.14,
-      "cost_per_conversion": 16.81
+      "cost_per_conversion": 16.63
     },
     {
       "name": "2025-RB | Implants",
@@ -435,10 +435,10 @@
         "spend": 126.95,
         "impressions": 213,
         "clicks": 28,
-        "conversions": 9,
+        "conversions": 10,
         "phone_calls": 2,
         "cpc": 4.53,
-        "cost_per_conversion": 14.11
+        "cost_per_conversion": 12.7
       },
       {
         "day": 23,
