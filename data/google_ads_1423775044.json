@@ -9,11 +9,11 @@
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-30T18:21:13.380Z",
+  "updated_at": "2026-09-30T19:21:17.384Z",
   "metrics": {
-    "spend": 5653.95,
+    "spend": 5653.12,
     "impressions": 76841,
-    "clicks": 1544,
+    "clicks": 1543,
     "conversions": 144,
     "phone_calls": 11,
     "cpc": 3.66,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 42.59
   },
   "comparison_pct": {
-    "spend": -3.8,
+    "spend": -3.81,
     "impressions": -29.29,
-    "clicks": -31.83,
+    "clicks": -31.88,
     "conversions": 4.35,
     "phone_calls": 83.33
   },
@@ -99,13 +99,13 @@
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 254.25,
+      "spend": 253.42,
       "impressions": 2446,
-      "clicks": 43,
+      "clicks": 42,
       "conversions": 8,
       "phone_calls": 0,
-      "cpc": 5.91,
-      "cost_per_conversion": 31.78
+      "cpc": 6.03,
+      "cost_per_conversion": 31.68
     },
     {
       "name": "RB - Dental Emergency Target CPA",
@@ -362,13 +362,13 @@
       },
       {
         "day": 29,
-        "spend": 214.43,
+        "spend": 213.6,
         "impressions": 2031,
-        "clicks": 39,
+        "clicks": 38,
         "conversions": 7,
         "phone_calls": 0,
-        "cpc": 5.5,
-        "cost_per_conversion": 30.63
+        "cpc": 5.62,
+        "cost_per_conversion": 30.51
       }
     ],
     "last_month": [
