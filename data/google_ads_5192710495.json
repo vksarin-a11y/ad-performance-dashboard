@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20260901",
-    "mtd_end": "20260928",
+    "mtd_end": "20260929",
     "prev_month_start": "20260801",
     "prev_month_end": "20260831"
   },
-  "updated_at": "2026-09-30T03:02:49.754Z",
+  "updated_at": "2026-09-30T04:02:48.722Z",
   "metrics": {
-    "spend": 1446.39,
-    "impressions": 8716,
-    "clicks": 316,
-    "conversions": 70,
+    "spend": 1474.3,
+    "impressions": 8882,
+    "clicks": 324,
+    "conversions": 73,
     "phone_calls": 5,
-    "cpc": 4.58,
-    "cost_per_conversion": 20.66
+    "cpc": 4.55,
+    "cost_per_conversion": 20.2
   },
   "previous_month": {
     "spend": 1477.34,
@@ -29,28 +29,28 @@
     "cost_per_conversion": 23.45
   },
   "comparison_pct": {
-    "spend": -2.09,
-    "impressions": 23.95,
-    "clicks": 3.95,
-    "conversions": 11.11,
+    "spend": -0.21,
+    "impressions": 26.31,
+    "clicks": 6.58,
+    "conversions": 15.87,
     "phone_calls": 400
   },
   "recommendation": "Performance is roughly in line with last month.",
   "campaigns": [
     {
       "name": "RB - Brand & General Dentistry",
-      "spend": 739.84,
-      "impressions": 1285,
-      "clicks": 121,
-      "conversions": 38,
+      "spend": 766.21,
+      "impressions": 1338,
+      "clicks": 126,
+      "conversions": 41,
       "phone_calls": 4,
-      "cpc": 6.11,
-      "cost_per_conversion": 19.47
+      "cpc": 6.08,
+      "cost_per_conversion": 18.69
     },
     {
       "name": "RB - PMax | Services",
       "spend": 304.09,
-      "impressions": 1623,
+      "impressions": 1629,
       "clicks": 64,
       "conversions": 17,
       "phone_calls": 1,
@@ -60,7 +60,7 @@
     {
       "name": "RB - PMax | General Dentistry",
       "spend": 202.14,
-      "impressions": 1340,
+      "impressions": 1347,
       "clicks": 34,
       "conversions": 10,
       "phone_calls": 0,
@@ -69,13 +69,13 @@
     },
     {
       "name": "RB - PMax | Kids Dentistry",
-      "spend": 161.36,
-      "impressions": 4437,
-      "clicks": 92,
+      "spend": 162.9,
+      "impressions": 4537,
+      "clicks": 95,
       "conversions": 5,
       "phone_calls": 0,
-      "cpc": 1.75,
-      "cost_per_conversion": 32.27
+      "cpc": 1.71,
+      "cost_per_conversion": 32.58
     },
     {
       "name": "RB - Search l Kids Dentistry",
@@ -289,6 +289,16 @@
         "phone_calls": 0,
         "cpc": 4.18,
         "cost_per_conversion": 27.19
+      },
+      {
+        "day": 29,
+        "spend": 27.91,
+        "impressions": 166,
+        "clicks": 8,
+        "conversions": 3,
+        "phone_calls": 0,
+        "cpc": 3.49,
+        "cost_per_conversion": 9.3
       }
     ],
     "last_month": [
