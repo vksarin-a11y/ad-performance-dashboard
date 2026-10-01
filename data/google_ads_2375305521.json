@@ -9,7 +9,7 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-01T09:20:21.822Z",
+  "updated_at": "2026-10-01T10:20:21.441Z",
   "metrics": {
     "spend": 0,
     "impressions": 0,
@@ -21,7 +21,7 @@
   },
   "previous_month": {
     "spend": 1343.15,
-    "impressions": 38797,
+    "impressions": 38790,
     "clicks": 718,
     "conversions": 73,
     "phone_calls": 0,
@@ -203,7 +203,7 @@
       {
         "day": 23,
         "spend": 17.99,
-        "impressions": 326,
+        "impressions": 319,
         "clicks": 9,
         "conversions": 1,
         "phone_calls": 0,
