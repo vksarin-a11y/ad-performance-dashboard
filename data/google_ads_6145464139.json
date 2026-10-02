@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20260930",
+    "mtd_end": "20261001",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-02T03:04:08.522Z",
+  "updated_at": "2026-10-02T04:04:08.199Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "conversions": 0,
+    "spend": 88.08,
+    "impressions": 271,
+    "clicks": 38,
+    "conversions": 4,
     "phone_calls": 0,
-    "cpc": 0,
-    "cost_per_conversion": 0
+    "cpc": 2.32,
+    "cost_per_conversion": 22.02
   },
   "previous_month": {
     "spend": 2688.2,
@@ -29,16 +29,58 @@
     "cost_per_conversion": 22.72
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
-    "conversions": -100,
+    "spend": -96.72,
+    "impressions": -98.34,
+    "clicks": -95.44,
+    "conversions": -96.62,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "campaigns": [
+    {
+      "name": "AICG | P.Max | Combined",
+      "spend": 36.41,
+      "impressions": 171,
+      "clicks": 14,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 2.6,
+      "cost_per_conversion": 36.41
+    },
+    {
+      "name": "AICG | Search | Branded",
+      "spend": 28.78,
+      "impressions": 46,
+      "clicks": 17,
+      "conversions": 3,
+      "phone_calls": 0,
+      "cpc": 1.69,
+      "cost_per_conversion": 9.59
+    },
+    {
+      "name": "AICG | Search | Education & Membership",
+      "spend": 22.89,
+      "impressions": 54,
+      "clicks": 7,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 3.27,
+      "cost_per_conversion": 0
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 1,
+        "spend": 88.08,
+        "impressions": 271,
+        "clicks": 38,
+        "conversions": 4,
+        "phone_calls": 0,
+        "cpc": 2.32,
+        "cost_per_conversion": 22.02
+      }
+    ],
     "last_month": [
       {
         "day": 1,
