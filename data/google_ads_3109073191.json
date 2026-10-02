@@ -5,18 +5,18 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20260930",
+    "mtd_end": "20261001",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-02T03:57:02.104Z",
+  "updated_at": "2026-10-02T04:57:02.594Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
+    "spend": 89.52,
+    "impressions": 163,
+    "clicks": 9,
     "conversions": 0,
     "phone_calls": 0,
-    "cpc": 0,
+    "cpc": 9.95,
     "cost_per_conversion": 0
   },
   "previous_month": {
@@ -29,16 +29,58 @@
     "cost_per_conversion": 66.51
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
+    "spend": -95.51,
+    "impressions": -99.21,
+    "clicks": -98.04,
     "conversions": -100,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "campaigns": [
+    {
+      "name": "RB - Search | General Dentistry",
+      "spend": 47.94,
+      "impressions": 92,
+      "clicks": 5,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 9.59,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB - Search | Emergency Dentistry",
+      "spend": 41.58,
+      "impressions": 68,
+      "clicks": 4,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 10.4,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB - Pmax | General Dentistry (New)",
+      "spend": 0,
+      "impressions": 3,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 1,
+        "spend": 89.52,
+        "impressions": 163,
+        "clicks": 9,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 9.95,
+        "cost_per_conversion": 0
+      }
+    ],
     "last_month": [
       {
         "day": 1,
