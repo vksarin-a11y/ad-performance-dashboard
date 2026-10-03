@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261001",
+    "mtd_end": "20261002",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-03T03:44:25.564Z",
+  "updated_at": "2026-10-03T04:44:25.078Z",
   "metrics": {
-    "spend": 160.01,
-    "impressions": 407,
-    "clicks": 43,
-    "conversions": 3,
+    "spend": 393.16,
+    "impressions": 997,
+    "clicks": 108,
+    "conversions": 9,
     "phone_calls": 0,
-    "cpc": 3.72,
-    "cost_per_conversion": 53.34
+    "cpc": 3.64,
+    "cost_per_conversion": 43.68
   },
   "previous_month": {
     "spend": 3462.4,
@@ -29,53 +29,53 @@
     "cost_per_conversion": 56.76
   },
   "comparison_pct": {
-    "spend": -95.38,
-    "impressions": -93.88,
-    "clicks": -95.09,
-    "conversions": -95.08,
+    "spend": -88.64,
+    "impressions": -85.01,
+    "clicks": -87.67,
+    "conversions": -85.25,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "RB - Search l Dental Check Up & Clean",
-      "spend": 71.49,
-      "impressions": 119,
-      "clicks": 13,
-      "conversions": 2,
+      "spend": 159.54,
+      "impressions": 376,
+      "clicks": 29,
+      "conversions": 4,
       "phone_calls": 0,
       "cpc": 5.5,
-      "cost_per_conversion": 35.75
-    },
-    {
-      "name": "RB -  Search l Dental Crowns (OLD)",
-      "spend": 33.74,
-      "impressions": 46,
-      "clicks": 11,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 3.07,
-      "cost_per_conversion": 0
-    },
-    {
-      "name": "RB - Search l Dental Implants (10Aug)",
-      "spend": 32.25,
-      "impressions": 51,
-      "clicks": 15,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 2.15,
-      "cost_per_conversion": 0
+      "cost_per_conversion": 39.89
     },
     {
       "name": "RB - Search l Dental Location (New)",
-      "spend": 22.53,
-      "impressions": 191,
-      "clicks": 4,
+      "spend": 99.57,
+      "impressions": 385,
+      "clicks": 11,
+      "conversions": 3,
+      "phone_calls": 0,
+      "cpc": 9.05,
+      "cost_per_conversion": 33.19
+    },
+    {
+      "name": "RB - Search l Dental Implants (10Aug)",
+      "spend": 73.63,
+      "impressions": 114,
+      "clicks": 43,
       "conversions": 1,
       "phone_calls": 0,
-      "cpc": 5.63,
-      "cost_per_conversion": 22.53
+      "cpc": 1.71,
+      "cost_per_conversion": 73.63
+    },
+    {
+      "name": "RB -  Search l Dental Crowns (OLD)",
+      "spend": 60.41,
+      "impressions": 122,
+      "clicks": 25,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 2.42,
+      "cost_per_conversion": 60.41
     }
   ],
   "daily": {
@@ -89,6 +89,16 @@
         "phone_calls": 0,
         "cpc": 3.72,
         "cost_per_conversion": 53.34
+      },
+      {
+        "day": 2,
+        "spend": 233.15,
+        "impressions": 590,
+        "clicks": 65,
+        "conversions": 6,
+        "phone_calls": 0,
+        "cpc": 3.59,
+        "cost_per_conversion": 38.86
       }
     ],
     "last_month": [
