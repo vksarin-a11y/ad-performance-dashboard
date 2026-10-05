@@ -9,14 +9,14 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-05T14:21:14.990Z",
+  "updated_at": "2026-10-05T15:21:13.570Z",
   "metrics": {
     "spend": 572.74,
     "impressions": 5926,
-    "clicks": 162,
+    "clicks": 161,
     "conversions": 14.98,
     "phone_calls": 0,
-    "cpc": 3.54,
+    "cpc": 3.56,
     "cost_per_conversion": 38.23
   },
   "previous_month": {
@@ -31,7 +31,7 @@
   "comparison_pct": {
     "spend": -90.11,
     "impressions": -92.4,
-    "clicks": -89.7,
+    "clicks": -89.76,
     "conversions": -89.88,
     "phone_calls": -100
   },
@@ -61,10 +61,10 @@
       "name": "P.Max - Invisalign (Update)",
       "spend": 84.36,
       "impressions": 1105,
-      "clicks": 22,
+      "clicks": 21,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 3.83,
+      "cpc": 4.02,
       "cost_per_conversion": 0
     },
     {
@@ -134,10 +134,10 @@
         "day": 3,
         "spend": 130.31,
         "impressions": 1287,
-        "clicks": 33,
+        "clicks": 32,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 3.95,
+        "cpc": 4.07,
         "cost_per_conversion": 130.31
       }
     ],
