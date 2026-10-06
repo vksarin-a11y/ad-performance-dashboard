@@ -9,33 +9,33 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-06T12:20:45.918Z",
+  "updated_at": "2026-10-06T13:20:46.048Z",
   "metrics": {
     "spend": 1675.6,
     "impressions": 23807,
     "clicks": 683,
-    "conversions": 72,
+    "conversions": 73,
     "phone_calls": 0,
     "cpc": 2.45,
-    "cost_per_conversion": 23.27
+    "cost_per_conversion": 22.95
   },
   "previous_month": {
     "spend": 9092.93,
     "impressions": 149659,
     "clicks": 4303,
-    "conversions": 474,
+    "conversions": 475,
     "phone_calls": 0,
     "cpc": 2.11,
-    "cost_per_conversion": 19.18
+    "cost_per_conversion": 19.14
   },
   "comparison_pct": {
     "spend": -81.57,
     "impressions": -84.09,
     "clicks": -84.13,
-    "conversions": -84.81,
+    "conversions": -84.63,
     "phone_calls": null
   },
-  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
+  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "PMax - Smart Shopping - Denmark",
@@ -92,10 +92,10 @@
       "spend": 43.72,
       "impressions": 1301,
       "clicks": 34,
-      "conversions": 2,
+      "conversions": 3,
       "phone_calls": 0,
       "cpc": 1.29,
-      "cost_per_conversion": 21.86
+      "cost_per_conversion": 14.57
     },
     {
       "name": "Feetunique.fr",
@@ -165,10 +165,10 @@
         "spend": 307.8,
         "impressions": 4605,
         "clicks": 127,
-        "conversions": 12,
+        "conversions": 13,
         "phone_calls": 0,
         "cpc": 2.42,
-        "cost_per_conversion": 25.65
+        "cost_per_conversion": 23.68
       }
     ],
     "last_month": [
@@ -457,10 +457,10 @@
         "spend": 349.03,
         "impressions": 5123,
         "clicks": 186,
-        "conversions": 20,
+        "conversions": 21,
         "phone_calls": 0,
         "cpc": 1.88,
-        "cost_per_conversion": 17.45
+        "cost_per_conversion": 16.62
       },
       {
         "day": 30,
