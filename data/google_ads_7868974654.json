@@ -9,30 +9,30 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-06T23:32:20.249Z",
+  "updated_at": "2026-10-07T00:32:20.260Z",
   "metrics": {
-    "spend": 3287.48,
+    "spend": 3286.13,
     "impressions": 12572,
-    "clicks": 760,
+    "clicks": 759,
     "conversions": 35.19,
     "phone_calls": 0,
     "cpc": 4.33,
-    "cost_per_conversion": 93.42
+    "cost_per_conversion": 93.38
   },
   "previous_month": {
     "spend": 19393.47,
     "impressions": 136126,
     "clicks": 4989,
-    "conversions": 410.9,
+    "conversions": 410.4,
     "phone_calls": 0,
     "cpc": 3.89,
-    "cost_per_conversion": 47.2
+    "cost_per_conversion": 47.26
   },
   "comparison_pct": {
-    "spend": -83.05,
+    "spend": -83.06,
     "impressions": -90.76,
-    "clicks": -84.77,
-    "conversions": -91.44,
+    "clicks": -84.79,
+    "conversions": -91.43,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -109,13 +109,13 @@
     },
     {
       "name": "Bundle | Search",
-      "spend": 49.45,
+      "spend": 48.1,
       "impressions": 1579,
-      "clicks": 50,
+      "clicks": 49,
       "conversions": 1.88,
       "phone_calls": 0,
-      "cpc": 0.99,
-      "cost_per_conversion": 26.33
+      "cpc": 0.98,
+      "cost_per_conversion": 25.61
     }
   ],
   "daily": {
@@ -152,13 +152,13 @@
       },
       {
         "day": 4,
-        "spend": 542.51,
+        "spend": 541.16,
         "impressions": 2063,
-        "clicks": 115,
+        "clicks": 114,
         "conversions": 4.13,
         "phone_calls": 0,
-        "cpc": 4.72,
-        "cost_per_conversion": 131.39
+        "cpc": 4.75,
+        "cost_per_conversion": 131.06
       },
       {
         "day": 5,
@@ -407,10 +407,10 @@
         "spend": 814.64,
         "impressions": 2606,
         "clicks": 184,
-        "conversions": 17.45,
+        "conversions": 16.95,
         "phone_calls": 0,
         "cpc": 4.43,
-        "cost_per_conversion": 46.68
+        "cost_per_conversion": 48.06
       },
       {
         "day": 25,
