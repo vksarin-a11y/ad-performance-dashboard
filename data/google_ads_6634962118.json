@@ -5,34 +5,34 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261007",
+    "mtd_end": "20261008",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-08T19:27:55.224Z",
+  "updated_at": "2026-10-09T19:27:55.466Z",
   "metrics": {
-    "spend": 315.15,
-    "impressions": 8826,
-    "clicks": 141,
-    "conversions": 12,
+    "spend": 370.61,
+    "impressions": 11058,
+    "clicks": 182,
+    "conversions": 13,
     "phone_calls": 0,
-    "cpc": 2.24,
-    "cost_per_conversion": 26.26
+    "cpc": 2.04,
+    "cost_per_conversion": 28.51
   },
   "previous_month": {
     "spend": 1280.72,
     "impressions": 14953,
     "clicks": 265,
-    "conversions": 48,
+    "conversions": 49,
     "phone_calls": 0,
     "cpc": 4.83,
-    "cost_per_conversion": 26.68
+    "cost_per_conversion": 26.14
   },
   "comparison_pct": {
-    "spend": -75.39,
-    "impressions": -40.98,
-    "clicks": -46.79,
-    "conversions": -75,
+    "spend": -71.06,
+    "impressions": -26.05,
+    "clicks": -31.32,
+    "conversions": -73.47,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -40,7 +40,7 @@
     {
       "name": "RB - Emergency Dentistry (new)",
       "spend": 102.7,
-      "impressions": 228,
+      "impressions": 285,
       "clicks": 20,
       "conversions": 4,
       "phone_calls": 0,
@@ -48,34 +48,34 @@
       "cost_per_conversion": 25.67
     },
     {
-      "name": "RB - Search | General Dentistry (new)",
-      "spend": 79.24,
-      "impressions": 199,
-      "clicks": 14,
-      "conversions": 4,
+      "name": "RB - PMax | Family Dentistry",
+      "spend": 94.51,
+      "impressions": 2841,
+      "clicks": 32,
+      "conversions": 2,
       "phone_calls": 0,
-      "cpc": 5.66,
-      "cost_per_conversion": 19.81
+      "cpc": 2.95,
+      "cost_per_conversion": 47.25
+    },
+    {
+      "name": "RB - Search | General Dentistry (new)",
+      "spend": 92.24,
+      "impressions": 238,
+      "clicks": 17,
+      "conversions": 5,
+      "phone_calls": 0,
+      "cpc": 5.43,
+      "cost_per_conversion": 18.45
     },
     {
       "name": "RB - Performance Max Services",
-      "spend": 68.56,
-      "impressions": 6222,
-      "clicks": 87,
+      "spend": 81.17,
+      "impressions": 7694,
+      "clicks": 113,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 0.79,
-      "cost_per_conversion": 34.28
-    },
-    {
-      "name": "RB - PMax | Family Dentistry",
-      "spend": 64.66,
-      "impressions": 2177,
-      "clicks": 20,
-      "conversions": 2,
-      "phone_calls": 0,
-      "cpc": 3.23,
-      "cost_per_conversion": 32.33
+      "cpc": 0.72,
+      "cost_per_conversion": 40.59
     }
   ],
   "daily": {
@@ -102,8 +102,8 @@
       },
       {
         "day": 3,
-        "spend": 18.32,
-        "impressions": 1051,
+        "spend": 18.31,
+        "impressions": 1050,
         "clicks": 17,
         "conversions": 0,
         "phone_calls": 0,
@@ -115,10 +115,10 @@
         "spend": 78.33,
         "impressions": 2041,
         "clicks": 37,
-        "conversions": 3,
+        "conversions": 4,
         "phone_calls": 0,
         "cpc": 2.12,
-        "cost_per_conversion": 26.11
+        "cost_per_conversion": 19.58
       },
       {
         "day": 6,
@@ -139,6 +139,16 @@
         "phone_calls": 0,
         "cpc": 1.8,
         "cost_per_conversion": 19.81
+      },
+      {
+        "day": 8,
+        "spend": 55.47,
+        "impressions": 2233,
+        "clicks": 41,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 1.35,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
@@ -397,10 +407,10 @@
         "spend": 13.99,
         "impressions": 139,
         "clicks": 3,
-        "conversions": 0,
+        "conversions": 1,
         "phone_calls": 0,
         "cpc": 4.66,
-        "cost_per_conversion": 0
+        "cost_per_conversion": 13.99
       }
     ],
     "mtd_phone_calls": 0,
