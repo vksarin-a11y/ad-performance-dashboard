@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-09T07:44:25.557Z",
+  "updated_at": "2026-10-09T08:44:25.321Z",
   "metrics": {
     "spend": 1118.77,
-    "impressions": 2113,
+    "impressions": 2112,
     "clicks": 303,
     "conversions": 32,
     "phone_calls": 1,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -67.69,
-    "impressions": -68.23,
+    "impressions": -68.24,
     "clicks": -65.41,
     "conversions": -47.54,
     "phone_calls": -83.33
@@ -40,7 +40,7 @@
     {
       "name": "RB - Search l Dental Check Up & Clean",
       "spend": 407.63,
-      "impressions": 822,
+      "impressions": 821,
       "clicks": 80,
       "conversions": 14,
       "phone_calls": 0,
@@ -93,7 +93,7 @@
       {
         "day": 1,
         "spend": 160.01,
-        "impressions": 407,
+        "impressions": 406,
         "clicks": 43,
         "conversions": 3,
         "phone_calls": 0,
