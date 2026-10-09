@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-09T13:21:12.874Z",
+  "updated_at": "2026-10-09T14:21:12.967Z",
   "metrics": {
-    "spend": 1731.11,
+    "spend": 1730.58,
     "impressions": 18273,
-    "clicks": 446,
+    "clicks": 445,
     "conversions": 48.98,
     "phone_calls": 2,
-    "cpc": 3.88,
-    "cost_per_conversion": 35.34
+    "cpc": 3.89,
+    "cost_per_conversion": 35.33
   },
   "previous_month": {
     "spend": 5792.76,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 38.87
   },
   "comparison_pct": {
-    "spend": -70.12,
+    "spend": -70.13,
     "impressions": -76.58,
-    "clicks": -71.65,
+    "clicks": -71.71,
     "conversions": -67.13,
     "phone_calls": -81.82
   },
@@ -69,13 +69,13 @@
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 184.97,
+      "spend": 184.43,
       "impressions": 6513,
-      "clicks": 151,
+      "clicks": 150,
       "conversions": 13,
       "phone_calls": 0,
-      "cpc": 1.22,
-      "cost_per_conversion": 14.23
+      "cpc": 1.23,
+      "cost_per_conversion": 14.19
     },
     {
       "name": "RB - Same Day Crowns",
@@ -162,13 +162,13 @@
       },
       {
         "day": 7,
-        "spend": 264.96,
+        "spend": 264.43,
         "impressions": 3390,
-        "clicks": 74,
+        "clicks": 73,
         "conversions": 5,
         "phone_calls": 0,
-        "cpc": 3.58,
-        "cost_per_conversion": 52.99
+        "cpc": 3.62,
+        "cost_per_conversion": 52.89
       },
       {
         "day": 8,
