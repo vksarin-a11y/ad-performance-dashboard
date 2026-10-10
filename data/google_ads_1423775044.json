@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-10T05:21:12.406Z",
+  "updated_at": "2026-10-10T06:21:13.693Z",
   "metrics": {
-    "spend": 1998.18,
+    "spend": 1998.47,
     "impressions": 21990,
-    "clicks": 530,
+    "clicks": 532,
     "conversions": 63.98,
     "phone_calls": 2,
-    "cpc": 3.77,
-    "cost_per_conversion": 31.23
+    "cpc": 3.76,
+    "cost_per_conversion": 31.24
   },
   "previous_month": {
     "spend": 5792.76,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 38.87
   },
   "comparison_pct": {
-    "spend": -65.51,
+    "spend": -65.5,
     "impressions": -71.81,
-    "clicks": -66.31,
+    "clicks": -66.18,
     "conversions": -57.07,
     "phone_calls": -81.82
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 656.65,
+      "spend": 656.93,
       "impressions": 9841,
-      "clicks": 207,
+      "clicks": 209,
       "conversions": 26.98,
       "phone_calls": 0,
-      "cpc": 3.17,
-      "cost_per_conversion": 24.34
+      "cpc": 3.14,
+      "cost_per_conversion": 24.35
     },
     {
       "name": "RB - General Dentistry",
@@ -182,13 +182,13 @@
       },
       {
         "day": 9,
-        "spend": 267.6,
+        "spend": 267.89,
         "impressions": 3721,
-        "clicks": 85,
+        "clicks": 87,
         "conversions": 15,
         "phone_calls": 0,
-        "cpc": 3.15,
-        "cost_per_conversion": 17.84
+        "cpc": 3.08,
+        "cost_per_conversion": 17.86
       }
     ],
     "last_month": [
