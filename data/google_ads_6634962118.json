@@ -5,77 +5,77 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261008",
+    "mtd_end": "20261009",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-09T19:27:55.466Z",
+  "updated_at": "2026-10-10T19:27:55.764Z",
   "metrics": {
-    "spend": 370.61,
-    "impressions": 11058,
-    "clicks": 182,
-    "conversions": 13,
+    "spend": 433.56,
+    "impressions": 13652,
+    "clicks": 254,
+    "conversions": 18,
     "phone_calls": 0,
-    "cpc": 2.04,
-    "cost_per_conversion": 28.51
+    "cpc": 1.71,
+    "cost_per_conversion": 24.09
   },
   "previous_month": {
     "spend": 1280.72,
     "impressions": 14953,
     "clicks": 265,
-    "conversions": 49,
+    "conversions": 50,
     "phone_calls": 0,
     "cpc": 4.83,
-    "cost_per_conversion": 26.14
+    "cost_per_conversion": 25.61
   },
   "comparison_pct": {
-    "spend": -71.06,
-    "impressions": -26.05,
-    "clicks": -31.32,
-    "conversions": -73.47,
+    "spend": -66.15,
+    "impressions": -8.7,
+    "clicks": -4.15,
+    "conversions": -64,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
-      "name": "RB - Emergency Dentistry (new)",
-      "spend": 102.7,
-      "impressions": 285,
-      "clicks": 20,
-      "conversions": 4,
+      "name": "RB - PMax | Family Dentistry",
+      "spend": 125.68,
+      "impressions": 3573,
+      "clicks": 43,
+      "conversions": 5,
       "phone_calls": 0,
-      "cpc": 5.13,
-      "cost_per_conversion": 25.67
+      "cpc": 2.92,
+      "cost_per_conversion": 25.14
     },
     {
-      "name": "RB - PMax | Family Dentistry",
-      "spend": 94.51,
-      "impressions": 2841,
-      "clicks": 32,
-      "conversions": 2,
+      "name": "RB - Emergency Dentistry (new)",
+      "spend": 109.72,
+      "impressions": 308,
+      "clicks": 21,
+      "conversions": 5,
       "phone_calls": 0,
-      "cpc": 2.95,
-      "cost_per_conversion": 47.25
+      "cpc": 5.22,
+      "cost_per_conversion": 21.94
     },
     {
       "name": "RB - Search | General Dentistry (new)",
-      "spend": 92.24,
-      "impressions": 238,
-      "clicks": 17,
+      "spend": 103.77,
+      "impressions": 277,
+      "clicks": 20,
       "conversions": 5,
       "phone_calls": 0,
-      "cpc": 5.43,
-      "cost_per_conversion": 18.45
+      "cpc": 5.19,
+      "cost_per_conversion": 20.75
     },
     {
       "name": "RB - Performance Max Services",
-      "spend": 81.17,
-      "impressions": 7694,
-      "clicks": 113,
-      "conversions": 2,
+      "spend": 94.4,
+      "impressions": 9494,
+      "clicks": 170,
+      "conversions": 3,
       "phone_calls": 0,
-      "cpc": 0.72,
-      "cost_per_conversion": 40.59
+      "cpc": 0.56,
+      "cost_per_conversion": 31.47
     }
   ],
   "daily": {
@@ -115,10 +115,10 @@
         "spend": 78.33,
         "impressions": 2041,
         "clicks": 37,
-        "conversions": 4,
+        "conversions": 5,
         "phone_calls": 0,
         "cpc": 2.12,
-        "cost_per_conversion": 19.58
+        "cost_per_conversion": 15.67
       },
       {
         "day": 6,
@@ -142,13 +142,23 @@
       },
       {
         "day": 8,
-        "spend": 55.47,
-        "impressions": 2233,
+        "spend": 55.46,
+        "impressions": 2232,
         "clicks": 41,
-        "conversions": 0,
+        "conversions": 2,
         "phone_calls": 0,
         "cpc": 1.35,
-        "cost_per_conversion": 0
+        "cost_per_conversion": 27.73
+      },
+      {
+        "day": 9,
+        "spend": 62.96,
+        "impressions": 2595,
+        "clicks": 72,
+        "conversions": 2,
+        "phone_calls": 0,
+        "cpc": 0.87,
+        "cost_per_conversion": 31.48
       }
     ],
     "last_month": [
@@ -217,10 +227,10 @@
         "spend": 47.07,
         "impressions": 503,
         "clicks": 9,
-        "conversions": 2,
+        "conversions": 3,
         "phone_calls": 0,
         "cpc": 5.23,
-        "cost_per_conversion": 23.54
+        "cost_per_conversion": 15.69
       },
       {
         "day": 9,
