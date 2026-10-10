@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-10T21:02:48.342Z",
+  "updated_at": "2026-10-10T22:02:48.777Z",
   "metrics": {
     "spend": 654.77,
-    "impressions": 5835,
+    "impressions": 5836,
     "clicks": 189,
     "conversions": 23,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -56.62,
-    "impressions": -35.91,
+    "impressions": -35.9,
     "clicks": -43.24,
     "conversions": -70.51,
     "phone_calls": -100
@@ -60,7 +60,7 @@
     {
       "name": "RB - PMax | Services",
       "spend": 127.48,
-      "impressions": 884,
+      "impressions": 885,
       "clicks": 34,
       "conversions": 3,
       "phone_calls": 0,
@@ -133,7 +133,7 @@
       {
         "day": 8,
         "spend": 89.66,
-        "impressions": 2584,
+        "impressions": 2585,
         "clicks": 64,
         "conversions": 4,
         "phone_calls": 0,
