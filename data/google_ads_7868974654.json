@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-11T02:32:19.938Z",
+  "updated_at": "2026-10-11T03:32:18.806Z",
   "metrics": {
     "spend": 5918.38,
     "impressions": 23955,
     "clicks": 1456,
-    "conversions": 95.41,
+    "conversions": 97.09,
     "phone_calls": 0,
     "cpc": 4.06,
-    "cost_per_conversion": 62.03
+    "cost_per_conversion": 60.96
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": -69.48,
     "impressions": -82.4,
     "clicks": -70.82,
-    "conversions": -77.07,
+    "conversions": -76.67,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 1228.89,
       "impressions": 8050,
       "clicks": 374,
-      "conversions": 22.43,
+      "conversions": 23.43,
       "phone_calls": 0,
       "cpc": 3.29,
-      "cost_per_conversion": 54.79
+      "cost_per_conversion": 52.45
     },
     {
       "name": "RSA | Performance Max",
@@ -82,10 +82,10 @@
       "spend": 892.68,
       "impressions": 2803,
       "clicks": 239,
-      "conversions": 11.81,
+      "conversions": 12.49,
       "phone_calls": 0,
       "cpc": 3.74,
-      "cost_per_conversion": 75.58
+      "cost_per_conversion": 71.47
     },
     {
       "name": "RSA | Search | Target CPA Test Maximum Conv Bid",
@@ -185,20 +185,20 @@
         "spend": 617.42,
         "impressions": 2897,
         "clicks": 161,
-        "conversions": 16.21,
+        "conversions": 16.89,
         "phone_calls": 0,
         "cpc": 3.83,
-        "cost_per_conversion": 38.09
+        "cost_per_conversion": 36.56
       },
       {
         "day": 8,
         "spend": 658.15,
         "impressions": 3211,
         "clicks": 180,
-        "conversions": 17.69,
+        "conversions": 18.69,
         "phone_calls": 0,
         "cpc": 3.66,
-        "cost_per_conversion": 37.21
+        "cost_per_conversion": 35.21
       },
       {
         "day": 9,
