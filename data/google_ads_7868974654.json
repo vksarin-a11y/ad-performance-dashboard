@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-11T12:32:19.352Z",
+  "updated_at": "2026-10-11T13:32:20.312Z",
   "metrics": {
     "spend": 6435.2,
     "impressions": 26247,
     "clicks": 1595,
-    "conversions": 104.09,
+    "conversions": 105.09,
     "phone_calls": 0,
     "cpc": 4.03,
-    "cost_per_conversion": 61.82
+    "cost_per_conversion": 61.24
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": -66.82,
     "impressions": -80.72,
     "clicks": -68.03,
-    "conversions": -74.99,
+    "conversions": -74.75,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -52,10 +52,10 @@
       "spend": 1289.69,
       "impressions": 8677,
       "clicks": 391,
-      "conversions": 24.43,
+      "conversions": 26.43,
       "phone_calls": 0,
       "cpc": 3.3,
-      "cost_per_conversion": 52.79
+      "cost_per_conversion": 48.8
     },
     {
       "name": "RCG | Search",
@@ -82,10 +82,10 @@
       "spend": 1007.13,
       "impressions": 3610,
       "clicks": 193,
-      "conversions": 11.44,
+      "conversions": 10.44,
       "phone_calls": 0,
       "cpc": 5.22,
-      "cost_per_conversion": 88.01
+      "cost_per_conversion": 96.44
     },
     {
       "name": "RSA | Search | Target CPA Test Maximum Conv Bid",
@@ -195,10 +195,10 @@
         "spend": 658.15,
         "impressions": 3211,
         "clicks": 180,
-        "conversions": 17.69,
+        "conversions": 19.69,
         "phone_calls": 0,
         "cpc": 3.66,
-        "cost_per_conversion": 37.21
+        "cost_per_conversion": 33.43
       },
       {
         "day": 9,
@@ -215,10 +215,10 @@
         "spend": 516.82,
         "impressions": 2292,
         "clicks": 139,
-        "conversions": 8,
+        "conversions": 7,
         "phone_calls": 0,
         "cpc": 3.72,
-        "cost_per_conversion": 64.6
+        "cost_per_conversion": 73.83
       }
     ],
     "last_month": [
