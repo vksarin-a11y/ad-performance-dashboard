@@ -5,14 +5,14 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261010",
+    "mtd_end": "20261011",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-11T19:27:58.594Z",
+  "updated_at": "2026-10-12T19:27:56.909Z",
   "metrics": {
     "spend": 461.52,
-    "impressions": 14886,
+    "impressions": 14883,
     "clicks": 292,
     "conversions": 18,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -63.96,
-    "impressions": -0.45,
+    "impressions": -0.47,
     "clicks": 10.19,
     "conversions": -64,
     "phone_calls": null
@@ -40,7 +40,7 @@
     {
       "name": "RB - Emergency Dentistry (new)",
       "spend": 128.36,
-      "impressions": 341,
+      "impressions": 340,
       "clicks": 25,
       "conversions": 5,
       "phone_calls": 0,
@@ -70,7 +70,7 @@
     {
       "name": "RB - Performance Max Services",
       "spend": 102.3,
-      "impressions": 10448,
+      "impressions": 10446,
       "clicks": 201,
       "conversions": 3,
       "phone_calls": 0,
@@ -143,7 +143,7 @@
       {
         "day": 8,
         "spend": 55.46,
-        "impressions": 2232,
+        "impressions": 2231,
         "clicks": 41,
         "conversions": 2,
         "phone_calls": 0,
@@ -163,7 +163,7 @@
       {
         "day": 10,
         "spend": 27.96,
-        "impressions": 1234,
+        "impressions": 1232,
         "clicks": 38,
         "conversions": 0,
         "phone_calls": 0,
