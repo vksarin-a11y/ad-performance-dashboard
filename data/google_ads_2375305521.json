@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-12T07:20:22.690Z",
+  "updated_at": "2026-10-12T08:20:22.496Z",
   "metrics": {
     "spend": 475.76,
-    "impressions": 10793,
+    "impressions": 10791,
     "clicks": 243,
     "conversions": 26,
     "phone_calls": 0,
@@ -50,7 +50,7 @@
     {
       "name": "P.Max - Mississauga",
       "spend": 233.8,
-      "impressions": 4087,
+      "impressions": 4085,
       "clicks": 114,
       "conversions": 12,
       "phone_calls": 0,
@@ -103,7 +103,7 @@
       {
         "day": 7,
         "spend": 53.49,
-        "impressions": 1345,
+        "impressions": 1343,
         "clicks": 28,
         "conversions": 2,
         "phone_calls": 0,
