@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-12T22:04:07.599Z",
+  "updated_at": "2026-10-12T23:04:07.757Z",
   "metrics": {
-    "spend": 884.31,
+    "spend": 884.21,
     "impressions": 5866,
-    "clicks": 287,
+    "clicks": 286,
     "conversions": 38.98,
     "phone_calls": 0,
-    "cpc": 3.08,
-    "cost_per_conversion": 22.69
+    "cpc": 3.09,
+    "cost_per_conversion": 22.68
   },
   "previous_month": {
     "spend": 2688.2,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.94
   },
   "comparison_pct": {
-    "spend": -67.1,
+    "spend": -67.11,
     "impressions": -63.98,
-    "clicks": -65.59,
+    "clicks": -65.71,
     "conversions": -68.18,
     "phone_calls": -100
   },
@@ -79,12 +79,12 @@
     },
     {
       "name": "AICG | P.Max | Combined  | Max Conv value",
-      "spend": 35.02,
+      "spend": 34.92,
       "impressions": 2366,
-      "clicks": 35,
+      "clicks": 34,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 1,
+      "cpc": 1.03,
       "cost_per_conversion": 0
     }
   ],
@@ -192,13 +192,13 @@
       },
       {
         "day": 11,
-        "spend": 75.67,
+        "spend": 75.57,
         "impressions": 2571,
-        "clicks": 47,
+        "clicks": 46,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 1.61,
-        "cost_per_conversion": 75.67
+        "cpc": 1.64,
+        "cost_per_conversion": 75.57
       }
     ],
     "last_month": [
