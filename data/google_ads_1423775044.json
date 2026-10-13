@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-13T17:21:13.702Z",
+  "updated_at": "2026-10-13T18:21:12.269Z",
   "metrics": {
     "spend": 2416.25,
-    "impressions": 28528,
+    "impressions": 28523,
     "clicks": 649,
     "conversions": 83.98,
     "phone_calls": 2,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -58.29,
-    "impressions": -63.43,
+    "impressions": -63.44,
     "clicks": -58.74,
     "conversions": -44.39,
     "phone_calls": -81.82
@@ -70,7 +70,7 @@
     {
       "name": "P.Max - Same Day Crown (Update)",
       "spend": 282.14,
-      "impressions": 9484,
+      "impressions": 9479,
       "clicks": 199,
       "conversions": 21,
       "phone_calls": 0,
@@ -113,7 +113,7 @@
       {
         "day": 1,
         "spend": 186,
-        "impressions": 2907,
+        "impressions": 2904,
         "clicks": 90,
         "conversions": 7.98,
         "phone_calls": 0,
@@ -123,7 +123,7 @@
       {
         "day": 2,
         "spend": 256.43,
-        "impressions": 1728,
+        "impressions": 1726,
         "clicks": 39,
         "conversions": 8,
         "phone_calls": 0,
