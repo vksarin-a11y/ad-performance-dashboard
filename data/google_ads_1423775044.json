@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-13T07:21:12.313Z",
+  "updated_at": "2026-10-13T08:21:13.054Z",
   "metrics": {
     "spend": 2416.25,
     "impressions": 28530,
     "clicks": 649,
-    "conversions": 82.98,
+    "conversions": 83.98,
     "phone_calls": 2,
     "cpc": 3.72,
-    "cost_per_conversion": 29.12
+    "cost_per_conversion": 28.77
   },
   "previous_month": {
     "spend": 5792.76,
@@ -32,7 +32,7 @@
     "spend": -58.29,
     "impressions": -63.43,
     "clicks": -58.74,
-    "conversions": -44.69,
+    "conversions": -44.02,
     "phone_calls": -81.82
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -52,10 +52,10 @@
       "spend": 606.95,
       "impressions": 608,
       "clicks": 49,
-      "conversions": 19.5,
+      "conversions": 20.5,
       "phone_calls": 0,
       "cpc": 12.39,
-      "cost_per_conversion": 31.13
+      "cost_per_conversion": 29.61
     },
     {
       "name": "P.Max - Invisalign (Update)",
@@ -205,10 +205,10 @@
         "spend": 275.49,
         "impressions": 5027,
         "clicks": 101,
-        "conversions": 14,
+        "conversions": 15,
         "phone_calls": 0,
         "cpc": 2.73,
-        "cost_per_conversion": 19.68
+        "cost_per_conversion": 18.37
       }
     ],
     "last_month": [
