@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-14T10:32:27.904Z",
+  "updated_at": "2026-10-14T11:32:19.449Z",
   "metrics": {
     "spend": 8822.26,
     "impressions": 33985,
     "clicks": 2149,
-    "conversions": 147.9,
+    "conversions": 148.9,
     "phone_calls": 0,
     "cpc": 4.11,
-    "cost_per_conversion": 59.65
+    "cost_per_conversion": 59.25
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": -54.51,
     "impressions": -75.03,
     "clicks": -56.93,
-    "conversions": -64.81,
+    "conversions": -64.58,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 2146.73,
       "impressions": 12819,
       "clicks": 613,
-      "conversions": 40.06,
+      "conversions": 40.69,
       "phone_calls": 0,
       "cpc": 3.5,
-      "cost_per_conversion": 53.58
+      "cost_per_conversion": 52.76
     },
     {
       "name": "RSA | Performance Max",
@@ -72,10 +72,10 @@
       "spend": 1362.34,
       "impressions": 1845,
       "clicks": 219,
-      "conversions": 22.81,
+      "conversions": 23.19,
       "phone_calls": 0,
       "cpc": 6.22,
-      "cost_per_conversion": 59.72
+      "cost_per_conversion": 58.75
     },
     {
       "name": "RCG | Performance Max",
@@ -175,10 +175,10 @@
         "spend": 653.59,
         "impressions": 2849,
         "clicks": 190,
-        "conversions": 8.16,
+        "conversions": 8.54,
         "phone_calls": 0,
         "cpc": 3.44,
-        "cost_per_conversion": 80.05
+        "cost_per_conversion": 76.5
       },
       {
         "day": 7,
@@ -245,10 +245,10 @@
         "spend": 882.66,
         "impressions": 2352,
         "clicks": 195,
-        "conversions": 19.18,
+        "conversions": 19.8,
         "phone_calls": 0,
         "cpc": 4.53,
-        "cost_per_conversion": 46.02
+        "cost_per_conversion": 44.58
       }
     ],
     "last_month": [
