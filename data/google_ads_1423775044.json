@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261012",
+    "mtd_end": "20261013",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-14T03:21:13.465Z",
+  "updated_at": "2026-10-14T04:21:12.551Z",
   "metrics": {
-    "spend": 2410.86,
-    "impressions": 28523,
-    "clicks": 648,
-    "conversions": 83.98,
-    "phone_calls": 2,
-    "cpc": 3.72,
-    "cost_per_conversion": 28.71
+    "spend": 2678.27,
+    "impressions": 33264,
+    "clicks": 718,
+    "conversions": 101.98,
+    "phone_calls": 3,
+    "cpc": 3.73,
+    "cost_per_conversion": 26.26
   },
   "previous_month": {
     "spend": 5792.76,
@@ -29,53 +29,63 @@
     "cost_per_conversion": 38.36
   },
   "comparison_pct": {
-    "spend": -58.38,
-    "impressions": -63.44,
-    "clicks": -58.8,
-    "conversions": -44.39,
-    "phone_calls": -81.82
+    "spend": -53.77,
+    "impressions": -57.36,
+    "clicks": -54.35,
+    "conversions": -32.47,
+    "phone_calls": -72.73
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 788.98,
-      "impressions": 12709,
-      "clicks": 268,
-      "conversions": 28.98,
+      "spend": 895.03,
+      "impressions": 13945,
+      "clicks": 294,
+      "conversions": 32.98,
       "phone_calls": 0,
-      "cpc": 2.94,
-      "cost_per_conversion": 27.22
+      "cpc": 3.04,
+      "cost_per_conversion": 27.14
     },
     {
       "name": "RB - General Dentistry",
-      "spend": 606.95,
-      "impressions": 608,
-      "clicks": 49,
-      "conversions": 20.5,
+      "spend": 660.59,
+      "impressions": 737,
+      "clicks": 51,
+      "conversions": 21.5,
       "phone_calls": 0,
-      "cpc": 12.39,
-      "cost_per_conversion": 29.61
+      "cpc": 12.95,
+      "cost_per_conversion": 30.73
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 340.01,
-      "impressions": 4923,
-      "clicks": 84,
-      "conversions": 9,
+      "spend": 383.71,
+      "impressions": 5862,
+      "clicks": 100,
+      "conversions": 15,
       "phone_calls": 0,
-      "cpc": 4.05,
-      "cost_per_conversion": 37.78
+      "cpc": 3.84,
+      "cost_per_conversion": 25.58
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 276.75,
-      "impressions": 9479,
-      "clicks": 198,
-      "conversions": 21,
+      "spend": 297.58,
+      "impressions": 11824,
+      "clicks": 221,
+      "conversions": 23,
       "phone_calls": 0,
-      "cpc": 1.4,
-      "cost_per_conversion": 13.18
+      "cpc": 1.35,
+      "cost_per_conversion": 12.94
+    },
+    {
+      "name": "RB - Dental Emergency",
+      "spend": 181.35,
+      "impressions": 599,
+      "clicks": 13,
+      "conversions": 5,
+      "phone_calls": 1,
+      "cpc": 13.95,
+      "cost_per_conversion": 36.27
     },
     {
       "name": "RB - Same Day Crowns",
@@ -88,19 +98,9 @@
       "cost_per_conversion": 0
     },
     {
-      "name": "RB - Dental Emergency",
-      "spend": 138.17,
-      "impressions": 514,
-      "clicks": 10,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 13.82,
-      "cost_per_conversion": 0
-    },
-    {
       "name": "RB - Call Only Campaign",
       "spend": 112.91,
-      "impressions": 72,
+      "impressions": 79,
       "clicks": 13,
       "conversions": 4.5,
       "phone_calls": 2,
@@ -209,6 +209,16 @@
         "phone_calls": 0,
         "cpc": 2.7,
         "cost_per_conversion": 18.01
+      },
+      {
+        "day": 13,
+        "spend": 267.41,
+        "impressions": 4741,
+        "clicks": 70,
+        "conversions": 18,
+        "phone_calls": 1,
+        "cpc": 3.82,
+        "cost_per_conversion": 14.86
       }
     ],
     "last_month": [
@@ -473,7 +483,7 @@
         "cost_per_conversion": 34.91
       }
     ],
-    "mtd_phone_calls": 2,
+    "mtd_phone_calls": 3,
     "prev_month_phone_calls": 11
   }
 }
