@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261012",
+    "mtd_end": "20261013",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-14T03:57:01.080Z",
+  "updated_at": "2026-10-14T04:57:01.555Z",
   "metrics": {
-    "spend": 679.3,
-    "impressions": 1517,
-    "clicks": 86,
-    "conversions": 14,
+    "spend": 838.13,
+    "impressions": 1813,
+    "clicks": 101,
+    "conversions": 19,
     "phone_calls": 2,
-    "cpc": 7.9,
-    "cost_per_conversion": 48.52
+    "cpc": 8.3,
+    "cost_per_conversion": 44.11
   },
   "previous_month": {
     "spend": 1995.26,
@@ -29,53 +29,53 @@
     "cost_per_conversion": 62.35
   },
   "comparison_pct": {
-    "spend": -65.95,
-    "impressions": -92.65,
-    "clicks": -81.3,
-    "conversions": -56.25,
+    "spend": -57.99,
+    "impressions": -91.21,
+    "clicks": -78.04,
+    "conversions": -40.62,
     "phone_calls": -80
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "RB - Search | General Dentistry",
-      "spend": 339.13,
-      "impressions": 592,
-      "clicks": 39,
-      "conversions": 4,
+      "spend": 415.46,
+      "impressions": 643,
+      "clicks": 45,
+      "conversions": 7,
       "phone_calls": 2,
-      "cpc": 8.7,
-      "cost_per_conversion": 84.78
+      "cpc": 9.23,
+      "cost_per_conversion": 59.35
     },
     {
       "name": "RB - Search | Emergency Dentistry",
-      "spend": 265.88,
-      "impressions": 604,
-      "clicks": 27,
-      "conversions": 1,
+      "spend": 289.69,
+      "impressions": 647,
+      "clicks": 29,
+      "conversions": 2,
       "phone_calls": 0,
-      "cpc": 9.85,
-      "cost_per_conversion": 265.88
+      "cpc": 9.99,
+      "cost_per_conversion": 144.84
     },
     {
       "name": "RB - Pmax | General Dentistry (New)",
-      "spend": 61.03,
-      "impressions": 222,
-      "clicks": 16,
+      "spend": 89.74,
+      "impressions": 399,
+      "clicks": 19,
       "conversions": 9,
       "phone_calls": 0,
-      "cpc": 3.81,
-      "cost_per_conversion": 6.78
+      "cpc": 4.72,
+      "cost_per_conversion": 9.97
     },
     {
       "name": "RB - Search | Emergency Dentistry Target CPA (New)",
-      "spend": 13.25,
-      "impressions": 99,
-      "clicks": 4,
-      "conversions": 0,
+      "spend": 43.22,
+      "impressions": 124,
+      "clicks": 8,
+      "conversions": 1,
       "phone_calls": 0,
-      "cpc": 3.31,
-      "cost_per_conversion": 0
+      "cpc": 5.4,
+      "cost_per_conversion": 43.22
     }
   ],
   "daily": {
@@ -159,6 +159,16 @@
         "phone_calls": 0,
         "cpc": 8.02,
         "cost_per_conversion": 0
+      },
+      {
+        "day": 13,
+        "spend": 158.83,
+        "impressions": 296,
+        "clicks": 15,
+        "conversions": 5,
+        "phone_calls": 0,
+        "cpc": 10.59,
+        "cost_per_conversion": 31.77
       }
     ],
     "last_month": [
