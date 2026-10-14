@@ -9,7 +9,7 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-14T09:32:19.122Z",
+  "updated_at": "2026-10-14T10:32:27.904Z",
   "metrics": {
     "spend": 8822.26,
     "impressions": 33985,
@@ -42,10 +42,10 @@
       "spend": 2146.73,
       "impressions": 12819,
       "clicks": 613,
-      "conversions": 39.44,
+      "conversions": 40.06,
       "phone_calls": 0,
       "cpc": 3.5,
-      "cost_per_conversion": 54.43
+      "cost_per_conversion": 53.58
     },
     {
       "name": "RSA | Performance Max",
@@ -72,20 +72,20 @@
       "spend": 1362.34,
       "impressions": 1845,
       "clicks": 219,
-      "conversions": 22.43,
+      "conversions": 22.81,
       "phone_calls": 0,
       "cpc": 6.22,
-      "cost_per_conversion": 60.73
+      "cost_per_conversion": 59.72
     },
     {
       "name": "RCG | Performance Max",
       "spend": 1308.21,
       "impressions": 4716,
       "clicks": 252,
-      "conversions": 16.44,
+      "conversions": 15.44,
       "phone_calls": 0,
       "cpc": 5.19,
-      "cost_per_conversion": 79.56
+      "cost_per_conversion": 84.71
     },
     {
       "name": "ARCG  | Performance Max",
@@ -135,10 +135,10 @@
         "spend": 737.8,
         "impressions": 2628,
         "clicks": 172,
-        "conversions": 12.16,
+        "conversions": 12.03,
         "phone_calls": 0,
         "cpc": 4.29,
-        "cost_per_conversion": 60.66
+        "cost_per_conversion": 61.35
       },
       {
         "day": 3,
@@ -175,10 +175,10 @@
         "spend": 653.59,
         "impressions": 2849,
         "clicks": 190,
-        "conversions": 7.79,
+        "conversions": 8.16,
         "phone_calls": 0,
         "cpc": 3.44,
-        "cost_per_conversion": 83.94
+        "cost_per_conversion": 80.05
       },
       {
         "day": 7,
@@ -245,10 +245,10 @@
         "spend": 882.66,
         "impressions": 2352,
         "clicks": 195,
-        "conversions": 19.42,
+        "conversions": 19.18,
         "phone_calls": 0,
         "cpc": 4.53,
-        "cost_per_conversion": 45.45
+        "cost_per_conversion": 46.02
       }
     ],
     "last_month": [
