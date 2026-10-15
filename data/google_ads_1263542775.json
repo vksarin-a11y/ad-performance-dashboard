@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-15T07:32:46.180Z",
+  "updated_at": "2026-10-15T08:32:45.484Z",
   "metrics": {
     "spend": 889.18,
-    "impressions": 2097,
+    "impressions": 2098,
     "clicks": 161,
     "conversions": 50,
     "phone_calls": 2,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -64.54,
-    "impressions": -60.4,
+    "impressions": -60.38,
     "clicks": -63.24,
     "conversions": -63.5,
     "phone_calls": -60
@@ -40,7 +40,7 @@
     {
       "name": "2025-RB | General Search - Location",
       "spend": 487.67,
-      "impressions": 746,
+      "impressions": 747,
       "clicks": 80,
       "conversions": 30,
       "phone_calls": 0,
@@ -363,7 +363,7 @@
       {
         "day": 14,
         "spend": 81.56,
-        "impressions": 170,
+        "impressions": 171,
         "clicks": 15,
         "conversions": 4,
         "phone_calls": 0,
