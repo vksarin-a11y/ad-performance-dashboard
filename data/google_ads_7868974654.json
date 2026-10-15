@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-15T04:32:21.469Z",
+  "updated_at": "2026-10-15T05:32:19.872Z",
   "metrics": {
     "spend": 9567.06,
-    "impressions": 36258,
+    "impressions": 36259,
     "clicks": 2333,
-    "conversions": 157.89,
+    "conversions": 158.89,
     "phone_calls": 0,
     "cpc": 4.1,
-    "cost_per_conversion": 60.59
+    "cost_per_conversion": 60.21
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": -50.67,
     "impressions": -73.36,
     "clicks": -53.24,
-    "conversions": -62.44,
+    "conversions": -62.2,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -40,7 +40,7 @@
     {
       "name": "Bundle | Performance Max",
       "spend": 2381.85,
-      "impressions": 14012,
+      "impressions": 14013,
       "clicks": 685,
       "conversions": 44.06,
       "phone_calls": 0,
@@ -52,10 +52,10 @@
       "spend": 1804.88,
       "impressions": 6350,
       "clicks": 443,
-      "conversions": 27.69,
+      "conversions": 28.69,
       "phone_calls": 0,
       "cpc": 4.07,
-      "cost_per_conversion": 65.19
+      "cost_per_conversion": 62.91
     },
     {
       "name": "RSA | Search",
@@ -165,10 +165,10 @@
         "spend": 660.48,
         "impressions": 2831,
         "clicks": 163,
-        "conversions": 8.98,
+        "conversions": 9.98,
         "phone_calls": 0,
         "cpc": 4.05,
-        "cost_per_conversion": 73.53
+        "cost_per_conversion": 66.16
       },
       {
         "day": 6,
@@ -253,7 +253,7 @@
       {
         "day": 14,
         "spend": 744.8,
-        "impressions": 2273,
+        "impressions": 2274,
         "clicks": 184,
         "conversions": 5,
         "phone_calls": 0,
