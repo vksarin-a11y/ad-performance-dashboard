@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-15T20:20:47.735Z",
+  "updated_at": "2026-10-15T21:20:45.067Z",
   "metrics": {
     "spend": 4992.44,
     "impressions": 65621,
     "clicks": 2130,
-    "conversions": 220,
+    "conversions": 221,
     "phone_calls": 0,
     "cpc": 2.34,
-    "cost_per_conversion": 22.69
+    "cost_per_conversion": 22.59
   },
   "previous_month": {
     "spend": 9092.93,
@@ -32,7 +32,7 @@
     "spend": -45.1,
     "impressions": -56.15,
     "clicks": -50.5,
-    "conversions": -54.17,
+    "conversions": -53.96,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -92,10 +92,10 @@
       "spend": 176.06,
       "impressions": 982,
       "clicks": 64,
-      "conversions": 9,
+      "conversions": 10,
       "phone_calls": 0,
       "cpc": 2.75,
-      "cost_per_conversion": 19.56
+      "cost_per_conversion": 17.61
     },
     {
       "name": "PMax - Smart Shopping - Germany",
@@ -195,10 +195,10 @@
         "spend": 361.67,
         "impressions": 4199,
         "clicks": 149,
-        "conversions": 14,
+        "conversions": 15,
         "phone_calls": 0,
         "cpc": 2.43,
-        "cost_per_conversion": 25.83
+        "cost_per_conversion": 24.11
       },
       {
         "day": 9,
