@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-16T02:20:44.979Z",
+  "updated_at": "2026-10-16T03:20:44.636Z",
   "metrics": {
     "spend": 4992.44,
-    "impressions": 65618,
+    "impressions": 65617,
     "clicks": 2130,
     "conversions": 221,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -45.1,
-    "impressions": -56.15,
+    "impressions": -56.16,
     "clicks": -50.5,
     "conversions": -53.96,
     "phone_calls": null
@@ -60,7 +60,7 @@
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
       "spend": 645.75,
-      "impressions": 9915,
+      "impressions": 9914,
       "clicks": 128,
       "conversions": 10,
       "phone_calls": 0,
@@ -203,7 +203,7 @@
       {
         "day": 9,
         "spend": 310.77,
-        "impressions": 3936,
+        "impressions": 3935,
         "clicks": 147,
         "conversions": 11,
         "phone_calls": 0,
