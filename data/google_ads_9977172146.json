@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-16T12:44:26.130Z",
+  "updated_at": "2026-10-16T13:44:26.405Z",
   "metrics": {
     "spend": 1913.73,
-    "impressions": 3418,
+    "impressions": 3417,
     "clicks": 506,
     "conversions": 56,
     "phone_calls": 1,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -44.73,
-    "impressions": -48.6,
+    "impressions": -48.62,
     "clicks": -42.24,
     "conversions": -8.2,
     "phone_calls": -83.33
@@ -50,7 +50,7 @@
     {
       "name": "RB - Search l Dental Location (New)",
       "spend": 589.39,
-      "impressions": 1276,
+      "impressions": 1275,
       "clicks": 67,
       "conversions": 21,
       "phone_calls": 0,
@@ -193,7 +193,7 @@
       {
         "day": 15,
         "spend": 160.92,
-        "impressions": 370,
+        "impressions": 369,
         "clicks": 48,
         "conversions": 6,
         "phone_calls": 0,
