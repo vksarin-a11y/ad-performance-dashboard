@@ -5,87 +5,87 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261014",
+    "mtd_end": "20261015",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-16T03:04:17.406Z",
+  "updated_at": "2026-10-16T04:04:07.707Z",
   "metrics": {
-    "spend": 1127.73,
-    "impressions": 7835,
-    "clicks": 417,
-    "conversions": 53.31,
+    "spend": 1203.52,
+    "impressions": 8223,
+    "clicks": 442,
+    "conversions": 53.65,
     "phone_calls": 0,
-    "cpc": 2.7,
-    "cost_per_conversion": 21.15
+    "cpc": 2.72,
+    "cost_per_conversion": 22.43
   },
   "previous_month": {
     "spend": 2688.2,
     "impressions": 16287,
     "clicks": 834,
-    "conversions": 125.19,
+    "conversions": 125.85,
     "phone_calls": 2,
     "cpc": 3.22,
-    "cost_per_conversion": 21.47
+    "cost_per_conversion": 21.36
   },
   "comparison_pct": {
-    "spend": -58.05,
-    "impressions": -51.89,
-    "clicks": -50,
-    "conversions": -57.42,
+    "spend": -55.23,
+    "impressions": -49.51,
+    "clicks": -47,
+    "conversions": -57.37,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "AICG | P.Max | Combined",
-      "spend": 498.51,
-      "impressions": 3385,
-      "clicks": 139,
+      "spend": 541.87,
+      "impressions": 3515,
+      "clicks": 147,
       "conversions": 3,
       "phone_calls": 0,
-      "cpc": 3.59,
-      "cost_per_conversion": 166.17
+      "cpc": 3.69,
+      "cost_per_conversion": 180.62
     },
     {
       "name": "AICG | Search | Branded",
-      "spend": 258.42,
-      "impressions": 473,
-      "clicks": 142,
-      "conversions": 46.31,
+      "spend": 263.92,
+      "impressions": 507,
+      "clicks": 152,
+      "conversions": 46.64,
       "phone_calls": 0,
-      "cpc": 1.82,
-      "cost_per_conversion": 5.58
+      "cpc": 1.74,
+      "cost_per_conversion": 5.66
     },
     {
       "name": "AICG | Search | Education & Membership",
-      "spend": 241.85,
-      "impressions": 492,
-      "clicks": 56,
+      "spend": 254.46,
+      "impressions": 505,
+      "clicks": 58,
       "conversions": 3,
       "phone_calls": 0,
-      "cpc": 4.32,
-      "cost_per_conversion": 80.62
+      "cpc": 4.39,
+      "cost_per_conversion": 84.82
     },
     {
       "name": "AICG | P.Max | Combined  | Max Conv value",
-      "spend": 74.65,
-      "impressions": 3184,
-      "clicks": 58,
+      "spend": 86.15,
+      "impressions": 3315,
+      "clicks": 60,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 1.29,
+      "cpc": 1.44,
       "cost_per_conversion": 0
     },
     {
       "name": "AICG | Search | What is Clinical Governance",
-      "spend": 54.3,
-      "impressions": 301,
-      "clicks": 22,
+      "spend": 57.13,
+      "impressions": 381,
+      "clicks": 25,
       "conversions": 1,
       "phone_calls": 0,
-      "cpc": 2.47,
-      "cost_per_conversion": 54.3
+      "cpc": 2.29,
+      "cost_per_conversion": 57.13
     }
   ],
   "daily": {
@@ -155,10 +155,10 @@
         "spend": 112.77,
         "impressions": 519,
         "clicks": 31,
-        "conversions": 8.33,
+        "conversions": 8.67,
         "phone_calls": 0,
         "cpc": 3.64,
-        "cost_per_conversion": 13.53
+        "cost_per_conversion": 13.01
       },
       {
         "day": 8,
@@ -229,6 +229,16 @@
         "phone_calls": 0,
         "cpc": 1.93,
         "cost_per_conversion": 77.22
+      },
+      {
+        "day": 15,
+        "spend": 75.79,
+        "impressions": 388,
+        "clicks": 25,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 3.03,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
@@ -377,10 +387,10 @@
         "spend": 132.88,
         "impressions": 377,
         "clicks": 39,
-        "conversions": 11.17,
+        "conversions": 11.83,
         "phone_calls": 0,
         "cpc": 3.41,
-        "cost_per_conversion": 11.9
+        "cost_per_conversion": 11.23
       },
       {
         "day": 16,
