@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-17T04:32:19.941Z",
+  "updated_at": "2026-10-17T05:32:18.549Z",
   "metrics": {
     "spend": 10837.63,
     "impressions": 40114,
     "clicks": 2664,
-    "conversions": 187.87,
+    "conversions": 188.46,
     "phone_calls": 0,
     "cpc": 4.07,
-    "cost_per_conversion": 57.69
+    "cost_per_conversion": 57.51
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": -44.12,
     "impressions": -70.53,
     "clicks": -46.6,
-    "conversions": -55.42,
+    "conversions": -55.28,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -72,10 +72,10 @@
       "spend": 1618.51,
       "impressions": 5202,
       "clicks": 301,
-      "conversions": 19.92,
+      "conversions": 20.51,
       "phone_calls": 0,
       "cpc": 5.38,
-      "cost_per_conversion": 81.25
+      "cost_per_conversion": 78.9
     },
     {
       "name": "RCG | Search",
@@ -275,10 +275,10 @@
         "spend": 568.74,
         "impressions": 2208,
         "clicks": 166,
-        "conversions": 6.86,
+        "conversions": 7.45,
         "phone_calls": 0,
         "cpc": 3.43,
-        "cost_per_conversion": 82.91
+        "cost_per_conversion": 76.3
       }
     ],
     "last_month": [
