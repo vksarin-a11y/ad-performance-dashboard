@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-17T12:04:06.596Z",
+  "updated_at": "2026-10-17T13:04:08.005Z",
   "metrics": {
     "spend": 1301.48,
-    "impressions": 8540,
+    "impressions": 8539,
     "clicks": 469,
     "conversions": 53.65,
     "phone_calls": 0,
@@ -70,7 +70,7 @@
     {
       "name": "AICG | P.Max | Combined  | Max Conv value",
       "spend": 95.83,
-      "impressions": 3383,
+      "impressions": 3382,
       "clicks": 63,
       "conversions": 0,
       "phone_calls": 0,
@@ -213,7 +213,7 @@
       {
         "day": 13,
         "spend": 69.23,
-        "impressions": 706,
+        "impressions": 705,
         "clicks": 42,
         "conversions": 2,
         "phone_calls": 0,
