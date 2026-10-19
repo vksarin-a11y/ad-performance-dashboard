@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-19T11:32:20.692Z",
+  "updated_at": "2026-10-19T12:32:20.559Z",
   "metrics": {
     "spend": 12090.01,
     "impressions": 44259,
     "clicks": 2947,
-    "conversions": 215.6,
+    "conversions": 217.6,
     "phone_calls": 0,
     "cpc": 4.1,
-    "cost_per_conversion": 56.08
+    "cost_per_conversion": 55.56
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": -37.66,
     "impressions": -67.49,
     "clicks": -40.93,
-    "conversions": -49.23,
+    "conversions": -48.76,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 2852.72,
       "impressions": 17289,
       "clicks": 835,
-      "conversions": 61.27,
+      "conversions": 62.27,
       "phone_calls": 0,
       "cpc": 3.42,
-      "cost_per_conversion": 46.56
+      "cost_per_conversion": 45.81
     },
     {
       "name": "RSA | Performance Max",
@@ -112,10 +112,10 @@
       "spend": 322.66,
       "impressions": 2438,
       "clicks": 155,
-      "conversions": 9.62,
+      "conversions": 10.62,
       "phone_calls": 0,
       "cpc": 2.08,
-      "cost_per_conversion": 33.55
+      "cost_per_conversion": 30.39
     }
   ],
   "daily": {
@@ -285,20 +285,20 @@
         "spend": 505.7,
         "impressions": 2039,
         "clicks": 135,
-        "conversions": 11.65,
+        "conversions": 12.65,
         "phone_calls": 0,
         "cpc": 3.75,
-        "cost_per_conversion": 43.42
+        "cost_per_conversion": 39.99
       },
       {
         "day": 18,
         "spend": 746.68,
         "impressions": 2106,
         "clicks": 149,
-        "conversions": 11.46,
+        "conversions": 12.46,
         "phone_calls": 0,
         "cpc": 5.01,
-        "cost_per_conversion": 65.14
+        "cost_per_conversion": 59.92
       }
     ],
     "last_month": [
