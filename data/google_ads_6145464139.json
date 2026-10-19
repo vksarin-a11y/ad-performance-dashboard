@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-19T10:04:08.553Z",
+  "updated_at": "2026-10-19T11:04:07.634Z",
   "metrics": {
     "spend": 1409.84,
     "impressions": 9605,
     "clicks": 500,
-    "conversions": 53.65,
+    "conversions": 54.65,
     "phone_calls": 0,
     "cpc": 2.82,
-    "cost_per_conversion": 26.28
+    "cost_per_conversion": 25.8
   },
   "previous_month": {
     "spend": 2688.2,
@@ -32,7 +32,7 @@
     "spend": -47.55,
     "impressions": -41.03,
     "clicks": -40.05,
-    "conversions": -57.37,
+    "conversions": -56.58,
     "phone_calls": -100
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 651.35,
       "impressions": 4376,
       "clicks": 177,
-      "conversions": 3,
+      "conversions": 4,
       "phone_calls": 0,
       "cpc": 3.68,
-      "cost_per_conversion": 217.12
+      "cost_per_conversion": 162.84
     },
     {
       "name": "AICG | Search | Branded",
@@ -265,10 +265,10 @@
         "spend": 94.5,
         "impressions": 788,
         "clicks": 23,
-        "conversions": 0,
+        "conversions": 1,
         "phone_calls": 0,
         "cpc": 4.11,
-        "cost_per_conversion": 0
+        "cost_per_conversion": 94.5
       }
     ],
     "last_month": [
