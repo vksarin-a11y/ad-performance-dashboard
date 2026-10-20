@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261018",
+    "mtd_end": "20261019",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-20T03:21:11.645Z",
+  "updated_at": "2026-10-20T04:21:13.215Z",
   "metrics": {
-    "spend": 3700.68,
-    "impressions": 42364,
-    "clicks": 945,
-    "conversions": 136.98,
+    "spend": 3941.85,
+    "impressions": 46119,
+    "clicks": 1032,
+    "conversions": 147.98,
     "phone_calls": 3,
-    "cpc": 3.92,
-    "cost_per_conversion": 27.02
+    "cpc": 3.82,
+    "cost_per_conversion": 26.64
   },
   "previous_month": {
     "spend": 5792.76,
@@ -29,73 +29,73 @@
     "cost_per_conversion": 38.36
   },
   "comparison_pct": {
-    "spend": -36.12,
-    "impressions": -45.69,
-    "clicks": -39.92,
-    "conversions": -9.3,
+    "spend": -31.95,
+    "impressions": -40.88,
+    "clicks": -34.39,
+    "conversions": -2.01,
     "phone_calls": -72.73
   },
   "recommendation": "Spend is well behind last month's pace ? check budget caps or disapproved ads.",
   "campaigns": [
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 1184.06,
-      "impressions": 17325,
-      "clicks": 400,
+      "spend": 1242.92,
+      "impressions": 19050,
+      "clicks": 437,
       "conversions": 37.98,
       "phone_calls": 0,
-      "cpc": 2.96,
-      "cost_per_conversion": 31.18
+      "cpc": 2.84,
+      "cost_per_conversion": 32.72
     },
     {
       "name": "RB - General Dentistry",
-      "spend": 964.85,
-      "impressions": 1024,
-      "clicks": 76,
-      "conversions": 31.5,
+      "spend": 1040.12,
+      "impressions": 1056,
+      "clicks": 81,
+      "conversions": 34.5,
       "phone_calls": 0,
-      "cpc": 12.7,
-      "cost_per_conversion": 30.63
+      "cpc": 12.84,
+      "cost_per_conversion": 30.15
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 484.24,
-      "impressions": 7618,
-      "clicks": 128,
-      "conversions": 29,
+      "spend": 512.34,
+      "impressions": 8385,
+      "clicks": 152,
+      "conversions": 34,
       "phone_calls": 0,
-      "cpc": 3.78,
-      "cost_per_conversion": 16.7
+      "cpc": 3.37,
+      "cost_per_conversion": 15.07
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 423.16,
-      "impressions": 15246,
-      "clicks": 274,
-      "conversions": 28,
+      "spend": 436,
+      "impressions": 16266,
+      "clicks": 290,
+      "conversions": 30,
       "phone_calls": 0,
-      "cpc": 1.54,
-      "cost_per_conversion": 15.11
+      "cpc": 1.5,
+      "cost_per_conversion": 14.53
     },
     {
       "name": "RB - Dental Emergency",
-      "spend": 332.46,
-      "impressions": 822,
-      "clicks": 22,
+      "spend": 364.76,
+      "impressions": 1018,
+      "clicks": 24,
       "conversions": 5,
       "phone_calls": 1,
-      "cpc": 15.11,
-      "cost_per_conversion": 66.49
+      "cpc": 15.2,
+      "cost_per_conversion": 72.95
     },
     {
       "name": "RB - Call Only Campaign",
-      "spend": 164.82,
-      "impressions": 111,
-      "clicks": 19,
-      "conversions": 5.5,
+      "spend": 198.61,
+      "impressions": 126,
+      "clicks": 22,
+      "conversions": 6.5,
       "phone_calls": 2,
-      "cpc": 8.67,
-      "cost_per_conversion": 29.97
+      "cpc": 9.03,
+      "cost_per_conversion": 30.56
     },
     {
       "name": "RB - Same Day Crowns",
@@ -173,7 +173,7 @@
       {
         "day": 8,
         "spend": 311.54,
-        "impressions": 3196,
+        "impressions": 3194,
         "clicks": 90,
         "conversions": 21,
         "phone_calls": 2,
@@ -259,6 +259,16 @@
         "phone_calls": 0,
         "cpc": 6.02,
         "cost_per_conversion": 108.45
+      },
+      {
+        "day": 19,
+        "spend": 241.17,
+        "impressions": 3757,
+        "clicks": 87,
+        "conversions": 11,
+        "phone_calls": 0,
+        "cpc": 2.77,
+        "cost_per_conversion": 21.93
       }
     ],
     "last_month": [
