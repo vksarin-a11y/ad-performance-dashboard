@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-20T18:44:25.686Z",
+  "updated_at": "2026-10-20T19:44:27.286Z",
   "metrics": {
     "spend": 2316.02,
     "impressions": 4049,
     "clicks": 608,
-    "conversions": 67,
+    "conversions": 68,
     "phone_calls": 1,
     "cpc": 3.81,
-    "cost_per_conversion": 34.57
+    "cost_per_conversion": 34.06
   },
   "previous_month": {
     "spend": 3462.4,
@@ -32,7 +32,7 @@
     "spend": -33.11,
     "impressions": -39.11,
     "clicks": -30.59,
-    "conversions": 9.84,
+    "conversions": 11.48,
     "phone_calls": -83.33
   },
   "recommendation": "Spend is well behind last month's pace ? check budget caps or disapproved ads.",
@@ -42,10 +42,10 @@
       "spend": 772.52,
       "impressions": 1327,
       "clicks": 180,
-      "conversions": 22,
+      "conversions": 23,
       "phone_calls": 0,
       "cpc": 4.29,
-      "cost_per_conversion": 35.11
+      "cost_per_conversion": 33.59
     },
     {
       "name": "RB - Search l Dental Location (New)",
@@ -215,10 +215,10 @@
         "spend": 190.75,
         "impressions": 311,
         "clicks": 47,
-        "conversions": 7,
+        "conversions": 8,
         "phone_calls": 0,
         "cpc": 4.06,
-        "cost_per_conversion": 27.25
+        "cost_per_conversion": 23.84
       }
     ],
     "last_month": [
