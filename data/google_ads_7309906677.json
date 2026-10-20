@@ -9,30 +9,30 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-19T23:20:44.580Z",
+  "updated_at": "2026-10-20T00:20:45.963Z",
   "metrics": {
     "spend": 6320.24,
     "impressions": 86451,
     "clicks": 2763,
-    "conversions": 288,
+    "conversions": 289,
     "phone_calls": 0,
     "cpc": 2.29,
-    "cost_per_conversion": 21.95
+    "cost_per_conversion": 21.87
   },
   "previous_month": {
     "spend": 9092.93,
     "impressions": 149659,
     "clicks": 4303,
-    "conversions": 483,
+    "conversions": 485,
     "phone_calls": 0,
     "cpc": 2.11,
-    "cost_per_conversion": 18.83
+    "cost_per_conversion": 18.75
   },
   "comparison_pct": {
     "spend": -30.49,
     "impressions": -42.23,
     "clicks": -35.79,
-    "conversions": -40.37,
+    "conversions": -40.41,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 3049.55,
       "impressions": 28834,
       "clicks": 1140,
-      "conversions": 128,
+      "conversions": 129,
       "phone_calls": 0,
       "cpc": 2.68,
-      "cost_per_conversion": 23.82
+      "cost_per_conversion": 23.64
     },
     {
       "name": "PMax: Smart Shopping - Netherlands",
@@ -215,10 +215,10 @@
         "spend": 370.35,
         "impressions": 5953,
         "clicks": 181,
-        "conversions": 21,
+        "conversions": 22,
         "phone_calls": 0,
         "cpc": 2.05,
-        "cost_per_conversion": 17.64
+        "cost_per_conversion": 16.83
       },
       {
         "day": 11,
@@ -447,20 +447,20 @@
         "spend": 261.86,
         "impressions": 4947,
         "clicks": 132,
-        "conversions": 16,
+        "conversions": 17,
         "phone_calls": 0,
         "cpc": 1.98,
-        "cost_per_conversion": 16.37
+        "cost_per_conversion": 15.4
       },
       {
         "day": 16,
         "spend": 308.16,
         "impressions": 4742,
         "clicks": 147,
-        "conversions": 16,
+        "conversions": 17,
         "phone_calls": 0,
         "cpc": 2.1,
-        "cost_per_conversion": 19.26
+        "cost_per_conversion": 18.13
       },
       {
         "day": 17,
