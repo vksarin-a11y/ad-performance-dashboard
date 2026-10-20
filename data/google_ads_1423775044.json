@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-20T07:21:13.585Z",
+  "updated_at": "2026-10-20T08:21:11.979Z",
   "metrics": {
-    "spend": 3941.85,
-    "impressions": 46116,
-    "clicks": 1032,
+    "spend": 3940.69,
+    "impressions": 46108,
+    "clicks": 1031,
     "conversions": 147.98,
     "phone_calls": 3,
     "cpc": 3.82,
-    "cost_per_conversion": 26.64
+    "cost_per_conversion": 26.63
   },
   "previous_month": {
     "spend": 5792.76,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 38.36
   },
   "comparison_pct": {
-    "spend": -31.95,
-    "impressions": -40.88,
-    "clicks": -34.39,
+    "spend": -31.97,
+    "impressions": -40.89,
+    "clicks": -34.46,
     "conversions": -2.01,
     "phone_calls": -72.73
   },
@@ -69,13 +69,13 @@
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 436,
-      "impressions": 16263,
-      "clicks": 290,
+      "spend": 434.84,
+      "impressions": 16255,
+      "clicks": 289,
       "conversions": 30,
       "phone_calls": 0,
       "cpc": 1.5,
-      "cost_per_conversion": 14.53
+      "cost_per_conversion": 14.49
     },
     {
       "name": "RB - Dental Emergency",
@@ -123,7 +123,7 @@
       {
         "day": 2,
         "spend": 256.43,
-        "impressions": 1716,
+        "impressions": 1715,
         "clicks": 39,
         "conversions": 8,
         "phone_calls": 0,
@@ -143,7 +143,7 @@
       {
         "day": 5,
         "spend": 211.02,
-        "impressions": 2366,
+        "impressions": 2365,
         "clicks": 43,
         "conversions": 5,
         "phone_calls": 0,
@@ -162,18 +162,18 @@
       },
       {
         "day": 7,
-        "spend": 264.42,
-        "impressions": 3375,
-        "clicks": 73,
+        "spend": 263.26,
+        "impressions": 3371,
+        "clicks": 72,
         "conversions": 5,
         "phone_calls": 0,
-        "cpc": 3.62,
-        "cost_per_conversion": 52.88
+        "cpc": 3.66,
+        "cost_per_conversion": 52.65
       },
       {
         "day": 8,
         "spend": 311.54,
-        "impressions": 3194,
+        "impressions": 3192,
         "clicks": 90,
         "conversions": 21,
         "phone_calls": 2,
