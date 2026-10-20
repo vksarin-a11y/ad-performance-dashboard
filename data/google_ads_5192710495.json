@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-20T05:02:57.468Z",
+  "updated_at": "2026-10-20T06:02:47.540Z",
   "metrics": {
     "spend": 967.24,
-    "impressions": 8383,
+    "impressions": 8381,
     "clicks": 257,
     "conversions": 29,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -35.92,
-    "impressions": -7.92,
+    "impressions": -7.94,
     "clicks": -22.82,
     "conversions": -62.82,
     "phone_calls": -100
@@ -70,7 +70,7 @@
     {
       "name": "RB - PMax | Kids Dentistry",
       "spend": 123.86,
-      "impressions": 4374,
+      "impressions": 4372,
       "clicks": 86,
       "conversions": 0,
       "phone_calls": 0,
@@ -93,7 +93,7 @@
       {
         "day": 2,
         "spend": 82.34,
-        "impressions": 752,
+        "impressions": 750,
         "clicks": 21,
         "conversions": 5,
         "phone_calls": 0,
