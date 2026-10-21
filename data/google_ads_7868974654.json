@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-21T04:32:19.663Z",
+  "updated_at": "2026-10-21T05:32:19.697Z",
   "metrics": {
     "spend": 13797.88,
-    "impressions": 49120,
+    "impressions": 49119,
     "clicks": 3314,
-    "conversions": 244.59,
+    "conversions": 246.42,
     "phone_calls": 0,
     "cpc": 4.16,
-    "cost_per_conversion": 56.41
+    "cost_per_conversion": 55.99
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": -28.85,
     "impressions": -63.92,
     "clicks": -33.57,
-    "conversions": -42.48,
+    "conversions": -42.05,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -50,7 +50,7 @@
     {
       "name": "RSA | Performance Max",
       "spend": 2530.5,
-      "impressions": 8485,
+      "impressions": 8484,
       "clicks": 622,
       "conversions": 43.45,
       "phone_calls": 0,
@@ -82,10 +82,10 @@
       "spend": 2050.03,
       "impressions": 2866,
       "clicks": 329,
-      "conversions": 39.34,
+      "conversions": 39.9,
       "phone_calls": 0,
       "cpc": 6.23,
-      "cost_per_conversion": 52.11
+      "cost_per_conversion": 51.37
     },
     {
       "name": "ARCG  | Performance Max",
@@ -102,10 +102,10 @@
       "spend": 383.22,
       "impressions": 2522,
       "clicks": 168,
-      "conversions": 12.8,
+      "conversions": 14.06,
       "phone_calls": 0,
       "cpc": 2.28,
-      "cost_per_conversion": 29.95
+      "cost_per_conversion": 27.25
     },
     {
       "name": "RSA | Search | Target CPA Test Maximum Conv Bid",
@@ -205,10 +205,10 @@
         "spend": 704.01,
         "impressions": 2444,
         "clicks": 167,
-        "conversions": 11.76,
+        "conversions": 11.93,
         "phone_calls": 0,
         "cpc": 4.22,
-        "cost_per_conversion": 59.87
+        "cost_per_conversion": 59.02
       },
       {
         "day": 10,
@@ -265,25 +265,25 @@
         "spend": 701.85,
         "impressions": 1654,
         "clicks": 164,
-        "conversions": 12.74,
+        "conversions": 12.83,
         "phone_calls": 0,
         "cpc": 4.28,
-        "cost_per_conversion": 55.09
+        "cost_per_conversion": 54.71
       },
       {
         "day": 16,
         "spend": 568.74,
         "impressions": 2207,
         "clicks": 166,
-        "conversions": 9.68,
+        "conversions": 9.77,
         "phone_calls": 0,
         "cpc": 3.43,
-        "cost_per_conversion": 58.77
+        "cost_per_conversion": 58.23
       },
       {
         "day": 17,
         "spend": 505.7,
-        "impressions": 2039,
+        "impressions": 2038,
         "clicks": 135,
         "conversions": 10.65,
         "phone_calls": 0,
@@ -305,20 +305,20 @@
         "spend": 930.66,
         "impressions": 2934,
         "clicks": 210,
-        "conversions": 14.82,
+        "conversions": 15.39,
         "phone_calls": 0,
         "cpc": 4.43,
-        "cost_per_conversion": 62.79
+        "cost_per_conversion": 60.47
       },
       {
         "day": 20,
         "spend": 777.21,
         "impressions": 1928,
         "clicks": 157,
-        "conversions": 8.91,
+        "conversions": 9.82,
         "phone_calls": 0,
         "cpc": 4.95,
-        "cost_per_conversion": 87.22
+        "cost_per_conversion": 79.13
       }
     ],
     "last_month": [
