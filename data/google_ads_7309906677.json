@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-21T18:20:45.255Z",
+  "updated_at": "2026-10-21T19:20:45.172Z",
   "metrics": {
-    "spend": 7140.17,
+    "spend": 7140.59,
     "impressions": 98230,
-    "clicks": 3129,
-    "conversions": 317,
+    "clicks": 3130,
+    "conversions": 318,
     "phone_calls": 0,
     "cpc": 2.28,
-    "cost_per_conversion": 22.52
+    "cost_per_conversion": 22.45
   },
   "previous_month": {
     "spend": 9092.93,
@@ -29,23 +29,23 @@
     "cost_per_conversion": 18.71
   },
   "comparison_pct": {
-    "spend": -21.48,
+    "spend": -21.47,
     "impressions": -34.36,
-    "clicks": -27.28,
-    "conversions": -34.77,
+    "clicks": -27.26,
+    "conversions": -34.57,
     "phone_calls": null
   },
-  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
+  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "PMax - Smart Shopping - Denmark",
       "spend": 3433.72,
       "impressions": 33175,
       "clicks": 1298,
-      "conversions": 144,
+      "conversions": 145,
       "phone_calls": 0,
       "cpc": 2.65,
-      "cost_per_conversion": 23.85
+      "cost_per_conversion": 23.68
     },
     {
       "name": "PMax: Smart Shopping - Netherlands",
@@ -99,13 +99,13 @@
     },
     {
       "name": "PMax - Smart Shopping - Germany",
-      "spend": 231.15,
+      "spend": 231.57,
       "impressions": 6379,
-      "clicks": 164,
+      "clicks": 165,
       "conversions": 14,
       "phone_calls": 0,
-      "cpc": 1.41,
-      "cost_per_conversion": 16.51
+      "cpc": 1.4,
+      "cost_per_conversion": 16.54
     },
     {
       "name": "Feetunique.fr",
@@ -312,13 +312,13 @@
       },
       {
         "day": 20,
-        "spend": 413.14,
+        "spend": 413.56,
         "impressions": 5966,
-        "clicks": 191,
-        "conversions": 14,
+        "clicks": 192,
+        "conversions": 15,
         "phone_calls": 0,
-        "cpc": 2.16,
-        "cost_per_conversion": 29.51
+        "cpc": 2.15,
+        "cost_per_conversion": 27.57
       }
     ],
     "last_month": [
