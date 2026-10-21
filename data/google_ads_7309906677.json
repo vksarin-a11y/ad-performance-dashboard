@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-21T00:20:45.191Z",
+  "updated_at": "2026-10-21T01:20:45.514Z",
   "metrics": {
     "spend": 6727.03,
     "impressions": 92264,
     "clicks": 2938,
-    "conversions": 298,
+    "conversions": 299,
     "phone_calls": 0,
     "cpc": 2.29,
-    "cost_per_conversion": 22.57
+    "cost_per_conversion": 22.5
   },
   "previous_month": {
     "spend": 9092.93,
@@ -32,7 +32,7 @@
     "spend": -26.02,
     "impressions": -38.35,
     "clicks": -31.72,
-    "conversions": -38.68,
+    "conversions": -38.48,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -62,10 +62,10 @@
       "spend": 868.21,
       "impressions": 12900,
       "clicks": 172,
-      "conversions": 19,
+      "conversions": 20,
       "phone_calls": 0,
       "cpc": 5.05,
-      "cost_per_conversion": 45.7
+      "cost_per_conversion": 43.41
     },
     {
       "name": "PMax: Smart Shopping - Sweden",
@@ -265,10 +265,10 @@
         "spend": 260.59,
         "impressions": 4552,
         "clicks": 129,
-        "conversions": 21,
+        "conversions": 22,
         "phone_calls": 0,
         "cpc": 2.02,
-        "cost_per_conversion": 12.41
+        "cost_per_conversion": 11.84
       },
       {
         "day": 16,
