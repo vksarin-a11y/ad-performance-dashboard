@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-22T04:21:11.793Z",
+  "updated_at": "2026-10-22T05:21:12.356Z",
   "metrics": {
-    "spend": 4423.11,
+    "spend": 4420.58,
     "impressions": 58848,
-    "clicks": 1230,
+    "clicks": 1227,
     "conversions": 164.48,
     "phone_calls": 4,
     "cpc": 3.6,
-    "cost_per_conversion": 26.89
+    "cost_per_conversion": 26.88
   },
   "previous_month": {
     "spend": 5792.76,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 38.36
   },
   "comparison_pct": {
-    "spend": -23.64,
+    "spend": -23.69,
     "impressions": -24.56,
-    "clicks": -21.81,
+    "clicks": -22,
     "conversions": 8.91,
     "phone_calls": -63.64
   },
@@ -69,13 +69,13 @@
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 518.82,
+      "spend": 516.28,
       "impressions": 24857,
-      "clicks": 404,
+      "clicks": 401,
       "conversions": 31,
       "phone_calls": 0,
-      "cpc": 1.28,
-      "cost_per_conversion": 16.74
+      "cpc": 1.29,
+      "cost_per_conversion": 16.65
     },
     {
       "name": "RB - Dental Emergency",
@@ -132,33 +132,33 @@
       },
       {
         "day": 3,
-        "spend": 129.21,
+        "spend": 128.46,
         "impressions": 1263,
-        "clicks": 31,
+        "clicks": 30,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 4.17,
-        "cost_per_conversion": 129.21
+        "cpc": 4.28,
+        "cost_per_conversion": 128.46
       },
       {
         "day": 5,
-        "spend": 211.02,
+        "spend": 209.84,
         "impressions": 2365,
-        "clicks": 43,
+        "clicks": 42,
         "conversions": 5,
         "phone_calls": 0,
-        "cpc": 4.91,
-        "cost_per_conversion": 42.2
+        "cpc": 5,
+        "cost_per_conversion": 41.97
       },
       {
         "day": 6,
-        "spend": 370.84,
+        "spend": 370.24,
         "impressions": 3360,
-        "clicks": 77,
+        "clicks": 76,
         "conversions": 5,
         "phone_calls": 0,
-        "cpc": 4.82,
-        "cost_per_conversion": 74.17
+        "cpc": 4.87,
+        "cost_per_conversion": 74.05
       },
       {
         "day": 7,
