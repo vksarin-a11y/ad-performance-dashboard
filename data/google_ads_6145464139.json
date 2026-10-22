@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-22T12:04:07.975Z",
+  "updated_at": "2026-10-22T13:04:08.643Z",
   "metrics": {
-    "spend": 1574.12,
-    "impressions": 10994,
+    "spend": 1574.1,
+    "impressions": 10993,
     "clicks": 587,
     "conversions": 70.11,
     "phone_calls": 0,
@@ -39,8 +39,8 @@
   "campaigns": [
     {
       "name": "AICG | P.Max | Combined",
-      "spend": 735.56,
-      "impressions": 4979,
+      "spend": 735.54,
+      "impressions": 4978,
       "clicks": 205,
       "conversions": 7,
       "phone_calls": 0,
@@ -282,13 +282,13 @@
       },
       {
         "day": 20,
-        "spend": 46.21,
-        "impressions": 448,
+        "spend": 46.19,
+        "impressions": 447,
         "clicks": 31,
         "conversions": 7.46,
         "phone_calls": 0,
         "cpc": 1.49,
-        "cost_per_conversion": 6.2
+        "cost_per_conversion": 6.19
       },
       {
         "day": 21,
