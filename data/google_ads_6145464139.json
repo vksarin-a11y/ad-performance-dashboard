@@ -9,30 +9,30 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-22T11:04:09.421Z",
+  "updated_at": "2026-10-22T12:04:07.975Z",
   "metrics": {
     "spend": 1574.12,
-    "impressions": 10995,
+    "impressions": 10994,
     "clicks": 587,
-    "conversions": 69.65,
+    "conversions": 70.11,
     "phone_calls": 0,
     "cpc": 2.68,
-    "cost_per_conversion": 22.6
+    "cost_per_conversion": 22.45
   },
   "previous_month": {
     "spend": 2688.2,
     "impressions": 16287,
     "clicks": 834,
-    "conversions": 128.85,
+    "conversions": 131.39,
     "phone_calls": 2,
     "cpc": 3.22,
-    "cost_per_conversion": 20.86
+    "cost_per_conversion": 20.46
   },
   "comparison_pct": {
     "spend": -41.44,
-    "impressions": -32.49,
+    "impressions": -32.5,
     "clicks": -29.62,
-    "conversions": -45.94,
+    "conversions": -46.64,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -40,7 +40,7 @@
     {
       "name": "AICG | P.Max | Combined",
       "spend": 735.56,
-      "impressions": 4980,
+      "impressions": 4979,
       "clicks": 205,
       "conversions": 7,
       "phone_calls": 0,
@@ -52,10 +52,10 @@
       "spend": 323.92,
       "impressions": 653,
       "clicks": 200,
-      "conversions": 58.64,
+      "conversions": 59.1,
       "phone_calls": 0,
       "cpc": 1.62,
-      "cost_per_conversion": 5.52
+      "cost_per_conversion": 5.48
     },
     {
       "name": "AICG | Search | Education & Membership",
@@ -283,12 +283,12 @@
       {
         "day": 20,
         "spend": 46.21,
-        "impressions": 449,
+        "impressions": 448,
         "clicks": 31,
-        "conversions": 7,
+        "conversions": 7.46,
         "phone_calls": 0,
         "cpc": 1.49,
-        "cost_per_conversion": 6.6
+        "cost_per_conversion": 6.2
       },
       {
         "day": 21,
@@ -397,10 +397,10 @@
         "spend": 137.82,
         "impressions": 1981,
         "clicks": 35,
-        "conversions": 13,
+        "conversions": 15.54,
         "phone_calls": 0,
         "cpc": 3.94,
-        "cost_per_conversion": 10.6
+        "cost_per_conversion": 8.87
       },
       {
         "day": 11,
