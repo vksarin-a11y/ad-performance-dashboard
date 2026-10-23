@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-23T19:32:20.966Z",
+  "updated_at": "2026-10-23T20:32:20.023Z",
   "metrics": {
     "spend": 15269.94,
-    "impressions": 53194,
+    "impressions": 53193,
     "clicks": 3673,
     "conversions": 279.68,
     "phone_calls": 0,
@@ -60,7 +60,7 @@
     {
       "name": "RSA | Search",
       "spend": 2494.45,
-      "impressions": 6384,
+      "impressions": 6383,
       "clicks": 671,
       "conversions": 38.31,
       "phone_calls": 0,
@@ -283,7 +283,7 @@
       {
         "day": 17,
         "spend": 505.7,
-        "impressions": 2038,
+        "impressions": 2037,
         "clicks": 135,
         "conversions": 11.65,
         "phone_calls": 0,
