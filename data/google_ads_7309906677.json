@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-24T21:20:44.232Z",
+  "updated_at": "2026-10-24T22:20:43.572Z",
   "metrics": {
     "spend": 8081.14,
-    "impressions": 112410,
+    "impressions": 112402,
     "clicks": 3574,
     "conversions": 356,
     "phone_calls": 0,
@@ -40,7 +40,7 @@
     {
       "name": "PMax - Smart Shopping - Denmark",
       "spend": 3880.82,
-      "impressions": 38328,
+      "impressions": 38323,
       "clicks": 1492,
       "conversions": 166,
       "phone_calls": 0,
@@ -60,7 +60,7 @@
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
       "spend": 1049.67,
-      "impressions": 16111,
+      "impressions": 16108,
       "clicks": 208,
       "conversions": 22,
       "phone_calls": 0,
@@ -293,7 +293,7 @@
       {
         "day": 18,
         "spend": 373.01,
-        "impressions": 5228,
+        "impressions": 5220,
         "clicks": 163,
         "conversions": 23,
         "phone_calls": 0,
