@@ -9,7 +9,7 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-27T08:21:13.038Z",
+  "updated_at": "2026-10-27T09:21:12.528Z",
   "metrics": {
     "spend": 5198.72,
     "impressions": 71953,
@@ -75,7 +75,7 @@
       "conversions": 38,
       "phone_calls": 0,
       "cpc": 1.25,
-      "cost_per_conversion": 16.16
+      "cost_per_conversion": 16.15
     },
     {
       "name": "RB - Dental Emergency",
