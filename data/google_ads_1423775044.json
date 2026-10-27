@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-27T12:21:12.161Z",
+  "updated_at": "2026-10-27T13:21:13.673Z",
   "metrics": {
     "spend": 5198.72,
-    "impressions": 71951,
+    "impressions": 71950,
     "clicks": 1452,
-    "conversions": 190.98,
+    "conversions": 191.98,
     "phone_calls": 7,
     "cpc": 3.58,
-    "cost_per_conversion": 27.22
+    "cost_per_conversion": 27.08
   },
   "previous_month": {
     "spend": 5792.76,
@@ -30,9 +30,9 @@
   },
   "comparison_pct": {
     "spend": -10.25,
-    "impressions": -7.76,
+    "impressions": -7.77,
     "clicks": -7.69,
-    "conversions": 26.46,
+    "conversions": 27.12,
     "phone_calls": -36.36
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -42,10 +42,10 @@
       "spend": 1555.11,
       "impressions": 24021,
       "clicks": 529,
-      "conversions": 44.98,
+      "conversions": 45.98,
       "phone_calls": 0,
       "cpc": 2.94,
-      "cost_per_conversion": 34.57
+      "cost_per_conversion": 33.82
     },
     {
       "name": "RB - General Dentistry",
@@ -60,7 +60,7 @@
     {
       "name": "P.Max - Invisalign (Update)",
       "spend": 706.14,
-      "impressions": 13721,
+      "impressions": 13720,
       "clicks": 235,
       "conversions": 45,
       "phone_calls": 0,
@@ -125,10 +125,10 @@
         "spend": 256.43,
         "impressions": 1713,
         "clicks": 39,
-        "conversions": 8,
+        "conversions": 9,
         "phone_calls": 0,
         "cpc": 6.58,
-        "cost_per_conversion": 32.05
+        "cost_per_conversion": 28.49
       },
       {
         "day": 3,
@@ -323,7 +323,7 @@
       {
         "day": 26,
         "spend": 266.11,
-        "impressions": 3151,
+        "impressions": 3150,
         "clicks": 49,
         "conversions": 6,
         "phone_calls": 2,
