@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-27T05:32:21.300Z",
+  "updated_at": "2026-10-27T06:32:19.012Z",
   "metrics": {
     "spend": 18027.76,
     "impressions": 62053,
     "clicks": 4383,
-    "conversions": 319.39,
+    "conversions": 318.98,
     "phone_calls": 0,
     "cpc": 4.11,
-    "cost_per_conversion": 56.44
+    "cost_per_conversion": 56.52
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": -7.04,
     "impressions": -54.42,
     "clicks": -12.15,
-    "conversions": -24.98,
+    "conversions": -25.07,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 4344.79,
       "impressions": 24293,
       "clicks": 1231,
-      "conversions": 82.82,
+      "conversions": 82.77,
       "phone_calls": 0,
       "cpc": 3.53,
-      "cost_per_conversion": 52.46
+      "cost_per_conversion": 52.49
     },
     {
       "name": "RSA | Performance Max",
@@ -72,10 +72,10 @@
       "spend": 2918.43,
       "impressions": 9075,
       "clicks": 557,
-      "conversions": 46.19,
+      "conversions": 45.83,
       "phone_calls": 0,
       "cpc": 5.24,
-      "cost_per_conversion": 63.18
+      "cost_per_conversion": 63.68
     },
     {
       "name": "RCG | Search",
@@ -185,10 +185,10 @@
         "spend": 617.42,
         "impressions": 2897,
         "clicks": 161,
-        "conversions": 17.99,
+        "conversions": 17.94,
         "phone_calls": 0,
         "cpc": 3.83,
-        "cost_per_conversion": 34.33
+        "cost_per_conversion": 34.42
       },
       {
         "day": 8,
@@ -365,10 +365,10 @@
         "spend": 549.25,
         "impressions": 2493,
         "clicks": 146,
-        "conversions": 5.73,
+        "conversions": 5.37,
         "phone_calls": 0,
         "cpc": 3.76,
-        "cost_per_conversion": 95.82
+        "cost_per_conversion": 102.35
       },
       {
         "day": 26,
