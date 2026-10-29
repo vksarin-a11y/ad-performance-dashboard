@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-29T11:20:22.601Z",
+  "updated_at": "2026-10-29T12:20:22.031Z",
   "metrics": {
     "spend": 1152.57,
-    "impressions": 67037,
+    "impressions": 67036,
     "clicks": 1089,
     "conversions": 56,
     "phone_calls": 0,
@@ -50,7 +50,7 @@
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
       "spend": 559.61,
-      "impressions": 42895,
+      "impressions": 42894,
       "clicks": 677,
       "conversions": 31,
       "phone_calls": 0,
@@ -243,7 +243,7 @@
       {
         "day": 27,
         "spend": 46.38,
-        "impressions": 4923,
+        "impressions": 4922,
         "clicks": 43,
         "conversions": 3,
         "phone_calls": 0,
