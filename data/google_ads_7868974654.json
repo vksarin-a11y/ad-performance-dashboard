@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-29T11:32:19.519Z",
+  "updated_at": "2026-10-29T12:32:19.417Z",
   "metrics": {
-    "spend": 19490.52,
-    "impressions": 67526,
+    "spend": 19490.49,
+    "impressions": 67525,
     "clicks": 4756,
     "conversions": 344.96,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": 0.5,
-    "impressions": -50.39,
+    "impressions": -50.4,
     "clicks": -4.67,
     "conversions": -19.35,
     "phone_calls": null
@@ -49,8 +49,8 @@
     },
     {
       "name": "RSA | Performance Max",
-      "spend": 3590.08,
-      "impressions": 11634,
+      "spend": 3590.05,
+      "impressions": 11633,
       "clicks": 920,
       "conversions": 50.3,
       "phone_calls": 0,
@@ -372,13 +372,13 @@
       },
       {
         "day": 25,
-        "spend": 549.25,
-        "impressions": 2493,
+        "spend": 549.22,
+        "impressions": 2492,
         "clicks": 146,
         "conversions": 6.37,
         "phone_calls": 0,
         "cpc": 3.76,
-        "cost_per_conversion": 86.28
+        "cost_per_conversion": 86.27
       },
       {
         "day": 26,
