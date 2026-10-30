@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-30T10:32:43.015Z",
+  "updated_at": "2026-10-30T11:32:43.585Z",
   "metrics": {
     "spend": 2379.79,
     "impressions": 4667,
     "clicks": 419,
-    "conversions": 134,
+    "conversions": 135,
     "phone_calls": 6,
     "cpc": 5.68,
-    "cost_per_conversion": 17.76
+    "cost_per_conversion": 17.63
   },
   "previous_month": {
     "spend": 2507.72,
@@ -32,7 +32,7 @@
     "spend": -5.1,
     "impressions": -11.86,
     "clicks": -4.34,
-    "conversions": -2.19,
+    "conversions": -1.46,
     "phone_calls": 20
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -42,10 +42,10 @@
       "spend": 1434.93,
       "impressions": 2006,
       "clicks": 220,
-      "conversions": 91,
+      "conversions": 92,
       "phone_calls": 3,
       "cpc": 6.52,
-      "cost_per_conversion": 15.77
+      "cost_per_conversion": 15.6
     },
     {
       "name": "2025-RB | Veneers",
@@ -475,10 +475,10 @@
         "spend": 78.05,
         "impressions": 173,
         "clicks": 15,
-        "conversions": 5,
+        "conversions": 6,
         "phone_calls": 1,
         "cpc": 5.2,
-        "cost_per_conversion": 15.61
+        "cost_per_conversion": 13.01
       },
       {
         "day": 28,
