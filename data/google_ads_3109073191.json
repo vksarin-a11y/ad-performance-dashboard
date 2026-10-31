@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261029",
+    "mtd_end": "20261030",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-31T03:57:01.444Z",
+  "updated_at": "2026-10-31T04:57:00.473Z",
   "metrics": {
-    "spend": 1922.79,
-    "impressions": 6937,
-    "clicks": 274,
-    "conversions": 24,
+    "spend": 1986.73,
+    "impressions": 7005,
+    "clicks": 280,
+    "conversions": 26,
     "phone_calls": 5,
-    "cpc": 7.02,
-    "cost_per_conversion": 80.12
+    "cpc": 7.1,
+    "cost_per_conversion": 76.41
   },
   "previous_month": {
     "spend": 1995.26,
@@ -29,23 +29,23 @@
     "cost_per_conversion": 62.35
   },
   "comparison_pct": {
-    "spend": -3.63,
-    "impressions": -66.38,
-    "clicks": -40.43,
-    "conversions": -25,
+    "spend": -0.43,
+    "impressions": -66.05,
+    "clicks": -39.13,
+    "conversions": -18.75,
     "phone_calls": -50
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
       "name": "RB - Search | General Dentistry",
-      "spend": 1102.43,
-      "impressions": 2316,
-      "clicks": 119,
+      "spend": 1149.35,
+      "impressions": 2343,
+      "clicks": 123,
       "conversions": 11,
       "phone_calls": 5,
-      "cpc": 9.26,
-      "cost_per_conversion": 100.22
+      "cpc": 9.34,
+      "cost_per_conversion": 104.49
     },
     {
       "name": "RB - Search | Emergency Dentistry",
@@ -59,18 +59,18 @@
     },
     {
       "name": "RB - Pmax | General Dentistry",
-      "spend": 330.12,
-      "impressions": 3516,
-      "clicks": 96,
-      "conversions": 10,
+      "spend": 347.13,
+      "impressions": 3555,
+      "clicks": 98,
+      "conversions": 12,
       "phone_calls": 0,
-      "cpc": 3.44,
-      "cost_per_conversion": 33.01
+      "cpc": 3.54,
+      "cost_per_conversion": 28.93
     },
     {
       "name": "RB - Search | Emergency Dentistry Target CPA (New)",
       "spend": 96.47,
-      "impressions": 264,
+      "impressions": 266,
       "clicks": 13,
       "conversions": 1,
       "phone_calls": 0,
@@ -289,6 +289,16 @@
         "phone_calls": 0,
         "cpc": 3.22,
         "cost_per_conversion": 0
+      },
+      {
+        "day": 30,
+        "spend": 63.94,
+        "impressions": 68,
+        "clicks": 6,
+        "conversions": 2,
+        "phone_calls": 0,
+        "cpc": 10.66,
+        "cost_per_conversion": 31.97
       }
     ],
     "last_month": [
