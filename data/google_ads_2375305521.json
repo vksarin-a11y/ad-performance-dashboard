@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261001",
-    "mtd_end": "20261029",
+    "mtd_end": "20261030",
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-31T03:20:22.461Z",
+  "updated_at": "2026-10-31T04:20:21.305Z",
   "metrics": {
-    "spend": 1181.46,
-    "impressions": 69303,
-    "clicks": 1132,
+    "spend": 1202.52,
+    "impressions": 70773,
+    "clicks": 1158,
     "conversions": 57,
     "phone_calls": 0,
     "cpc": 1.04,
-    "cost_per_conversion": 20.73
+    "cost_per_conversion": 21.1
   },
   "previous_month": {
     "spend": 1343.15,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 18.4
   },
   "comparison_pct": {
-    "spend": -12.04,
-    "impressions": 78.66,
-    "clicks": 57.66,
+    "spend": -10.47,
+    "impressions": 82.45,
+    "clicks": 61.28,
     "conversions": -21.92,
     "phone_calls": null
   },
@@ -39,23 +39,23 @@
   "campaigns": [
     {
       "name": "P.Max - Mississauga",
-      "spend": 606.91,
-      "impressions": 25458,
-      "clicks": 426,
+      "spend": 616.96,
+      "impressions": 26721,
+      "clicks": 445,
       "conversions": 25,
       "phone_calls": 0,
-      "cpc": 1.42,
-      "cost_per_conversion": 24.28
+      "cpc": 1.39,
+      "cost_per_conversion": 24.68
     },
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 574.55,
-      "impressions": 43845,
-      "clicks": 706,
+      "spend": 585.56,
+      "impressions": 44052,
+      "clicks": 713,
       "conversions": 32,
       "phone_calls": 0,
-      "cpc": 0.81,
-      "cost_per_conversion": 17.95
+      "cpc": 0.82,
+      "cost_per_conversion": 18.3
     }
   ],
   "daily": {
@@ -269,6 +269,16 @@
         "phone_calls": 0,
         "cpc": 0.7,
         "cost_per_conversion": 31.3
+      },
+      {
+        "day": 30,
+        "spend": 21.06,
+        "impressions": 1470,
+        "clicks": 26,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 0.81,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
