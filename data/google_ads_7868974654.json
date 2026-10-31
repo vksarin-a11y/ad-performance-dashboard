@@ -9,15 +9,15 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-10-31T10:32:19.013Z",
+  "updated_at": "2026-10-31T11:32:19.707Z",
   "metrics": {
     "spend": 20793.19,
-    "impressions": 73930,
+    "impressions": 73929,
     "clicks": 5116,
-    "conversions": 366.6,
+    "conversions": 367.1,
     "phone_calls": 0,
     "cpc": 4.06,
-    "cost_per_conversion": 56.72
+    "cost_per_conversion": 56.64
   },
   "previous_month": {
     "spend": 19393.47,
@@ -32,7 +32,7 @@
     "spend": 7.22,
     "impressions": -45.69,
     "clicks": 2.55,
-    "conversions": -14.41,
+    "conversions": -14.3,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -52,10 +52,10 @@
       "spend": 3816.06,
       "impressions": 12518,
       "clicks": 990,
-      "conversions": 54.13,
+      "conversions": 54.63,
       "phone_calls": 0,
       "cpc": 3.85,
-      "cost_per_conversion": 70.49
+      "cost_per_conversion": 69.85
     },
     {
       "name": "RSA | Search",
@@ -90,7 +90,7 @@
     {
       "name": "ARCG  | Performance Max",
       "spend": 997.24,
-      "impressions": 3714,
+      "impressions": 3713,
       "clicks": 206,
       "conversions": 19.89,
       "phone_calls": 0,
@@ -195,10 +195,10 @@
         "spend": 617.42,
         "impressions": 2897,
         "clicks": 161,
-        "conversions": 18.94,
+        "conversions": 19.44,
         "phone_calls": 0,
         "cpc": 3.83,
-        "cost_per_conversion": 32.6
+        "cost_per_conversion": 31.76
       },
       {
         "day": 8,
@@ -353,7 +353,7 @@
       {
         "day": 23,
         "spend": 718.35,
-        "impressions": 1944,
+        "impressions": 1943,
         "clicks": 170,
         "conversions": 10.85,
         "phone_calls": 0,
