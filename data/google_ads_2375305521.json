@@ -9,7 +9,7 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-01T07:20:20.809Z",
+  "updated_at": "2026-11-01T08:20:20.399Z",
   "metrics": {
     "spend": 0,
     "impressions": 0,
@@ -20,13 +20,13 @@
     "cost_per_conversion": 0
   },
   "previous_month": {
-    "spend": 1201.75,
+    "spend": 1200.99,
     "impressions": 70772,
-    "clicks": 1151,
+    "clicks": 1150,
     "conversions": 57,
     "phone_calls": 0,
     "cpc": 1.04,
-    "cost_per_conversion": 21.08
+    "cost_per_conversion": 21.07
   },
   "comparison_pct": {
     "spend": -100,
@@ -252,9 +252,9 @@
       },
       {
         "day": 30,
-        "spend": 21.06,
+        "spend": 20.3,
         "impressions": 1471,
-        "clicks": 26,
+        "clicks": 25,
         "conversions": 0,
         "phone_calls": 0,
         "cpc": 0.81,
