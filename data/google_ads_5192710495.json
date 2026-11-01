@@ -4,13 +4,22 @@
   "account_manager": "Bank",
   "platform": "google_ads",
   "period": {
-    "mtd_start": "20261001",
-    "mtd_end": "20261030",
-    "prev_month_start": "20260901",
-    "prev_month_end": "20260930"
+    "mtd_start": "20261101",
+    "mtd_end": "20261031",
+    "prev_month_start": "20261001",
+    "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-01T03:02:48.237Z",
+  "updated_at": "2026-11-01T04:02:47.684Z",
   "metrics": {
+    "spend": 0,
+    "impressions": 0,
+    "clicks": 0,
+    "conversions": 0,
+    "phone_calls": 0,
+    "cpc": 0,
+    "cost_per_conversion": 0
+  },
+  "previous_month": {
     "spend": 1509.76,
     "impressions": 12068,
     "clicks": 363,
@@ -19,67 +28,18 @@
     "cpc": 4.16,
     "cost_per_conversion": 30.2
   },
-  "previous_month": {
-    "spend": 1509.41,
-    "impressions": 9104,
-    "clicks": 333,
-    "conversions": 78,
-    "phone_calls": 5,
-    "cpc": 4.53,
-    "cost_per_conversion": 19.35
-  },
   "comparison_pct": {
-    "spend": 0.02,
-    "impressions": 32.56,
-    "clicks": 9.01,
-    "conversions": -35.9,
-    "phone_calls": -100
+    "spend": -100,
+    "impressions": -100,
+    "clicks": -100,
+    "conversions": -100,
+    "phone_calls": null
   },
-  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
-  "campaigns": [
-    {
-      "name": "RB - PMax | General Dentistry",
-      "spend": 626.89,
-      "impressions": 3897,
-      "clicks": 116,
-      "conversions": 27,
-      "phone_calls": 0,
-      "cpc": 5.4,
-      "cost_per_conversion": 23.22
-    },
-    {
-      "name": "RB - Brand & General Dentistry",
-      "spend": 556.03,
-      "impressions": 1177,
-      "clicks": 95,
-      "conversions": 20,
-      "phone_calls": 0,
-      "cpc": 5.85,
-      "cost_per_conversion": 27.8
-    },
-    {
-      "name": "RB - PMax | Services",
-      "spend": 187.12,
-      "impressions": 2043,
-      "clicks": 56,
-      "conversions": 3,
-      "phone_calls": 0,
-      "cpc": 3.34,
-      "cost_per_conversion": 62.37
-    },
-    {
-      "name": "RB - PMax | Kids Dentistry",
-      "spend": 139.72,
-      "impressions": 4951,
-      "clicks": 96,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 1.46,
-      "cost_per_conversion": 0
-    }
-  ],
+  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
+  "campaigns": [],
   "daily": {
-    "this_month": [
+    "this_month": [],
+    "last_month": [
       {
         "day": 1,
         "spend": 80.84,
@@ -301,229 +261,7 @@
         "cost_per_conversion": 0
       }
     ],
-    "last_month": [
-      {
-        "day": 1,
-        "spend": 51.82,
-        "impressions": 350,
-        "clicks": 14,
-        "conversions": 1,
-        "phone_calls": 0,
-        "cpc": 3.7,
-        "cost_per_conversion": 51.82
-      },
-      {
-        "day": 2,
-        "spend": 74.65,
-        "impressions": 320,
-        "clicks": 13,
-        "conversions": 3,
-        "phone_calls": 0,
-        "cpc": 5.74,
-        "cost_per_conversion": 24.88
-      },
-      {
-        "day": 3,
-        "spend": 117.07,
-        "impressions": 333,
-        "clicks": 20,
-        "conversions": 5,
-        "phone_calls": 0,
-        "cpc": 5.85,
-        "cost_per_conversion": 23.41
-      },
-      {
-        "day": 4,
-        "spend": 71.01,
-        "impressions": 286,
-        "clicks": 13,
-        "conversions": 4,
-        "phone_calls": 0,
-        "cpc": 5.46,
-        "cost_per_conversion": 17.75
-      },
-      {
-        "day": 7,
-        "spend": 88.19,
-        "impressions": 586,
-        "clicks": 21,
-        "conversions": 4,
-        "phone_calls": 0,
-        "cpc": 4.2,
-        "cost_per_conversion": 22.05
-      },
-      {
-        "day": 8,
-        "spend": 68.72,
-        "impressions": 682,
-        "clicks": 17,
-        "conversions": 2,
-        "phone_calls": 1,
-        "cpc": 4.04,
-        "cost_per_conversion": 34.36
-      },
-      {
-        "day": 9,
-        "spend": 96.37,
-        "impressions": 1062,
-        "clicks": 29,
-        "conversions": 3,
-        "phone_calls": 0,
-        "cpc": 3.32,
-        "cost_per_conversion": 32.12
-      },
-      {
-        "day": 10,
-        "spend": 72.46,
-        "impressions": 354,
-        "clicks": 17,
-        "conversions": 2,
-        "phone_calls": 0,
-        "cpc": 4.26,
-        "cost_per_conversion": 36.23
-      },
-      {
-        "day": 11,
-        "spend": 75.14,
-        "impressions": 680,
-        "clicks": 15,
-        "conversions": 2,
-        "phone_calls": 0,
-        "cpc": 5.01,
-        "cost_per_conversion": 37.57
-      },
-      {
-        "day": 14,
-        "spend": 84.39,
-        "impressions": 339,
-        "clicks": 14,
-        "conversions": 2,
-        "phone_calls": 0,
-        "cpc": 6.03,
-        "cost_per_conversion": 42.2
-      },
-      {
-        "day": 15,
-        "spend": 52,
-        "impressions": 167,
-        "clicks": 15,
-        "conversions": 6,
-        "phone_calls": 0,
-        "cpc": 3.47,
-        "cost_per_conversion": 8.67
-      },
-      {
-        "day": 16,
-        "spend": 107.37,
-        "impressions": 369,
-        "clicks": 17,
-        "conversions": 4,
-        "phone_calls": 0,
-        "cpc": 6.32,
-        "cost_per_conversion": 26.84
-      },
-      {
-        "day": 17,
-        "spend": 56.69,
-        "impressions": 420,
-        "clicks": 20,
-        "conversions": 6,
-        "phone_calls": 1,
-        "cpc": 2.83,
-        "cost_per_conversion": 9.45
-      },
-      {
-        "day": 18,
-        "spend": 59.81,
-        "impressions": 519,
-        "clicks": 18,
-        "conversions": 4,
-        "phone_calls": 0,
-        "cpc": 3.32,
-        "cost_per_conversion": 14.95
-      },
-      {
-        "day": 21,
-        "spend": 95.97,
-        "impressions": 312,
-        "clicks": 12,
-        "conversions": 6,
-        "phone_calls": 2,
-        "cpc": 8,
-        "cost_per_conversion": 15.99
-      },
-      {
-        "day": 22,
-        "spend": 75.78,
-        "impressions": 646,
-        "clicks": 19,
-        "conversions": 6,
-        "phone_calls": 1,
-        "cpc": 3.99,
-        "cost_per_conversion": 12.63
-      },
-      {
-        "day": 23,
-        "spend": 49.18,
-        "impressions": 444,
-        "clicks": 9,
-        "conversions": 1,
-        "phone_calls": 0,
-        "cpc": 5.46,
-        "cost_per_conversion": 49.18
-      },
-      {
-        "day": 24,
-        "spend": 51.96,
-        "impressions": 276,
-        "clicks": 12,
-        "conversions": 4,
-        "phone_calls": 0,
-        "cpc": 4.33,
-        "cost_per_conversion": 12.99
-      },
-      {
-        "day": 25,
-        "spend": 43.44,
-        "impressions": 298,
-        "clicks": 8,
-        "conversions": 3,
-        "phone_calls": 0,
-        "cpc": 5.43,
-        "cost_per_conversion": 14.48
-      },
-      {
-        "day": 28,
-        "spend": 54.37,
-        "impressions": 273,
-        "clicks": 13,
-        "conversions": 2,
-        "phone_calls": 0,
-        "cpc": 4.18,
-        "cost_per_conversion": 27.19
-      },
-      {
-        "day": 29,
-        "spend": 27.91,
-        "impressions": 166,
-        "clicks": 8,
-        "conversions": 3,
-        "phone_calls": 0,
-        "cpc": 3.49,
-        "cost_per_conversion": 9.3
-      },
-      {
-        "day": 30,
-        "spend": 35.11,
-        "impressions": 222,
-        "clicks": 9,
-        "conversions": 5,
-        "phone_calls": 0,
-        "cpc": 3.9,
-        "cost_per_conversion": 7.02
-      }
-    ],
     "mtd_phone_calls": 0,
-    "prev_month_phone_calls": 5
+    "prev_month_phone_calls": 0
   }
 }
