@@ -9,10 +9,10 @@
     "prev_month_start": "20260901",
     "prev_month_end": "20260930"
   },
-  "updated_at": "2026-11-01T02:32:18.962Z",
+  "updated_at": "2026-11-01T03:32:19.301Z",
   "metrics": {
     "spend": 20793.19,
-    "impressions": 73924,
+    "impressions": 73921,
     "clicks": 5116,
     "conversions": 369.61,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": 7.22,
-    "impressions": -45.69,
+    "impressions": -45.7,
     "clicks": 2.55,
     "conversions": -13.71,
     "phone_calls": null
@@ -50,7 +50,7 @@
     {
       "name": "RSA | Performance Max",
       "spend": 3816.06,
-      "impressions": 12517,
+      "impressions": 12516,
       "clicks": 990,
       "conversions": 55.24,
       "phone_calls": 0,
@@ -70,7 +70,7 @@
     {
       "name": "RCG | Performance Max",
       "spend": 3441.18,
-      "impressions": 10906,
+      "impressions": 10905,
       "clicks": 656,
       "conversions": 56.8,
       "phone_calls": 0,
@@ -80,7 +80,7 @@
     {
       "name": "RCG | Search",
       "spend": 3065.24,
-      "impressions": 4539,
+      "impressions": 4538,
       "clicks": 533,
       "conversions": 63.81,
       "phone_calls": 0,
@@ -413,7 +413,7 @@
       {
         "day": 29,
         "spend": 709.82,
-        "impressions": 2729,
+        "impressions": 2727,
         "clicks": 171,
         "conversions": 9.66,
         "phone_calls": 0,
@@ -423,7 +423,7 @@
       {
         "day": 30,
         "spend": 592.97,
-        "impressions": 3673,
+        "impressions": 3672,
         "clicks": 191,
         "conversions": 7.8,
         "phone_calls": 0,
