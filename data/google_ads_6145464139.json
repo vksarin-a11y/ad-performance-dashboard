@@ -5,18 +5,18 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261031",
+    "mtd_end": "20261101",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-02T04:04:07.804Z",
+  "updated_at": "2026-11-02T05:04:08.143Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
+    "spend": 133.05,
+    "impressions": 714,
+    "clicks": 35,
     "conversions": 0,
     "phone_calls": 0,
-    "cpc": 0,
+    "cpc": 3.8,
     "cost_per_conversion": 0
   },
   "previous_month": {
@@ -29,16 +29,68 @@
     "cost_per_conversion": 25.17
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
+    "spend": -94.67,
+    "impressions": -96.71,
+    "clicks": -96.27,
     "conversions": -100,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "campaigns": [
+    {
+      "name": "AICG | P.Max | Combined",
+      "spend": 66.46,
+      "impressions": 566,
+      "clicks": 21,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 3.16,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "AICG | Search | Branded",
+      "spend": 32.1,
+      "impressions": 17,
+      "clicks": 6,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 5.35,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "AICG | Search | Education & Membership",
+      "spend": 29.77,
+      "impressions": 79,
+      "clicks": 6,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 4.96,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "AICG | Search | What is Clinical Governance",
+      "spend": 4.72,
+      "impressions": 52,
+      "clicks": 2,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 2.36,
+      "cost_per_conversion": 0
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 1,
+        "spend": 133.05,
+        "impressions": 714,
+        "clicks": 35,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 3.8,
+        "cost_per_conversion": 0
+      }
+    ],
     "last_month": [
       {
         "day": 1,
