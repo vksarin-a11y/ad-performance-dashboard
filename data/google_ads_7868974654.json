@@ -9,30 +9,30 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-03T12:32:19.918Z",
+  "updated_at": "2026-11-03T13:32:19.556Z",
   "metrics": {
     "spend": 1583.5,
     "impressions": 7357,
     "clicks": 428,
-    "conversions": 32.74,
+    "conversions": 33.37,
     "phone_calls": 0,
     "cpc": 3.7,
-    "cost_per_conversion": 48.37
+    "cost_per_conversion": 47.45
   },
   "previous_month": {
     "spend": 21221.55,
     "impressions": 77091,
     "clicks": 5254,
-    "conversions": 390.83,
+    "conversions": 392.2,
     "phone_calls": 0,
     "cpc": 4.04,
-    "cost_per_conversion": 54.3
+    "cost_per_conversion": 54.11
   },
   "comparison_pct": {
     "spend": -92.54,
     "impressions": -90.46,
     "clicks": -91.85,
-    "conversions": -91.62,
+    "conversions": -91.49,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -82,10 +82,10 @@
       "spend": 221.61,
       "impressions": 292,
       "clicks": 33,
-      "conversions": 4.43,
+      "conversions": 5.06,
       "phone_calls": 0,
       "cpc": 6.72,
-      "cost_per_conversion": 50.01
+      "cost_per_conversion": 43.79
     },
     {
       "name": "ARCG  | Performance Max",
@@ -135,10 +135,10 @@
         "spend": 959.04,
         "impressions": 3840,
         "clicks": 265,
-        "conversions": 21.1,
+        "conversions": 21.73,
         "phone_calls": 0,
         "cpc": 3.62,
-        "cost_per_conversion": 45.46
+        "cost_per_conversion": 44.14
       }
     ],
     "last_month": [
@@ -267,10 +267,10 @@
         "spend": 882.66,
         "impressions": 2348,
         "clicks": 195,
-        "conversions": 21.91,
+        "conversions": 22.28,
         "phone_calls": 0,
         "cpc": 4.53,
-        "cost_per_conversion": 40.28
+        "cost_per_conversion": 39.61
       },
       {
         "day": 14,
@@ -417,10 +417,10 @@
         "spend": 651.75,
         "impressions": 2944,
         "clicks": 185,
-        "conversions": 10.81,
+        "conversions": 11.81,
         "phone_calls": 0,
         "cpc": 3.52,
-        "cost_per_conversion": 60.29
+        "cost_per_conversion": 55.19
       },
       {
         "day": 29,
