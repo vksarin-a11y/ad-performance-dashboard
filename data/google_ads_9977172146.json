@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261101",
+    "mtd_end": "20261102",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-03T04:44:25.438Z",
+  "updated_at": "2026-11-03T05:44:25.027Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "conversions": 0,
+    "spend": 230.84,
+    "impressions": 379,
+    "clicks": 56,
+    "conversions": 5,
     "phone_calls": 0,
-    "cpc": 0,
-    "cost_per_conversion": 0
+    "cpc": 4.12,
+    "cost_per_conversion": 46.17
   },
   "previous_month": {
     "spend": 3506.7,
@@ -29,16 +29,68 @@
     "cost_per_conversion": 40.78
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
-    "conversions": -100,
+    "spend": -93.42,
+    "impressions": -93.64,
+    "clicks": -93.87,
+    "conversions": -94.19,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "campaigns": [
+    {
+      "name": "RB - Search l Dental Location (New)",
+      "spend": 81.92,
+      "impressions": 174,
+      "clicks": 9,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 9.1,
+      "cost_per_conversion": 81.92
+    },
+    {
+      "name": "RB - Search l Dental Check Up & Clean",
+      "spend": 76.49,
+      "impressions": 96,
+      "clicks": 13,
+      "conversions": 3,
+      "phone_calls": 0,
+      "cpc": 5.88,
+      "cost_per_conversion": 25.5
+    },
+    {
+      "name": "RB - Search l Dental Implants (10Aug)",
+      "spend": 48.4,
+      "impressions": 37,
+      "clicks": 17,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 2.85,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB -  Search l Dental Crowns (OLD)",
+      "spend": 24.02,
+      "impressions": 72,
+      "clicks": 17,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 1.41,
+      "cost_per_conversion": 24.02
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 2,
+        "spend": 230.84,
+        "impressions": 379,
+        "clicks": 56,
+        "conversions": 5,
+        "phone_calls": 0,
+        "cpc": 4.12,
+        "cost_per_conversion": 46.17
+      }
+    ],
     "last_month": [
       {
         "day": 1,
