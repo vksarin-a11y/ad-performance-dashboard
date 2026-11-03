@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261101",
+    "mtd_end": "20261102",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-03T04:02:47.674Z",
+  "updated_at": "2026-11-03T05:02:48.427Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "conversions": 0,
+    "spend": 45.14,
+    "impressions": 191,
+    "clicks": 13,
+    "conversions": 1,
     "phone_calls": 0,
-    "cpc": 0,
-    "cost_per_conversion": 0
+    "cpc": 3.47,
+    "cost_per_conversion": 45.14
   },
   "previous_month": {
     "spend": 1509.76,
@@ -29,16 +29,68 @@
     "cost_per_conversion": 30.2
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
-    "conversions": -100,
+    "spend": -97.01,
+    "impressions": -98.42,
+    "clicks": -96.42,
+    "conversions": -98,
     "phone_calls": null
   },
-  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
+  "campaigns": [
+    {
+      "name": "RB - Brand & General Dentistry",
+      "spend": 37.04,
+      "impressions": 41,
+      "clicks": 9,
+      "conversions": 1,
+      "phone_calls": 0,
+      "cpc": 4.12,
+      "cost_per_conversion": 37.04
+    },
+    {
+      "name": "RB - PMax | Services",
+      "spend": 8.1,
+      "impressions": 121,
+      "clicks": 4,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 2.03,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB - PMax | General Dentistry",
+      "spend": 0,
+      "impressions": 28,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB - PMax | Kids Dentistry",
+      "spend": 0,
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 0,
+      "cost_per_conversion": 0
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 2,
+        "spend": 45.14,
+        "impressions": 191,
+        "clicks": 13,
+        "conversions": 1,
+        "phone_calls": 0,
+        "cpc": 3.47,
+        "cost_per_conversion": 45.14
+      }
+    ],
     "last_month": [
       {
         "day": 1,
