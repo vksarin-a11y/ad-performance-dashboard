@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261101",
+    "mtd_end": "20261102",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-03T04:21:12.453Z",
+  "updated_at": "2026-11-03T05:21:12.286Z",
   "metrics": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "conversions": 0,
+    "spend": 166.28,
+    "impressions": 3159,
+    "clicks": 64,
+    "conversions": 5,
     "phone_calls": 0,
-    "cpc": 0,
-    "cost_per_conversion": 0
+    "cpc": 2.6,
+    "cost_per_conversion": 33.26
   },
   "previous_month": {
     "spend": 5891.33,
@@ -29,16 +29,88 @@
     "cost_per_conversion": 23.47
   },
   "comparison_pct": {
-    "spend": -100,
-    "impressions": -100,
-    "clicks": -100,
-    "conversions": -100,
+    "spend": -97.18,
+    "impressions": -96.51,
+    "clicks": -96.41,
+    "conversions": -98.01,
     "phone_calls": -100
   },
-  "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
-  "campaigns": [],
+  "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
+  "campaigns": [
+    {
+      "name": "RB - General Dentistry",
+      "spend": 60.08,
+      "impressions": 53,
+      "clicks": 4,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 15.02,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "P.Max - General Dentistry (Update)",
+      "spend": 43.27,
+      "impressions": 329,
+      "clicks": 14,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 3.09,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "RB - Call Only Campaign",
+      "spend": 29.16,
+      "impressions": 24,
+      "clicks": 2,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 14.58,
+      "cost_per_conversion": 0
+    },
+    {
+      "name": "P.Max - Invisalign (Update)",
+      "spend": 17.61,
+      "impressions": 886,
+      "clicks": 23,
+      "conversions": 2,
+      "phone_calls": 0,
+      "cpc": 0.77,
+      "cost_per_conversion": 8.8
+    },
+    {
+      "name": "P.Max - Same Day Crown (Update)",
+      "spend": 14.23,
+      "impressions": 1725,
+      "clicks": 20,
+      "conversions": 3,
+      "phone_calls": 0,
+      "cpc": 0.71,
+      "cost_per_conversion": 4.74
+    },
+    {
+      "name": "RB - Dental Emergency",
+      "spend": 1.93,
+      "impressions": 142,
+      "clicks": 1,
+      "conversions": 0,
+      "phone_calls": 0,
+      "cpc": 1.93,
+      "cost_per_conversion": 0
+    }
+  ],
   "daily": {
-    "this_month": [],
+    "this_month": [
+      {
+        "day": 2,
+        "spend": 166.28,
+        "impressions": 3159,
+        "clicks": 64,
+        "conversions": 5,
+        "phone_calls": 0,
+        "cpc": 2.6,
+        "cost_per_conversion": 33.26
+      }
+    ],
     "last_month": [
       {
         "day": 1,
