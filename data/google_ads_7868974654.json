@@ -9,30 +9,30 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-04T06:32:18.474Z",
+  "updated_at": "2026-11-04T07:32:19.462Z",
   "metrics": {
     "spend": 2287.3,
     "impressions": 10522,
     "clicks": 640,
-    "conversions": 38.7,
+    "conversions": 39.2,
     "phone_calls": 0,
     "cpc": 3.57,
-    "cost_per_conversion": 59.1
+    "cost_per_conversion": 58.35
   },
   "previous_month": {
     "spend": 21221.55,
     "impressions": 77091,
     "clicks": 5254,
-    "conversions": 396.37,
+    "conversions": 395.37,
     "phone_calls": 0,
     "cpc": 4.04,
-    "cost_per_conversion": 53.54
+    "cost_per_conversion": 53.68
   },
   "comparison_pct": {
     "spend": -89.22,
     "impressions": -86.35,
     "clicks": -87.82,
-    "conversions": -90.24,
+    "conversions": -90.09,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -62,10 +62,10 @@
       "spend": 446.14,
       "impressions": 1334,
       "clicks": 72,
-      "conversions": 3.64,
+      "conversions": 4.03,
       "phone_calls": 0,
       "cpc": 6.2,
-      "cost_per_conversion": 122.72
+      "cost_per_conversion": 110.8
     },
     {
       "name": "RSA | Performance Max",
@@ -102,10 +102,10 @@
       "spend": 95.04,
       "impressions": 233,
       "clicks": 29,
-      "conversions": 2,
+      "conversions": 2.11,
       "phone_calls": 0,
       "cpc": 3.28,
-      "cost_per_conversion": 47.52
+      "cost_per_conversion": 44.96
     },
     {
       "name": "Security | Search",
@@ -135,20 +135,20 @@
         "spend": 959.04,
         "impressions": 3840,
         "clicks": 265,
-        "conversions": 22.73,
+        "conversions": 22.84,
         "phone_calls": 0,
         "cpc": 3.62,
-        "cost_per_conversion": 42.2
+        "cost_per_conversion": 41.99
       },
       {
         "day": 3,
         "spend": 703.8,
         "impressions": 3165,
         "clicks": 212,
-        "conversions": 4.33,
+        "conversions": 4.72,
         "phone_calls": 0,
         "cpc": 3.32,
-        "cost_per_conversion": 162.41
+        "cost_per_conversion": 148.97
       }
     ],
     "last_month": [
@@ -277,10 +277,10 @@
         "spend": 882.66,
         "impressions": 2348,
         "clicks": 195,
-        "conversions": 25.28,
+        "conversions": 23.28,
         "phone_calls": 0,
         "cpc": 4.53,
-        "cost_per_conversion": 34.91
+        "cost_per_conversion": 37.91
       },
       {
         "day": 14,
@@ -437,10 +437,10 @@
         "spend": 709.82,
         "impressions": 2727,
         "clicks": 171,
-        "conversions": 10.67,
+        "conversions": 11.67,
         "phone_calls": 0,
         "cpc": 4.15,
-        "cost_per_conversion": 66.51
+        "cost_per_conversion": 60.81
       },
       {
         "day": 30,
