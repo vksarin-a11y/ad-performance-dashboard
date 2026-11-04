@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261102",
+    "mtd_end": "20261103",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-04T04:20:21.704Z",
+  "updated_at": "2026-11-04T05:20:21.594Z",
   "metrics": {
-    "spend": 53.57,
-    "impressions": 3870,
-    "clicks": 49,
+    "spend": 95.03,
+    "impressions": 7980,
+    "clicks": 93,
     "conversions": 2,
     "phone_calls": 0,
-    "cpc": 1.09,
-    "cost_per_conversion": 26.79
+    "cpc": 1.02,
+    "cost_per_conversion": 47.52
   },
   "previous_month": {
     "spend": 1199.73,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.05
   },
   "comparison_pct": {
-    "spend": -95.53,
-    "impressions": -94.53,
-    "clicks": -95.74,
+    "spend": -92.08,
+    "impressions": -88.72,
+    "clicks": -91.91,
     "conversions": -96.49,
     "phone_calls": null
   },
@@ -39,22 +39,22 @@
   "campaigns": [
     {
       "name": "P.Max - Mississauga",
-      "spend": 27.11,
-      "impressions": 1460,
-      "clicks": 19,
+      "spend": 56.23,
+      "impressions": 4142,
+      "clicks": 48,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 1.43,
-      "cost_per_conversion": 13.55
+      "cpc": 1.17,
+      "cost_per_conversion": 28.12
     },
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 26.46,
-      "impressions": 2410,
-      "clicks": 30,
+      "spend": 38.79,
+      "impressions": 3838,
+      "clicks": 45,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 0.88,
+      "cpc": 0.86,
       "cost_per_conversion": 0
     }
   ],
@@ -69,6 +69,16 @@
         "phone_calls": 0,
         "cpc": 1.09,
         "cost_per_conversion": 26.79
+      },
+      {
+        "day": 3,
+        "spend": 41.46,
+        "impressions": 4110,
+        "clicks": 44,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 0.94,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
