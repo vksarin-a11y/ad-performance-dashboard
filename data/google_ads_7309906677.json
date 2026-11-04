@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-04T20:20:43.940Z",
+  "updated_at": "2026-11-04T21:20:44.071Z",
   "metrics": {
     "spend": 966.89,
-    "impressions": 18988,
+    "impressions": 18986,
     "clicks": 498,
     "conversions": 64,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -90.82,
-    "impressions": -87.72,
+    "impressions": -87.73,
     "clicks": -89.84,
     "conversions": -87.02,
     "phone_calls": null
@@ -70,7 +70,7 @@
     {
       "name": "PMax: Smart Shopping - Norway",
       "spend": 54.32,
-      "impressions": 1736,
+      "impressions": 1734,
       "clicks": 20,
       "conversions": 3,
       "phone_calls": 0,
@@ -133,7 +133,7 @@
       {
         "day": 2,
         "spend": 321.15,
-        "impressions": 5783,
+        "impressions": 5781,
         "clicks": 163,
         "conversions": 19,
         "phone_calls": 0,
