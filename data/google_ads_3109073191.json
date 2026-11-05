@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-04T23:57:01.794Z",
+  "updated_at": "2026-11-05T00:57:02.623Z",
   "metrics": {
     "spend": 170.17,
     "impressions": 1241,
     "clicks": 28,
-    "conversions": 3,
+    "conversions": 4,
     "phone_calls": 0,
     "cpc": 6.08,
-    "cost_per_conversion": 56.72
+    "cost_per_conversion": 42.54
   },
   "previous_month": {
     "spend": 1986.73,
@@ -32,7 +32,7 @@
     "spend": -91.43,
     "impressions": -82.28,
     "clicks": -90,
-    "conversions": -88.46,
+    "conversions": -84.62,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -52,10 +52,10 @@
       "spend": 24.68,
       "impressions": 1098,
       "clicks": 14,
-      "conversions": 2,
+      "conversions": 3,
       "phone_calls": 0,
       "cpc": 1.76,
-      "cost_per_conversion": 12.34
+      "cost_per_conversion": 8.23
     },
     {
       "name": "RB - Search | Emergency Dentistry",
@@ -85,10 +85,10 @@
         "spend": 101.1,
         "impressions": 824,
         "clicks": 20,
-        "conversions": 1,
+        "conversions": 2,
         "phone_calls": 0,
         "cpc": 5.05,
-        "cost_per_conversion": 101.1
+        "cost_per_conversion": 50.55
       }
     ],
     "last_month": [
