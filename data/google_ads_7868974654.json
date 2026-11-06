@@ -9,30 +9,30 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-06T19:32:22.900Z",
+  "updated_at": "2026-11-06T20:32:19.733Z",
   "metrics": {
     "spend": 3936.54,
     "impressions": 19588,
     "clicks": 1110,
-    "conversions": 73.27,
+    "conversions": 73.02,
     "phone_calls": 0,
     "cpc": 3.55,
-    "cost_per_conversion": 53.73
+    "cost_per_conversion": 53.91
   },
   "previous_month": {
     "spend": 21221.55,
     "impressions": 77091,
     "clicks": 5254,
-    "conversions": 397.37,
+    "conversions": 398.37,
     "phone_calls": 0,
     "cpc": 4.04,
-    "cost_per_conversion": 53.41
+    "cost_per_conversion": 53.27
   },
   "comparison_pct": {
     "spend": -81.45,
     "impressions": -74.59,
     "clicks": -78.87,
-    "conversions": -81.56,
+    "conversions": -81.67,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -92,10 +92,10 @@
       "spend": 194.95,
       "impressions": 1253,
       "clicks": 46,
-      "conversions": 4.75,
+      "conversions": 4.5,
       "phone_calls": 0,
       "cpc": 4.24,
-      "cost_per_conversion": 41.04
+      "cost_per_conversion": 43.32
     },
     {
       "name": "Bundle | Search",
@@ -165,10 +165,10 @@
         "spend": 760.04,
         "impressions": 4882,
         "clicks": 232,
-        "conversions": 9.58,
+        "conversions": 9.33,
         "phone_calls": 0,
         "cpc": 3.28,
-        "cost_per_conversion": 79.31
+        "cost_per_conversion": 81.43
       }
     ],
     "last_month": [
@@ -457,10 +457,10 @@
         "spend": 709.82,
         "impressions": 2727,
         "clicks": 171,
-        "conversions": 12.67,
+        "conversions": 13.67,
         "phone_calls": 0,
         "cpc": 4.15,
-        "cost_per_conversion": 56.01
+        "cost_per_conversion": 51.92
       },
       {
         "day": 30,
