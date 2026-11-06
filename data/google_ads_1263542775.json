@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-06T02:32:43.720Z",
+  "updated_at": "2026-11-06T03:32:44.033Z",
   "metrics": {
     "spend": 317.48,
     "impressions": 477,
     "clicks": 64,
-    "conversions": 13,
+    "conversions": 15,
     "phone_calls": 0,
     "cpc": 4.96,
-    "cost_per_conversion": 24.42
+    "cost_per_conversion": 21.17
   },
   "previous_month": {
     "spend": 2496.57,
@@ -32,7 +32,7 @@
     "spend": -87.28,
     "impressions": -90.38,
     "clicks": -85.42,
-    "conversions": -90.85,
+    "conversions": -89.44,
     "phone_calls": -100
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -42,10 +42,10 @@
       "spend": 173.96,
       "impressions": 143,
       "clicks": 21,
-      "conversions": 5,
+      "conversions": 6,
       "phone_calls": 0,
       "cpc": 8.28,
-      "cost_per_conversion": 34.79
+      "cost_per_conversion": 28.99
     },
     {
       "name": "2025-RB | Veneers",
@@ -72,10 +72,10 @@
       "spend": 37.19,
       "impressions": 122,
       "clicks": 8,
-      "conversions": 3,
+      "conversions": 4,
       "phone_calls": 0,
       "cpc": 4.65,
-      "cost_per_conversion": 12.4
+      "cost_per_conversion": 9.3
     },
     {
       "name": "Dentist Newcastle",
@@ -275,10 +275,10 @@
         "spend": 116.41,
         "impressions": 133,
         "clicks": 18,
-        "conversions": 1,
+        "conversions": 3,
         "phone_calls": 0,
         "cpc": 6.47,
-        "cost_per_conversion": 116.41
+        "cost_per_conversion": 38.8
       }
     ],
     "last_month": [
