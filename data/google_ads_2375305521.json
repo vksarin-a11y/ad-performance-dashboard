@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-07T10:20:21.271Z",
+  "updated_at": "2026-11-07T11:20:22.066Z",
   "metrics": {
-    "spend": 278.34,
-    "impressions": 21581,
-    "clicks": 308,
+    "spend": 276.89,
+    "impressions": 21580,
+    "clicks": 307,
     "conversions": 6,
     "phone_calls": 0,
     "cpc": 0.9,
-    "cost_per_conversion": 46.39
+    "cost_per_conversion": 46.15
   },
   "previous_month": {
     "spend": 1199.73,
@@ -29,24 +29,14 @@
     "cost_per_conversion": 21.05
   },
   "comparison_pct": {
-    "spend": -76.8,
+    "spend": -76.92,
     "impressions": -69.51,
-    "clicks": -73.19,
+    "clicks": -73.28,
     "conversions": -89.47,
     "phone_calls": null
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
-    {
-      "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 139.32,
-      "impressions": 8944,
-      "clicks": 165,
-      "conversions": 3,
-      "phone_calls": 0,
-      "cpc": 0.84,
-      "cost_per_conversion": 46.44
-    },
     {
       "name": "P.Max - Mississauga",
       "spend": 139.03,
@@ -56,6 +46,16 @@
       "phone_calls": 0,
       "cpc": 0.97,
       "cost_per_conversion": 46.34
+    },
+    {
+      "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
+      "spend": 137.87,
+      "impressions": 8943,
+      "clicks": 164,
+      "conversions": 3,
+      "phone_calls": 0,
+      "cpc": 0.84,
+      "cost_per_conversion": 45.96
     }
   ],
   "daily": {
@@ -73,7 +73,7 @@
       {
         "day": 3,
         "spend": 38.15,
-        "impressions": 4110,
+        "impressions": 4109,
         "clicks": 41,
         "conversions": 0,
         "phone_calls": 0,
@@ -92,13 +92,13 @@
       },
       {
         "day": 5,
-        "spend": 68.72,
+        "spend": 67.27,
         "impressions": 6905,
-        "clicks": 85,
+        "clicks": 84,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 0.81,
-        "cost_per_conversion": 68.72
+        "cpc": 0.8,
+        "cost_per_conversion": 67.27
       },
       {
         "day": 6,
