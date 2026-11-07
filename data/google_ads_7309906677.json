@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-07T09:20:44.563Z",
+  "updated_at": "2026-11-07T10:20:43.819Z",
   "metrics": {
-    "spend": 1796.3,
+    "spend": 1799.55,
     "impressions": 32850,
-    "clicks": 903,
+    "clicks": 904,
     "conversions": 101,
     "phone_calls": 0,
     "cpc": 1.99,
-    "cost_per_conversion": 17.79
+    "cost_per_conversion": 17.82
   },
   "previous_month": {
     "spend": 10533.33,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.32
   },
   "comparison_pct": {
-    "spend": -82.95,
+    "spend": -82.92,
     "impressions": -78.76,
-    "clicks": -81.58,
+    "clicks": -81.56,
     "conversions": -79.55,
     "phone_calls": null
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "PMax - Smart Shopping - Denmark",
-      "spend": 847.22,
+      "spend": 850.47,
       "impressions": 11101,
-      "clicks": 396,
+      "clicks": 397,
       "conversions": 41,
       "phone_calls": 0,
       "cpc": 2.14,
-      "cost_per_conversion": 20.66
+      "cost_per_conversion": 20.74
     },
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
@@ -172,13 +172,13 @@
       },
       {
         "day": 6,
-        "spend": 271.88,
+        "spend": 275.13,
         "impressions": 3703,
-        "clicks": 130,
+        "clicks": 131,
         "conversions": 15,
         "phone_calls": 0,
-        "cpc": 2.09,
-        "cost_per_conversion": 18.13
+        "cpc": 2.1,
+        "cost_per_conversion": 18.34
       }
     ],
     "last_month": [
