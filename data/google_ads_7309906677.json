@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-08T19:20:45.551Z",
+  "updated_at": "2026-11-08T20:20:43.908Z",
   "metrics": {
     "spend": 2217.48,
-    "impressions": 39269,
+    "impressions": 39267,
     "clicks": 1097,
     "conversions": 125,
     "phone_calls": 0,
@@ -80,7 +80,7 @@
     {
       "name": "PMax: Smart Shopping - Sweden",
       "spend": 103.53,
-      "impressions": 1780,
+      "impressions": 1778,
       "clicks": 75,
       "conversions": 13,
       "phone_calls": 0,
@@ -183,7 +183,7 @@
       {
         "day": 7,
         "spend": 417.93,
-        "impressions": 6419,
+        "impressions": 6417,
         "clicks": 193,
         "conversions": 22,
         "phone_calls": 0,
