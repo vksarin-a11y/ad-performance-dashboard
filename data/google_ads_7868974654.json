@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-08T12:32:19.753Z",
+  "updated_at": "2026-11-08T13:32:25.249Z",
   "metrics": {
     "spend": 5312.61,
-    "impressions": 27304,
+    "impressions": 27295,
     "clicks": 1514,
     "conversions": 100.52,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -74.97,
-    "impressions": -64.58,
+    "impressions": -64.59,
     "clicks": -71.18,
     "conversions": -74.77,
     "phone_calls": null
@@ -40,7 +40,7 @@
     {
       "name": "Bundle | Performance Max",
       "spend": 1217.68,
-      "impressions": 6488,
+      "impressions": 6480,
       "clicks": 428,
       "conversions": 18.92,
       "phone_calls": 0,
@@ -90,7 +90,7 @@
     {
       "name": "ARCG  | Performance Max",
       "spend": 256.59,
-      "impressions": 1818,
+      "impressions": 1817,
       "clicks": 60,
       "conversions": 9.87,
       "phone_calls": 0,
@@ -143,7 +143,7 @@
       {
         "day": 3,
         "spend": 702.74,
-        "impressions": 3163,
+        "impressions": 3162,
         "clicks": 211,
         "conversions": 6.72,
         "phone_calls": 0,
@@ -183,7 +183,7 @@
       {
         "day": 7,
         "spend": 613.99,
-        "impressions": 3853,
+        "impressions": 3845,
         "clicks": 195,
         "conversions": 13.3,
         "phone_calls": 0,
