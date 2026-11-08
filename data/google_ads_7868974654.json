@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-08T10:32:20.203Z",
+  "updated_at": "2026-11-08T11:32:19.271Z",
   "metrics": {
     "spend": 5312.61,
-    "impressions": 27306,
+    "impressions": 27305,
     "clicks": 1514,
     "conversions": 100.52,
     "phone_calls": 0,
@@ -40,7 +40,7 @@
     {
       "name": "Bundle | Performance Max",
       "spend": 1217.68,
-      "impressions": 6490,
+      "impressions": 6489,
       "clicks": 428,
       "conversions": 18.92,
       "phone_calls": 0,
@@ -133,7 +133,7 @@
       {
         "day": 2,
         "spend": 955.96,
-        "impressions": 3837,
+        "impressions": 3836,
         "clicks": 264,
         "conversions": 22.84,
         "phone_calls": 0,
