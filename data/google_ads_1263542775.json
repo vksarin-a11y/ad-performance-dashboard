@@ -5,11 +5,11 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261107",
+    "mtd_end": "20261108",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-09T04:32:43.109Z",
+  "updated_at": "2026-11-09T05:32:43.366Z",
   "metrics": {
     "spend": 611.13,
     "impressions": 1128,
