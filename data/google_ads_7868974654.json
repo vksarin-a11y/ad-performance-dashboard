@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-09T06:32:19.774Z",
+  "updated_at": "2026-11-09T07:32:19.035Z",
   "metrics": {
     "spend": 6104.85,
-    "impressions": 31872,
+    "impressions": 31873,
     "clicks": 1721,
-    "conversions": 112.45,
+    "conversions": 113.45,
     "phone_calls": 0,
     "cpc": 3.55,
-    "cost_per_conversion": 54.29
+    "cost_per_conversion": 53.81
   },
   "previous_month": {
     "spend": 21221.55,
@@ -32,7 +32,7 @@
     "spend": -71.23,
     "impressions": -58.66,
     "clicks": -67.24,
-    "conversions": -71.92,
+    "conversions": -71.67,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -40,7 +40,7 @@
     {
       "name": "Bundle | Performance Max",
       "spend": 1377.61,
-      "impressions": 7313,
+      "impressions": 7314,
       "clicks": 474,
       "conversions": 21.35,
       "phone_calls": 0,
@@ -62,10 +62,10 @@
       "spend": 1003.73,
       "impressions": 3495,
       "clicks": 187,
-      "conversions": 19.35,
+      "conversions": 20.35,
       "phone_calls": 0,
       "cpc": 5.37,
-      "cost_per_conversion": 51.87
+      "cost_per_conversion": 49.32
     },
     {
       "name": "RSA | Performance Max",
@@ -193,12 +193,12 @@
       {
         "day": 8,
         "spend": 794.6,
-        "impressions": 4577,
+        "impressions": 4578,
         "clicks": 208,
-        "conversions": 9.93,
+        "conversions": 10.93,
         "phone_calls": 0,
         "cpc": 3.82,
-        "cost_per_conversion": 79.99
+        "cost_per_conversion": 72.67
       }
     ],
     "last_month": [
