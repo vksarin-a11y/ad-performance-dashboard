@@ -5,14 +5,14 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261107",
+    "mtd_end": "20261108",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-09T04:21:12.285Z",
+  "updated_at": "2026-11-09T05:21:11.407Z",
   "metrics": {
     "spend": 1135.74,
-    "impressions": 37616,
+    "impressions": 37617,
     "clicks": 622,
     "conversions": 31,
     "phone_calls": 0,
@@ -70,7 +70,7 @@
     {
       "name": "P.Max - Invisalign (Update)",
       "spend": 162.11,
-      "impressions": 11931,
+      "impressions": 11932,
       "clicks": 187,
       "conversions": 7,
       "phone_calls": 0,
@@ -163,7 +163,7 @@
       {
         "day": 7,
         "spend": 114.36,
-        "impressions": 3056,
+        "impressions": 3057,
         "clicks": 43,
         "conversions": 6,
         "phone_calls": 0,
