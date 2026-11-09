@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-09T12:32:19.340Z",
+  "updated_at": "2026-11-09T13:32:20.256Z",
   "metrics": {
-    "spend": 6104.85,
-    "impressions": 31830,
-    "clicks": 1721,
+    "spend": 6102.92,
+    "impressions": 31817,
+    "clicks": 1720,
     "conversions": 113.45,
     "phone_calls": 0,
     "cpc": 3.55,
-    "cost_per_conversion": 53.81
+    "cost_per_conversion": 53.79
   },
   "previous_month": {
     "spend": 21221.55,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 53
   },
   "comparison_pct": {
-    "spend": -71.23,
-    "impressions": -58.71,
-    "clicks": -67.24,
+    "spend": -71.24,
+    "impressions": -58.73,
+    "clicks": -67.26,
     "conversions": -71.67,
     "phone_calls": null
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "Bundle | Performance Max",
-      "spend": 1377.61,
+      "spend": 1375.68,
       "impressions": 7301,
-      "clicks": 474,
+      "clicks": 473,
       "conversions": 22.35,
       "phone_calls": 0,
       "cpc": 2.91,
-      "cost_per_conversion": 61.64
+      "cost_per_conversion": 61.55
     },
     {
       "name": "RSA | Search",
@@ -110,7 +110,7 @@
     {
       "name": "Security | Search",
       "spend": 181.48,
-      "impressions": 9647,
+      "impressions": 9634,
       "clicks": 175,
       "conversions": 0,
       "phone_calls": 0,
@@ -132,13 +132,13 @@
       },
       {
         "day": 2,
-        "spend": 955.96,
+        "spend": 954.03,
         "impressions": 3836,
-        "clicks": 264,
+        "clicks": 263,
         "conversions": 22.84,
         "phone_calls": 0,
-        "cpc": 3.62,
-        "cost_per_conversion": 41.85
+        "cpc": 3.63,
+        "cost_per_conversion": 41.77
       },
       {
         "day": 3,
@@ -183,7 +183,7 @@
       {
         "day": 7,
         "spend": 611.63,
-        "impressions": 3837,
+        "impressions": 3836,
         "clicks": 194,
         "conversions": 13.3,
         "phone_calls": 0,
@@ -193,7 +193,7 @@
       {
         "day": 8,
         "spend": 794.6,
-        "impressions": 4564,
+        "impressions": 4552,
         "clicks": 208,
         "conversions": 9.93,
         "phone_calls": 0,
