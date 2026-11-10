@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261108",
+    "mtd_end": "20261109",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-10T04:21:12.286Z",
+  "updated_at": "2026-11-10T05:21:11.197Z",
   "metrics": {
-    "spend": 1135.74,
-    "impressions": 37613,
-    "clicks": 622,
-    "conversions": 31,
-    "phone_calls": 0,
-    "cpc": 1.83,
-    "cost_per_conversion": 36.64
+    "spend": 1448.52,
+    "impressions": 45857,
+    "clicks": 735,
+    "conversions": 39,
+    "phone_calls": 1,
+    "cpc": 1.97,
+    "cost_per_conversion": 37.14
   },
   "previous_month": {
     "spend": 5891.33,
@@ -29,73 +29,73 @@
     "cost_per_conversion": 23.47
   },
   "comparison_pct": {
-    "spend": -80.72,
-    "impressions": -58.49,
-    "clicks": -65.1,
-    "conversions": -87.65,
-    "phone_calls": -100
+    "spend": -75.41,
+    "impressions": -49.39,
+    "clicks": -58.75,
+    "conversions": -84.46,
+    "phone_calls": -88.89
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
       "name": "RB - General Dentistry",
-      "spend": 313.06,
-      "impressions": 468,
-      "clicks": 24,
-      "conversions": 4,
+      "spend": 399.09,
+      "impressions": 531,
+      "clicks": 30,
+      "conversions": 7,
       "phone_calls": 0,
-      "cpc": 13.04,
-      "cost_per_conversion": 78.27
+      "cpc": 13.3,
+      "cost_per_conversion": 57.01
     },
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 297.64,
-      "impressions": 8583,
-      "clicks": 175,
+      "spend": 332.88,
+      "impressions": 10086,
+      "clicks": 201,
       "conversions": 9,
       "phone_calls": 0,
-      "cpc": 1.7,
-      "cost_per_conversion": 33.07
+      "cpc": 1.66,
+      "cost_per_conversion": 36.99
     },
     {
       "name": "RB - Dental Emergency",
-      "spend": 166.47,
-      "impressions": 434,
-      "clicks": 10,
+      "spend": 214.25,
+      "impressions": 547,
+      "clicks": 11,
       "conversions": 3,
       "phone_calls": 0,
-      "cpc": 16.65,
-      "cost_per_conversion": 55.49
+      "cpc": 19.48,
+      "cost_per_conversion": 71.42
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 162.11,
-      "impressions": 11930,
-      "clicks": 187,
-      "conversions": 7,
+      "spend": 206.42,
+      "impressions": 15265,
+      "clicks": 225,
+      "conversions": 9,
       "phone_calls": 0,
-      "cpc": 0.87,
-      "cost_per_conversion": 23.16
+      "cpc": 0.92,
+      "cost_per_conversion": 22.94
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 145.52,
-      "impressions": 16086,
-      "clicks": 220,
-      "conversions": 8,
+      "spend": 195.52,
+      "impressions": 19296,
+      "clicks": 258,
+      "conversions": 10,
       "phone_calls": 0,
-      "cpc": 0.66,
-      "cost_per_conversion": 18.19
+      "cpc": 0.76,
+      "cost_per_conversion": 19.55
     },
     {
       "name": "RB - Call Only Campaign",
-      "spend": 50.94,
-      "impressions": 110,
-      "clicks": 6,
-      "conversions": 0,
-      "phone_calls": 0,
-      "cpc": 8.49,
-      "cost_per_conversion": 0
+      "spend": 100.37,
+      "impressions": 130,
+      "clicks": 10,
+      "conversions": 1,
+      "phone_calls": 1,
+      "cpc": 10.04,
+      "cost_per_conversion": 100.37
     },
     {
       "name": "RB - Same Day Crowns",
@@ -169,6 +169,16 @@
         "phone_calls": 0,
         "cpc": 2.66,
         "cost_per_conversion": 19.06
+      },
+      {
+        "day": 9,
+        "spend": 312.78,
+        "impressions": 8244,
+        "clicks": 113,
+        "conversions": 8,
+        "phone_calls": 1,
+        "cpc": 2.77,
+        "cost_per_conversion": 39.1
       }
     ],
     "last_month": [
@@ -443,7 +453,7 @@
         "cost_per_conversion": 15.71
       }
     ],
-    "mtd_phone_calls": 0,
+    "mtd_phone_calls": 1,
     "prev_month_phone_calls": 9
   }
 }
