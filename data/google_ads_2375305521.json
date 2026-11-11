@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-11T12:20:21.341Z",
+  "updated_at": "2026-11-11T13:20:22.556Z",
   "metrics": {
-    "spend": 368.78,
-    "impressions": 31900,
-    "clicks": 443,
+    "spend": 368.39,
+    "impressions": 31899,
+    "clicks": 441,
     "conversions": 9,
     "phone_calls": 0,
-    "cpc": 0.83,
-    "cost_per_conversion": 40.98
+    "cpc": 0.84,
+    "cost_per_conversion": 40.93
   },
   "previous_month": {
     "spend": 1199.73,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.05
   },
   "comparison_pct": {
-    "spend": -69.26,
+    "spend": -69.29,
     "impressions": -54.93,
-    "clicks": -61.44,
+    "clicks": -61.62,
     "conversions": -84.21,
     "phone_calls": null
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 190.49,
-      "impressions": 14599,
-      "clicks": 240,
+      "spend": 190.09,
+      "impressions": 14598,
+      "clicks": 238,
       "conversions": 5,
       "phone_calls": 0,
-      "cpc": 0.79,
-      "cost_per_conversion": 38.1
+      "cpc": 0.8,
+      "cost_per_conversion": 38.02
     },
     {
       "name": "P.Max - Mississauga",
@@ -73,7 +73,7 @@
       {
         "day": 3,
         "spend": 38.15,
-        "impressions": 4106,
+        "impressions": 4105,
         "clicks": 41,
         "conversions": 0,
         "phone_calls": 0,
@@ -122,12 +122,12 @@
       },
       {
         "day": 10,
-        "spend": 61.82,
+        "spend": 61.43,
         "impressions": 7081,
-        "clicks": 106,
+        "clicks": 104,
         "conversions": 0,
         "phone_calls": 0,
-        "cpc": 0.58,
+        "cpc": 0.59,
         "cost_per_conversion": 0
       }
     ],
