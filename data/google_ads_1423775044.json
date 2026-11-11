@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-11T09:21:11.289Z",
+  "updated_at": "2026-11-11T10:21:13.532Z",
   "metrics": {
-    "spend": 1656.25,
-    "impressions": 48061,
-    "clicks": 779,
+    "spend": 1650.36,
+    "impressions": 47962,
+    "clicks": 759,
     "conversions": 44,
     "phone_calls": 4,
-    "cpc": 2.13,
-    "cost_per_conversion": 37.64
+    "cpc": 2.17,
+    "cost_per_conversion": 37.51
   },
   "previous_month": {
     "spend": 5891.33,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 23.47
   },
   "comparison_pct": {
-    "spend": -71.89,
-    "impressions": -46.96,
-    "clicks": -56.29,
+    "spend": -71.99,
+    "impressions": -47.07,
+    "clicks": -57.41,
     "conversions": -82.47,
     "phone_calls": -55.56
   },
@@ -69,23 +69,23 @@
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 229.95,
-      "impressions": 15606,
-      "clicks": 236,
+      "spend": 228.58,
+      "impressions": 15595,
+      "clicks": 229,
       "conversions": 11,
       "phone_calls": 0,
-      "cpc": 0.97,
-      "cost_per_conversion": 20.9
+      "cpc": 1,
+      "cost_per_conversion": 20.78
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 213.56,
-      "impressions": 20852,
-      "clicks": 280,
+      "spend": 209.04,
+      "impressions": 20764,
+      "clicks": 267,
       "conversions": 10,
       "phone_calls": 0,
-      "cpc": 0.76,
-      "cost_per_conversion": 21.36
+      "cpc": 0.78,
+      "cost_per_conversion": 20.9
     },
     {
       "name": "RB - Call Only Campaign",
@@ -142,23 +142,23 @@
       },
       {
         "day": 5,
-        "spend": 217.06,
-        "impressions": 6937,
-        "clicks": 123,
+        "spend": 211.98,
+        "impressions": 6890,
+        "clicks": 106,
         "conversions": 2,
         "phone_calls": 0,
-        "cpc": 1.76,
-        "cost_per_conversion": 108.53
+        "cpc": 2,
+        "cost_per_conversion": 105.99
       },
       {
         "day": 6,
-        "spend": 182.91,
-        "impressions": 7563,
-        "clicks": 117,
+        "spend": 182.1,
+        "impressions": 7511,
+        "clicks": 114,
         "conversions": 6,
         "phone_calls": 0,
-        "cpc": 1.56,
-        "cost_per_conversion": 30.48
+        "cpc": 1.6,
+        "cost_per_conversion": 30.35
       },
       {
         "day": 7,
