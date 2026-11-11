@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-11T10:21:13.532Z",
+  "updated_at": "2026-11-11T11:21:12.355Z",
   "metrics": {
-    "spend": 1650.36,
-    "impressions": 47962,
-    "clicks": 759,
+    "spend": 1649.9,
+    "impressions": 47961,
+    "clicks": 756,
     "conversions": 44,
     "phone_calls": 4,
-    "cpc": 2.17,
-    "cost_per_conversion": 37.51
+    "cpc": 2.18,
+    "cost_per_conversion": 37.5
   },
   "previous_month": {
     "spend": 5891.33,
@@ -31,7 +31,7 @@
   "comparison_pct": {
     "spend": -71.99,
     "impressions": -47.07,
-    "clicks": -57.41,
+    "clicks": -57.58,
     "conversions": -82.47,
     "phone_calls": -55.56
   },
@@ -69,23 +69,23 @@
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 228.58,
+      "spend": 228.33,
       "impressions": 15595,
-      "clicks": 229,
+      "clicks": 227,
       "conversions": 11,
       "phone_calls": 0,
-      "cpc": 1,
-      "cost_per_conversion": 20.78
+      "cpc": 1.01,
+      "cost_per_conversion": 20.76
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 209.04,
-      "impressions": 20764,
-      "clicks": 267,
+      "spend": 208.83,
+      "impressions": 20763,
+      "clicks": 266,
       "conversions": 10,
       "phone_calls": 0,
-      "cpc": 0.78,
-      "cost_per_conversion": 20.9
+      "cpc": 0.79,
+      "cost_per_conversion": 20.88
     },
     {
       "name": "RB - Call Only Campaign",
@@ -142,18 +142,18 @@
       },
       {
         "day": 5,
-        "spend": 211.98,
+        "spend": 211.52,
         "impressions": 6890,
-        "clicks": 106,
+        "clicks": 103,
         "conversions": 2,
         "phone_calls": 0,
-        "cpc": 2,
-        "cost_per_conversion": 105.99
+        "cpc": 2.05,
+        "cost_per_conversion": 105.76
       },
       {
         "day": 6,
         "spend": 182.1,
-        "impressions": 7511,
+        "impressions": 7510,
         "clicks": 114,
         "conversions": 6,
         "phone_calls": 0,
