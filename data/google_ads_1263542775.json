@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-11T07:32:43.315Z",
+  "updated_at": "2026-11-11T08:32:45.640Z",
   "metrics": {
     "spend": 877.66,
     "impressions": 1618,
     "clicks": 152,
-    "conversions": 37,
+    "conversions": 39,
     "phone_calls": 0,
     "cpc": 5.77,
-    "cost_per_conversion": 23.72
+    "cost_per_conversion": 22.5
   },
   "previous_month": {
     "spend": 2496.57,
@@ -32,7 +32,7 @@
     "spend": -64.85,
     "impressions": -67.37,
     "clicks": -65.38,
-    "conversions": -73.94,
+    "conversions": -72.54,
     "phone_calls": -100
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -62,10 +62,10 @@
       "spend": 147.85,
       "impressions": 376,
       "clicks": 49,
-      "conversions": 8,
+      "conversions": 10,
       "phone_calls": 0,
       "cpc": 3.02,
-      "cost_per_conversion": 18.48
+      "cost_per_conversion": 14.78
     },
     {
       "name": "2025-RB | Orthodontic",
@@ -305,10 +305,10 @@
         "spend": 85.74,
         "impressions": 257,
         "clicks": 20,
-        "conversions": 3,
+        "conversions": 5,
         "phone_calls": 0,
         "cpc": 4.29,
-        "cost_per_conversion": 28.58
+        "cost_per_conversion": 17.15
       },
       {
         "day": 9,
