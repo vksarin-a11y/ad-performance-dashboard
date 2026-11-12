@@ -9,30 +9,30 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-12T21:57:00.645Z",
+  "updated_at": "2026-11-12T22:57:00.822Z",
   "metrics": {
     "spend": 729.05,
     "impressions": 4052,
     "clicks": 111,
-    "conversions": 22,
+    "conversions": 26,
     "phone_calls": 0,
     "cpc": 6.57,
-    "cost_per_conversion": 33.14
+    "cost_per_conversion": 28.04
   },
   "previous_month": {
     "spend": 1986.73,
     "impressions": 7005,
     "clicks": 280,
-    "conversions": 26,
+    "conversions": 27,
     "phone_calls": 5,
     "cpc": 7.1,
-    "cost_per_conversion": 76.41
+    "cost_per_conversion": 73.58
   },
   "comparison_pct": {
     "spend": -63.3,
     "impressions": -42.16,
     "clicks": -60.36,
-    "conversions": -15.38,
+    "conversions": -3.7,
     "phone_calls": -100
   },
   "recommendation": "Spend is well behind last month's pace ? check budget caps or disapproved ads.",
@@ -52,10 +52,10 @@
       "spend": 164.47,
       "impressions": 3077,
       "clicks": 45,
-      "conversions": 15,
+      "conversions": 19,
       "phone_calls": 0,
       "cpc": 3.65,
-      "cost_per_conversion": 10.96
+      "cost_per_conversion": 8.66
     },
     {
       "name": "RB - Search | Emergency Dentistry",
@@ -105,10 +105,10 @@
         "spend": 125.18,
         "impressions": 592,
         "clicks": 20,
-        "conversions": 2,
+        "conversions": 4,
         "phone_calls": 0,
         "cpc": 6.26,
-        "cost_per_conversion": 62.59
+        "cost_per_conversion": 31.3
       },
       {
         "day": 6,
@@ -135,20 +135,20 @@
         "spend": 97.17,
         "impressions": 339,
         "clicks": 13,
-        "conversions": 3,
+        "conversions": 4,
         "phone_calls": 0,
         "cpc": 7.47,
-        "cost_per_conversion": 32.39
+        "cost_per_conversion": 24.29
       },
       {
         "day": 11,
         "spend": 61.73,
         "impressions": 308,
         "clicks": 7,
-        "conversions": 0,
+        "conversions": 1,
         "phone_calls": 0,
         "cpc": 8.82,
-        "cost_per_conversion": 0
+        "cost_per_conversion": 61.73
       }
     ],
     "last_month": [
@@ -287,10 +287,10 @@
         "spend": 84.72,
         "impressions": 137,
         "clicks": 12,
-        "conversions": 0,
+        "conversions": 1,
         "phone_calls": 1,
         "cpc": 7.06,
-        "cost_per_conversion": 0
+        "cost_per_conversion": 84.72
       },
       {
         "day": 21,
