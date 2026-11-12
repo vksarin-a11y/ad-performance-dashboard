@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-12T13:20:21.965Z",
+  "updated_at": "2026-11-12T14:20:21.191Z",
   "metrics": {
-    "spend": 439.52,
-    "impressions": 40795,
-    "clicks": 579,
+    "spend": 438.86,
+    "impressions": 40773,
+    "clicks": 578,
     "conversions": 8,
     "phone_calls": 0,
     "cpc": 0.76,
-    "cost_per_conversion": 54.94
+    "cost_per_conversion": 54.86
   },
   "previous_month": {
     "spend": 1199.73,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.05
   },
   "comparison_pct": {
-    "spend": -63.37,
-    "impressions": -42.36,
-    "clicks": -49.61,
+    "spend": -63.42,
+    "impressions": -42.39,
+    "clicks": -49.7,
     "conversions": -85.96,
     "phone_calls": null
   },
@@ -40,7 +40,7 @@
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
       "spend": 226.97,
-      "impressions": 19623,
+      "impressions": 19601,
       "clicks": 325,
       "conversions": 4,
       "phone_calls": 0,
@@ -49,13 +49,13 @@
     },
     {
       "name": "P.Max - Mississauga",
-      "spend": 212.55,
+      "spend": 211.89,
       "impressions": 21172,
-      "clicks": 254,
+      "clicks": 253,
       "conversions": 4,
       "phone_calls": 0,
       "cpc": 0.84,
-      "cost_per_conversion": 53.14
+      "cost_per_conversion": 52.97
     }
   ],
   "daily": {
@@ -82,13 +82,13 @@
       },
       {
         "day": 4,
-        "spend": 51.68,
-        "impressions": 5041,
-        "clicks": 106,
+        "spend": 51.02,
+        "impressions": 5021,
+        "clicks": 105,
         "conversions": 1,
         "phone_calls": 0,
         "cpc": 0.49,
-        "cost_per_conversion": 51.68
+        "cost_per_conversion": 51.02
       },
       {
         "day": 5,
@@ -103,7 +103,7 @@
       {
         "day": 6,
         "spend": 64.46,
-        "impressions": 1633,
+        "impressions": 1630,
         "clicks": 26,
         "conversions": 2,
         "phone_calls": 0,
@@ -133,7 +133,7 @@
       {
         "day": 11,
         "spend": 71.54,
-        "impressions": 8909,
+        "impressions": 8910,
         "clicks": 140,
         "conversions": 0,
         "phone_calls": 0,
