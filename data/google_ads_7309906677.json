@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-12T05:20:44.588Z",
+  "updated_at": "2026-11-12T06:20:46.163Z",
   "metrics": {
     "spend": 3559.03,
-    "impressions": 58103,
+    "impressions": 58149,
     "clicks": 1787,
     "conversions": 181,
     "phone_calls": 0,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -66.21,
-    "impressions": -62.44,
+    "impressions": -62.41,
     "clicks": -63.55,
     "conversions": -63.36,
     "phone_calls": null
@@ -40,7 +40,7 @@
     {
       "name": "PMax - Smart Shopping - Denmark",
       "spend": 1653.14,
-      "impressions": 17975,
+      "impressions": 17987,
       "clicks": 743,
       "conversions": 74,
       "phone_calls": 0,
@@ -50,7 +50,7 @@
     {
       "name": "PMax: Smart Shopping - Netherlands",
       "spend": 593.02,
-      "impressions": 15862,
+      "impressions": 15880,
       "clicks": 406,
       "conversions": 45,
       "phone_calls": 0,
@@ -60,7 +60,7 @@
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
       "spend": 495.81,
-      "impressions": 10544,
+      "impressions": 10549,
       "clicks": 174,
       "conversions": 13,
       "phone_calls": 0,
@@ -80,7 +80,7 @@
     {
       "name": "PMax: Smart Shopping - Sweden",
       "spend": 226.86,
-      "impressions": 3243,
+      "impressions": 3245,
       "clicks": 149,
       "conversions": 25,
       "phone_calls": 0,
@@ -90,7 +90,7 @@
     {
       "name": "PMax: Smart Shopping - FR",
       "spend": 153.6,
-      "impressions": 3308,
+      "impressions": 3312,
       "clicks": 111,
       "conversions": 12,
       "phone_calls": 0,
@@ -100,7 +100,7 @@
     {
       "name": "Feetunique.fr",
       "spend": 123.18,
-      "impressions": 1476,
+      "impressions": 1480,
       "clicks": 66,
       "conversions": 3,
       "phone_calls": 0,
@@ -110,7 +110,7 @@
     {
       "name": "PMax - Smart Shopping - Germany",
       "spend": 62.06,
-      "impressions": 2081,
+      "impressions": 2082,
       "clicks": 58,
       "conversions": 1,
       "phone_calls": 0,
@@ -223,7 +223,7 @@
       {
         "day": 11,
         "spend": 308.94,
-        "impressions": 5092,
+        "impressions": 5138,
         "clicks": 166,
         "conversions": 9,
         "phone_calls": 0,
