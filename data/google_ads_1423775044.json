@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-12T14:21:15.136Z",
+  "updated_at": "2026-11-12T15:21:12.147Z",
   "metrics": {
     "spend": 1946.93,
-    "impressions": 49170,
+    "impressions": 49158,
     "clicks": 773,
     "conversions": 52,
     "phone_calls": 8,
@@ -30,7 +30,7 @@
   },
   "comparison_pct": {
     "spend": -66.95,
-    "impressions": -45.74,
+    "impressions": -45.75,
     "clicks": -56.62,
     "conversions": -79.28,
     "phone_calls": -11.11
@@ -80,7 +80,7 @@
     {
       "name": "P.Max - Invisalign (Update)",
       "spend": 247.59,
-      "impressions": 15976,
+      "impressions": 15973,
       "clicks": 231,
       "conversions": 15,
       "phone_calls": 0,
@@ -90,7 +90,7 @@
     {
       "name": "P.Max - Same Day Crown (Update)",
       "spend": 219.13,
-      "impressions": 21389,
+      "impressions": 21380,
       "clicks": 265,
       "conversions": 10,
       "phone_calls": 0,
@@ -133,7 +133,7 @@
       {
         "day": 4,
         "spend": 244.37,
-        "impressions": 8470,
+        "impressions": 8467,
         "clicks": 126,
         "conversions": 6,
         "phone_calls": 0,
@@ -143,7 +143,7 @@
       {
         "day": 5,
         "spend": 211.52,
-        "impressions": 6885,
+        "impressions": 6878,
         "clicks": 103,
         "conversions": 2,
         "phone_calls": 0,
@@ -163,7 +163,7 @@
       {
         "day": 7,
         "spend": 114.02,
-        "impressions": 3053,
+        "impressions": 3051,
         "clicks": 42,
         "conversions": 6,
         "phone_calls": 0,
