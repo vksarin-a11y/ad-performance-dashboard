@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261110",
+    "mtd_end": "20261111",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-12T04:20:21.894Z",
+  "updated_at": "2026-11-12T05:20:20.664Z",
   "metrics": {
-    "spend": 368.19,
-    "impressions": 31899,
-    "clicks": 440,
+    "spend": 438.65,
+    "impressions": 40803,
+    "clicks": 581,
     "conversions": 8,
     "phone_calls": 0,
-    "cpc": 0.84,
-    "cost_per_conversion": 46.02
+    "cpc": 0.75,
+    "cost_per_conversion": 54.83
   },
   "previous_month": {
     "spend": 1199.73,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.05
   },
   "comparison_pct": {
-    "spend": -69.31,
-    "impressions": -54.93,
-    "clicks": -61.71,
+    "spend": -63.44,
+    "impressions": -42.35,
+    "clicks": -49.43,
     "conversions": -85.96,
     "phone_calls": null
   },
@@ -39,23 +39,23 @@
   "campaigns": [
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 189.9,
-      "impressions": 14597,
-      "clicks": 237,
+      "spend": 225.66,
+      "impressions": 19632,
+      "clicks": 325,
       "conversions": 4,
       "phone_calls": 0,
-      "cpc": 0.8,
-      "cost_per_conversion": 47.47
+      "cpc": 0.69,
+      "cost_per_conversion": 56.42
     },
     {
       "name": "P.Max - Mississauga",
-      "spend": 178.3,
-      "impressions": 17302,
-      "clicks": 203,
+      "spend": 212.99,
+      "impressions": 21171,
+      "clicks": 256,
       "conversions": 4,
       "phone_calls": 0,
-      "cpc": 0.88,
-      "cost_per_conversion": 44.57
+      "cpc": 0.83,
+      "cost_per_conversion": 53.25
     }
   ],
   "daily": {
@@ -128,6 +128,16 @@
         "conversions": 0,
         "phone_calls": 0,
         "cpc": 0.59,
+        "cost_per_conversion": 0
+      },
+      {
+        "day": 11,
+        "spend": 70.46,
+        "impressions": 8904,
+        "clicks": 141,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 0.5,
         "cost_per_conversion": 0
       }
     ],
