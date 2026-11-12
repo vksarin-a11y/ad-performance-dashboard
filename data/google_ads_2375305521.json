@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-12T14:20:21.191Z",
+  "updated_at": "2026-11-12T15:20:21.314Z",
   "metrics": {
-    "spend": 438.86,
-    "impressions": 40773,
-    "clicks": 578,
+    "spend": 438.42,
+    "impressions": 40752,
+    "clicks": 576,
     "conversions": 8,
     "phone_calls": 0,
     "cpc": 0.76,
-    "cost_per_conversion": 54.86
+    "cost_per_conversion": 54.8
   },
   "previous_month": {
     "spend": 1199.73,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.05
   },
   "comparison_pct": {
-    "spend": -63.42,
-    "impressions": -42.39,
-    "clicks": -49.7,
+    "spend": -63.46,
+    "impressions": -42.42,
+    "clicks": -49.87,
     "conversions": -85.96,
     "phone_calls": null
   },
@@ -39,18 +39,18 @@
   "campaigns": [
     {
       "name": "P.Max - (Oakville + Milton+ Brampton + Hamilton)",
-      "spend": 226.97,
-      "impressions": 19601,
-      "clicks": 325,
+      "spend": 226.53,
+      "impressions": 19581,
+      "clicks": 323,
       "conversions": 4,
       "phone_calls": 0,
       "cpc": 0.7,
-      "cost_per_conversion": 56.74
+      "cost_per_conversion": 56.63
     },
     {
       "name": "P.Max - Mississauga",
       "spend": 211.89,
-      "impressions": 21172,
+      "impressions": 21171,
       "clicks": 253,
       "conversions": 4,
       "phone_calls": 0,
@@ -83,7 +83,7 @@
       {
         "day": 4,
         "spend": 51.02,
-        "impressions": 5021,
+        "impressions": 5006,
         "clicks": 105,
         "conversions": 1,
         "phone_calls": 0,
@@ -92,18 +92,18 @@
       },
       {
         "day": 5,
-        "spend": 64.33,
+        "spend": 63.89,
         "impressions": 6873,
-        "clicks": 81,
+        "clicks": 79,
         "conversions": 1,
         "phone_calls": 0,
-        "cpc": 0.79,
-        "cost_per_conversion": 64.33
+        "cpc": 0.81,
+        "cost_per_conversion": 63.89
       },
       {
         "day": 6,
         "spend": 64.46,
-        "impressions": 1630,
+        "impressions": 1625,
         "clicks": 26,
         "conversions": 2,
         "phone_calls": 0,
@@ -133,7 +133,7 @@
       {
         "day": 11,
         "spend": 71.54,
-        "impressions": 8910,
+        "impressions": 8909,
         "clicks": 140,
         "conversions": 0,
         "phone_calls": 0,
