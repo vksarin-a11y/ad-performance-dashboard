@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-13T01:04:06.834Z",
+  "updated_at": "2026-11-13T02:04:07.178Z",
   "metrics": {
-    "spend": 979.9,
-    "impressions": 4613,
-    "clicks": 287,
+    "spend": 979.33,
+    "impressions": 4503,
+    "clicks": 286,
     "conversions": 25.8,
     "phone_calls": 0,
-    "cpc": 3.41,
-    "cost_per_conversion": 37.98
+    "cpc": 3.42,
+    "cost_per_conversion": 37.96
   },
   "previous_month": {
     "spend": 2494.16,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 24.78
   },
   "comparison_pct": {
-    "spend": -60.71,
-    "impressions": -78.74,
-    "clicks": -69.4,
+    "spend": -60.74,
+    "impressions": -79.24,
+    "clicks": -69.51,
     "conversions": -74.36,
     "phone_calls": -100
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "AICG | P.Max | Combined",
-      "spend": 431.18,
-      "impressions": 3364,
-      "clicks": 125,
+      "spend": 430.61,
+      "impressions": 3254,
+      "clicks": 124,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 3.45,
-      "cost_per_conversion": 215.59
+      "cpc": 3.47,
+      "cost_per_conversion": 215.31
     },
     {
       "name": "AICG | Search | Branded",
@@ -162,13 +162,13 @@
       },
       {
         "day": 9,
-        "spend": 107.1,
-        "impressions": 588,
-        "clicks": 29,
+        "spend": 106.53,
+        "impressions": 478,
+        "clicks": 28,
         "conversions": 6.47,
         "phone_calls": 0,
-        "cpc": 3.69,
-        "cost_per_conversion": 16.54
+        "cpc": 3.8,
+        "cost_per_conversion": 16.46
       },
       {
         "day": 10,
