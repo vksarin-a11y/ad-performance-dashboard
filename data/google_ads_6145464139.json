@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261111",
+    "mtd_end": "20261112",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-13T04:04:07.610Z",
+  "updated_at": "2026-11-13T05:04:08.287Z",
   "metrics": {
-    "spend": 979.33,
-    "impressions": 4447,
-    "clicks": 286,
-    "conversions": 25.8,
+    "spend": 1089.35,
+    "impressions": 4852,
+    "clicks": 312,
+    "conversions": 26.8,
     "phone_calls": 0,
-    "cpc": 3.42,
-    "cost_per_conversion": 37.96
+    "cpc": 3.49,
+    "cost_per_conversion": 40.65
   },
   "previous_month": {
     "spend": 2494.16,
@@ -29,52 +29,52 @@
     "cost_per_conversion": 24.78
   },
   "comparison_pct": {
-    "spend": -60.74,
-    "impressions": -79.5,
-    "clicks": -69.51,
-    "conversions": -74.36,
+    "spend": -56.32,
+    "impressions": -77.63,
+    "clicks": -66.74,
+    "conversions": -73.37,
     "phone_calls": -100
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
       "name": "AICG | P.Max | Combined",
-      "spend": 430.61,
-      "impressions": 3198,
-      "clicks": 124,
+      "spend": 477.85,
+      "impressions": 3533,
+      "clicks": 140,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 3.47,
-      "cost_per_conversion": 215.31
+      "cpc": 3.41,
+      "cost_per_conversion": 238.93
     },
     {
       "name": "AICG | Search | Branded",
-      "spend": 320.42,
-      "impressions": 334,
-      "clicks": 103,
-      "conversions": 21.8,
+      "spend": 346.08,
+      "impressions": 365,
+      "clicks": 107,
+      "conversions": 22.8,
       "phone_calls": 0,
-      "cpc": 3.11,
-      "cost_per_conversion": 14.7
+      "cpc": 3.23,
+      "cost_per_conversion": 15.18
     },
     {
       "name": "AICG | Search | Education & Membership",
-      "spend": 168.54,
-      "impressions": 460,
-      "clicks": 28,
+      "spend": 200.15,
+      "impressions": 490,
+      "clicks": 33,
       "conversions": 2,
       "phone_calls": 0,
-      "cpc": 6.02,
-      "cost_per_conversion": 84.27
+      "cpc": 6.07,
+      "cost_per_conversion": 100.08
     },
     {
       "name": "AICG | Search | What is Clinical Governance",
-      "spend": 59.75,
-      "impressions": 455,
-      "clicks": 31,
+      "spend": 65.26,
+      "impressions": 464,
+      "clicks": 32,
       "conversions": 0,
       "phone_calls": 0,
-      "cpc": 1.93,
+      "cpc": 2.04,
       "cost_per_conversion": 0
     }
   ],
@@ -145,10 +145,10 @@
         "spend": 88.14,
         "impressions": 508,
         "clicks": 24,
-        "conversions": 4,
+        "conversions": 5,
         "phone_calls": 0,
         "cpc": 3.67,
-        "cost_per_conversion": 22.03
+        "cost_per_conversion": 17.63
       },
       {
         "day": 8,
@@ -189,6 +189,16 @@
         "phone_calls": 0,
         "cpc": 4.17,
         "cost_per_conversion": 36.16
+      },
+      {
+        "day": 12,
+        "spend": 110.02,
+        "impressions": 405,
+        "clicks": 26,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 4.23,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
