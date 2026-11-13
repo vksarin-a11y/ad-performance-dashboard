@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-13T15:32:19.619Z",
+  "updated_at": "2026-11-13T16:32:19.996Z",
   "metrics": {
     "spend": 9577.16,
     "impressions": 45248,
     "clicks": 2639,
-    "conversions": 182.58,
+    "conversions": 183.58,
     "phone_calls": 0,
     "cpc": 3.63,
-    "cost_per_conversion": 52.45
+    "cost_per_conversion": 52.17
   },
   "previous_month": {
     "spend": 21221.55,
@@ -32,7 +32,7 @@
     "spend": -54.87,
     "impressions": -41.31,
     "clicks": -49.77,
-    "conversions": -54.87,
+    "conversions": -54.62,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -62,10 +62,10 @@
       "spend": 1620.96,
       "impressions": 5729,
       "clicks": 308,
-      "conversions": 36.49,
+      "conversions": 37.49,
       "phone_calls": 0,
       "cpc": 5.26,
-      "cost_per_conversion": 44.42
+      "cost_per_conversion": 43.24
     },
     {
       "name": "RSA | Performance Max",
@@ -165,10 +165,10 @@
         "spend": 760.04,
         "impressions": 4864,
         "clicks": 232,
-        "conversions": 19.17,
+        "conversions": 20.17,
         "phone_calls": 0,
         "cpc": 3.28,
-        "cost_per_conversion": 39.65
+        "cost_per_conversion": 37.69
       },
       {
         "day": 6,
