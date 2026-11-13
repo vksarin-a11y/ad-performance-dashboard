@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-13T10:32:20.493Z",
+  "updated_at": "2026-11-13T11:32:28.711Z",
   "metrics": {
-    "spend": 9579.72,
-    "impressions": 45252,
-    "clicks": 2642,
+    "spend": 9577.16,
+    "impressions": 45251,
+    "clicks": 2639,
     "conversions": 179.58,
     "phone_calls": 0,
     "cpc": 3.63,
-    "cost_per_conversion": 53.35
+    "cost_per_conversion": 53.33
   },
   "previous_month": {
     "spend": 21221.55,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 52.58
   },
   "comparison_pct": {
-    "spend": -54.86,
+    "spend": -54.87,
     "impressions": -41.3,
-    "clicks": -49.71,
+    "clicks": -49.77,
     "conversions": -55.5,
     "phone_calls": null
   },
@@ -99,9 +99,9 @@
     },
     {
       "name": "Security | Search",
-      "spend": 496.72,
-      "impressions": 14090,
-      "clicks": 361,
+      "spend": 494.17,
+      "impressions": 14089,
+      "clicks": 358,
       "conversions": 0,
       "phone_calls": 0,
       "cpc": 1.38,
@@ -212,23 +212,23 @@
       },
       {
         "day": 10,
-        "spend": 825.61,
-        "impressions": 3578,
-        "clicks": 258,
+        "spend": 823.65,
+        "impressions": 3577,
+        "clicks": 256,
         "conversions": 20.26,
         "phone_calls": 0,
-        "cpc": 3.2,
-        "cost_per_conversion": 40.74
+        "cpc": 3.22,
+        "cost_per_conversion": 40.65
       },
       {
         "day": 11,
-        "spend": 882.23,
+        "spend": 881.63,
         "impressions": 3307,
-        "clicks": 237,
+        "clicks": 236,
         "conversions": 12.21,
         "phone_calls": 0,
-        "cpc": 3.72,
-        "cost_per_conversion": 72.27
+        "cpc": 3.74,
+        "cost_per_conversion": 72.22
       },
       {
         "day": 12,
