@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-13T07:02:48.683Z",
+  "updated_at": "2026-11-13T08:02:49.451Z",
   "metrics": {
     "spend": 753.57,
     "impressions": 4993,
     "clicks": 160,
-    "conversions": 34,
+    "conversions": 35,
     "phone_calls": 2,
     "cpc": 4.71,
-    "cost_per_conversion": 22.16
+    "cost_per_conversion": 21.53
   },
   "previous_month": {
     "spend": 1509.76,
@@ -32,7 +32,7 @@
     "spend": -50.09,
     "impressions": -58.63,
     "clicks": -55.92,
-    "conversions": -32,
+    "conversions": -30,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -42,10 +42,10 @@
       "spend": 294.02,
       "impressions": 601,
       "clicks": 60,
-      "conversions": 17,
+      "conversions": 18,
       "phone_calls": 1,
       "cpc": 4.9,
-      "cost_per_conversion": 17.3
+      "cost_per_conversion": 16.33
     },
     {
       "name": "RB - PMax | General Dentistry",
@@ -175,10 +175,10 @@
         "spend": 94.72,
         "impressions": 765,
         "clicks": 27,
-        "conversions": 2,
+        "conversions": 3,
         "phone_calls": 0,
         "cpc": 3.51,
-        "cost_per_conversion": 47.36
+        "cost_per_conversion": 31.57
       }
     ],
     "last_month": [
