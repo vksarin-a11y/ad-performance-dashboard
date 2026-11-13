@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-13T14:32:19.860Z",
+  "updated_at": "2026-11-13T15:32:19.619Z",
   "metrics": {
     "spend": 9577.16,
-    "impressions": 45250,
+    "impressions": 45248,
     "clicks": 2639,
-    "conversions": 180.58,
+    "conversions": 182.58,
     "phone_calls": 0,
     "cpc": 3.63,
-    "cost_per_conversion": 53.04
+    "cost_per_conversion": 52.45
   },
   "previous_month": {
     "spend": 21221.55,
@@ -30,9 +30,9 @@
   },
   "comparison_pct": {
     "spend": -54.87,
-    "impressions": -41.3,
+    "impressions": -41.31,
     "clicks": -49.77,
-    "conversions": -55.36,
+    "conversions": -54.87,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -92,20 +92,20 @@
       "spend": 598.25,
       "impressions": 1553,
       "clicks": 209,
-      "conversions": 17.46,
+      "conversions": 18.46,
       "phone_calls": 0,
       "cpc": 2.86,
-      "cost_per_conversion": 34.27
+      "cost_per_conversion": 32.41
     },
     {
       "name": "Security | Search",
       "spend": 494.17,
-      "impressions": 14089,
+      "impressions": 14087,
       "clicks": 358,
-      "conversions": 0,
+      "conversions": 1,
       "phone_calls": 0,
       "cpc": 1.38,
-      "cost_per_conversion": 0
+      "cost_per_conversion": 494.17
     },
     {
       "name": "ARCG  | Performance Max",
@@ -173,7 +173,7 @@
       {
         "day": 6,
         "spend": 765.16,
-        "impressions": 3856,
+        "impressions": 3854,
         "clicks": 211,
         "conversions": 10.5,
         "phone_calls": 0,
@@ -235,10 +235,10 @@
         "spend": 805.16,
         "impressions": 3179,
         "clicks": 203,
-        "conversions": 8.78,
+        "conversions": 10.78,
         "phone_calls": 0,
         "cpc": 3.97,
-        "cost_per_conversion": 91.74
+        "cost_per_conversion": 74.71
       }
     ],
     "last_month": [
