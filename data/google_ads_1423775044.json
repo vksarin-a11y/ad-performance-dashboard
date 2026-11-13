@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261111",
+    "mtd_end": "20261112",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-13T04:21:15.274Z",
+  "updated_at": "2026-11-13T05:21:12.076Z",
   "metrics": {
-    "spend": 1946.93,
-    "impressions": 49136,
-    "clicks": 773,
-    "conversions": 52,
-    "phone_calls": 8,
-    "cpc": 2.52,
-    "cost_per_conversion": 37.44
+    "spend": 2133.9,
+    "impressions": 49965,
+    "clicks": 798,
+    "conversions": 56,
+    "phone_calls": 10,
+    "cpc": 2.67,
+    "cost_per_conversion": 38.11
   },
   "previous_month": {
     "spend": 5891.33,
@@ -29,73 +29,73 @@
     "cost_per_conversion": 23.47
   },
   "comparison_pct": {
-    "spend": -66.95,
-    "impressions": -45.77,
-    "clicks": -56.62,
-    "conversions": -79.28,
-    "phone_calls": -11.11
+    "spend": -63.78,
+    "impressions": -44.86,
+    "clicks": -55.22,
+    "conversions": -77.69,
+    "phone_calls": 11.11
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
   "campaigns": [
     {
       "name": "RB - General Dentistry",
-      "spend": 548.28,
-      "impressions": 622,
-      "clicks": 39,
+      "spend": 631.01,
+      "impressions": 713,
+      "clicks": 41,
       "conversions": 8,
       "phone_calls": 0,
-      "cpc": 14.06,
-      "cost_per_conversion": 68.54
+      "cpc": 15.39,
+      "cost_per_conversion": 78.88
     },
     {
       "name": "P.Max - General Dentistry (Update)",
-      "spend": 373.32,
-      "impressions": 10150,
-      "clicks": 203,
+      "spend": 377.23,
+      "impressions": 10193,
+      "clicks": 206,
       "conversions": 10,
       "phone_calls": 0,
-      "cpc": 1.84,
-      "cost_per_conversion": 37.34
+      "cpc": 1.83,
+      "cost_per_conversion": 37.73
     },
     {
       "name": "RB - Dental Emergency",
-      "spend": 291.03,
-      "impressions": 830,
-      "clicks": 17,
-      "conversions": 3,
+      "spend": 334.99,
+      "impressions": 937,
+      "clicks": 18,
+      "conversions": 4,
       "phone_calls": 0,
-      "cpc": 17.12,
-      "cost_per_conversion": 97.01
+      "cpc": 18.61,
+      "cost_per_conversion": 83.75
     },
     {
       "name": "RB - Call Only Campaign",
-      "spend": 267.6,
-      "impressions": 201,
-      "clicks": 18,
-      "conversions": 6,
-      "phone_calls": 8,
-      "cpc": 14.87,
-      "cost_per_conversion": 44.6
+      "spend": 287.6,
+      "impressions": 227,
+      "clicks": 21,
+      "conversions": 8,
+      "phone_calls": 10,
+      "cpc": 13.7,
+      "cost_per_conversion": 35.95
     },
     {
       "name": "P.Max - Invisalign (Update)",
-      "spend": 247.59,
-      "impressions": 15967,
-      "clicks": 231,
-      "conversions": 15,
+      "spend": 276.13,
+      "impressions": 16187,
+      "clicks": 242,
+      "conversions": 16,
       "phone_calls": 0,
-      "cpc": 1.07,
-      "cost_per_conversion": 16.51
+      "cpc": 1.14,
+      "cost_per_conversion": 17.26
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 219.13,
-      "impressions": 21364,
-      "clicks": 265,
+      "spend": 226.95,
+      "impressions": 21706,
+      "clicks": 270,
       "conversions": 10,
       "phone_calls": 0,
-      "cpc": 0.83,
-      "cost_per_conversion": 21.91
+      "cpc": 0.84,
+      "cost_per_conversion": 22.7
     },
     {
       "name": "RB - Same Day Crowns",
@@ -199,6 +199,16 @@
         "phone_calls": 4,
         "cpc": 9.81,
         "cost_per_conversion": 38.03
+      },
+      {
+        "day": 12,
+        "spend": 186.97,
+        "impressions": 829,
+        "clicks": 25,
+        "conversions": 4,
+        "phone_calls": 2,
+        "cpc": 7.48,
+        "cost_per_conversion": 46.74
       }
     ],
     "last_month": [
@@ -473,7 +483,7 @@
         "cost_per_conversion": 15.71
       }
     ],
-    "mtd_phone_calls": 8,
+    "mtd_phone_calls": 10,
     "prev_month_phone_calls": 9
   }
 }
