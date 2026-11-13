@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-13T21:21:11.520Z",
+  "updated_at": "2026-11-13T22:21:12.489Z",
   "metrics": {
     "spend": 2133.9,
     "impressions": 49965,
     "clicks": 798,
-    "conversions": 56,
+    "conversions": 57,
     "phone_calls": 10,
     "cpc": 2.67,
-    "cost_per_conversion": 38.11
+    "cost_per_conversion": 37.44
   },
   "previous_month": {
     "spend": 5891.33,
@@ -32,7 +32,7 @@
     "spend": -63.78,
     "impressions": -44.86,
     "clicks": -55.22,
-    "conversions": -77.69,
+    "conversions": -77.29,
     "phone_calls": 11.11
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -82,10 +82,10 @@
       "spend": 276.13,
       "impressions": 16187,
       "clicks": 242,
-      "conversions": 16,
+      "conversions": 17,
       "phone_calls": 0,
       "cpc": 1.14,
-      "cost_per_conversion": 17.26
+      "cost_per_conversion": 16.24
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
@@ -185,10 +185,10 @@
         "spend": 207.73,
         "impressions": 2205,
         "clicks": 44,
-        "conversions": 5,
+        "conversions": 6,
         "phone_calls": 3,
         "cpc": 4.72,
-        "cost_per_conversion": 41.55
+        "cost_per_conversion": 34.62
       },
       {
         "day": 11,
