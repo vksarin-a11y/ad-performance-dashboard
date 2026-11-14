@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-14T11:20:44.594Z",
+  "updated_at": "2026-11-14T12:20:45.841Z",
   "metrics": {
     "spend": 4212.49,
-    "impressions": 69621,
+    "impressions": 69620,
     "clicks": 2121,
     "conversions": 216,
     "phone_calls": 0,
@@ -100,7 +100,7 @@
     {
       "name": "PMax: Smart Shopping - FR",
       "spend": 170.85,
-      "impressions": 3878,
+      "impressions": 3877,
       "clicks": 127,
       "conversions": 13,
       "phone_calls": 0,
@@ -183,7 +183,7 @@
       {
         "day": 7,
         "spend": 417.93,
-        "impressions": 6417,
+        "impressions": 6416,
         "clicks": 193,
         "conversions": 23,
         "phone_calls": 0,
