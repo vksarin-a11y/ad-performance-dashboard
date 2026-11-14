@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-14T10:20:20.427Z",
+  "updated_at": "2026-11-14T11:20:21.001Z",
   "metrics": {
-    "spend": 544.28,
+    "spend": 543.88,
     "impressions": 48312,
-    "clicks": 667,
+    "clicks": 666,
     "conversions": 11,
     "phone_calls": 1,
     "cpc": 0.82,
-    "cost_per_conversion": 49.48
+    "cost_per_conversion": 49.44
   },
   "previous_month": {
     "spend": 1199.73,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 21.05
   },
   "comparison_pct": {
-    "spend": -54.63,
+    "spend": -54.67,
     "impressions": -31.74,
-    "clicks": -41.95,
+    "clicks": -42.04,
     "conversions": -80.7,
     "phone_calls": null
   },
@@ -49,13 +49,13 @@
     },
     {
       "name": "P.Max - Mississauga",
-      "spend": 269.74,
+      "spend": 269.35,
       "impressions": 25551,
-      "clicks": 332,
+      "clicks": 331,
       "conversions": 6,
       "phone_calls": 1,
       "cpc": 0.81,
-      "cost_per_conversion": 44.96
+      "cost_per_conversion": 44.89
     }
   ],
   "daily": {
@@ -142,13 +142,13 @@
       },
       {
         "day": 12,
-        "spend": 57.61,
+        "spend": 57.21,
         "impressions": 3574,
-        "clicks": 53,
+        "clicks": 52,
         "conversions": 1,
         "phone_calls": 1,
-        "cpc": 1.09,
-        "cost_per_conversion": 57.61
+        "cpc": 1.1,
+        "cost_per_conversion": 57.21
       },
       {
         "day": 13,
