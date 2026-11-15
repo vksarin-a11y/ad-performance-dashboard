@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-15T09:32:19.064Z",
+  "updated_at": "2026-11-15T10:32:20.759Z",
   "metrics": {
     "spend": 11117.35,
-    "impressions": 52146,
+    "impressions": 52141,
     "clicks": 3043,
     "conversions": 208.47,
     "phone_calls": 0,
@@ -40,7 +40,7 @@
     {
       "name": "Bundle | Performance Max",
       "spend": 2328.72,
-      "impressions": 12383,
+      "impressions": 12381,
       "clicks": 717,
       "conversions": 32.61,
       "phone_calls": 0,
@@ -100,7 +100,7 @@
     {
       "name": "Security | Search",
       "spend": 586.85,
-      "impressions": 15570,
+      "impressions": 15567,
       "clicks": 425,
       "conversions": 1,
       "phone_calls": 0,
@@ -183,7 +183,7 @@
       {
         "day": 7,
         "spend": 611.08,
-        "impressions": 3816,
+        "impressions": 3814,
         "clicks": 193,
         "conversions": 13.3,
         "phone_calls": 0,
@@ -193,7 +193,7 @@
       {
         "day": 8,
         "spend": 790.61,
-        "impressions": 4538,
+        "impressions": 4535,
         "clicks": 205,
         "conversions": 12.93,
         "phone_calls": 0,
