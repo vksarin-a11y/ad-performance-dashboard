@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-16T01:32:18.795Z",
+  "updated_at": "2026-11-16T02:32:20.740Z",
   "metrics": {
     "spend": 11117.35,
     "impressions": 52136,
     "clicks": 3043,
-    "conversions": 217.41,
+    "conversions": 219.41,
     "phone_calls": 0,
     "cpc": 3.65,
-    "cost_per_conversion": 51.14
+    "cost_per_conversion": 50.67
   },
   "previous_month": {
     "spend": 21221.55,
@@ -32,7 +32,7 @@
     "spend": -47.61,
     "impressions": -32.37,
     "clicks": -42.08,
-    "conversions": -46.69,
+    "conversions": -46.2,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -72,10 +72,10 @@
       "spend": 1489.53,
       "impressions": 4871,
       "clicks": 354,
-      "conversions": 32.17,
+      "conversions": 33.17,
       "phone_calls": 0,
       "cpc": 4.21,
-      "cost_per_conversion": 46.31
+      "cost_per_conversion": 44.91
     },
     {
       "name": "RCG | Search",
@@ -92,10 +92,10 @@
       "spend": 677.6,
       "impressions": 1757,
       "clicks": 241,
-      "conversions": 24.32,
+      "conversions": 25.32,
       "phone_calls": 0,
       "cpc": 2.81,
-      "cost_per_conversion": 27.86
+      "cost_per_conversion": 26.76
     },
     {
       "name": "Security | Search",
@@ -125,10 +125,10 @@
         "spend": 624.46,
         "impressions": 3517,
         "clicks": 163,
-        "conversions": 12.64,
+        "conversions": 13.64,
         "phone_calls": 0,
         "cpc": 3.83,
-        "cost_per_conversion": 49.42
+        "cost_per_conversion": 45.8
       },
       {
         "day": 2,
@@ -255,10 +255,10 @@
         "spend": 757.48,
         "impressions": 3628,
         "clicks": 198,
-        "conversions": 9.52,
+        "conversions": 10.52,
         "phone_calls": 0,
         "cpc": 3.83,
-        "cost_per_conversion": 79.54
+        "cost_per_conversion": 71.98
       }
     ],
     "last_month": [
