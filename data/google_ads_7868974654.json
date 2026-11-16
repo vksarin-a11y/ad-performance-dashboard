@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-16T11:32:19.472Z",
+  "updated_at": "2026-11-16T12:32:19.083Z",
   "metrics": {
-    "spend": 11913.8,
-    "impressions": 56048,
-    "clicks": 3263,
+    "spend": 11899.33,
+    "impressions": 56037,
+    "clicks": 3261,
     "conversions": 228.13,
     "phone_calls": 0,
     "cpc": 3.65,
-    "cost_per_conversion": 52.22
+    "cost_per_conversion": 52.16
   },
   "previous_month": {
     "spend": 21221.55,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 51.79
   },
   "comparison_pct": {
-    "spend": -43.86,
-    "impressions": -27.3,
-    "clicks": -37.89,
+    "spend": -43.93,
+    "impressions": -27.31,
+    "clicks": -37.93,
     "conversions": -44.33,
     "phone_calls": null
   },
@@ -39,13 +39,13 @@
   "campaigns": [
     {
       "name": "Bundle | Performance Max",
-      "spend": 2478.19,
-      "impressions": 13489,
-      "clicks": 758,
+      "spend": 2463.72,
+      "impressions": 13486,
+      "clicks": 756,
       "conversions": 33.61,
       "phone_calls": 0,
-      "cpc": 3.27,
-      "cost_per_conversion": 73.73
+      "cpc": 3.26,
+      "cost_per_conversion": 73.3
     },
     {
       "name": "RSA | Search",
@@ -100,7 +100,7 @@
     {
       "name": "Security | Search",
       "spend": 624.28,
-      "impressions": 16600,
+      "impressions": 16592,
       "clicks": 456,
       "conversions": 2,
       "phone_calls": 0,
@@ -202,13 +202,13 @@
       },
       {
         "day": 9,
-        "spend": 969.69,
-        "impressions": 3434,
-        "clicks": 230,
+        "spend": 956.41,
+        "impressions": 3430,
+        "clicks": 229,
         "conversions": 17,
         "phone_calls": 0,
-        "cpc": 4.22,
-        "cost_per_conversion": 57.04
+        "cpc": 4.18,
+        "cost_per_conversion": 56.26
       },
       {
         "day": 10,
@@ -232,13 +232,13 @@
       },
       {
         "day": 12,
-        "spend": 805.16,
+        "spend": 803.97,
         "impressions": 3177,
-        "clicks": 203,
+        "clicks": 202,
         "conversions": 16.54,
         "phone_calls": 0,
-        "cpc": 3.97,
-        "cost_per_conversion": 48.67
+        "cpc": 3.98,
+        "cost_per_conversion": 48.6
       },
       {
         "day": 13,
@@ -263,7 +263,7 @@
       {
         "day": 15,
         "spend": 801.92,
-        "impressions": 3931,
+        "impressions": 3924,
         "clicks": 221,
         "conversions": 6.58,
         "phone_calls": 0,
