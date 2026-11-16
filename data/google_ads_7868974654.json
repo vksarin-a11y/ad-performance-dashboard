@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-16T12:32:19.083Z",
+  "updated_at": "2026-11-16T13:32:20.008Z",
   "metrics": {
     "spend": 11899.33,
-    "impressions": 56037,
+    "impressions": 56034,
     "clicks": 3261,
     "conversions": 228.13,
     "phone_calls": 0,
@@ -23,16 +23,16 @@
     "spend": 21221.55,
     "impressions": 77091,
     "clicks": 5254,
-    "conversions": 409.79,
+    "conversions": 410.79,
     "phone_calls": 0,
     "cpc": 4.04,
-    "cost_per_conversion": 51.79
+    "cost_per_conversion": 51.66
   },
   "comparison_pct": {
     "spend": -43.93,
     "impressions": -27.31,
     "clicks": -37.93,
-    "conversions": -44.33,
+    "conversions": -44.47,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -40,7 +40,7 @@
     {
       "name": "Bundle | Performance Max",
       "spend": 2463.72,
-      "impressions": 13486,
+      "impressions": 13485,
       "clicks": 756,
       "conversions": 33.61,
       "phone_calls": 0,
@@ -100,7 +100,7 @@
     {
       "name": "Security | Search",
       "spend": 624.28,
-      "impressions": 16592,
+      "impressions": 16590,
       "clicks": 456,
       "conversions": 2,
       "phone_calls": 0,
@@ -203,7 +203,7 @@
       {
         "day": 9,
         "spend": 956.41,
-        "impressions": 3430,
+        "impressions": 3429,
         "clicks": 229,
         "conversions": 17,
         "phone_calls": 0,
@@ -263,7 +263,7 @@
       {
         "day": 15,
         "spend": 801.92,
-        "impressions": 3924,
+        "impressions": 3922,
         "clicks": 221,
         "conversions": 6.58,
         "phone_calls": 0,
@@ -547,10 +547,10 @@
         "spend": 651.75,
         "impressions": 2944,
         "clicks": 185,
-        "conversions": 17.12,
+        "conversions": 18.12,
         "phone_calls": 0,
         "cpc": 3.52,
-        "cost_per_conversion": 38.08
+        "cost_per_conversion": 35.98
       },
       {
         "day": 29,
