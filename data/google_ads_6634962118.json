@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261116",
+    "mtd_end": "20261117",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-17T19:27:56.166Z",
+  "updated_at": "2026-11-18T19:27:56.550Z",
   "metrics": {
-    "spend": 687.08,
-    "impressions": 4426,
-    "clicks": 185,
-    "conversions": 28,
+    "spend": 741.85,
+    "impressions": 5177,
+    "clicks": 205,
+    "conversions": 29,
     "phone_calls": 0,
-    "cpc": 3.71,
-    "cost_per_conversion": 24.54
+    "cpc": 3.62,
+    "cost_per_conversion": 25.58
   },
   "previous_month": {
     "spend": 1276.39,
@@ -29,48 +29,48 @@
     "cost_per_conversion": 22.01
   },
   "comparison_pct": {
-    "spend": -46.17,
-    "impressions": -78.62,
-    "clicks": -61.54,
-    "conversions": -51.72,
+    "spend": -41.88,
+    "impressions": -74.99,
+    "clicks": -57.38,
+    "conversions": -50,
     "phone_calls": -100
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
   "campaigns": [
     {
       "name": "RB - Search | General Dentistry (new)",
-      "spend": 206.43,
-      "impressions": 652,
-      "clicks": 60,
+      "spend": 231.71,
+      "impressions": 732,
+      "clicks": 65,
       "conversions": 8,
       "phone_calls": 0,
-      "cpc": 3.44,
-      "cost_per_conversion": 25.8
+      "cpc": 3.56,
+      "cost_per_conversion": 28.96
     },
     {
       "name": "RB - Emergency Dentistry (new)",
-      "spend": 180.51,
-      "impressions": 408,
-      "clicks": 44,
+      "spend": 196.9,
+      "impressions": 464,
+      "clicks": 49,
       "conversions": 6,
       "phone_calls": 0,
-      "cpc": 4.1,
-      "cost_per_conversion": 30.09
+      "cpc": 4.02,
+      "cost_per_conversion": 32.82
     },
     {
       "name": "RB - Performance Max Services",
-      "spend": 164.72,
-      "impressions": 3120,
-      "clicks": 66,
-      "conversions": 7,
+      "spend": 177.82,
+      "impressions": 3734,
+      "clicks": 76,
+      "conversions": 8,
       "phone_calls": 0,
-      "cpc": 2.5,
-      "cost_per_conversion": 23.53
+      "cpc": 2.34,
+      "cost_per_conversion": 22.23
     },
     {
       "name": "RB - PMax | Family Dentistry",
       "spend": 135.42,
-      "impressions": 246,
+      "impressions": 247,
       "clicks": 15,
       "conversions": 7,
       "phone_calls": 0,
@@ -205,10 +205,20 @@
         "spend": 17.35,
         "impressions": 279,
         "clicks": 7,
-        "conversions": 1,
+        "conversions": 2,
         "phone_calls": 0,
         "cpc": 2.48,
-        "cost_per_conversion": 17.35
+        "cost_per_conversion": 8.68
+      },
+      {
+        "day": 17,
+        "spend": 54.77,
+        "impressions": 751,
+        "clicks": 20,
+        "conversions": 0,
+        "phone_calls": 0,
+        "cpc": 2.74,
+        "cost_per_conversion": 0
       }
     ],
     "last_month": [
