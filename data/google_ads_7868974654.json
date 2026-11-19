@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-19T08:32:18.711Z",
+  "updated_at": "2026-11-19T09:32:18.914Z",
   "metrics": {
     "spend": 14341.21,
     "impressions": 64338,
     "clicks": 3887,
-    "conversions": 283.87,
+    "conversions": 284.87,
     "phone_calls": 0,
     "cpc": 3.69,
-    "cost_per_conversion": 50.52
+    "cost_per_conversion": 50.34
   },
   "previous_month": {
     "spend": 21221.55,
@@ -32,7 +32,7 @@
     "spend": -32.42,
     "impressions": -16.54,
     "clicks": -26.02,
-    "conversions": -31.02,
+    "conversions": -30.78,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -52,10 +52,10 @@
       "spend": 2823.34,
       "impressions": 7274,
       "clicks": 715,
-      "conversions": 56.51,
+      "conversions": 57.51,
       "phone_calls": 0,
       "cpc": 3.95,
-      "cost_per_conversion": 49.96
+      "cost_per_conversion": 49.09
     },
     {
       "name": "RCG | Performance Max",
@@ -285,10 +285,10 @@
         "spend": 825.39,
         "impressions": 2832,
         "clicks": 214,
-        "conversions": 15.37,
+        "conversions": 16.37,
         "phone_calls": 0,
         "cpc": 3.86,
-        "cost_per_conversion": 53.68
+        "cost_per_conversion": 50.41
       },
       {
         "day": 18,
