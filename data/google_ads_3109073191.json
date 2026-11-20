@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-20T06:57:00.973Z",
+  "updated_at": "2026-11-20T07:57:02.002Z",
   "metrics": {
     "spend": 1478.62,
     "impressions": 6872,
     "clicks": 195,
-    "conversions": 41,
+    "conversions": 43,
     "phone_calls": 3,
     "cpc": 7.58,
-    "cost_per_conversion": 36.06
+    "cost_per_conversion": 34.39
   },
   "previous_month": {
     "spend": 1986.73,
@@ -32,7 +32,7 @@
     "spend": -25.58,
     "impressions": -1.9,
     "clicks": -30.36,
-    "conversions": 51.85,
+    "conversions": 59.26,
     "phone_calls": -40
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -52,10 +52,10 @@
       "spend": 267.45,
       "impressions": 4985,
       "clicks": 67,
-      "conversions": 28,
+      "conversions": 30,
       "phone_calls": 0,
       "cpc": 3.99,
-      "cost_per_conversion": 9.55
+      "cost_per_conversion": 8.91
     },
     {
       "name": "RB - Search | Emergency Dentistry",
@@ -205,10 +205,10 @@
         "spend": 123.53,
         "impressions": 254,
         "clicks": 12,
-        "conversions": 1,
+        "conversions": 3,
         "phone_calls": 1,
         "cpc": 10.29,
-        "cost_per_conversion": 123.53
+        "cost_per_conversion": 41.18
       }
     ],
     "last_month": [
