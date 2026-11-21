@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-21T17:04:07.691Z",
+  "updated_at": "2026-11-21T18:04:06.864Z",
   "metrics": {
     "spend": 1856.02,
     "impressions": 9746,
     "clicks": 524,
-    "conversions": 42.8,
+    "conversions": 43.8,
     "phone_calls": 0,
     "cpc": 3.54,
-    "cost_per_conversion": 43.36
+    "cost_per_conversion": 42.37
   },
   "previous_month": {
     "spend": 2494.16,
@@ -32,7 +32,7 @@
     "spend": -25.59,
     "impressions": -55.07,
     "clicks": -44.14,
-    "conversions": -58.7,
+    "conversions": -57.74,
     "phone_calls": -100
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -52,10 +52,10 @@
       "spend": 619.08,
       "impressions": 540,
       "clicks": 170,
-      "conversions": 37.8,
+      "conversions": 38.8,
       "phone_calls": 0,
       "cpc": 3.64,
-      "cost_per_conversion": 16.38
+      "cost_per_conversion": 15.96
     },
     {
       "name": "AICG | Search | Education & Membership",
@@ -115,10 +115,10 @@
         "spend": 162.08,
         "impressions": 378,
         "clicks": 32,
-        "conversions": 6.61,
+        "conversions": 7.61,
         "phone_calls": 0,
         "cpc": 5.06,
-        "cost_per_conversion": 24.53
+        "cost_per_conversion": 21.31
       },
       {
         "day": 5,
