@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-21T06:32:19.671Z",
+  "updated_at": "2026-11-21T07:32:18.715Z",
   "metrics": {
     "spend": 15837.37,
     "impressions": 68992,
     "clicks": 4269,
-    "conversions": 307.82,
+    "conversions": 309.82,
     "phone_calls": 0,
     "cpc": 3.71,
-    "cost_per_conversion": 51.45
+    "cost_per_conversion": 51.12
   },
   "previous_month": {
     "spend": 21221.55,
@@ -32,7 +32,7 @@
     "spend": -25.37,
     "impressions": -10.51,
     "clicks": -18.75,
-    "conversions": -25.2,
+    "conversions": -24.72,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -82,20 +82,20 @@
       "spend": 2019.96,
       "impressions": 3401,
       "clicks": 427,
-      "conversions": 46.93,
+      "conversions": 47.93,
       "phone_calls": 0,
       "cpc": 4.73,
-      "cost_per_conversion": 43.04
+      "cost_per_conversion": 42.14
     },
     {
       "name": "Bundle | Search",
       "spend": 1133.77,
       "impressions": 2654,
       "clicks": 389,
-      "conversions": 36.15,
+      "conversions": 37.15,
       "phone_calls": 0,
       "cpc": 2.91,
-      "cost_per_conversion": 31.36
+      "cost_per_conversion": 30.52
     },
     {
       "name": "Security | Search",
@@ -245,10 +245,10 @@
         "spend": 777.91,
         "impressions": 3272,
         "clicks": 206,
-        "conversions": 18.31,
+        "conversions": 19.31,
         "phone_calls": 0,
         "cpc": 3.78,
-        "cost_per_conversion": 42.49
+        "cost_per_conversion": 40.29
       },
       {
         "day": 14,
@@ -275,10 +275,10 @@
         "spend": 763.43,
         "impressions": 2663,
         "clicks": 193,
-        "conversions": 16.88,
+        "conversions": 17.88,
         "phone_calls": 0,
         "cpc": 3.96,
-        "cost_per_conversion": 45.23
+        "cost_per_conversion": 42.7
       },
       {
         "day": 17,
