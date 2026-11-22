@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-22T10:32:18.820Z",
+  "updated_at": "2026-11-22T11:32:19.816Z",
   "metrics": {
     "spend": 16526.61,
     "impressions": 71341,
     "clicks": 4432,
-    "conversions": 324.18,
+    "conversions": 324.72,
     "phone_calls": 0,
     "cpc": 3.73,
-    "cost_per_conversion": 50.98
+    "cost_per_conversion": 50.89
   },
   "previous_month": {
     "spend": 21221.55,
@@ -32,7 +32,7 @@
     "spend": -22.12,
     "impressions": -7.46,
     "clicks": -15.65,
-    "conversions": -21.27,
+    "conversions": -21.13,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -92,10 +92,10 @@
       "spend": 1176.58,
       "impressions": 2744,
       "clicks": 401,
-      "conversions": 39.15,
+      "conversions": 39.69,
       "phone_calls": 0,
       "cpc": 2.93,
-      "cost_per_conversion": 30.05
+      "cost_per_conversion": 29.64
     },
     {
       "name": "Security | Search",
@@ -255,10 +255,10 @@
         "spend": 757.48,
         "impressions": 3619,
         "clicks": 198,
-        "conversions": 12.99,
+        "conversions": 13.49,
         "phone_calls": 0,
         "cpc": 3.83,
-        "cost_per_conversion": 58.3
+        "cost_per_conversion": 56.14
       },
       {
         "day": 15,
@@ -295,10 +295,10 @@
         "spend": 849.51,
         "impressions": 2825,
         "clicks": 217,
-        "conversions": 14.91,
+        "conversions": 14.95,
         "phone_calls": 0,
         "cpc": 3.91,
-        "cost_per_conversion": 56.98
+        "cost_per_conversion": 56.83
       },
       {
         "day": 19,
