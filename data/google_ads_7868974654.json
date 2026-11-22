@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-22T11:32:19.816Z",
+  "updated_at": "2026-11-22T12:32:19.118Z",
   "metrics": {
     "spend": 16526.61,
     "impressions": 71341,
     "clicks": 4432,
-    "conversions": 324.72,
+    "conversions": 325.26,
     "phone_calls": 0,
     "cpc": 3.73,
-    "cost_per_conversion": 50.89
+    "cost_per_conversion": 50.81
   },
   "previous_month": {
     "spend": 21221.55,
@@ -32,7 +32,7 @@
     "spend": -22.12,
     "impressions": -7.46,
     "clicks": -15.65,
-    "conversions": -21.13,
+    "conversions": -21,
     "phone_calls": null
   },
   "recommendation": "Conversions are down more than 20% vs last month ? check landing pages and ad copy.",
@@ -62,10 +62,10 @@
       "spend": 2703.45,
       "impressions": 8912,
       "clicks": 547,
-      "conversions": 52.35,
+      "conversions": 52.39,
       "phone_calls": 0,
       "cpc": 4.94,
-      "cost_per_conversion": 51.64
+      "cost_per_conversion": 51.6
     },
     {
       "name": "RSA | Performance Max",
@@ -92,10 +92,10 @@
       "spend": 1176.58,
       "impressions": 2744,
       "clicks": 401,
-      "conversions": 39.69,
+      "conversions": 40.19,
       "phone_calls": 0,
       "cpc": 2.93,
-      "cost_per_conversion": 29.64
+      "cost_per_conversion": 29.28
     },
     {
       "name": "Security | Search",
@@ -205,10 +205,10 @@
         "spend": 956.41,
         "impressions": 3429,
         "clicks": 229,
-        "conversions": 20.17,
+        "conversions": 20.21,
         "phone_calls": 0,
         "cpc": 4.18,
-        "cost_per_conversion": 47.41
+        "cost_per_conversion": 47.32
       },
       {
         "day": 10,
@@ -265,10 +265,10 @@
         "spend": 801.76,
         "impressions": 3915,
         "clicks": 221,
-        "conversions": 7.97,
+        "conversions": 8.47,
         "phone_calls": 0,
         "cpc": 3.63,
-        "cost_per_conversion": 100.61
+        "cost_per_conversion": 94.67
       },
       {
         "day": 16,
