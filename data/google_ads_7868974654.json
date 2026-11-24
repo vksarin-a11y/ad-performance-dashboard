@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-24T05:32:19.433Z",
+  "updated_at": "2026-11-24T06:32:19.970Z",
   "metrics": {
     "spend": 18360.05,
     "impressions": 75853,
     "clicks": 4790,
-    "conversions": 357.21,
+    "conversions": 358.3,
     "phone_calls": 0,
     "cpc": 3.83,
-    "cost_per_conversion": 51.4
+    "cost_per_conversion": 51.24
   },
   "previous_month": {
     "spend": 21221.55,
@@ -32,7 +32,7 @@
     "spend": -13.48,
     "impressions": -1.61,
     "clicks": -8.83,
-    "conversions": -13.24,
+    "conversions": -12.98,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -52,10 +52,10 @@
       "spend": 3570.19,
       "impressions": 9222,
       "clicks": 888,
-      "conversions": 76.56,
+      "conversions": 77.56,
       "phone_calls": 0,
       "cpc": 4.02,
-      "cost_per_conversion": 46.63
+      "cost_per_conversion": 46.03
     },
     {
       "name": "RCG | Performance Max",
@@ -72,10 +72,10 @@
       "spend": 2422.84,
       "impressions": 3798,
       "clicks": 486,
-      "conversions": 55.93,
+      "conversions": 56.02,
       "phone_calls": 0,
       "cpc": 4.99,
-      "cost_per_conversion": 43.32
+      "cost_per_conversion": 43.25
     },
     {
       "name": "RSA | Performance Max",
@@ -325,10 +325,10 @@
         "spend": 689.25,
         "impressions": 2349,
         "clicks": 163,
-        "conversions": 9.13,
+        "conversions": 10.13,
         "phone_calls": 0,
         "cpc": 4.23,
-        "cost_per_conversion": 75.5
+        "cost_per_conversion": 68.05
       },
       {
         "day": 22,
@@ -345,10 +345,10 @@
         "spend": 869.3,
         "impressions": 2366,
         "clicks": 180,
-        "conversions": 6.06,
+        "conversions": 6.15,
         "phone_calls": 0,
         "cpc": 4.83,
-        "cost_per_conversion": 143.49
+        "cost_per_conversion": 141.44
       }
     ],
     "last_month": [
