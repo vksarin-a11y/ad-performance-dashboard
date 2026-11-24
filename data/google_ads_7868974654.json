@@ -9,10 +9,10 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-24T12:32:20.692Z",
+  "updated_at": "2026-11-24T13:32:18.905Z",
   "metrics": {
     "spend": 18360.05,
-    "impressions": 75849,
+    "impressions": 75848,
     "clicks": 4790,
     "conversions": 358.3,
     "phone_calls": 0,
@@ -100,7 +100,7 @@
     {
       "name": "Security | Search",
       "spend": 1031.18,
-      "impressions": 18714,
+      "impressions": 18713,
       "clicks": 617,
       "conversions": 4.82,
       "phone_calls": 0,
@@ -173,7 +173,7 @@
       {
         "day": 6,
         "spend": 765.16,
-        "impressions": 3854,
+        "impressions": 3853,
         "clicks": 211,
         "conversions": 10.55,
         "phone_calls": 0,
