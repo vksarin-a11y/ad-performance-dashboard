@@ -5,19 +5,19 @@
   "platform": "google_ads",
   "period": {
     "mtd_start": "20261101",
-    "mtd_end": "20261123",
+    "mtd_end": "20261124",
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-25T04:20:43.703Z",
+  "updated_at": "2026-11-25T05:20:43.976Z",
   "metrics": {
-    "spend": 9227.99,
-    "impressions": 136651,
-    "clicks": 4226,
-    "conversions": 451,
+    "spend": 9637.16,
+    "impressions": 142529,
+    "clicks": 4413,
+    "conversions": 470,
     "phone_calls": 0,
     "cpc": 2.18,
-    "cost_per_conversion": 20.46
+    "cost_per_conversion": 20.5
   },
   "previous_month": {
     "spend": 10533.33,
@@ -29,93 +29,93 @@
     "cost_per_conversion": 21.07
   },
   "comparison_pct": {
-    "spend": -12.39,
-    "impressions": -11.66,
-    "clicks": -13.81,
-    "conversions": -9.8,
+    "spend": -8.51,
+    "impressions": -7.86,
+    "clicks": -9.99,
+    "conversions": -6,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
   "campaigns": [
     {
       "name": "PMax - Smart Shopping - Denmark",
-      "spend": 3837.13,
-      "impressions": 38898,
-      "clicks": 1577,
-      "conversions": 186,
+      "spend": 4037.87,
+      "impressions": 40736,
+      "clicks": 1653,
+      "conversions": 196,
       "phone_calls": 0,
-      "cpc": 2.43,
-      "cost_per_conversion": 20.63
+      "cpc": 2.44,
+      "cost_per_conversion": 20.6
     },
     {
       "name": "PMax: Smart Shopping - Netherlands",
-      "spend": 1343.75,
-      "impressions": 30845,
-      "clicks": 893,
-      "conversions": 92,
+      "spend": 1369.48,
+      "impressions": 32311,
+      "clicks": 913,
+      "conversions": 94,
       "phone_calls": 0,
       "cpc": 1.5,
-      "cost_per_conversion": 14.61
+      "cost_per_conversion": 14.57
     },
     {
       "name": "PMax - Smart Shopping - Germany",
-      "spend": 1178,
-      "impressions": 17311,
-      "clicks": 450,
-      "conversions": 29,
+      "spend": 1225.42,
+      "impressions": 17915,
+      "clicks": 468,
+      "conversions": 31,
       "phone_calls": 0,
       "cpc": 2.62,
-      "cost_per_conversion": 40.62
+      "cost_per_conversion": 39.53
     },
     {
       "name": "Sn?re-b?nd.dk Shopping - Low2 Priority",
-      "spend": 1073.4,
-      "impressions": 25941,
-      "clicks": 389,
-      "conversions": 33,
+      "spend": 1118.2,
+      "impressions": 26790,
+      "clicks": 405,
+      "conversions": 35,
       "phone_calls": 0,
       "cpc": 2.76,
-      "cost_per_conversion": 32.53
+      "cost_per_conversion": 31.95
     },
     {
       "name": "PMax: Smart Shopping - Sweden",
-      "spend": 739.51,
-      "impressions": 9581,
-      "clicks": 415,
-      "conversions": 64,
+      "spend": 790.74,
+      "impressions": 10320,
+      "clicks": 446,
+      "conversions": 66,
       "phone_calls": 0,
-      "cpc": 1.78,
-      "cost_per_conversion": 11.55
+      "cpc": 1.77,
+      "cost_per_conversion": 11.98
     },
     {
       "name": "PMax: Smart Shopping - Norway",
-      "spend": 544.67,
-      "impressions": 5274,
-      "clicks": 177,
-      "conversions": 19,
+      "spend": 568.85,
+      "impressions": 5420,
+      "clicks": 187,
+      "conversions": 20,
       "phone_calls": 0,
-      "cpc": 3.08,
-      "cost_per_conversion": 28.67
+      "cpc": 3.04,
+      "cost_per_conversion": 28.44
     },
     {
       "name": "PMax: Smart Shopping - FR",
-      "spend": 307.23,
-      "impressions": 6187,
-      "clicks": 219,
+      "spend": 318.7,
+      "impressions": 6368,
+      "clicks": 232,
       "conversions": 22,
       "phone_calls": 0,
-      "cpc": 1.4,
-      "cost_per_conversion": 13.96
+      "cpc": 1.37,
+      "cost_per_conversion": 14.49
     },
     {
       "name": "Feetunique.fr",
-      "spend": 204.28,
-      "impressions": 2614,
-      "clicks": 106,
+      "spend": 207.86,
+      "impressions": 2669,
+      "clicks": 109,
       "conversions": 6,
       "phone_calls": 0,
-      "cpc": 1.93,
-      "cost_per_conversion": 34.05
+      "cpc": 1.91,
+      "cost_per_conversion": 34.64
     }
   ],
   "daily": {
@@ -349,6 +349,16 @@
         "phone_calls": 0,
         "cpc": 2.37,
         "cost_per_conversion": 26.5
+      },
+      {
+        "day": 24,
+        "spend": 409.17,
+        "impressions": 5878,
+        "clicks": 187,
+        "conversions": 19,
+        "phone_calls": 0,
+        "cpc": 2.19,
+        "cost_per_conversion": 21.54
       }
     ],
     "last_month": [
