@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-26T21:21:12.003Z",
+  "updated_at": "2026-11-26T22:21:11.947Z",
   "metrics": {
-    "spend": 4143.11,
-    "impressions": 69137,
-    "clicks": 1354,
+    "spend": 4125.12,
+    "impressions": 69122,
+    "clicks": 1351,
     "conversions": 143,
     "phone_calls": 21,
-    "cpc": 3.06,
-    "cost_per_conversion": 28.97
+    "cpc": 3.05,
+    "cost_per_conversion": 28.85
   },
   "previous_month": {
     "spend": 5891.33,
@@ -29,9 +29,9 @@
     "cost_per_conversion": 23.47
   },
   "comparison_pct": {
-    "spend": -29.67,
-    "impressions": -23.7,
-    "clicks": -24.02,
+    "spend": -29.98,
+    "impressions": -23.72,
+    "clicks": -24.19,
     "conversions": -43.02,
     "phone_calls": 133.33
   },
@@ -80,7 +80,7 @@
     {
       "name": "P.Max - Invisalign (Update)",
       "spend": 483.73,
-      "impressions": 20843,
+      "impressions": 20840,
       "clicks": 361,
       "conversions": 48,
       "phone_calls": 0,
@@ -89,13 +89,13 @@
     },
     {
       "name": "P.Max - Same Day Crown (Update)",
-      "spend": 436.41,
-      "impressions": 27267,
-      "clicks": 385,
+      "spend": 418.42,
+      "impressions": 27255,
+      "clicks": 382,
       "conversions": 23,
       "phone_calls": 0,
-      "cpc": 1.13,
-      "cost_per_conversion": 18.97
+      "cpc": 1.1,
+      "cost_per_conversion": 18.19
     },
     {
       "name": "RB - Same Day Crowns",
@@ -143,7 +143,7 @@
       {
         "day": 5,
         "spend": 211.52,
-        "impressions": 6861,
+        "impressions": 6860,
         "clicks": 103,
         "conversions": 2,
         "phone_calls": 0,
@@ -282,13 +282,13 @@
       },
       {
         "day": 21,
-        "spend": 121.7,
-        "impressions": 1616,
-        "clicks": 49,
+        "spend": 103.71,
+        "impressions": 1602,
+        "clicks": 46,
         "conversions": 3,
         "phone_calls": 0,
-        "cpc": 2.48,
-        "cost_per_conversion": 40.57
+        "cpc": 2.25,
+        "cost_per_conversion": 34.57
       },
       {
         "day": 23,
