@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-26T23:20:43.394Z",
+  "updated_at": "2026-11-27T00:20:44.541Z",
   "metrics": {
     "spend": 10265.96,
     "impressions": 150027,
     "clicks": 4679,
-    "conversions": 494,
+    "conversions": 499,
     "phone_calls": 0,
     "cpc": 2.19,
-    "cost_per_conversion": 20.78
+    "cost_per_conversion": 20.57
   },
   "previous_month": {
     "spend": 10533.33,
@@ -32,7 +32,7 @@
     "spend": -2.54,
     "impressions": -3.01,
     "clicks": -4.57,
-    "conversions": -1.4,
+    "conversions": -0.4,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -42,20 +42,20 @@
       "spend": 4361.41,
       "impressions": 43069,
       "clicks": 1761,
-      "conversions": 203,
+      "conversions": 204,
       "phone_calls": 0,
       "cpc": 2.48,
-      "cost_per_conversion": 21.48
+      "cost_per_conversion": 21.38
     },
     {
       "name": "PMax: Smart Shopping - Netherlands",
       "spend": 1453.13,
       "impressions": 34377,
       "clicks": 971,
-      "conversions": 99,
+      "conversions": 102,
       "phone_calls": 0,
       "cpc": 1.5,
-      "cost_per_conversion": 14.68
+      "cost_per_conversion": 14.25
     },
     {
       "name": "PMax - Smart Shopping - Germany",
@@ -92,10 +92,10 @@
       "spend": 593.92,
       "impressions": 5530,
       "clicks": 194,
-      "conversions": 22,
+      "conversions": 23,
       "phone_calls": 0,
       "cpc": 3.06,
-      "cost_per_conversion": 27
+      "cost_per_conversion": 25.82
     },
     {
       "name": "PMax: Smart Shopping - FR",
@@ -125,10 +125,10 @@
         "spend": 317.87,
         "impressions": 5916,
         "clicks": 165,
-        "conversions": 22,
+        "conversions": 23,
         "phone_calls": 0,
         "cpc": 1.93,
-        "cost_per_conversion": 14.45
+        "cost_per_conversion": 13.82
       },
       {
         "day": 2,
@@ -235,10 +235,10 @@
         "spend": 295.31,
         "impressions": 5311,
         "clicks": 155,
-        "conversions": 19,
+        "conversions": 20,
         "phone_calls": 0,
         "cpc": 1.91,
-        "cost_per_conversion": 15.54
+        "cost_per_conversion": 14.77
       },
       {
         "day": 13,
@@ -315,10 +315,10 @@
         "spend": 475.93,
         "impressions": 5559,
         "clicks": 176,
-        "conversions": 26,
+        "conversions": 27,
         "phone_calls": 0,
         "cpc": 2.7,
-        "cost_per_conversion": 18.31
+        "cost_per_conversion": 17.63
       },
       {
         "day": 21,
@@ -335,10 +335,10 @@
         "spend": 637.57,
         "impressions": 7646,
         "clicks": 257,
-        "conversions": 27,
+        "conversions": 28,
         "phone_calls": 0,
         "cpc": 2.48,
-        "cost_per_conversion": 23.61
+        "cost_per_conversion": 22.77
       },
       {
         "day": 23,
@@ -355,10 +355,10 @@
         "spend": 409.17,
         "impressions": 5878,
         "clicks": 187,
-        "conversions": 20,
+        "conversions": 21,
         "phone_calls": 0,
         "cpc": 2.19,
-        "cost_per_conversion": 20.46
+        "cost_per_conversion": 19.48
       },
       {
         "day": 25,
