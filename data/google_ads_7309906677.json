@@ -9,30 +9,30 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-28T01:20:45.018Z",
+  "updated_at": "2026-11-28T02:20:43.431Z",
   "metrics": {
     "spend": 10674.88,
     "impressions": 156179,
     "clicks": 4862,
-    "conversions": 518,
+    "conversions": 523,
     "phone_calls": 0,
     "cpc": 2.2,
-    "cost_per_conversion": 20.61
+    "cost_per_conversion": 20.41
   },
   "previous_month": {
     "spend": 10533.33,
     "impressions": 154684,
     "clicks": 4903,
-    "conversions": 501,
+    "conversions": 502,
     "phone_calls": 0,
     "cpc": 2.15,
-    "cost_per_conversion": 21.02
+    "cost_per_conversion": 20.98
   },
   "comparison_pct": {
     "spend": 1.34,
     "impressions": 0.97,
     "clicks": -0.84,
-    "conversions": 3.39,
+    "conversions": 4.18,
     "phone_calls": null
   },
   "recommendation": "Performance is roughly in line with last month.",
@@ -42,20 +42,20 @@
       "spend": 4507.11,
       "impressions": 44576,
       "clicks": 1815,
-      "conversions": 212,
+      "conversions": 214,
       "phone_calls": 0,
       "cpc": 2.48,
-      "cost_per_conversion": 21.26
+      "cost_per_conversion": 21.06
     },
     {
       "name": "PMax: Smart Shopping - Netherlands",
       "spend": 1543.52,
       "impressions": 36565,
       "clicks": 1030,
-      "conversions": 108,
+      "conversions": 109,
       "phone_calls": 0,
       "cpc": 1.5,
-      "cost_per_conversion": 14.29
+      "cost_per_conversion": 14.16
     },
     {
       "name": "PMax - Smart Shopping - Germany",
@@ -102,20 +102,20 @@
       "spend": 334.47,
       "impressions": 6764,
       "clicks": 252,
-      "conversions": 23,
+      "conversions": 24,
       "phone_calls": 0,
       "cpc": 1.33,
-      "cost_per_conversion": 14.54
+      "cost_per_conversion": 13.94
     },
     {
       "name": "Feetunique.fr",
       "spend": 218.4,
       "impressions": 2808,
       "clicks": 115,
-      "conversions": 7,
+      "conversions": 8,
       "phone_calls": 0,
       "cpc": 1.9,
-      "cost_per_conversion": 31.2
+      "cost_per_conversion": 27.3
     }
   ],
   "daily": {
@@ -235,10 +235,10 @@
         "spend": 295.31,
         "impressions": 5311,
         "clicks": 155,
-        "conversions": 20,
+        "conversions": 21,
         "phone_calls": 0,
         "cpc": 1.91,
-        "cost_per_conversion": 14.77
+        "cost_per_conversion": 14.06
       },
       {
         "day": 13,
@@ -255,10 +255,10 @@
         "spend": 437.3,
         "impressions": 7171,
         "clicks": 197,
-        "conversions": 18,
+        "conversions": 19,
         "phone_calls": 0,
         "cpc": 2.22,
-        "cost_per_conversion": 24.29
+        "cost_per_conversion": 23.02
       },
       {
         "day": 15,
@@ -275,10 +275,10 @@
         "spend": 416.61,
         "impressions": 6767,
         "clicks": 194,
-        "conversions": 20,
+        "conversions": 21,
         "phone_calls": 0,
         "cpc": 2.15,
-        "cost_per_conversion": 20.83
+        "cost_per_conversion": 19.84
       },
       {
         "day": 17,
@@ -305,10 +305,10 @@
         "spend": 492.99,
         "impressions": 6508,
         "clicks": 210,
-        "conversions": 20,
+        "conversions": 21,
         "phone_calls": 0,
         "cpc": 2.35,
-        "cost_per_conversion": 24.65
+        "cost_per_conversion": 23.48
       },
       {
         "day": 20,
@@ -375,10 +375,10 @@
         "spend": 408.92,
         "impressions": 6160,
         "clicks": 183,
-        "conversions": 17,
+        "conversions": 18,
         "phone_calls": 0,
         "cpc": 2.23,
-        "cost_per_conversion": 24.05
+        "cost_per_conversion": 22.72
       }
     ],
     "last_month": [
@@ -687,10 +687,10 @@
         "spend": 276.59,
         "impressions": 5584,
         "clicks": 163,
-        "conversions": 22,
+        "conversions": 23,
         "phone_calls": 0,
         "cpc": 1.7,
-        "cost_per_conversion": 12.57
+        "cost_per_conversion": 12.03
       }
     ],
     "mtd_phone_calls": 0,
