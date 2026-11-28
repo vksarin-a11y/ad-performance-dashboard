@@ -9,15 +9,15 @@
     "prev_month_start": "20261001",
     "prev_month_end": "20261031"
   },
-  "updated_at": "2026-11-27T23:44:24.996Z",
+  "updated_at": "2026-11-28T00:44:24.388Z",
   "metrics": {
     "spend": 3363.85,
     "impressions": 6955,
     "clicks": 1188,
-    "conversions": 68,
+    "conversions": 69,
     "phone_calls": 5,
     "cpc": 2.83,
-    "cost_per_conversion": 49.47
+    "cost_per_conversion": 48.75
   },
   "previous_month": {
     "spend": 3506.7,
@@ -32,7 +32,7 @@
     "spend": -4.07,
     "impressions": 16.73,
     "clicks": 30.12,
-    "conversions": -21.84,
+    "conversions": -20.69,
     "phone_calls": 150
   },
   "recommendation": "Cost per conversion is up more than 20% vs last month ? review bids and targeting.",
@@ -52,10 +52,10 @@
       "spend": 1072.22,
       "impressions": 2790,
       "clicks": 356,
-      "conversions": 26,
+      "conversions": 27,
       "phone_calls": 3,
       "cpc": 3.01,
-      "cost_per_conversion": 41.24
+      "cost_per_conversion": 39.71
     },
     {
       "name": "RB -  Search l Dental Crowns",
@@ -275,10 +275,10 @@
         "spend": 168.38,
         "impressions": 298,
         "clicks": 59,
-        "conversions": 0,
+        "conversions": 1,
         "phone_calls": 0,
         "cpc": 2.85,
-        "cost_per_conversion": 0
+        "cost_per_conversion": 168.38
       }
     ],
     "last_month": [
